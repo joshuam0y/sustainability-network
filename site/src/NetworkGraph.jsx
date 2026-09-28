@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import ForceGraph2D from 'react-force-graph-2d'
 import { forceCollide } from 'd3-force'
-import { CATEGORY_COLORS } from './data.js'
+import { CATEGORY_COLORS, COLORS } from './colors.js'
 
-const FACULTY_COLOR = '#5F6F6A'
-const INK = '#16302B'
-const BACKGROUND = '#EEF2F0'
+const FACULTY_COLOR = COLORS.person
+const INK = COLORS.ink
+const BACKGROUND = COLORS.mist
 
 function themeRadius(node) {
   return 5 + Math.sqrt(node.facultyCount) * 1.1
@@ -26,6 +26,7 @@ export default function NetworkGraph({ data, themeById, selectedId, onSelect }) 
   const [size, setSize] = useState({ width: 0, height: 0 })
   const [hoverId, setHoverId] = useState(null)
   const fitted = useRef(false)
+  const mounted = size.width > 0
 
   // Node objects are kept between renders so filtering doesn't reset the layout
   const nodeCache = useRef(new Map())
@@ -76,12 +77,12 @@ export default function NetworkGraph({ data, themeById, selectedId, onSelect }) 
     fg.d3Force('collide', forceCollide((n) => (n.kind === 'theme' ? themeRadius(n) + 26 : facultyRadius(n) + 1.5)))
     fg.d3ReheatSimulation()
     // The graph only mounts once the container has a size, so wait for that too
-  }, [graphData, size.width > 0])
+  }, [graphData, mounted])
 
   // Labels are drawn onto a canvas, so redraw once Lato has downloaded in case the first frames used a fallback
   useEffect(() => {
     document.fonts?.ready.then(() => graphRef.current?.refresh?.())
-  }, [size.width > 0])
+  }, [mounted])
 
   // Fit again when filters change the set of nodes
   useEffect(() => {

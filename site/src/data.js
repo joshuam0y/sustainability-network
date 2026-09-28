@@ -13,11 +13,7 @@ export async function loadNetwork() {
   return { themes, faculty, links, meta }
 }
 
-export const CATEGORY_COLORS = {
-  Values: '#B5446E',
-  Content: '#1F6F8B',
-  Skills: '#B07A12',
-}
+export { CATEGORY_COLORS } from './colors.js'
 
 export const CATEGORY_ORDER = ['Values', 'Content', 'Skills']
 

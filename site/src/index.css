@@ -1,18 +1,9 @@
 :root {
-  --mist: #EEF2F0;
-  --paper: #F8FAF9;
-  --ink: #16302B;
-  --ink-soft: #4B5F5A;
-  --line: #C9D4D0;
-  --slate: #5F6F6A;
-  --values: #B5446E;
-  --content: #1F6F8B;
-  --skills: #B07A12;
-  --focus: #1F6F8B;
+  /* Colors are set from src/colors.js as --ink, --ink-soft, --mist, --paper, --line, --person,
+     --link, --values, --content and --skills */
 
   /* Lato, to match Northeastern web pages such as the Sustainability Incubator site */
   --sans: "Lato", "Open Sans", system-ui, sans-serif;
-  --serif: var(--sans);
 
   /* Type scale: 13 / 15 / 17 / 22 / 28 */
   --step--1: 0.8125rem;
@@ -33,9 +24,9 @@
 body { margin: 0; }
 h1, h2, h3, p { margin: 0; }
 button, input, select, textarea { font: inherit; color: inherit; }
-a { color: var(--content); text-underline-offset: 2px; }
+a { color: var(--link); text-underline-offset: 2px; }
 
-:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 
 .status, .empty { padding: 2rem; color: var(--ink-soft); max-width: 36rem; }
 
@@ -134,7 +125,7 @@ a { color: var(--content); text-underline-offset: 2px; }
   background: none;
   border: 0;
   padding: 0;
-  color: var(--content);
+  color: var(--link);
   cursor: pointer;
   text-align: left;
   text-decoration: underline;
@@ -153,7 +144,7 @@ a { color: var(--content); text-underline-offset: 2px; }
   white-space: nowrap;
 }
 
-.button:hover { background: #24463F; }
+.button:hover { background: var(--ink-hover); }
 
 /* ---------- Stage ---------- */
 
@@ -254,8 +245,8 @@ a { color: var(--content); text-underline-offset: 2px; }
 
 .dot { cursor: pointer; outline: none; }
 .dot .hit { fill: transparent; }
-.dot circle:not(.hit) { fill: var(--slate); stroke: var(--mist); stroke-width: 1; }
-.dot.research circle:not(.hit) { fill: var(--mist); stroke: var(--slate); stroke-width: 1.6; }
+.dot circle:not(.hit) { fill: var(--person); stroke: var(--mist); stroke-width: 1; }
+.dot.research circle:not(.hit) { fill: var(--mist); stroke: var(--person); stroke-width: 1.6; }
 .dot.dimmed circle:not(.hit) { opacity: 0.25; }
 .dot.active circle:not(.hit), .dot:focus-visible circle:not(.hit) { fill: var(--ink); stroke: var(--ink); }
 .dot.selected circle:not(.hit) { stroke: var(--ink); stroke-width: 2.5; }
@@ -277,6 +268,25 @@ a { color: var(--content); text-underline-offset: 2px; }
   stroke-linejoin: round;
   pointer-events: none;
 }
+
+/* ---------- Key under the map ---------- */
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+  margin: 0;
+  padding: 0 1.25rem 0.9rem;
+  list-style: none;
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+}
+
+.legend li { display: flex; align-items: center; gap: 0.4rem; }
+
+.legend-dot { width: 0.6rem; height: 0.6rem; border-radius: 50%; background: var(--person); flex: none; }
+.legend-dot.research { background: var(--mist); border: 1.5px solid var(--person); }
+.legend-dot.category { background: var(--swatch); }
 
 /* ---------- List ---------- */
 

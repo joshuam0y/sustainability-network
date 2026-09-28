@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { formatDate, loadNetwork } from './data.js'
+import { CATEGORY_COLORS, CATEGORY_ORDER, formatDate, loadNetwork } from './data.js'
 import { applyFilters, filterPeople, readUrl, toQuery } from './filters.js'
 import ThemeOverview from './ThemeOverview.jsx'
 import ThemeFocus from './ThemeFocus.jsx'
@@ -138,6 +138,21 @@ export default function App() {
             <FacultyList people={visible.faculty} onSelect={setSelectedId} />
           )}
         </div>
+
+        {view !== 'list' && visible.faculty.length > 0 && (
+          <ul className="legend" aria-label="Key">
+            {CATEGORY_ORDER.map((c) => (
+              <li key={c}><span className="legend-dot category" style={{ '--swatch': CATEGORY_COLORS[c] }} />{c} themes</li>
+            ))}
+            {(view === 'everyone' || focusTheme) && (
+              <>
+                <li><span className="legend-dot" />Person</li>
+                <li><span className="legend-dot research" />Added from published research</li>
+              </>
+            )}
+            {view === 'themes' && !focusTheme && <li>Bigger circles mean more people</li>}
+          </ul>
+        )}
 
         {shareOpen && (
           <SharePanel query={query} embedQuery={toQuery({ ...state, embed: true })} onClose={() => setShareOpen(false)} />
