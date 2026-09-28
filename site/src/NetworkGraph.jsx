@@ -78,6 +78,11 @@ export default function NetworkGraph({ data, themeById, selectedId, onSelect }) 
     // The graph only mounts once the container has a size, so wait for that too
   }, [graphData, size.width > 0])
 
+  // Labels are drawn onto a canvas, so redraw once Lato has downloaded in case the first frames used a fallback
+  useEffect(() => {
+    document.fonts?.ready.then(() => graphRef.current?.refresh?.())
+  }, [size.width > 0])
+
   // Fit again when filters change the set of nodes
   useEffect(() => {
     fitted.current = false
