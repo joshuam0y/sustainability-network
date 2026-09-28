@@ -10,8 +10,9 @@
   --skills: #B07A12;
   --focus: #1F6F8B;
 
-  --sans: "Public Sans", system-ui, sans-serif;
-  --serif: "Newsreader", Georgia, serif;
+  /* Lato, to match Northeastern web pages such as the Sustainability Incubator site */
+  --sans: "Lato", "Open Sans", system-ui, sans-serif;
+  --serif: var(--sans);
 
   /* Type scale: 13 / 15 / 17 / 22 / 28 */
   --step--1: 0.8125rem;
@@ -71,7 +72,7 @@ a { color: var(--content); text-underline-offset: 2px; }
 
 .filters { margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1.1rem; }
 
-.field-label { display: block; font-size: var(--step--1); font-weight: 600; margin-bottom: 0.35rem; }
+.field-label { display: block; font-size: var(--step--1); font-weight: 700; margin-bottom: 0.35rem; }
 
 .field input[type="search"], .field select {
   width: 100%;
@@ -89,7 +90,7 @@ a { color: var(--content); text-underline-offset: 2px; }
 .group summary {
   cursor: pointer;
   font-size: var(--step-0);
-  font-weight: 600;
+  font-weight: 700;
   padding: 0.5rem 0;
   border-top: 1px solid var(--line);
 }
@@ -124,7 +125,7 @@ a { color: var(--content); text-underline-offset: 2px; }
 }
 
 .about { margin-top: 1.75rem; border-top: 1px solid var(--line); padding-top: 0.75rem; font-size: var(--step--1); color: var(--ink-soft); }
-.about summary { cursor: pointer; font-weight: 600; color: var(--ink); font-size: var(--step-0); }
+.about summary { cursor: pointer; font-weight: 700; color: var(--ink); font-size: var(--step-0); }
 .about p { margin-top: 0.6rem; max-width: 40ch; }
 
 /* ---------- Buttons ---------- */
@@ -147,7 +148,7 @@ a { color: var(--content); text-underline-offset: 2px; }
   border-radius: 6px;
   padding: 0.5rem 0.9rem;
   font-size: var(--step--1);
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   white-space: nowrap;
 }
@@ -189,7 +190,7 @@ a { color: var(--content); text-underline-offset: 2px; }
   background: none;
   padding: 0.4rem 0.9rem;
   font-size: var(--step--1);
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 5px;
   cursor: pointer;
   color: var(--ink-soft);
@@ -198,7 +199,7 @@ a { color: var(--content); text-underline-offset: 2px; }
 .view-switch button[aria-selected="true"] { background: var(--ink); color: white; }
 
 .breadcrumb { display: flex; gap: 0.5rem; align-items: baseline; font-size: var(--step-0); }
-.breadcrumb [aria-current] { font-weight: 600; }
+.breadcrumb [aria-current] { font-weight: 700; }
 .breadcrumb span[aria-hidden] { color: var(--line); }
 
 .canvas { flex: 1; min-height: 0; display: flex; }
@@ -225,7 +226,7 @@ a { color: var(--content); text-underline-offset: 2px; }
 .bubble.hover .bubble-halo, .bubble:focus-visible .bubble-halo { opacity: 1; }
 .bubble.hover circle:not(.bubble-halo) { transform: scale(1.04); }
 
-.bubble-name { font-size: 13.5px; font-weight: 600; text-anchor: middle; dominant-baseline: hanging; fill: var(--ink); }
+.bubble-name { font-size: 13.5px; font-weight: 700; text-anchor: middle; dominant-baseline: hanging; fill: var(--ink); }
 .bubble-count { font-size: 17px; font-weight: 700; fill: white; text-anchor: middle; pointer-events: none; }
 .bubble-small-count { font-size: 12px; fill: var(--ink-soft); text-anchor: middle; dominant-baseline: hanging; }
 
@@ -262,13 +263,13 @@ a { color: var(--content); text-underline-offset: 2px; }
 .satellite { cursor: pointer; outline: none; }
 .satellite.dimmed { opacity: 0.3; }
 .satellite:focus-visible circle, .satellite:hover circle { stroke: var(--ink); stroke-width: 2; }
-.satellite-name { font-size: 15px; font-weight: 600; fill: var(--ink); }
+.satellite-name { font-size: 15px; font-weight: 700; fill: var(--ink); }
 .satellite-count { font-size: 13px; font-weight: 400; fill: var(--ink-soft); }
 .only-label { font-size: 14px; fill: var(--ink-soft); font-style: italic; }
 
 .hover-name {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   fill: var(--ink);
   paint-order: stroke;
   stroke: var(--mist);
@@ -285,7 +286,7 @@ a { color: var(--content); text-underline-offset: 2px; }
 
 .list th {
   text-align: left;
-  font-weight: 600;
+  font-weight: 700;
   padding: 0.5rem 0.75rem 0.5rem 0;
   border-bottom: 2px solid var(--ink);
   position: sticky;
@@ -294,7 +295,7 @@ a { color: var(--content); text-underline-offset: 2px; }
 }
 
 .list td { padding: 0.5rem 0.75rem 0.5rem 0; border-bottom: 1px solid var(--line); vertical-align: top; }
-.name-button { font-weight: 600; color: var(--ink); }
+.name-button { font-weight: 700; color: var(--ink); }
 .row-link { margin-left: 0.5rem; color: var(--ink-soft); }
 
 /* ---------- Detail and share panels ---------- */
@@ -336,7 +337,7 @@ a { color: var(--content); text-underline-offset: 2px; }
 .close:hover { background: var(--mist); }
 
 .detail h2, .share h2 { font-size: var(--step-2); line-height: 1.2; padding-right: 2rem; }
-.detail .person-name { font-family: var(--serif); font-weight: 500; font-size: var(--step-3); }
+.detail .person-name { font-weight: 900; font-size: var(--step-3); letter-spacing: -0.01em; }
 
 .detail-category { font-size: var(--step--1); color: var(--ink-soft); margin-bottom: 0.3rem; display: flex; align-items: center; gap: 0.4rem; }
 
@@ -376,7 +377,7 @@ a { color: var(--content); text-underline-offset: 2px; }
   font-size: var(--step-0);
 }
 
-.person-link span:first-child { font-weight: 600; }
+.person-link span:first-child { font-weight: 700; }
 .person-link:hover span:first-child { text-decoration: underline; }
 .person-college { font-size: var(--step--1); color: var(--ink-soft); }
 

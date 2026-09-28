@@ -108,7 +108,7 @@ export default function NetworkGraph({ data, themeById, selectedId, onSelect }) 
         ctx.stroke()
       }
       const fontSize = Math.max(11 / scale, 3.2)
-      ctx.font = `600 ${fontSize}px "Public Sans", system-ui, sans-serif`
+      ctx.font = `700 ${fontSize}px "Lato", system-ui, sans-serif`
       ctx.textAlign = 'center'
       ctx.textBaseline = 'top'
       ctx.lineWidth = fontSize / 3
@@ -144,7 +144,7 @@ export default function NetworkGraph({ data, themeById, selectedId, onSelect }) 
     // Names only when someone is in focus, or when zoomed in far enough to read them
     if ((focusSet && !dimmed) || scale > 4.5) {
       const fontSize = 10 / scale
-      ctx.font = `${fontSize}px "Public Sans", system-ui, sans-serif`
+      ctx.font = `${fontSize}px "Lato", system-ui, sans-serif`
       ctx.textAlign = 'left'
       ctx.textBaseline = 'middle'
       ctx.lineWidth = fontSize / 3
