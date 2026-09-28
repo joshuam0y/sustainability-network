@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { CATEGORY_ORDER } from './data.js'
 import { emptyFilters, hasActiveFilters, optionCounts } from './filters.js'
 
@@ -28,11 +29,15 @@ function CheckboxGroup({ title, options, selected, onChange }) {
 }
 
 export default function FilterRail({ network, filters, setFilters, shownCount }) {
+  const [moreOpen, setMoreOpen] = useState(false)
   const set = (key) => (value) => setFilters({ ...filters, [key]: value })
+  const moreCount = filters.colleges.length + filters.positions.length + filters.locations.length
+    + (filters.newHireOnly ? 1 : 0) + (filters.minThemes > 1 ? 1 : 0)
   const maxThemes = Math.min(8, Math.max(...network.faculty.map((p) => p.themes.length)))
 
   return (
     <div className="filters">
+      <div className="primary-filters">
       <label className="field">
         <span className="field-label">Find a person</span>
         <input type="search" placeholder="Type a name" value={filters.search}
@@ -52,7 +57,13 @@ export default function FilterRail({ network, filters, setFilters, shownCount })
           ))}
         </select>
       </label>
+      {/* Only shown when the map is narrow (e.g. embedded); otherwise every filter is always visible */}
+      <button type="button" className="button more-toggle" aria-expanded={moreOpen} onClick={() => setMoreOpen(!moreOpen)}>
+        More filters{moreCount > 0 ? ` (${moreCount})` : ''}
+      </button>
+      </div>
 
+      <div className={moreOpen ? 'more-filters open' : 'more-filters'}>
       <div className="groups">
         <CheckboxGroup title="College" options={optionCounts(network.faculty, 'college', 'Not listed')}
           selected={filters.colleges} onChange={set('colleges')} />
@@ -74,6 +85,7 @@ export default function FilterRail({ network, filters, setFilters, shownCount })
         <input type="range" min="1" max={maxThemes} value={filters.minThemes}
           onChange={(e) => set('minThemes')(Number(e.target.value))} />
       </label>
+      </div>
 
       <div className="filter-footer">
         <p aria-live="polite">Showing {shownCount} of {network.faculty.length} people</p>

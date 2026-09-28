@@ -19,8 +19,9 @@ export default function App() {
   const [filters, setFilters] = useState(initial.filters)
   const [view, setView] = useState(initial.view)
   const [selectedId, setSelectedId] = useState(initial.person)
-  // Embeds are usually narrow, so the people list starts closed there
-  const [themePanelOpen, setThemePanelOpen] = useState(!initial.embed)
+  // In narrow spaces (e.g. embedded in another site) the people list would cover the map, so it starts closed
+  const narrow = () => window.matchMedia('(max-width: 1100px)').matches
+  const [themePanelOpen, setThemePanelOpen] = useState(!initial.embed && !narrow())
   const [shareOpen, setShareOpen] = useState(false)
   const embed = initial.embed
 
@@ -54,7 +55,7 @@ export default function App() {
   const openTheme = (name) => {
     setFilters({ ...filters, theme: name })
     setSelectedId(null)
-    setThemePanelOpen(true)
+    setThemePanelOpen(!narrow())
     setShareOpen(false)
     if (view !== 'list') setView('themes')
   }
@@ -111,6 +112,11 @@ export default function App() {
               <span aria-hidden="true">/</span>
               <span aria-current="page">{focusTheme.name}</span>
             </nav>
+          )}
+          {view === 'themes' && focusTheme && !panelItem && (
+            <button type="button" className="button people-button" onClick={() => { setThemePanelOpen(true); setShareOpen(false) }}>
+              See the {visible.faculty.length} people
+            </button>
           )}
           <button type="button" className="button share-button" onClick={() => setShareOpen(!shareOpen)} aria-expanded={shareOpen}>
             Share or embed

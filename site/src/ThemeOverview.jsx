@@ -4,8 +4,6 @@ import { CATEGORY_COLORS, CATEGORY_ORDER } from './data.js'
 import { CATEGORY_DESCRIPTIONS } from './themeInfo.js'
 import { wrapLabel } from './svgText.js'
 
-const WIDTH = 1080
-const HEIGHT = 640
 const CLUSTER_X = { Values: -350, Content: 0, Skills: 350 }
 const MAX_RADIUS = 64
 const MIN_RADIUS = 9
@@ -46,8 +44,15 @@ export default function ThemeOverview({ themes, counts, onOpenTheme }) {
 
   const clusterTop = (category) => Math.min(...layout.filter((n) => n.category === category).map((n) => n.y - n.r))
 
+  // Fit the drawing to where the bubbles, their labels and the category titles actually ended up
+  const pad = 24
+  const minX = Math.min(...layout.map((n) => n.x - Math.max(n.r, 62))) - pad
+  const maxX = Math.max(...layout.map((n) => n.x + Math.max(n.r, 62))) + pad
+  const minY = Math.min(...CATEGORY_ORDER.map((c) => clusterTop(c) - 60)) - pad
+  const maxY = Math.max(...layout.map((n) => n.y + n.r + 20 + (n.lines.length + (n.r < 22 ? 1 : 0)) * 15)) + pad
+
   return (
-    <svg className="overview" viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${WIDTH} ${HEIGHT}`}
+    <svg className="overview" viewBox={`${minX} ${minY} ${maxX - minX} ${maxY - minY}`}
       role="group" aria-label="Sustainability themes. Choose a theme to see who works on it.">
       {CATEGORY_ORDER.map((category) => (
         <g key={category} className="cluster-label" transform={`translate(${CLUSTER_X[category]}, ${clusterTop(category) - 38})`}>
