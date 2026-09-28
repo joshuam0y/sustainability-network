@@ -155,8 +155,15 @@ def main():
 
     OUT.mkdir(parents=True, exist_ok=True)
     papers.sort(key=lambda p: (-(p["year"] or 0), p["title"]))
-    (OUT / "papers.json").write_text(json.dumps(papers, indent=1, ensure_ascii=False))
-    (OUT / "authors.json").write_text(json.dumps(authors, indent=1, ensure_ascii=False, sort_keys=True))
+    new_papers = json.dumps(papers, indent=1, ensure_ascii=False)
+    new_authors = json.dumps(authors, indent=1, ensure_ascii=False, sort_keys=True)
+    old = [(OUT / f).read_text() if (OUT / f).exists() else None for f in ("papers.json", "authors.json")]
+    if old == [new_papers, new_authors]:
+        # Keep the old date so daily runs with nothing new don't create a commit
+        print("No new research since the last update")
+        return
+    (OUT / "papers.json").write_text(new_papers)
+    (OUT / "authors.json").write_text(new_authors)
     (OUT / "last_updated.txt").write_text(datetime.date.today().isoformat() + "\n")
     print(f"Saved to {OUT}")
 

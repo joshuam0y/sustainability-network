@@ -1,11 +1,11 @@
 # Collects new research from OpenAlex, rebuilds the data and publishes the site to GitHub Pages.
-# Runs on the 1st of every month, whenever someone presses "Run workflow" on the Actions tab,
+# Runs every morning (6 AM Eastern), whenever someone presses "Run workflow" on the Actions tab,
 # and whenever a change is pushed (for example an edit to data/exclude.csv).
 name: Update and publish the map
 
 on:
   schedule:
-    - cron: "0 9 1 * *"
+    - cron: "0 10 * * *"
   workflow_dispatch:
   push:
     branches: [main]

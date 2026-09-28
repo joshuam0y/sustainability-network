@@ -27,7 +27,7 @@ Set up the view you want (for example, the Waste theme with only the College of 
 
 ## How it stays up to date
 
-On the 1st of every month, GitHub automatically:
+Every morning, GitHub automatically:
 
 1. collects recent Northeastern papers from [OpenAlex](https://openalex.org), a free public index of research,
 2. keeps the ones about sustainability and sorts them into themes,
