@@ -1,11 +1,12 @@
 # Collects new research from OpenAlex, rebuilds the data and publishes the site to GitHub Pages.
-# Runs every morning (6 AM Eastern), whenever someone presses "Run workflow" on the Actions tab,
+# Runs every morning (6 AM Eastern) and rereads the course catalog on the 1st of each month. Also runs whenever someone presses "Run workflow" on the Actions tab,
 # and whenever a change is pushed (for example an edit to data/exclude.csv).
 name: Update and publish the map
 
 on:
   schedule:
-    - cron: "0 10 * * *"
+    - cron: "0 10 * * *"   # every morning: research updates
+    - cron: "0 9 1 * *"    # 1st of the month: also reread the course catalog
   workflow_dispatch:
   push:
     branches: [main]
@@ -32,11 +33,22 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install Python packages
+        run: pip install -r pipeline/requirements.txt
+
+      # The catalog changes about once a year, so it's only read on the 1st of the month or when run by hand
+      - name: Read the course catalog
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 9 1 * *'
+        run: python pipeline/curriculum/scrape_catalog.py
+
       - name: Collect new research from OpenAlex
         if: github.event_name != 'push'
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python pipeline/scrape_openalex.py
+
+      - name: Build the curriculum data
+        run: python pipeline/curriculum/build_curriculum.py
 
       - name: Build the map data
         run: python pipeline/build_data.py

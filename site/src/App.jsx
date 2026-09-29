@@ -79,6 +79,8 @@ export default function App() {
         {embed ? (
           <p className="rail-note"><a href={window.location.pathname + query} target="_blank" rel="noreferrer">Open the full map</a></p>
         ) : (
+          <>
+          <p className="rail-note"><a href="curriculum/">See how much sustainability is in each major</a></p>
           <details className="about">
             <summary>How this map is made</summary>
             <p>
@@ -93,6 +95,7 @@ export default function App() {
             </p>
             <p>Something missing or wrong? Email the sustainability team so it can be corrected.</p>
           </details>
+          </>
         )}
       </header>
 

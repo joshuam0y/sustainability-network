@@ -139,6 +139,14 @@ def main():
     for t in themes:
         t["facultyCount"] = sum(1 for l in links.values() if l["source"] == t["id"])
 
+    # Sustainability courses each person teaches, from the curriculum map (build_curriculum.py runs first)
+    curriculum_courses = OUT / "curriculum" / "courses.json"
+    if curriculum_courses.exists():
+        for course in json.loads(curriculum_courses.read_text()):
+            for teacher in course["instructors"]:
+                if teacher["id"] in people:
+                    people[teacher["id"]].setdefault("courses", []).append({"code": course["code"], "title": course["title"]})
+
     OUT.mkdir(parents=True, exist_ok=True)
     ordered_people = sorted(people.values(), key=lambda p: p["name"])
     ordered_links = sorted(links.values(), key=lambda l: (l["source"], l["target"]))

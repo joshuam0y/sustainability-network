@@ -6,6 +6,9 @@ dashboard.
 
 **See it:** https://joshuam0y.github.io/sustainability-network/
 
+**Also:** [How much sustainability is in each major?](https://joshuam0y.github.io/sustainability-network/curriculum/)
+checks every program in the course catalog for sustainability courses (see below).
+
 ## Using the map
 
 - **Themes** shows every theme as a circle; the bigger the circle, the more people. Click one to see
@@ -56,12 +59,29 @@ People added from published research show up as hollow circles, and are listed i
 | `data/openalex/` | Sustainability papers by Northeastern authors from the last 5 years |
 | `site/public/data/` | The combined data the site reads (built automatically, don't edit by hand) |
 
+## The curriculum map
+
+`/curriculum/` shows, for every Northeastern program, which sustainability courses it **requires** and which it
+lists as **options**, plus a searchable list of every sustainability course and who teaches it.
+
+- **Courses and requirements** come from the public academic catalog (catalog.northeastern.edu), reread on the
+  1st of each month by `pipeline/curriculum/scrape_catalog.py`.
+- **Which courses count as sustainability courses** comes from the sustainability team's reviewed list for the
+  2023–24 catalog (`data/base/course_labels.csv`). Newer courses are sorted by a model trained on that list and
+  shown as "suggested"; they're listed in `data/review/model_labeled_courses.csv` for someone to check. To confirm or
+  reject one, add it to `course_labels.csv` with `yes` or `no`.
+- A course named in a "choose from this list" group counts as an option. Open electives (any course a student
+  likes) aren't counted.
+
 ## For developers
 
 ```sh
-python3 pipeline/scrape_openalex.py   # about a minute; no packages needed
+pip install -r pipeline/requirements.txt
+python3 pipeline/curriculum/scrape_catalog.py   # about 2 minutes
+python3 pipeline/curriculum/build_curriculum.py
+python3 pipeline/scrape_openalex.py             # about a minute
 python3 pipeline/build_data.py
-cd site && npm install && npm run dev
+cd site && npm install && npm run dev           # faculty map at /, curriculum map at /curriculum/
 ```
 
 OpenAlex's free allowance covers a full run several times a day. For more, get a free API key from

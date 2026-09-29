@@ -83,6 +83,19 @@ export default function DetailPanel({ item, visibleFaculty, themes, onSelect, on
         </>
       )}
 
+      {item.courses?.length > 0 && (
+        <>
+          <h3>Sustainability courses they teach</h3>
+          <ul className="theme-list">
+            {item.courses.map((c) => (
+              <li key={c.code}>
+                <a href={`curriculum/?view=courses&course=${encodeURIComponent(c.code)}`}>{c.code} {c.title}</a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+
       {item.topics?.length > 0 && (
         <>
           <h3>Topics</h3>
