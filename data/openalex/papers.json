@@ -65,23 +65,6 @@
   ]
  },
  {
-  "id": "W7130972797",
-  "title": "A Campus Building Energy Consumption Monitoring System Based on B/S Architecture",
-  "year": 2026,
-  "url": "https://doi.org/10.53469/jrse.2026.08(02).10",
-  "themes": [
-   "Sustainable Design"
-  ],
-  "authors": [
-   {
-    "id": "A5055811605",
-    "name": "Xiaoyu Ju",
-    "rawName": "Xiaoyu Ju",
-    "orcid": "https://orcid.org/0009-0009-0329-7392"
-   }
-  ]
- },
- {
   "id": "W7127592474",
   "title": "A Century of Vehicular Emissions in Brazil: Unveiling the Impacts of Unique Fuel Mix on Air Quality",
   "year": 2026,
@@ -2093,12 +2076,6 @@
   ],
   "authors": [
    {
-    "id": "A5042144969",
-    "name": "Kiran Bajaj",
-    "rawName": "Kiran E. Bajaj",
-    "orcid": "https://orcid.org/0000-0003-4483-4747"
-   },
-   {
     "id": "A5132623360",
     "name": "Nicole Mongillo",
     "rawName": "Nicole Mongillo",
@@ -2185,12 +2162,6 @@
     "name": "Riley Anderson",
     "rawName": "Riley Anderson",
     "orcid": "https://orcid.org/0009-0004-4632-0840"
-   },
-   {
-    "id": "A5032442720",
-    "name": "Marcin Wilczek",
-    "rawName": "Michael Wilczek",
-    "orcid": "https://orcid.org/0000-0003-1117-3612"
    }
   ]
  },
@@ -2868,12 +2839,6 @@
     "name": "Chuan‐ming Du",
     "rawName": "Chuanming Du",
     "orcid": "https://orcid.org/0000-0001-9376-367X"
-   },
-   {
-    "id": "A5111096529",
-    "name": "Xinyi Huo",
-    "rawName": "Xinyi Huo",
-    "orcid": null
    },
    {
     "id": "A5140555163",
@@ -3969,10 +3934,10 @@
   ]
  },
  {
-  "id": "W7171963095",
+  "id": "W7171969697",
   "title": "From solid waste to resource: A review on physicochemical properties and high-value utilization technologies of coal gasification slag",
   "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.21714957",
+  "url": "https://doi.org/10.5281/zenodo.21714958",
   "themes": [
    "Biosphere",
    "Decarbonization",
@@ -3988,10 +3953,10 @@
   ]
  },
  {
-  "id": "W7171969697",
+  "id": "W7171963095",
   "title": "From solid waste to resource: A review on physicochemical properties and high-value utilization technologies of coal gasification slag",
   "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.21714958",
+  "url": "https://doi.org/10.5281/zenodo.21714957",
   "themes": [
    "Biosphere",
    "Decarbonization",
@@ -4193,12 +4158,6 @@
     "name": "Madeline G. Eppley",
     "rawName": "Madeline G. Eppley",
     "orcid": "https://orcid.org/0000-0003-2301-853X"
-   },
-   {
-    "id": "A5042144969",
-    "name": "Kiran Bajaj",
-    "rawName": "Kiran Bajaj",
-    "orcid": "https://orcid.org/0000-0003-4483-4747"
    },
    {
     "id": "A5040130605",
@@ -5300,12 +5259,6 @@
     "id": "A5018125300",
     "name": "Emily Casavant",
     "rawName": "Emily Casavant",
-    "orcid": null
-   },
-   {
-    "id": "A5047897988",
-    "name": "Katherine L Bassett",
-    "rawName": "Katherine Bassett",
     "orcid": null
    },
    {
@@ -6531,12 +6484,6 @@
   ],
   "authors": [
    {
-    "id": "A5088760317",
-    "name": "Margaret A. Streeter",
-    "rawName": "Margaret Streeter",
-    "orcid": "https://orcid.org/0009-0000-9338-950X"
-   },
-   {
     "id": "A5113094329",
     "name": "Jacob Grondin",
     "rawName": "Jacob Grondin",
@@ -6613,12 +6560,6 @@
     "orcid": "https://orcid.org/0000-0003-2301-853X"
    },
    {
-    "id": "A5042144969",
-    "name": "Kiran Bajaj",
-    "rawName": "Kiran Bajaj",
-    "orcid": "https://orcid.org/0000-0003-4483-4747"
-   },
-   {
     "id": "A5092797937",
     "name": "Camille A. Rumberger",
     "rawName": "Camille Rumberger",
@@ -6652,12 +6593,6 @@
     "name": "Madeline G. Eppley",
     "rawName": "Madeline G. Eppley",
     "orcid": "https://orcid.org/0000-0003-2301-853X"
-   },
-   {
-    "id": "A5042144969",
-    "name": "Kiran Bajaj",
-    "rawName": "Kiran Bajaj",
-    "orcid": "https://orcid.org/0000-0003-4483-4747"
    },
    {
     "id": "A5092797937",
@@ -7522,24 +7457,6 @@
     "name": "Qingying Jia",
     "rawName": "Qingying Jia",
     "orcid": "https://orcid.org/0000-0002-4005-8894"
-   }
-  ]
- },
- {
-  "id": "W7138332954",
-  "title": "Stage‐Specific Indicators of Northern Yellowtail Rockfish ( Sebastes flavidus ) Recruitment in the California Current Ecosystem",
-  "year": 2026,
-  "url": "https://doi.org/10.1111/fog.70041",
-  "themes": [
-   "Biosphere",
-   "Future Thinking"
-  ],
-  "authors": [
-   {
-    "id": "A5040980807",
-    "name": "Amanda Darby",
-    "rawName": "Amanda Darby",
-    "orcid": null
    }
   ]
  },
@@ -8772,12 +8689,6 @@
   ],
   "authors": [
    {
-    "id": "A5032270238",
-    "name": "Xiaoxiao Dou",
-    "rawName": "Xiaoxiao Dou",
-    "orcid": "https://orcid.org/0009-0008-7643-5568"
-   },
-   {
     "id": "A5143417552",
     "name": "Xiaona Xie",
     "rawName": "Xiaona Xie",
@@ -9604,12 +9515,6 @@
     "name": "Chao Li",
     "rawName": "Chao Li",
     "orcid": "https://orcid.org/0000-0001-6332-5898"
-   },
-   {
-    "id": "A5102803662",
-    "name": "Shuai Shao",
-    "rawName": "Shuai Shao",
-    "orcid": "https://orcid.org/0000-0002-6205-7833"
    }
   ]
  },
@@ -10237,12 +10142,6 @@
     "name": "Max K. Radermacher",
     "rawName": "Max K. Radermacher",
     "orcid": "https://orcid.org/0009-0005-2035-3393"
-   },
-   {
-    "id": "A5100607335",
-    "name": "Arpita Ghosh",
-    "rawName": "Arpita Ghosh",
-    "orcid": "https://orcid.org/0009-0009-3745-8131"
    },
    {
     "id": "A5108079374",
@@ -10967,12 +10866,6 @@
    "Biosphere"
   ],
   "authors": [
-   {
-    "id": "A5014775410",
-    "name": "Isaac Fong",
-    "rawName": "Isaac Fong",
-    "orcid": "https://orcid.org/0000-0003-3257-2137"
-   },
    {
     "id": "A5000327546",
     "name": "Max Radermacher",
@@ -11957,12 +11850,6 @@
   ],
   "authors": [
    {
-    "id": "A5082907659",
-    "name": "John J. Corbett",
-    "rawName": "James J. Corbett",
-    "orcid": "https://orcid.org/0009-0002-9576-6668"
-   },
-   {
     "id": "A5056500299",
     "name": "Geoffrey C. Trussell",
     "rawName": "Geoffrey C. Trussell",
@@ -12652,23 +12539,6 @@
   ]
  },
  {
-  "id": "W4410489643",
-  "title": "Harnessing machine learning for transmembrane pressure prediction in MBR systems during textile wastewater treatment",
-  "year": 2025,
-  "url": "https://doi.org/10.1016/j.dwt.2025.101238",
-  "themes": [
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5101992051",
-    "name": "Muhammad Usama",
-    "rawName": "Muhammad Usama",
-    "orcid": "https://orcid.org/0000-0002-3834-2167"
-   }
-  ]
- },
- {
   "id": "W4413777178",
   "title": "High configuration entropy P2-type Mn-based layered oxide with robust structure and wide-window cycling stability for sodium-ion batteries",
   "year": 2025,
@@ -12723,12 +12593,6 @@
     "name": "Lei Li",
     "rawName": "Lei Li",
     "orcid": "https://orcid.org/0000-0002-1089-4680"
-   },
-   {
-    "id": "A5100616383",
-    "name": "Qi Liao",
-    "rawName": "Qi Liao",
-    "orcid": "https://orcid.org/0000-0002-7109-6471"
    },
    {
     "id": "A5094355904",
@@ -13158,25 +13022,6 @@
     "name": "Sara Wylie",
     "rawName": "Sara Wylie",
     "orcid": "https://orcid.org/0000-0002-2096-9260"
-   }
-  ]
- },
- {
-  "id": "W4409411989",
-  "title": "Integrated modeling and quantitative analysis of N2O emission before and after COVID-19: A case in Guangdong Province",
-  "year": 2025,
-  "url": "https://doi.org/10.1016/j.seta.2025.104313",
-  "themes": [
-   "Air and Climate Science",
-   "Local and National Governance",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5069757344",
-    "name": "Tianyu Lu",
-    "rawName": "Tianyu Lu",
-    "orcid": null
    }
   ]
  },
@@ -14300,12 +14145,6 @@
   ],
   "authors": [
    {
-    "id": "A5066059677",
-    "name": "Sara Locke",
-    "rawName": "Sara Locke",
-    "orcid": "https://orcid.org/0000-0003-0511-3576"
-   },
-   {
     "id": "A5063597830",
     "name": "Matthew J. Eckelman",
     "rawName": "Matthew J. Eckelman",
@@ -14481,12 +14320,6 @@
     "name": "Katie E. Lotterhos",
     "rawName": "Katie E. Lotterhos",
     "orcid": "https://orcid.org/0000-0001-7529-2771"
-   },
-   {
-    "id": "A5010169174",
-    "name": "Eric V. C. Schneider",
-    "rawName": "Eric Schneider",
-    "orcid": "https://orcid.org/0000-0002-7804-0825"
    },
    {
     "id": "A5087344715",
@@ -15253,12 +15086,6 @@
   ],
   "authors": [
    {
-    "id": "A5088760317",
-    "name": "Margaret A. Streeter",
-    "rawName": "Margaret Streeter",
-    "orcid": "https://orcid.org/0009-0000-9338-950X"
-   },
-   {
     "id": "A5113094329",
     "name": "Jacob Grondin",
     "rawName": "Jacob Grondin",
@@ -15317,12 +15144,6 @@
     "name": "Baiyu Chen",
     "rawName": "Baiyu Chen",
     "orcid": "https://orcid.org/0009-0007-5978-8807"
-   },
-   {
-    "id": "A5040614037",
-    "name": "Michael B. Kane",
-    "rawName": "Michael Kane",
-    "orcid": "https://orcid.org/0000-0002-3716-3116"
    },
    {
     "id": "A5091736536",
@@ -15887,12 +15708,6 @@
     "orcid": "https://orcid.org/0000-0002-0738-425X"
    },
    {
-    "id": "A5006874004",
-    "name": "Xudong Niu",
-    "rawName": "Xingwang Niu",
-    "orcid": "https://orcid.org/0000-0003-0913-215X"
-   },
-   {
     "id": "A5081185893",
     "name": "Xuanwen Liu",
     "rawName": "Xuanwen Liu",
@@ -15920,12 +15735,6 @@
     "name": "Tao Yu",
     "rawName": "Tao Yu",
     "orcid": "https://orcid.org/0000-0002-0738-425X"
-   },
-   {
-    "id": "A5006874004",
-    "name": "Xudong Niu",
-    "rawName": "Xingwang Niu",
-    "orcid": "https://orcid.org/0000-0003-0913-215X"
    },
    {
     "id": "A5081185893",
@@ -16056,23 +15865,6 @@
     "id": "A5151800817",
     "name": "Mohsin Khan",
     "rawName": "Mohsin Khan",
-    "orcid": null
-   }
-  ]
- },
- {
-  "id": "W7160886850",
-  "title": "Spatiotemporal distribution of dolphins in the Mid-Atlantic",
-  "year": 2025,
-  "url": "https://doi.org/10.1121/10.0040470",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5110414101",
-    "name": "Kaitlyn Ho",
-    "rawName": "Kaitlyn Ho",
     "orcid": null
    }
   ]
@@ -16215,12 +16007,6 @@
    "Decarbonization"
   ],
   "authors": [
-   {
-    "id": "A5000777798",
-    "name": "Yu Shang",
-    "rawName": "Yu Shang",
-    "orcid": "https://orcid.org/0000-0003-1100-8780"
-   },
    {
     "id": "A5087817454",
     "name": "Haibo Li",
@@ -16771,18 +16557,6 @@
   ],
   "authors": [
    {
-    "id": "A5060458161",
-    "name": "Zhipeng Duan",
-    "rawName": "Duan Zhipeng",
-    "orcid": "https://orcid.org/0000-0001-8053-7868"
-   },
-   {
-    "id": "A5109298169",
-    "name": "Zhou Qin",
-    "rawName": "Zhou Qin",
-    "orcid": null
-   },
-   {
     "id": "A5119254373",
     "name": "Zheng Wenshu",
     "rawName": "Zheng Wenshu",
@@ -17050,23 +16824,6 @@
     "name": "Yacong Liu",
     "rawName": "Yacong Liu",
     "orcid": null
-   }
-  ]
- },
- {
-  "id": "W4408379590",
-  "title": "Using photo identification to assess demographics and fishery interactions of oceanic whitetip sharks Carcharhinus longimanus in the main Hawaiian Islands",
-  "year": 2025,
-  "url": "https://doi.org/10.3354/meps14835",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5046842572",
-    "name": "Alexander B. Campbell",
-    "rawName": "AR Campbell",
-    "orcid": "https://orcid.org/0000-0001-7151-5501"
    }
   ]
  },
@@ -17606,12 +17363,6 @@
     "orcid": null
    },
    {
-    "id": "A5032492856",
-    "name": "Morgan Williams",
-    "rawName": "Morgan Williams",
-    "orcid": "https://orcid.org/0000-0003-4764-9555"
-   },
-   {
     "id": "A5093892515",
     "name": "Ingrid Alikaj",
     "rawName": "Ingrid Alikaj",
@@ -17948,12 +17699,6 @@
     "name": "Krissy Govertsen",
     "rawName": "Krissy Govertsen",
     "orcid": "https://orcid.org/0000-0002-1478-1368"
-   },
-   {
-    "id": "A5040614037",
-    "name": "Michael B. Kane",
-    "rawName": "Michael Kane",
-    "orcid": "https://orcid.org/0000-0002-3716-3116"
    }
   ]
  },
@@ -18443,21 +18188,9 @@
     "orcid": null
    },
    {
-    "id": "A5102625209",
-    "name": "Ayush Maurya",
-    "rawName": "Ayush Maurya",
-    "orcid": null
-   },
-   {
     "id": "A5093882691",
     "name": "Matthew Pliszak",
     "rawName": "Matthew Pliszak",
-    "orcid": null
-   },
-   {
-    "id": "A5104587098",
-    "name": "John F. Roche",
-    "rawName": "John Roche",
     "orcid": null
    },
    {
@@ -18597,12 +18330,6 @@
     "name": "Meng Jiao",
     "rawName": "Meng Jiao",
     "orcid": null
-   },
-   {
-    "id": "A5083922302",
-    "name": "Nan Zhou",
-    "rawName": "Nan Zhou",
-    "orcid": "https://orcid.org/0000-0001-5581-3285"
    }
   ]
  },
@@ -18856,12 +18583,6 @@
   ],
   "authors": [
    {
-    "id": "A5070606271",
-    "name": "Michelle O’Donnell",
-    "rawName": "Michelle O’Donnell",
-    "orcid": "https://orcid.org/0000-0002-2854-1111"
-   },
-   {
     "id": "A5057793501",
     "name": "Samuel E. Muñoz",
     "rawName": "Samuel Muñoz",
@@ -19077,12 +18798,6 @@
     "name": "Zhen Wang",
     "rawName": "Zhen Wang",
     "orcid": "https://orcid.org/0000-0003-3876-3145"
-   },
-   {
-    "id": "A5077343007",
-    "name": "Yue Weng",
-    "rawName": "Yue Weng",
-    "orcid": "https://orcid.org/0000-0001-9126-3321"
    },
    {
     "id": "A5113323795",
@@ -19776,12 +19491,6 @@
     "orcid": null
    },
    {
-    "id": "A5037381114",
-    "name": "Benjamin C. Service",
-    "rawName": "Benjamin Service",
-    "orcid": "https://orcid.org/0000-0002-0172-4022"
-   },
-   {
     "id": "A5048051343",
     "name": "Bala Maheswaran",
     "rawName": "Bala Maheswaran",
@@ -19816,12 +19525,6 @@
     "id": "A5109681539",
     "name": "Dominic Gomes",
     "rawName": "Dominic Gomes",
-    "orcid": null
-   },
-   {
-    "id": "A5100970430",
-    "name": "Alexander Nikolov",
-    "rawName": "Alexander Nikolov",
     "orcid": null
    },
    {
@@ -20911,12 +20614,6 @@
     "orcid": null
    },
    {
-    "id": "A5020439538",
-    "name": "Andrew James Hartley",
-    "rawName": "Andrew Hartley",
-    "orcid": "https://orcid.org/0000-0002-1905-9112"
-   },
-   {
     "id": "A5104241251",
     "name": "Kevin Mai",
     "rawName": "Kevin Mai",
@@ -20984,12 +20681,6 @@
    "Decarbonization"
   ],
   "authors": [
-   {
-    "id": "A5054887625",
-    "name": "Gabriella A. Butler",
-    "rawName": "Gabriella Butler",
-    "orcid": null
-   },
    {
     "id": "A5093892533",
     "name": "Hailey Dooley",
@@ -21067,12 +20758,6 @@
     "name": "Matteo Farah",
     "rawName": "Matteo Farah",
     "orcid": null
-   },
-   {
-    "id": "A5074305647",
-    "name": "Carlos J. Martinez",
-    "rawName": "Carlos Martinez",
-    "orcid": "https://orcid.org/0000-0002-3296-7051"
    },
    {
     "id": "A5104241248",
@@ -22092,23 +21777,6 @@
   ]
  },
  {
-  "id": "W4403562282",
-  "title": "MarineInst: A Foundation Model for Marine Image Analysis with Instance Visual Description",
-  "year": 2024,
-  "url": "https://doi.org/10.1007/978-3-031-72627-9_14",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5049731676",
-    "name": "H. Zeng",
-    "rawName": "Huimin Zeng",
-    "orcid": "https://orcid.org/0009-0002-7101-0495"
-   }
-  ]
- },
- {
   "id": "W4402918684",
   "title": "Marshes to mangroves: Residential surveys reveal perceived wetland trade-offs for ecosystem services",
   "year": 2024,
@@ -22731,12 +22399,6 @@
     "name": "Andrew Caratenuto",
     "rawName": "Andrew Caratenuto",
     "orcid": "https://orcid.org/0000-0002-0990-1409"
-   },
-   {
-    "id": "A5064004820",
-    "name": "K. G. Leach",
-    "rawName": "Kyle Leach",
-    "orcid": "https://orcid.org/0000-0002-4751-1698"
    },
    {
     "id": "A5100745173",
@@ -23902,12 +23564,6 @@
     "orcid": "https://orcid.org/0000-0001-5365-5797"
    },
    {
-    "id": "A5082800958",
-    "name": "Tong Hou",
-    "rawName": "Tong Hou",
-    "orcid": "https://orcid.org/0009-0008-5141-7857"
-   },
-   {
     "id": "A5115598299",
     "name": "Chang Liu",
     "rawName": "Chang Liu",
@@ -24127,12 +23783,6 @@
     "orcid": null
    },
    {
-    "id": "A5113843821",
-    "name": "D. Wolter",
-    "rawName": "Dylan Wolter",
-    "orcid": null
-   },
-   {
     "id": "A5093879830",
     "name": "Julia Ariano",
     "rawName": "Julia Ariano",
@@ -24226,23 +23876,6 @@
     "name": "Qingying Jia",
     "rawName": "Qingying Jia",
     "orcid": "https://orcid.org/0000-0002-4005-8894"
-   }
-  ]
- },
- {
-  "id": "W4392658779",
-  "title": "Settling Velocities of Environmentally Weathered Plastic Fibers from the Mekong River in Southeast Asia",
-  "year": 2024,
-  "url": "https://doi.org/10.1021/acsestwater.3c00649",
-  "themes": [
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5000015016",
-    "name": "Jenna M. Brooks",
-    "rawName": "Jenna M. Brooks",
-    "orcid": "https://orcid.org/0000-0001-5828-8244"
    }
   ]
  },
@@ -24595,12 +24228,6 @@
     "name": "Kiera L. O’Donnell",
     "rawName": "K. L. O’Donnell",
     "orcid": "https://orcid.org/0009-0001-0744-6844"
-   },
-   {
-    "id": "A5072221187",
-    "name": "Salvador B. Muñoz",
-    "rawName": "S. Munoz",
-    "orcid": null
    }
   ]
  },
@@ -25311,23 +24938,6 @@
   ]
  },
  {
-  "id": "W4406342592",
-  "title": "The rise of sustainable apparel material and the market potential of pineapple fibre",
-  "year": 2024,
-  "url": "https://doi.org/10.1504/ijaitg.2024.143905",
-  "themes": [
-   "Sustainable Design"
-  ],
-  "authors": [
-   {
-    "id": "A5042403405",
-    "name": "Wen‐Ko Chiou",
-    "rawName": "W. Paul Chiou",
-    "orcid": "https://orcid.org/0009-0003-4455-2130"
-   }
-  ]
- },
- {
   "id": "W4400026547",
   "title": "Thermal Regeneration of Graphene-Encapsulated Magnetic Nanoparticles as an Efficient Adsorbent for Dye Removal from Wastewater",
   "year": 2024,
@@ -25594,23 +25204,6 @@
   ]
  },
  {
-  "id": "W4396905728",
-  "title": "Towards real-time safe flight paths for urban air mobility",
-  "year": 2024,
-  "url": "https://doi.org/10.17760/d20659750",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5007740136",
-    "name": "Julián Gutiérrez",
-    "rawName": "Julian Gutierrez",
-    "orcid": "https://orcid.org/0000-0002-1091-8232"
-   }
-  ]
- },
- {
   "id": "W4403154762",
   "title": "Towards zero-emission urban mobility: Leveraging AI and LCA for targeted interventions",
   "year": 2024,
@@ -25775,23 +25368,6 @@
     "name": "Muhammad Fahad Ehsan",
     "rawName": "Muhammad Fahad Ehsan",
     "orcid": "https://orcid.org/0000-0002-8353-3560"
-   }
-  ]
- },
- {
-  "id": "W4401622058",
-  "title": "Unsupervised clustering reveals acoustic diversity and niche differentiation in pulsed calls from a coral reef ecosystem",
-  "year": 2024,
-  "url": "https://doi.org/10.3389/frsen.2024.1429227",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5024842870",
-    "name": "Allison Noble",
-    "rawName": "Allison E. Noble",
-    "orcid": "https://orcid.org/0000-0003-1832-4137"
    }
   ]
  },
@@ -26003,12 +25579,6 @@
    "Waste"
   ],
   "authors": [
-   {
-    "id": "A5042226009",
-    "name": "Nikhil Agarwal",
-    "rawName": "Nikhil Agarwal",
-    "orcid": "https://orcid.org/0000-0003-2106-6175"
-   },
    {
     "id": "A5079951132",
     "name": "Charlotte Andrews",
@@ -27444,23 +27014,6 @@
   ]
  },
  {
-  "id": "W4387973355",
-  "title": "Bioaccumulation and Mobility of Heavy Metals in the Soil-Plant System and Health Risk Assessment of Vegetables Irrigated by Wastewater",
-  "year": 2023,
-  "url": "https://doi.org/10.3390/su152115321",
-  "themes": [
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5079074610",
-    "name": "Zia Ullah",
-    "rawName": "Zia Ullah",
-    "orcid": "https://orcid.org/0000-0003-3027-1648"
-   }
-  ]
- },
- {
   "id": "W4380373765",
   "title": "Biomass-burning smoke properties and its interactions with marine stratocumulus clouds in WRF-CAM5 and southeastern Atlantic field campaigns",
   "year": 2023,
@@ -27850,12 +27403,6 @@
     "name": "Olga Skaredina",
     "rawName": "Olga Skaredina",
     "orcid": "https://orcid.org/0009-0000-7332-6114"
-   },
-   {
-    "id": "A5089627251",
-    "name": "Maria I. Ivanova",
-    "rawName": "Maria Ivanova",
-    "orcid": "https://orcid.org/0000-0001-7326-2157"
    }
   ]
  },
@@ -27874,12 +27421,6 @@
     "name": "Elizabeth Marie Moore",
     "rawName": "Elizabeth M. Moore",
     "orcid": "https://orcid.org/0000-0002-8734-218X"
-   },
-   {
-    "id": "A5040936600",
-    "name": "Robin K. White",
-    "rawName": "Robin K. White",
-    "orcid": null
    },
    {
     "id": "A5068436796",
@@ -28961,12 +28502,6 @@
     "orcid": null
    },
    {
-    "id": "A5113984934",
-    "name": "Jonathan E. Markowitz",
-    "rawName": "Jonathan Markowitz",
-    "orcid": "https://orcid.org/0000-0001-7429-8397"
-   },
-   {
     "id": "A5050058926",
     "name": "Keagan Carson",
     "rawName": "Keagan Carson",
@@ -29177,23 +28712,6 @@
     "name": "Yi Zheng",
     "rawName": "Y. Zheng",
     "orcid": "https://orcid.org/0000-0003-4963-9684"
-   }
-  ]
- },
- {
-  "id": "W3128778169",
-  "title": "Economic Controls Co-Design of Hybrid Microgrids with Tidal/PV Generation and Lithium-Ion/Flow Battery Storage",
-  "year": 2023,
-  "url": "https://doi.org/10.3390/en16062761",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5040614037",
-    "name": "Michael B. Kane",
-    "rawName": "Michael B. Kane",
-    "orcid": "https://orcid.org/0000-0002-3716-3116"
    }
   ]
  },
@@ -29493,12 +29011,6 @@
     "name": "Hongkun Niu",
     "rawName": "Hongkun Niu",
     "orcid": "https://orcid.org/0009-0000-7178-0583"
-   },
-   {
-    "id": "A5100685543",
-    "name": "Daniel Qi Tan",
-    "rawName": "Qi Tan",
-    "orcid": "https://orcid.org/0000-0002-2282-2000"
    },
    {
     "id": "A5003339175",
@@ -29942,23 +29454,6 @@
   ]
  },
  {
-  "id": "W4376456539",
-  "title": "Fast Start-Up and Enhancement Of Canon Process For The Low-Strength Wastewater Treatment: Tactic and Action of Ultrasonic",
-  "year": 2023,
-  "url": "https://doi.org/10.2139/ssrn.4444402",
-  "themes": [
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5017801656",
-    "name": "Jie Qian",
-    "rawName": "Jie Qian",
-    "orcid": "https://orcid.org/0000-0002-2464-3006"
-   }
-  ]
- },
- {
   "id": "W4387869504",
   "title": "Field Experiments with Doppler Compensation in High-Frequency Underwater Acoustic Communication System",
   "year": 2023,
@@ -30356,12 +29851,6 @@
     "orcid": "https://orcid.org/0000-0002-4589-8040"
    },
    {
-    "id": "A5072538087",
-    "name": "Humberto Rojas",
-    "rawName": "Humberto Rojas",
-    "orcid": null
-   },
-   {
     "id": "A5088428434",
     "name": "Sanjeev Mukerjee",
     "rawName": "Sanjeev Mukerjee",
@@ -30390,12 +29879,6 @@
     "name": "Qiang Sun",
     "rawName": "Qiang Sun",
     "orcid": "https://orcid.org/0000-0002-4589-8040"
-   },
-   {
-    "id": "A5072538087",
-    "name": "Humberto Rojas",
-    "rawName": "Humberto Rojas",
-    "orcid": null
    },
    {
     "id": "A5017281004",
@@ -30791,7 +30274,7 @@
   "authors": [
    {
     "id": "A5109562143",
-    "name": "Joan M. Fitzgerald",
+    "name": "Joan Fitzgerald",
     "rawName": "Joan Fitzgerald",
     "orcid": null
    }
@@ -31293,12 +30776,6 @@
     "name": "Donald M. Berwick",
     "rawName": "D.M. Berwick",
     "orcid": "https://orcid.org/0000-0001-9507-4157"
-   },
-   {
-    "id": "A5111815354",
-    "name": "J. Daniel Sherman",
-    "rawName": "J.D. Sherman",
-    "orcid": null
    }
   ]
  },
@@ -32044,12 +31521,6 @@
     "name": "Joshua Kwok",
     "rawName": "Joshua Kwok",
     "orcid": null
-   },
-   {
-    "id": "A5003329858",
-    "name": "Harsh Shah",
-    "rawName": "Harsh Shah",
-    "orcid": "https://orcid.org/0000-0003-3349-7562"
    },
    {
     "id": "A5089230238",
@@ -33246,12 +32717,6 @@
     "orcid": "https://orcid.org/0000-0001-6046-7153"
    },
    {
-    "id": "A5034164853",
-    "name": "V. Srinivasan",
-    "rawName": "Varun Srinivasan",
-    "orcid": "https://orcid.org/0000-0002-4755-0910"
-   },
-   {
     "id": "A5100412644",
     "name": "Guangyu Li",
     "rawName": "Guangyu Li",
@@ -33616,12 +33081,6 @@
     "name": "Jennifer Dy",
     "rawName": "Jennifer G. Dy",
     "orcid": "https://orcid.org/0000-0002-8430-134X"
-   },
-   {
-    "id": "A5040614037",
-    "name": "Michael B. Kane",
-    "rawName": "Michael B. Kane",
-    "orcid": "https://orcid.org/0000-0002-3716-3116"
    }
   ]
  },
@@ -33804,12 +33263,6 @@
     "name": "Ying Wang",
     "rawName": "Ying Wang",
     "orcid": "https://orcid.org/0000-0002-8083-8465"
-   },
-   {
-    "id": "A5000859822",
-    "name": "Alexander Anderson",
-    "rawName": "Alexander Anderson",
-    "orcid": "https://orcid.org/0000-0001-9678-9963"
    },
    {
     "id": "A5098876101",
@@ -35293,23 +34746,6 @@
   ]
  },
  {
-  "id": "W4224291777",
-  "title": "Administrative Level May Be the Key Factor to Improve Protection Effectiveness of Nature Reserves in China",
-  "year": 2022,
-  "url": "https://doi.org/10.3390/su14084853",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5024575516",
-    "name": "Peng Zeng",
-    "rawName": "Peng Zeng",
-    "orcid": "https://orcid.org/0000-0002-2547-1437"
-   }
-  ]
- },
- {
   "id": "W4284886011",
   "title": "Against settler sustainability: California’s groundwater as a vertical frontier",
   "year": 2022,
@@ -35568,24 +35004,6 @@
     "name": "Purnima Ratilal",
     "rawName": "Purnima Ratilal",
     "orcid": "https://orcid.org/0009-0001-7612-6166"
-   }
-  ]
- },
- {
-  "id": "W4318588106",
-  "title": "Automating reaction mechanism generation of halocarbon combustion and electrochemical catalysis",
-  "year": 2022,
-  "url": "https://doi.org/10.17760/d20467257",
-  "themes": [
-   "Air and Climate Science",
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5110784656",
-    "name": "D. Fariña",
-    "rawName": "Farina, David",
-    "orcid": null
    }
   ]
  },
@@ -35948,12 +35366,6 @@
     "name": "Héctor A. Millán Cotto",
     "rawName": "H. Millán Cotto",
     "orcid": "https://orcid.org/0009-0009-5072-908X"
-   },
-   {
-    "id": "A5065184662",
-    "name": "Jacob Matz",
-    "rawName": "J. Matz",
-    "orcid": "https://orcid.org/0000-0002-3842-2052"
    },
    {
     "id": "A5005580346",
@@ -36772,12 +36184,6 @@
     "orcid": "https://orcid.org/0000-0003-1521-6763"
    },
    {
-    "id": "A5007687266",
-    "name": "Heather Welch",
-    "rawName": "Heather Welch",
-    "orcid": "https://orcid.org/0000-0002-5464-1140"
-   },
-   {
     "id": "A5000870875",
     "name": "Jennifer L. Bowen",
     "rawName": "Jennifer L. Bowen",
@@ -37060,12 +36466,6 @@
    "Biosphere"
   ],
   "authors": [
-   {
-    "id": "A5077451282",
-    "name": "Tracey L. Rogers",
-    "rawName": "TL Rogers",
-    "orcid": "https://orcid.org/0000-0002-7141-4177"
-   },
    {
     "id": "A5028229543",
     "name": "Tarik C. Gouhier",
@@ -38781,12 +38181,6 @@
     "orcid": null
    },
    {
-    "id": "A5085283431",
-    "name": "Andrew Small",
-    "rawName": "Andrew Small",
-    "orcid": "https://orcid.org/0000-0003-1471-8956"
-   },
-   {
     "id": "A5038408084",
     "name": "Lily Cunningham",
     "rawName": "Lily Cunningham",
@@ -38974,12 +38368,6 @@
     "orcid": "https://orcid.org/0000-0002-0449-7603"
    },
    {
-    "id": "A5000859822",
-    "name": "Alexander Anderson",
-    "rawName": "Alexander Anderson",
-    "orcid": "https://orcid.org/0000-0001-9678-9963"
-   },
-   {
     "id": "A5028366101",
     "name": "Hongli Zhu",
     "rawName": "Hongli Zhu",
@@ -39088,12 +38476,6 @@
     "name": "SungKu Kang",
     "rawName": "SungKu Kang",
     "orcid": "https://orcid.org/0000-0001-8146-4103"
-   },
-   {
-    "id": "A5040614037",
-    "name": "Michael B. Kane",
-    "rawName": "Michael B. Kane",
-    "orcid": "https://orcid.org/0000-0002-3716-3116"
    }
   ]
  },
@@ -41210,23 +40592,6 @@
   ]
  },
  {
-  "id": "W4225282478",
-  "title": "The Information Gap in Occupant-Centric Building Operations: Lessons Learned from Interviews with Building Operators in Germany",
-  "year": 2022,
-  "url": "https://doi.org/10.3389/fbuil.2022.838859",
-  "themes": [
-   "Sustainable Design"
-  ],
-  "authors": [
-   {
-    "id": "A5040614037",
-    "name": "Michael B. Kane",
-    "rawName": "Michael B. Kane",
-    "orcid": "https://orcid.org/0000-0002-3716-3116"
-   }
-  ]
- },
- {
   "id": "W4212796739",
   "title": "The United Nations’ Sustainable Development Goals: Pros and Cons for Managers of Multinationals",
   "year": 2022,
@@ -41566,26 +40931,6 @@
     "name": "Madhavi Venkatesan",
     "rawName": "Madhavi Venkatesan",
     "orcid": "https://orcid.org/0000-0001-9780-5865"
-   }
-  ]
- },
- {
-  "id": "W4224302519",
-  "title": "Transitioning From Urban Climate Action to Climate Equity",
-  "year": 2022,
-  "url": "https://doi.org/10.1080/01944363.2021.2013301",
-  "themes": [
-   "Air and Climate Science",
-   "Equity",
-   "Justice",
-   "Strategic Thinking"
-  ],
-  "authors": [
-   {
-    "id": "A5007475426",
-    "name": "Joan Fitzgerald",
-    "rawName": "Joan Fitzgerald",
-    "orcid": "https://orcid.org/0000-0002-2110-6969"
    }
   ]
  },
