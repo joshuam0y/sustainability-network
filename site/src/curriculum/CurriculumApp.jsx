@@ -7,8 +7,15 @@ import ProgramList from './ProgramList.jsx'
 import ProgramPanel from './ProgramPanel.jsx'
 import CourseList from './CourseList.jsx'
 import CoursePanel from './CoursePanel.jsx'
+import OverviewView from './OverviewView.jsx'
+import StarsView from './StarsView.jsx'
 
-const DEFAULTS = { view: 'majors', q: '', level: 'Undergraduate', type: "Bachelor's", campus: 'Boston', college: '', theme: '', sort: 'most' }
+const VIEWS = { majors: 'Programs', courses: 'Courses', overview: 'Overview', stars: 'STARS report' }
+
+const DEFAULTS = {
+  view: 'majors', q: '', level: 'Undergraduate', type: "Bachelor's", campus: 'Boston', college: '', theme: '', sort: 'most',
+  major: '', focus: '',
+}
 const KEYS = Object.keys(DEFAULTS)
 
 function readUrl() {
@@ -41,6 +48,22 @@ function Select({ label, value, onChange, options }) {
   )
 }
 
+// Type a program name; the filter applies once it matches one from the list
+function MajorInput({ names, value, onChange }) {
+  const [text, setText] = useState(value)
+  return (
+    <label className="field">
+      <span className="field-label">Counts toward this program</span>
+      <input list="major-names" value={text} placeholder="Type your major"
+        onChange={(e) => {
+          setText(e.target.value)
+          if (!e.target.value || names.includes(e.target.value)) onChange(e.target.value)
+        }} />
+      <datalist id="major-names">{names.map((n) => <option key={n} value={n} />)}</datalist>
+    </label>
+  )
+}
+
 const byCount = (items) => {
   const counts = new Map()
   for (const item of items) if (item) counts.set(item, (counts.get(item) ?? 0) + 1)
@@ -54,6 +77,7 @@ export default function CurriculumApp() {
   const [selection, setSelection] = useState(
     initial.program ? { kind: 'program', id: initial.program } : initial.course ? { kind: 'course', id: initial.course } : null)
   const [shareOpen, setShareOpen] = useState(false)
+  const [filtersOpen, setFiltersOpen] = useState(false)
   const embed = initial.embed
   const set = (key) => (value) => { setState({ ...state, [key]: value }); setSelection(null) }
 
@@ -80,17 +104,23 @@ export default function CurriculumApp() {
       && (!query || p.name.toLowerCase().includes(query)))
     const programs = programsAllColleges.filter((p) => !state.college || p.college === state.college)
 
+    // "Counts toward my major": every program with that name, on any campus
+    const majorIds = state.major ? new Set(data.programs.filter((p) => p.baseName === state.major).map((p) => p.id)) : null
     const courses = data.courses.filter((c) =>
-      (!state.college || c.college === state.college)
+      (!majorIds || c.programs.some((id) => majorIds.has(id)))
+      && (!state.focus || c.focus === state.focus)
+      && (!state.college || c.college === state.college)
       && (!state.theme || c.themes.includes(state.theme))
       && (!query || `${c.code} ${c.title} ${c.description}`.toLowerCase().includes(query))
       && (!state.level || (state.level === 'Graduate') === (Number(c.code.split(' ')[1]) >= 5000)))
+    const majorNames = [...new Set(data.programs.filter((p) => !state.level || p.level === state.level).map((p) => p.baseName))].sort()
 
     return {
       programById, courseByCode, programsAllColleges, programs, courses,
       colleges: byCount(data.programs.map((p) => p.college)),
       campuses: byCount(data.programs.map((p) => p.campus ?? 'Boston')),
       themes: byCount(data.courses.flatMap((c) => c.themes)),
+      majorNames,
     }
   }, [data, state])
 
@@ -103,6 +133,8 @@ export default function CurriculumApp() {
   const openProgram = (id) => { setSelection({ kind: 'program', id }); setShareOpen(false) }
   const openCourse = (code) => { setSelection({ kind: 'course', id: code }); setShareOpen(false) }
   const isMajors = state.view === 'majors'
+  const isCourses = state.view === 'courses'
+  const isReport = state.view === 'overview' || state.view === 'stars'
 
   return (
     <div className={embed ? 'app embed curriculum' : 'app curriculum'}>
@@ -115,13 +147,21 @@ export default function CurriculumApp() {
           </p>
         )}
         <div className="filters">
+          {!isReport && (<>
           <label className="field">
             <span className="field-label">{isMajors ? 'Find a program' : 'Find a course'}</span>
             <input type="search" value={state.q} placeholder={isMajors ? 'Type a major or degree' : 'Type a course name or code'}
               onChange={(e) => set('q')(e.target.value)} />
           </label>
+          </>)}
+          <button type="button" className="button filters-button" aria-expanded={filtersOpen} onClick={() => setFiltersOpen(!filtersOpen)}>
+            {filtersOpen ? 'Hide filters' : 'Filters'}
+          </button>
+          <div className={filtersOpen ? 'phone-filters open' : 'phone-filters'}>
+          {!isReport && (<>
           <Select label="Level" value={state.level} onChange={set('level')}
             options={[{ value: 'Undergraduate', label: 'Undergraduate' }, { value: 'Graduate', label: 'Graduate' }, { value: '', label: 'Both' }]} />
+          </>)}
           {isMajors && (
             <>
               <Select label="Kind of program" value={state.type} onChange={set('type')}
@@ -132,13 +172,21 @@ export default function CurriculumApp() {
           )}
           <Select label="College" value={state.college} onChange={set('college')}
             options={[{ value: '', label: 'All colleges' }, ...derived.colleges.map((c) => ({ value: c, label: c }))]} />
-          {!isMajors && (
-            <Select label="Theme" value={state.theme} onChange={set('theme')}
-              options={[{ value: '', label: 'All themes' }, ...derived.themes.map((t) => ({ value: t, label: t }))]} />
+          {isCourses && (
+            <>
+              <MajorInput names={derived.majorNames} value={state.major} onChange={set('major')} />
+              <Select label="Theme" value={state.theme} onChange={set('theme')}
+                options={[{ value: '', label: 'All themes' }, ...derived.themes.map((t) => ({ value: t, label: t }))]} />
+              <Select label="How much sustainability" value={state.focus} onChange={set('focus')}
+                options={[{ value: '', label: 'Any' }, { value: 'focused', label: 'Focused on sustainability' }, { value: 'inclusive', label: 'Includes sustainability' }]} />
+            </>
           )}
-          <p className="filter-footer" aria-live="polite">
-            {isMajors ? `Showing ${programs.length} programs` : `Showing ${courses.length} of ${data.courses.length} sustainability courses`}
-          </p>
+          </div>
+          {!isReport && (
+            <p className="filter-footer" aria-live="polite">
+              {isMajors ? `Showing ${programs.length} programs` : `Showing ${courses.length} of ${data.courses.length} sustainability courses`}
+            </p>
+          )}
         </div>
         {embed ? (
           <p className="rail-note"><a href={window.location.pathname + toQuery(state, selection, false)} target="_blank" rel="noreferrer">Open the full curriculum map</a></p>
@@ -170,8 +218,9 @@ export default function CurriculumApp() {
       <main className="stage">
         <div className="toolbar">
           <div className="view-switch" role="tablist" aria-label="View">
-            <button type="button" role="tab" aria-selected={isMajors} onClick={() => set('view')('majors')}>Programs</button>
-            <button type="button" role="tab" aria-selected={!isMajors} onClick={() => set('view')('courses')}>Courses</button>
+            {Object.entries(VIEWS).map(([key, label]) => (
+              <button key={key} type="button" role="tab" aria-selected={state.view === key} onClick={() => set('view')(key)}>{label}</button>
+            ))}
           </div>
           <button type="button" className="button share-button" onClick={() => setShareOpen(!shareOpen)} aria-expanded={shareOpen}>
             Share or embed
@@ -184,8 +233,12 @@ export default function CurriculumApp() {
               <CollegeChart programs={programsAllColleges} activeCollege={state.college} onSelectCollege={set('college')} />
               <ProgramList programs={programs} sort={state.sort} onSort={set('sort')} selectedId={selection?.id} onSelect={openProgram} />
             </>
-          ) : (
+          ) : isCourses ? (
             <CourseList courses={courses} selectedCode={selection?.id} onSelect={openCourse} />
+          ) : state.view === 'overview' ? (
+            <OverviewView overview={data.overview} college={state.college} onSelectCollege={set('college')} />
+          ) : (
+            <StarsView stars={data.stars} meta={data.meta} />
           )}
         </div>
 
@@ -194,11 +247,13 @@ export default function CurriculumApp() {
             embedQuery={toQuery(state, selection, true)} onClose={() => setShareOpen(false)} />
         )}
         {!shareOpen && selection?.kind === 'program' && selected && (
-          <ProgramPanel program={selected} programs={data.programs} courseByCode={courseByCode}
+          <ProgramPanel program={selected} programs={data.programs} courseByCode={courseByCode} history={data.history}
+            contact={data.meta.contact}
             onSelectCourse={openCourse} onClose={() => setSelection(null)} />
         )}
         {!shareOpen && selection?.kind === 'course' && selected && (
-          <CoursePanel course={selected} programById={programById} onSelectProgram={openProgram} onClose={() => setSelection(null)} />
+          <CoursePanel course={selected} programById={programById} onSelectProgram={openProgram} onClose={() => setSelection(null)}
+            contact={data.meta.contact} />
         )}
       </main>
     </div>

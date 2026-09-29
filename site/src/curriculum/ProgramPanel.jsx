@@ -1,7 +1,8 @@
 import { CourseLine } from './CourseItems.jsx'
+import { problemLink } from './data.js'
 
 // A program's sustainability report card
-export default function ProgramPanel({ program, programs, courseByCode, onSelectCourse, onClose }) {
+export default function ProgramPanel({ program, programs, courseByCode, history, contact, onSelectCourse, onClose }) {
   const listed = new Set([...program.required, ...program.options])
 
   // Sustainability courses that similar programs (same college and kind) point students to, but this one doesn't
@@ -17,6 +18,19 @@ export default function ProgramPanel({ program, programs, courseByCode, onSelect
       <h2>{program.baseName}</h2>
       <p className="detail-lede">{program.college}</p>
       <p className="profile-link"><a href={program.url} target="_blank" rel="noreferrer">See the requirements in the catalog</a></p>
+
+      {program.completion && (
+        <p className="completion">
+          <strong>{Math.round(program.completion.rate * 100)}%</strong> of its graduates took at least one sustainability
+          course ({program.completion.graduates.toLocaleString()} graduates, {program.completion.year}).
+        </p>
+      )}
+      {history?.programs?.[program.id] && (
+        <p className="panel-note">
+          Changed over time:{' '}
+          {history.programs[program.id].map((h) => `${h.month}: ${h.required} required, ${h.options} options`).join('; ')}.
+        </p>
+      )}
 
       <h3>Required sustainability courses ({program.required.length})</h3>
       {program.required.length > 0
@@ -47,7 +61,10 @@ export default function ProgramPanel({ program, programs, courseByCode, onSelect
           </ul>
         </>
       )}
-      <p className="sources">Counts only courses the program’s requirements name. Open electives aren’t counted.</p>
+      <p className="sources">
+        Counts only courses the program’s requirements name. Open electives aren’t counted.{' '}
+        <a href={problemLink(contact, program.name)} target="_blank" rel="noreferrer">Report a problem with this program</a>
+      </p>
     </aside>
   )
 }

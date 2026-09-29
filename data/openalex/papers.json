@@ -1026,12 +1026,6 @@
     "orcid": "https://orcid.org/0009-0004-2330-2228"
    },
    {
-    "id": "A5060863498",
-    "name": "Xinyu An",
-    "rawName": "Xinyu An",
-    "orcid": "https://orcid.org/0009-0009-2489-1286"
-   },
-   {
     "id": "A5140645025",
     "name": "Zekun Li",
     "rawName": "Zekun Li",
@@ -5690,6 +5684,71 @@
     "name": "Jing Zhao",
     "rawName": "Jing Zhao",
     "orcid": "https://orcid.org/0000-0002-3074-0574"
+   }
+  ]
+ },
+ {
+  "id": "W7214589406",
+  "title": "Molecular Bridge Engineering at the Anode/Electrolyte Interface: Synergistic MPS/ZnO Hybrid Corrosion Inhibition for High-Utilization Alkaline Al-H2O Batteries",
+  "year": 2026,
+  "url": "https://doi.org/10.1021/acsami.6c13420",
+  "themes": [
+   "Decarbonization"
+  ],
+  "authors": [
+   {
+    "id": "A5141107832",
+    "name": "Jiayao Gao",
+    "rawName": "Jiayao Gao",
+    "orcid": null
+   },
+   {
+    "id": "A5100418565",
+    "name": "Chen Chen",
+    "rawName": "Chen Chen",
+    "orcid": "https://orcid.org/0000-0003-3714-7076"
+   },
+   {
+    "id": "A5153299730",
+    "name": "Zhenyu Wang",
+    "rawName": "Zhenyu Wang",
+    "orcid": null
+   },
+   {
+    "id": "A5153231384",
+    "name": "You Fu",
+    "rawName": "You Fu",
+    "orcid": null
+   },
+   {
+    "id": "A5153351049",
+    "name": "Yaxin Li",
+    "rawName": "Yaxin Li",
+    "orcid": null
+   },
+   {
+    "id": "A5102775675",
+    "name": "Yinghang Kou",
+    "rawName": "Yinghang Kou",
+    "orcid": "https://orcid.org/0009-0002-0933-4413"
+   },
+   {
+    "id": "A5153367353",
+    "name": "Zilong Liu",
+    "rawName": "Zilong Liu",
+    "orcid": null
+   },
+   {
+    "id": "A5100377940",
+    "name": "Yiming Wang",
+    "rawName": "Yiming Wang",
+    "orcid": "https://orcid.org/0000-0002-8724-9698"
+   },
+   {
+    "id": "A5100762412",
+    "name": "Hongbin Sun",
+    "rawName": "Hongbin Sun",
+    "orcid": "https://orcid.org/0000-0002-5465-9818"
    }
   ]
  },
@@ -13379,12 +13438,6 @@
   ],
   "authors": [
    {
-    "id": "A5016414318",
-    "name": "Melissa Herring",
-    "rawName": "Melissa Herring",
-    "orcid": "https://orcid.org/0000-0003-0598-9068"
-   },
-   {
     "id": "A5116563470",
     "name": "Michael Budner",
     "rawName": "Michael Budner",
@@ -16990,12 +17043,6 @@
     "orcid": "https://orcid.org/0000-0002-1958-139X"
    },
    {
-    "id": "A5040614037",
-    "name": "Michael B. Kane",
-    "rawName": "Michael Kane",
-    "orcid": "https://orcid.org/0000-0002-3716-3116"
-   },
-   {
     "id": "A5122110508",
     "name": "Elizabeth Allen",
     "rawName": "Elizabeth Allen",
@@ -18524,10 +18571,10 @@
   ]
  },
  {
-  "id": "W4396807518",
+  "id": "W4396991949",
   "title": "Comment on egusphere-2024-448",
   "year": 2024,
-  "url": "https://doi.org/10.5194/egusphere-2024-448-rc1",
+  "url": "https://doi.org/10.5194/egusphere-2024-448-rc2",
   "themes": [
    "Air and Climate Science",
    "Sustainable Food Systems"
@@ -18548,10 +18595,10 @@
   ]
  },
  {
-  "id": "W4396991949",
+  "id": "W4396807518",
   "title": "Comment on egusphere-2024-448",
   "year": 2024,
-  "url": "https://doi.org/10.5194/egusphere-2024-448-rc2",
+  "url": "https://doi.org/10.5194/egusphere-2024-448-rc1",
   "themes": [
    "Air and Climate Science",
    "Sustainable Food Systems"
@@ -23289,10 +23336,10 @@
   ]
  },
  {
-  "id": "W7125504564",
+  "id": "W7125477450",
   "title": "Rationalisation of Explicit Subsidies at State Level",
   "year": 2024,
-  "url": "https://doi.org/10.5281/zenodo.18350366",
+  "url": "https://doi.org/10.5281/zenodo.18350367",
   "themes": [
    "Sustainable Food Systems"
   ],
@@ -23306,10 +23353,10 @@
   ]
  },
  {
-  "id": "W7125477450",
+  "id": "W7125504564",
   "title": "Rationalisation of Explicit Subsidies at State Level",
   "year": 2024,
-  "url": "https://doi.org/10.5281/zenodo.18350367",
+  "url": "https://doi.org/10.5281/zenodo.18350366",
   "themes": [
    "Sustainable Food Systems"
   ],
@@ -32681,12 +32728,6 @@
     "orcid": "https://orcid.org/0000-0001-6046-7153"
    },
    {
-    "id": "A5034164853",
-    "name": "V. Srinivasan",
-    "rawName": "Varun Srinivasan",
-    "orcid": "https://orcid.org/0000-0002-4755-0910"
-   },
-   {
     "id": "A5100412644",
     "name": "Guangyu Li",
     "rawName": "Guangyu Li",
@@ -33275,23 +33316,6 @@
     "name": "Hongli Zhu",
     "rawName": "Hongli Zhu",
     "orcid": "https://orcid.org/0000-0003-1733-4333"
-   }
-  ]
- },
- {
-  "id": "W4390221412",
-  "title": "Synthesis of Plant-Mediated Iron Oxide Nanoparticles and Optimization of Chemically Modified Activated Carbon Adsorbents for Removal of As, Pb, and Cd Ions from Wastewater",
-  "year": 2023,
-  "url": "https://doi.org/10.1021/acsomega.3c05299",
-  "themes": [
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5079074610",
-    "name": "Zia Ullah",
-    "rawName": "Zia Ullah",
-    "orcid": "https://orcid.org/0000-0003-3027-1648"
    }
   ]
  },

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { CATEGORY_COLORS, CATEGORY_ORDER, formatDate, loadNetwork } from './data.js'
-import { applyFilters, filterPeople, readUrl, toQuery } from './filters.js'
+import { applyFilters, readUrl, toQuery } from './filters.js'
 import ThemeOverview from './ThemeOverview.jsx'
 import ThemeFocus from './ThemeFocus.jsx'
 import NetworkGraph from './NetworkGraph.jsx'
@@ -40,7 +40,8 @@ export default function App() {
   const themeCounts = useMemo(() => {
     const counts = new Map()
     if (!network) return counts
-    for (const p of filterPeople(network.faculty, filters, { ignoreTheme: true })) {
+    // Counts per theme under every filter except the theme itself (applyFilters also handles "backed only")
+    for (const p of applyFilters(network, { ...filters, theme: '' }).faculty) {
       for (const t of p.themes) counts.set(t, (counts.get(t) ?? 0) + 1)
     }
     return counts
@@ -80,7 +81,10 @@ export default function App() {
           <p className="rail-note"><a href={window.location.pathname + query} target="_blank" rel="noreferrer">Open the full map</a></p>
         ) : (
           <>
-          <p className="rail-note"><a href="curriculum/">See how much sustainability is in each major</a></p>
+          <ul className="rail-links">
+            <li><a href="curriculum/">How much sustainability is in each major</a></li>
+            <li><a href="curriculum/?view=overview">Sustainability course charts and trends</a></li>
+          </ul>
           <details className="about">
             <summary>How this map is made</summary>
             <p>
@@ -93,7 +97,11 @@ export default function App() {
               a free public index of research papers, and adds Northeastern researchers with several recent
               sustainability papers. Research was last updated {formatDate(network.meta.researchUpdated)}.
             </p>
-            <p>Something missing or wrong? Email the sustainability team so it can be corrected.</p>
+            <p>
+              A person’s connection to a theme is “backed” when their published papers or a course they teach supports it.
+              Other connections come from matching profile keywords to themes, which is looser.
+            </p>
+            <p>Something missing or wrong? <a href={network.meta.contact} target="_blank" rel="noreferrer">Tell the sustainability team</a>.</p>
           </details>
           </>
         )}
@@ -135,8 +143,13 @@ export default function App() {
                 selectedId={selectedId} onSelect={setSelectedId} onOpenTheme={openTheme} />
               : <ThemeOverview themes={network.themes} counts={themeCounts} onOpenTheme={openTheme} />
           ) : view === 'everyone' ? (
+            <>
+            <p className="visually-hidden">
+              This view is a drawing of every connection. With a keyboard or screen reader, use the List view instead.
+            </p>
             <NetworkGraph data={visible} themeById={themeById} selectedId={selectedId}
               onSelect={(id) => (id?.startsWith('theme:') ? openTheme(byId.get(id).name) : setSelectedId(id))} />
+            </>
           ) : (
             <FacultyList people={visible.faculty} onSelect={setSelectedId} />
           )}
@@ -161,7 +174,7 @@ export default function App() {
           <SharePanel query={query} embedQuery={toQuery({ ...state, embed: true })} onClose={() => setShareOpen(false)} />
         )}
         {!shareOpen && (
-          <DetailPanel item={panelItem} visibleFaculty={visible.faculty} themes={network.themes}
+          <DetailPanel item={panelItem} visibleFaculty={visible.faculty} themes={network.themes} links={network.links}
             onSelect={setSelectedId} onOpenTheme={openTheme}
             onClose={() => (selectedPerson ? setSelectedId(null) : setThemePanelOpen(false))} />
         )}

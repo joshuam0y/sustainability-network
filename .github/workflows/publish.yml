@@ -36,6 +36,10 @@ jobs:
       - name: Install Python packages
         run: pip install -r pipeline/requirements.txt
 
+      # Stops the update if the catalog reader no longer handles the tricky program pages correctly
+      - name: Check the catalog reader
+        run: python -m unittest discover pipeline/tests
+
       # The catalog changes about once a year, so it's only read on the 1st of the month or when run by hand
       - name: Read the course catalog
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 9 1 * *'

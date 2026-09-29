@@ -1,10 +1,23 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { forceCollide, forceSimulation, forceX, forceY } from 'd3-force'
 import { CATEGORY_COLORS, CATEGORY_ORDER } from './data.js'
 import { CATEGORY_DESCRIPTIONS } from './themeInfo.js'
 import { wrapLabel } from './svgText.js'
 
 const CLUSTER_X = { Values: -350, Content: 0, Skills: 350 }
+// On phones the three groups stack top to bottom instead
+const CLUSTER_Y_NARROW = { Values: -440, Content: 0, Skills: 480 }
+
+function useNarrow(query = '(max-width: 640px)') {
+  const [narrow, setNarrow] = useState(() => window.matchMedia(query).matches)
+  useEffect(() => {
+    const m = window.matchMedia(query)
+    const update = () => setNarrow(m.matches)
+    m.addEventListener('change', update)
+    return () => m.removeEventListener('change', update)
+  }, [query])
+  return narrow
+}
 const MAX_RADIUS = 64
 const MIN_RADIUS = 9
 
@@ -20,6 +33,7 @@ function activate(handler) {
 // Theme bubbles sized by how many (filtered) people work on each, grouped by category
 export default function ThemeOverview({ themes, counts, onOpenTheme }) {
   const [hover, setHover] = useState(null)
+  const narrow = useNarrow()
   const maxCount = Math.max(1, ...themes.map((t) => counts.get(t.name) ?? 0))
 
   const layout = useMemo(() => {
@@ -33,14 +47,14 @@ export default function ThemeOverview({ themes, counts, onOpenTheme }) {
       }
     })
     forceSimulation(nodes)
-      .force('x', forceX((n) => CLUSTER_X[n.category] ?? 0).strength(0.18))
-      .force('y', forceY(20).strength(0.09))
+      .force('x', forceX((n) => (narrow ? 0 : CLUSTER_X[n.category] ?? 0)).strength(narrow ? 0.09 : 0.18))
+      .force('y', forceY((n) => (narrow ? CLUSTER_Y_NARROW[n.category] ?? 0 : 20)).strength(narrow ? 0.2 : 0.09))
       // Room for the label under each bubble as well as the bubble itself
       .force('collide', forceCollide((n) => n.r + 18 + n.lines.length * 9).iterations(4))
       .stop()
       .tick(320)
     return nodes
-  }, [themes, counts, maxCount])
+  }, [themes, counts, maxCount, narrow])
 
   const clusterTop = (category) => Math.min(...layout.filter((n) => n.category === category).map((n) => n.y - n.r))
 
@@ -55,7 +69,7 @@ export default function ThemeOverview({ themes, counts, onOpenTheme }) {
     <svg className="overview" viewBox={`${minX} ${minY} ${maxX - minX} ${maxY - minY}`}
       role="group" aria-label="Sustainability themes. Choose a theme to see who works on it.">
       {CATEGORY_ORDER.map((category) => (
-        <g key={category} className="cluster-label" transform={`translate(${CLUSTER_X[category]}, ${clusterTop(category) - 38})`}>
+        <g key={category} className="cluster-label" transform={`translate(${narrow ? 0 : CLUSTER_X[category]}, ${clusterTop(category) - 38})`}>
           <text className="cluster-name" style={{ fill: CATEGORY_COLORS[category] }}>{category}</text>
           <text className="cluster-description" y="17">{CATEGORY_DESCRIPTIONS[category]}</text>
         </g>

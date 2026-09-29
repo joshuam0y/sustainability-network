@@ -29,10 +29,11 @@ function CheckboxGroup({ title, options, selected, onChange }) {
 }
 
 export default function FilterRail({ network, filters, setFilters, shownCount }) {
+  const showNewHires = network.meta?.showNewHires !== false
   const [moreOpen, setMoreOpen] = useState(false)
   const set = (key) => (value) => setFilters({ ...filters, [key]: value })
   const moreCount = filters.colleges.length + filters.positions.length + filters.locations.length
-    + (filters.newHireOnly ? 1 : 0) + (filters.minThemes > 1 ? 1 : 0)
+    + (filters.newHireOnly ? 1 : 0) + (filters.minThemes > 1 ? 1 : 0) + (filters.backedOnly ? 1 : 0)
   const maxThemes = Math.min(8, Math.max(...network.faculty.map((p) => p.themes.length)))
 
   return (
@@ -73,9 +74,16 @@ export default function FilterRail({ network, filters, setFilters, shownCount })
           selected={filters.locations} onChange={set('locations')} />
       </div>
 
+      {showNewHires && (
+        <label className="toggle">
+          <input type="checkbox" checked={filters.newHireOnly} onChange={(e) => set('newHireOnly')(e.target.checked)} />
+          Only people who joined in the last 3 years
+        </label>
+      )}
+
       <label className="toggle">
-        <input type="checkbox" checked={filters.newHireOnly} onChange={(e) => set('newHireOnly')(e.target.checked)} />
-        Only people who joined in the last 3 years
+        <input type="checkbox" checked={filters.backedOnly} onChange={(e) => set('backedOnly')(e.target.checked)} />
+        Only connections backed by published papers or courses they teach
       </label>
 
       <label className="field">

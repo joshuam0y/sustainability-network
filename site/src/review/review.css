@@ -1,0 +1,50 @@
+/* Review page: one long column, built on the shared styles */
+
+.review-app { max-width: 52rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+
+.review-header h1 { font-size: var(--step-3); font-weight: 900; line-height: 1.15; }
+.review-header > p { margin-top: 0.6rem; color: var(--ink-soft); max-width: 62ch; }
+.review-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 0.75rem 1rem; margin-top: 1.25rem; }
+
+.finish { margin-top: 1.5rem; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.25rem; }
+.finish h2 { font-size: var(--step-1); font-weight: 900; }
+.finish ol { margin: 0.6rem 0 0.4rem; padding-left: 1.25rem; font-size: var(--step-0); }
+.finish li + li { margin-top: 0.4rem; }
+.finish .button:disabled { opacity: 0.45; cursor: default; }
+
+.review-list { list-style: none; margin: 1.5rem 0 0; padding: 0; }
+
+.review-card { border-bottom: 1px solid var(--line); padding: 1.25rem 0; }
+.review-card h3 { font-size: var(--step-1); font-weight: 700; }
+.review-card.decided h3::after { content: "  Decided"; font-size: var(--step--1); color: var(--link); font-weight: 700; }
+
+.decision-buttons { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 0.5rem; margin-top: 0.8rem; }
+
+.decision {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  text-align: left;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+}
+
+.decision span { font-weight: 700; font-size: var(--step-0); }
+.decision small { color: var(--ink-soft); font-size: var(--step--1); }
+.decision:hover { border-color: var(--ink); }
+.decision.chosen { background: var(--ink); border-color: var(--ink); color: white; }
+.decision.chosen small { color: rgb(255 255 255 / 0.8); }
+
+.decision-extra { display: flex; gap: 1rem; align-items: flex-end; margin-top: 0.6rem; }
+.decision-extra .field { flex: 1; }
+
+.theme-check { margin-top: 3rem; }
+.theme-check h2 { font-size: var(--step-2); font-weight: 900; }
+.theme-check > p { margin-top: 0.4rem; color: var(--ink-soft); }
+.theme-check dl { margin: 1rem 0 0; }
+.theme-check dl div { padding: 0.5rem 0; border-bottom: 1px solid var(--line); }
+.theme-check dt { font-weight: 700; }
+.theme-check dd { margin: 0.1rem 0 0; }

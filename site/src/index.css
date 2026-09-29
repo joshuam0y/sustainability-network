@@ -28,6 +28,14 @@ a { color: var(--link); text-underline-offset: 2px; }
 
 :focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.rail-links { list-style: none; margin: 1.25rem 0 0; padding: 0; font-size: var(--step--1); }
+.rail-links li + li { margin-top: 0.35rem; }
+
+.theme-basis { margin-left: auto; font-size: var(--step--1); color: var(--ink-soft); }
+.theme-basis.backed { color: var(--ink); font-weight: 700; }
+
 .status, .empty { padding: 2rem; color: var(--ink-soft); max-width: 36rem; }
 
 /* ---------- Layout: rail on the left, map on the right ---------- */
@@ -65,7 +73,7 @@ a { color: var(--link); text-underline-offset: 2px; }
 
 .field-label { display: block; font-size: var(--step--1); font-weight: 700; margin-bottom: 0.35rem; }
 
-.field input[type="search"], .field select {
+.field input, .field select {
   width: 100%;
   padding: 0.55rem 0.7rem;
   border: 1px solid var(--line);
@@ -469,3 +477,40 @@ a { color: var(--link); text-underline-offset: 2px; }
     margin-right: 0;
   }
 }
+
+/* ---------- Phones: the page scrolls as a whole and panels open from the bottom ---------- */
+
+@media (max-width: 640px) {
+  .app { height: auto; min-height: 100vh; }
+  .stage { overflow: visible; }
+  .canvas { min-height: 70vh; }
+  .graph { height: 75vh; }
+  .overview { height: auto; }
+  .focus { height: auto; max-height: 90vh; }
+  .toolbar { flex-wrap: wrap; }
+  .view-switch { overflow-x: auto; max-width: 100%; }
+  .view-switch button { white-space: nowrap; }
+
+  .detail, .share {
+    position: fixed;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-height: 78vh;
+    border-radius: 14px 14px 0 0;
+    padding: 1.25rem 1.25rem 2rem;
+    box-shadow: 0 -12px 32px -18px rgb(22 48 43 / 0.5);
+    animation: slide-up 180ms ease-out;
+  }
+
+  .stage:has(.detail) .overview, .stage:has(.detail) .focus, .stage:has(.share) .overview, .stage:has(.share) .focus {
+    margin-right: 0;
+  }
+
+  .legend { padding-bottom: 1.5rem; }
+}
+
+@keyframes slide-up { from { transform: translateY(2rem); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .detail, .share { animation: none !important; } }

@@ -1,6 +1,7 @@
 import { Instructors, ProgramLine, ThemeTags } from './CourseItems.jsx'
+import { problemLink } from './data.js'
 
-export default function CoursePanel({ course, programById, onSelectProgram, onClose }) {
+export default function CoursePanel({ course, programById, contact, onSelectProgram, onClose }) {
   const programs = course.programs.map((id) => programById.get(id)).filter(Boolean)
     .sort((a, b) => a.baseName.localeCompare(b.baseName))
   const required = programs.filter((p) => p.required.includes(course.code))
@@ -12,6 +13,10 @@ export default function CoursePanel({ course, programById, onSelectProgram, onCl
       <p className="detail-category">{course.code}, {course.hours} {course.hours === '1' ? 'credit' : 'credits'}</p>
       <h2>{course.title}</h2>
       <p className="detail-lede">{course.department ?? course.college}</p>
+      <p className="focus-note">
+        {course.focus === 'focused' ? 'Focused on sustainability' : 'Includes sustainability'}
+        {!course.focusReviewed && <span> (estimated from the title)</span>}
+      </p>
       {course.label === 'model' && (
         <p className="panel-note">
           Suggested: this course is newer than the sustainability team’s review, so a model trained on their choices
@@ -26,6 +31,9 @@ export default function CoursePanel({ course, programById, onSelectProgram, onCl
       {required.length > 0 ? <ul className="course-lines">{required.map((p) => <ProgramLine key={p.id} program={p} onSelect={onSelectProgram} />)}</ul> : <p className="panel-note">No program requires it.</p>}
       <h3>An option in {options.length} {options.length === 1 ? 'program' : 'programs'}</h3>
       {options.length > 0 ? <ul className="course-lines">{options.map((p) => <ProgramLine key={p.id} program={p} onSelect={onSelectProgram} />)}</ul> : <p className="panel-note">No program lists it as an option.</p>}
+    <p className="sources">
+        <a href={problemLink(contact, `${course.code} ${course.title}`)} target="_blank" rel="noreferrer">Report a problem with this course</a>
+      </p>
     </aside>
   )
 }

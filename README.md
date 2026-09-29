@@ -7,7 +7,9 @@ dashboard.
 **See it:** https://joshuam0y.github.io/sustainability-network/
 
 **Also:** [How much sustainability is in each major?](https://joshuam0y.github.io/sustainability-network/curriculum/)
-checks every program in the course catalog for sustainability courses (see below).
+checks every program in the course catalog for sustainability courses, with charts and STARS numbers (see below).
+
+**Looking after the sites?** Start with [HANDOFF.md](HANDOFF.md).
 
 ## Using the map
 
@@ -61,11 +63,20 @@ People added from published research show up as hollow circles, and are listed i
 
 ## The curriculum map
 
+Four views: **Programs** (each major's sustainability report card), **Courses** (every sustainability course, with a
+"counts toward this program" finder), **Overview** (charts by college and department, and trends since 2018, rebuilt
+from Charlie's Tableau overview) and **STARS report** (numbers and draft text for the AASHE STARS Academics section).
+
+The sustainability team confirms or corrects course labels on the [review page](https://joshuam0y.github.io/sustainability-network/review/).
+
+
 `/curriculum/` shows, for every Northeastern program, which sustainability courses it **requires** and which it
 lists as **options**, plus a searchable list of every sustainability course and who teaches it.
 
 - **Courses and requirements** come from the public academic catalog (catalog.northeastern.edu), reread on the
   1st of each month by `pipeline/curriculum/scrape_catalog.py`.
+- **Focused or inclusive:** STARS separates courses focused on sustainability from courses that include it. Until
+  someone confirms a course on the review page, a course whose title is about sustainability counts as focused.
 - **Which courses count as sustainability courses** comes from the sustainability team's reviewed list for the
   2023–24 catalog (`data/base/course_labels.csv`). Newer courses are sorted by a model trained on that list and
   shown as "suggested"; they're listed in `data/review/model_labeled_courses.csv` for someone to check. To confirm or

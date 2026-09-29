@@ -1,0 +1,86 @@
+academic_year,college,level,courses,sustainability_courses,seats,sustainability_seats
+2018-19,Bouvé College of Health Sciences,Graduate,472,5,15974,138
+2018-19,Bouvé College of Health Sciences,Undergraduate,128,3,15439,132
+2018-19,"College of Arts, Media and Design",Graduate,93,2,1517,12
+2018-19,"College of Arts, Media and Design",Undergraduate,348,10,17127,147
+2018-19,College of Engineering,Graduate,344,10,19803,256
+2018-19,College of Engineering,Undergraduate,167,12,18391,456
+2018-19,College of Professional Studies,Graduate,529,20,41800,1022
+2018-19,College of Professional Studies,Undergraduate,265,5,15974,527
+2018-19,College of Science,Graduate,231,15,5281,262
+2018-19,College of Science,Undergraduate,328,26,43165,1480
+2018-19,College of Social Sciences and Humanities,Graduate,192,16,2503,191
+2018-19,College of Social Sciences and Humanities,Undergraduate,468,17,28041,1491
+2018-19,D'Amore-McKim School of Business,Graduate,183,12,9945,659
+2018-19,D'Amore-McKim School of Business,Undergraduate,125,5,25070,1269
+2018-19,Khoury College of Computer Sciences,Graduate,80,0,9233,0
+2018-19,Khoury College of Computer Sciences,Undergraduate,60,0,12641,0
+2018-19,School of Law,Graduate,150,7,6102,292
+2019-20,Bouvé College of Health Sciences,Graduate,461,5,14652,152
+2019-20,Bouvé College of Health Sciences,Undergraduate,122,3,15422,107
+2019-20,"College of Arts, Media and Design",Graduate,99,4,1587,14
+2019-20,"College of Arts, Media and Design",Undergraduate,345,13,17339,272
+2019-20,College of Engineering,Graduate,372,11,22585,160
+2019-20,College of Engineering,Undergraduate,165,11,18313,341
+2019-20,College of Professional Studies,Graduate,550,21,39100,1178
+2019-20,College of Professional Studies,Undergraduate,265,5,14753,509
+2019-20,College of Science,Graduate,255,16,6111,257
+2019-20,College of Science,Undergraduate,322,25,42512,1580
+2019-20,College of Social Sciences and Humanities,Graduate,184,17,2997,268
+2019-20,College of Social Sciences and Humanities,Undergraduate,451,17,26768,1419
+2019-20,D'Amore-McKim School of Business,Graduate,183,12,9008,545
+2019-20,D'Amore-McKim School of Business,Undergraduate,132,5,23866,1208
+2019-20,Khoury College of Computer Sciences,Graduate,100,0,12017,0
+2019-20,Khoury College of Computer Sciences,Undergraduate,69,0,15076,0
+2019-20,School of Law,Graduate,167,9,6388,356
+2020-21,Bouvé College of Health Sciences,Graduate,464,5,15260,157
+2020-21,Bouvé College of Health Sciences,Undergraduate,134,4,16624,126
+2020-21,"College of Arts, Media and Design",Graduate,111,4,1846,12
+2020-21,"College of Arts, Media and Design",Undergraduate,347,14,19378,297
+2020-21,College of Engineering,Graduate,372,17,17063,316
+2020-21,College of Engineering,Undergraduate,150,8,17848,300
+2020-21,College of Professional Studies,Graduate,574,24,36086,1142
+2020-21,College of Professional Studies,Undergraduate,268,6,15615,518
+2020-21,College of Science,Graduate,258,12,6414,186
+2020-21,College of Science,Undergraduate,334,32,45737,1865
+2020-21,College of Social Sciences and Humanities,Graduate,210,21,3774,345
+2020-21,College of Social Sciences and Humanities,Undergraduate,464,22,30247,1461
+2020-21,D'Amore-McKim School of Business,Graduate,185,14,10319,625
+2020-21,D'Amore-McKim School of Business,Undergraduate,124,5,25259,1490
+2020-21,Khoury College of Computer Sciences,Graduate,109,0,12803,0
+2020-21,Khoury College of Computer Sciences,Undergraduate,77,0,18818,0
+2020-21,School of Law,Graduate,172,13,6501,427
+2021-22,Bouvé College of Health Sciences,Graduate,465,4,15272,148
+2021-22,Bouvé College of Health Sciences,Undergraduate,140,4,17799,125
+2021-22,"College of Arts, Media and Design",Graduate,105,4,2012,14
+2021-22,"College of Arts, Media and Design",Undergraduate,346,15,23595,411
+2021-22,College of Engineering,Graduate,366,17,19438,282
+2021-22,College of Engineering,Undergraduate,162,12,17847,430
+2021-22,College of Professional Studies,Graduate,548,27,36710,840
+2021-22,College of Professional Studies,Undergraduate,276,6,13683,416
+2021-22,College of Science,Graduate,253,24,7857,499
+2021-22,College of Science,Undergraduate,329,29,52913,2819
+2021-22,College of Social Sciences and Humanities,Graduate,225,20,4446,402
+2021-22,College of Social Sciences and Humanities,Undergraduate,479,26,33701,1803
+2021-22,D'Amore-McKim School of Business,Graduate,186,16,11829,566
+2021-22,D'Amore-McKim School of Business,Undergraduate,137,6,26431,1406
+2021-22,Khoury College of Computer Sciences,Graduate,107,0,17069,0
+2021-22,Khoury College of Computer Sciences,Undergraduate,77,0,22417,0
+2021-22,School of Law,Graduate,167,8,6823,380
+2022-23,Bouvé College of Health Sciences,Graduate,458,4,15519,176
+2022-23,Bouvé College of Health Sciences,Undergraduate,135,4,18241,123
+2022-23,"College of Arts, Media and Design",Graduate,123,5,2548,9
+2022-23,"College of Arts, Media and Design",Undergraduate,371,16,23461,350
+2022-23,College of Engineering,Graduate,379,17,24374,336
+2022-23,College of Engineering,Undergraduate,154,11,17540,418
+2022-23,College of Professional Studies,Graduate,517,24,35750,734
+2022-23,College of Professional Studies,Undergraduate,254,5,12228,290
+2022-23,College of Science,Graduate,250,24,9752,457
+2022-23,College of Science,Undergraduate,338,35,50625,2953
+2022-23,College of Social Sciences and Humanities,Graduate,233,23,4290,345
+2022-23,College of Social Sciences and Humanities,Undergraduate,494,27,32813,2188
+2022-23,D'Amore-McKim School of Business,Graduate,187,17,10702,590
+2022-23,D'Amore-McKim School of Business,Undergraduate,139,6,27646,1362
+2022-23,Khoury College of Computer Sciences,Graduate,106,0,20048,0
+2022-23,Khoury College of Computer Sciences,Undergraduate,83,0,23684,0
+2022-23,School of Law,Graduate,164,7,6801,317

@@ -13,7 +13,7 @@ function sourceText(sources) {
   return list.length > 1 ? `${list.slice(0, -1).join(', ')} and ${list.at(-1)}` : list[0]
 }
 
-export default function DetailPanel({ item, visibleFaculty, themes, onSelect, onOpenTheme, onClose }) {
+export default function DetailPanel({ item, visibleFaculty, themes, links = [], onSelect, onOpenTheme, onClose }) {
   if (!item) return null
   const themeCategory = new Map(themes.map((t) => [t.name, t.category]))
 
@@ -59,11 +59,19 @@ export default function DetailPanel({ item, visibleFaculty, themes, onSelect, on
 
       <h3>Themes</h3>
       <ul className="theme-list">
-        {item.themes.map((t) => (
-          <li key={t} style={{ '--swatch': CATEGORY_COLORS[themeCategory.get(t)] }}>
-            <button type="button" className="text-button" onClick={() => onOpenTheme(t)}>{t}</button>
-          </li>
-        ))}
+        {item.themes.map((t) => {
+          const link = links.find((l) => l.target === item.id && l.source === `theme:${t}`)
+          const basis = !link ? null
+            : link.paperCount ? `${link.paperCount} papers`
+              : link.backed ? 'teaches a course on it'
+                : 'profile keywords'
+          return (
+            <li key={t} style={{ '--swatch': CATEGORY_COLORS[themeCategory.get(t)] }}>
+              <button type="button" className="text-button" onClick={() => onOpenTheme(t)}>{t}</button>
+              {basis && <span className={`theme-basis${link.backed ? ' backed' : ''}`}>{basis}</span>}
+            </li>
+          )
+        })}
       </ul>
 
       {item.papers?.length > 0 && (

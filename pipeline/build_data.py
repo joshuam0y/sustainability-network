@@ -20,6 +20,8 @@ import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
+import settings
+
 ROOT = Path(__file__).resolve().parent.parent
 BASE = ROOT / "data" / "base"
 OPENALEX = ROOT / "data" / "openalex"
@@ -68,6 +70,7 @@ def main():
 
     # Group papers by person: people already in the network by name, everyone else by OpenAlex id
     person_papers = defaultdict(dict)
+    person_authors = defaultdict(set)
     new_people = {}
     for paper in papers:
         for a in paper["authors"]:
@@ -84,6 +87,7 @@ def main():
                     by_key[key] = pid
                     new_people[pid] = {"name": info["name"], "orcid": info.get("orcid"), "openalex": a["id"]}
             person_papers[pid][paper["id"]] = paper
+            person_authors[pid].add(a["id"])
 
     def unique_count(found):
         return len({re.sub(r"[^a-z0-9]", "", p["title"].lower()) for p in found.values()})
@@ -124,6 +128,22 @@ def main():
         del people[pid]
     links = {k: l for k, l in links.items() if l["target"] in people}
 
+    # Sustainability courses each person teaches, from the curriculum map (build_curriculum.py runs first)
+    taught_themes = defaultdict(set)
+    curriculum_courses = OUT / "curriculum" / "courses.json"
+    if curriculum_courses.exists():
+        for course in json.loads(curriculum_courses.read_text()):
+            for teacher in course["instructors"]:
+                if teacher["id"] in people:
+                    people[teacher["id"]].setdefault("courses", []).append({"code": course["code"], "title": course["title"]})
+                    taught_themes[teacher["id"]].update(course["themes"])
+
+    # A connection is "backed" when published papers or a sustainability course the person teaches supports it.
+    # The rest come only from matching profile keywords to themes, which is looser.
+    theme_by_id = {t["id"]: t["name"] for t in themes}
+    for l in links.values():
+        l["backed"] = RESEARCH_SOURCE in l["sources"] or theme_by_id[l["source"]] in taught_themes.get(l["target"], set())
+
     # Recompute each person's themes and sources, and each theme's count, from the final links
     by_person = defaultdict(list)
     for l in links.values():
@@ -139,13 +159,11 @@ def main():
     for t in themes:
         t["facultyCount"] = sum(1 for l in links.values() if l["source"] == t["id"])
 
-    # Sustainability courses each person teaches, from the curriculum map (build_curriculum.py runs first)
-    curriculum_courses = OUT / "curriculum" / "courses.json"
-    if curriculum_courses.exists():
-        for course in json.loads(curriculum_courses.read_text()):
-            for teacher in course["instructors"]:
-                if teacher["id"] in people:
-                    people[teacher["id"]].setdefault("courses", []).append({"code": course["code"], "title": course["title"]})
+    for p in people.values():
+        if not settings.SHOW_EMAILS:
+            p["email"] = None
+        if not settings.SHOW_NEW_HIRES:
+            p["newHire"] = None
 
     OUT.mkdir(parents=True, exist_ok=True)
     ordered_people = sorted(people.values(), key=lambda p: p["name"])
@@ -159,6 +177,9 @@ def main():
         "people": len(ordered_people),
         "links": len(ordered_links),
         "papers": len(papers),
+        "showNewHires": settings.SHOW_NEW_HIRES,
+        "contact": settings.CONTACT_EMAIL and f"mailto:{settings.CONTACT_EMAIL}"
+        or f"https://github.com/{settings.REPOSITORY}/issues/new",
     }))
 
     REVIEW.mkdir(parents=True, exist_ok=True)
@@ -168,6 +189,21 @@ def main():
         w.writerow(["name", "sustainability_papers", "themes", "profile"])
         for p in added:
             w.writerow([p["name"], p["paperCount"], "; ".join(p["themes"]), p["profileUrl"]])
+
+    # People on the original map whose OpenAlex profiles now point somewhere else. Only for review:
+    # OpenAlex is sometimes wrong, so nothing about this is shown on the site.
+    with open(REVIEW / "possible_departures.csv", "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["name", "college", "now_listed_at", "latest_paper_year", "openalex_profiles"])
+        for p in ordered_people:
+            ids = [i for i in person_authors.get(p["id"], []) if i in authors]
+            if p.get("addedFromResearch") or not ids or any(authors[i]["atNortheastern"] for i in ids):
+                continue
+            elsewhere = sorted({inst for i in ids for inst in authors[i].get("currentInstitutions", [])})
+            if elsewhere:
+                w.writerow([p["name"], p.get("college") or "", "; ".join(elsewhere),
+                            max((x["year"] or 0) for x in p.get("papers", [])) or "",
+                            " ".join(f"https://openalex.org/authors/{i}" for i in ids)])
 
     with_research = sum(1 for p in ordered_people if p.get("paperCount"))
     print(f"{len(ordered_people)} people ({len(added)} added from research, {with_research} with papers), "

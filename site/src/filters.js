@@ -8,11 +8,12 @@ export const emptyFilters = {
   locations: [],
   newHireOnly: false,
   minThemes: 1,
+  backedOnly: false,
 }
 
 export function hasActiveFilters(f) {
   return f.search.trim() !== '' || f.theme !== '' || f.positions.length > 0 || f.colleges.length > 0
-    || f.locations.length > 0 || f.newHireOnly || f.minThemes > 1
+    || f.locations.length > 0 || f.newHireOnly || f.minThemes > 1 || f.backedOnly
 }
 
 const inList = (list, value) => list.length === 0 || list.includes(value)
@@ -31,11 +32,25 @@ export function filterPeople(faculty, f, { ignoreTheme = false } = {}) {
 }
 
 export function applyFilters({ themes, faculty, links }, f) {
-  const visibleFaculty = filterPeople(faculty, f)
+  // "Only backed connections": keep connections supported by papers or courses, and judge each person
+  // (theme filter, number of themes) by those alone
+  let people = faculty
+  let usable = links
+  if (f.backedOnly) {
+    usable = links.filter((l) => l.backed)
+    const themeName = new Map(themes.map((t) => [t.id, t.name]))
+    const backedThemes = new Map()
+    for (const l of usable) backedThemes.set(l.target, [...(backedThemes.get(l.target) ?? []), themeName.get(l.source)])
+    people = faculty.filter((p) => backedThemes.has(p.id)).map((p) => ({ ...p, themes: backedThemes.get(p.id).sort() }))
+  }
+  const visibleFaculty = filterPeople(people, f)
   const ids = new Set(visibleFaculty.map((p) => p.id))
-  const visibleLinks = links.filter((l) => ids.has(l.target))
-  const linked = new Set(visibleLinks.map((l) => l.source))
-  return { themes: themes.filter((t) => linked.has(t.id)), faculty: visibleFaculty, links: visibleLinks }
+  return finish(themes, visibleFaculty, usable.filter((l) => ids.has(l.target)))
+}
+
+function finish(themes, faculty, links) {
+  const linked = new Set(links.map((l) => l.source))
+  return { themes: themes.filter((t) => linked.has(t.id)), faculty, links }
 }
 
 // Option lists with counts, for the filter checkboxes
@@ -61,6 +76,7 @@ export function readUrl(search = window.location.search) {
   for (const [key, param] of Object.entries(LIST_KEYS)) filters[key] = params.getAll(param)
   filters.newHireOnly = params.get('new') === '1'
   filters.minThemes = Math.max(1, Number(params.get('min')) || 1)
+  filters.backedOnly = params.get('backed') === '1'
   const view = VIEWS.includes(params.get('view')) ? params.get('view') : 'themes'
   return { filters, view, embed: params.get('embed') === '1', person: params.get('person') }
 }
@@ -73,6 +89,7 @@ export function toQuery({ filters, view, embed, person }) {
   for (const [key, param] of Object.entries(LIST_KEYS)) filters[key].forEach((v) => params.append(param, v))
   if (filters.newHireOnly) params.set('new', '1')
   if (filters.minThemes > 1) params.set('min', String(filters.minThemes))
+  if (filters.backedOnly) params.set('backed', '1')
   if (person) params.set('person', person)
   if (embed) params.set('embed', '1')
   const query = params.toString()

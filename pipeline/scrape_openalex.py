@@ -38,9 +38,6 @@ SEARCH_TERMS = ["sustainability", "sustainable", "climate change", "global warmi
                 "climate adaptation", "climate resilience", "clean energy", "carbon capture", "microplastics",
                 "food security"]
 
-# People not already in the network need at least this many sustainability papers to be added
-MIN_PAPERS_NEW_PERSON = 4
-
 
 def get(path, params):
     params = dict(params, mailto=CONTACT)
@@ -134,12 +131,13 @@ def main():
                 print(f"  {n} papers checked")
     print(f"{len(seen)} papers checked, {len(papers)} are sustainability research by Northeastern authors")
 
-    # Look up where frequent authors are now, so people who have left aren't added
+    # Look up where every author is now: people who have left aren't added, and people on the map who seem to
+    # have moved elsewhere are flagged for review
     counts = Counter(a["id"] for p in papers for a in p["authors"])
-    frequent = [a for a, c in counts.items() if c >= MIN_PAPERS_NEW_PERSON]
+    everyone = sorted(counts)
     authors = {}
-    for i in range(0, len(frequent), 50):
-        batch = frequent[i:i + 50]
+    for i in range(0, len(everyone), 50):
+        batch = everyone[i:i + 50]
         res = get("authors", {"filter": "openalex:" + "|".join(batch), "per_page": 50,
                               "select": "id,display_name,display_name_alternatives,orcid,last_known_institutions"})
         for a in res["results"]:
@@ -149,9 +147,11 @@ def main():
                 "orcid": a.get("orcid"),
                 "atNortheastern": any((i.get("id") or "").endswith(NORTHEASTERN)
                                       for i in a.get("last_known_institutions") or []),
+                "currentInstitutions": [i.get("display_name") for i in a.get("last_known_institutions") or []
+                                        if i.get("display_name")],
                 "papers": counts[a["id"].rsplit("/", 1)[-1]],
             }
-    print(f"Checked current affiliation for {len(authors)} frequent authors")
+    print(f"Checked current affiliation for {len(authors)} authors")
 
     OUT.mkdir(parents=True, exist_ok=True)
     papers.sort(key=lambda p: (-(p["year"] or 0), p["title"]))
