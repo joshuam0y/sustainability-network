@@ -78,7 +78,7 @@ export default function CurriculumApp() {
     initial.program ? { kind: 'program', id: initial.program } : initial.course ? { kind: 'course', id: initial.course } : null)
   const [shareOpen, setShareOpen] = useState(false)
   const [filtersOpen, setFiltersOpen] = useState(false)
-  const embed = initial.embed
+  const embed = initial.embed || (() => { try { return window.self !== window.top } catch { return true } })()
   const set = (key) => (value) => { setState({ ...state, [key]: value }); setSelection(null) }
 
   useEffect(() => {

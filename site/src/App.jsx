@@ -11,6 +11,14 @@ import SharePanel from './SharePanel.jsx'
 
 const initial = readUrl()
 
+function isFramed() {
+  try {
+    return window.self !== window.top
+  } catch {
+    return true
+  }
+}
+
 const VIEW_LABELS = { themes: 'Themes', everyone: 'Everyone', list: 'List' }
 
 export default function App() {
@@ -23,7 +31,9 @@ export default function App() {
   const narrow = () => window.matchMedia('(max-width: 1100px)').matches
   const [themePanelOpen, setThemePanelOpen] = useState(!initial.embed && !narrow())
   const [shareOpen, setShareOpen] = useState(false)
-  const embed = initial.embed
+  // Inside another website's frame, always use the compact layout, even if the embed code left out ?embed=1
+  const embed = initial.embed || isFramed()
+  const [pairName, setPairName] = useState(null)
 
   useEffect(() => {
     loadNetwork().then(setNetwork).catch((e) => setError(e.message))
@@ -54,6 +64,7 @@ export default function App() {
 
   const focusTheme = network.themes.find((t) => t.name === filters.theme)
   const openTheme = (name) => {
+    setPairName(null)
     setFilters({ ...filters, theme: name })
     setSelectedId(null)
     setThemePanelOpen(!narrow())
@@ -61,8 +72,12 @@ export default function App() {
     if (view !== 'list') setView('themes')
   }
   const selectedPerson = byId.get(selectedId)
+  const pairTheme = focusTheme && pairName ? network.themes.find((t) => t.name === pairName) : null
   const panelItem = selectedPerson && !selectedPerson.id.startsWith('theme:')
     ? { ...selectedPerson, kind: 'person' }
+    : pairTheme && view === 'themes'
+      ? { kind: 'pair', id: `pair:${pairTheme.name}`, name: `${focusTheme.name} and ${pairTheme.name}`, a: focusTheme, b: pairTheme,
+        totalB: themeCounts.get(pairTheme.name) ?? 0 }
     : focusTheme && view === 'themes' && themePanelOpen ? { ...focusTheme, kind: 'theme' } : null
 
   return (
@@ -75,7 +90,7 @@ export default function App() {
             organized into 20 themes. Pick a theme to see who works on it, or search for someone by name.
           </p>
         )}
-        <FilterRail network={network} filters={filters} setFilters={(f) => { setFilters(f); setSelectedId(null) }}
+        <FilterRail network={network} filters={filters} setFilters={(f) => { setFilters(f); setSelectedId(null); setPairName(null) }}
           shownCount={visible.faculty.length} />
         {embed ? (
           <p className="rail-note"><a href={window.location.pathname + query} target="_blank" rel="noreferrer">Open the full map</a></p>
@@ -117,7 +132,7 @@ export default function App() {
           </div>
           {view === 'themes' && focusTheme && (
             <nav className="breadcrumb" aria-label="Theme">
-              <button type="button" className="text-button" onClick={() => { setFilters({ ...filters, theme: '' }); setSelectedId(null) }}>
+              <button type="button" className="text-button" onClick={() => { setFilters({ ...filters, theme: '' }); setSelectedId(null); setPairName(null) }}>
                 All themes
               </button>
               <span aria-hidden="true">/</span>
@@ -139,8 +154,9 @@ export default function App() {
             <p className="empty">No one matches these filters. Try removing one, or choose Clear all.</p>
           ) : view === 'themes' ? (
             focusTheme
-              ? <ThemeFocus theme={focusTheme} people={visible.faculty} themes={network.themes}
-                selectedId={selectedId} onSelect={setSelectedId} onOpenTheme={openTheme} />
+              ? <ThemeFocus theme={focusTheme} people={visible.faculty} themes={network.themes} themeCounts={themeCounts}
+                selectedId={selectedId} pairTheme={pairName} onSelect={setSelectedId}
+                onSelectPair={(name) => { setSelectedId(null); setShareOpen(false); setPairName(name) }} />
               : <ThemeOverview themes={network.themes} counts={themeCounts} onOpenTheme={openTheme} />
           ) : view === 'everyone' ? (
             <>
@@ -176,7 +192,7 @@ export default function App() {
         {!shareOpen && (
           <DetailPanel item={panelItem} visibleFaculty={visible.faculty} themes={network.themes} links={network.links}
             onSelect={setSelectedId} onOpenTheme={openTheme}
-            onClose={() => (selectedPerson ? setSelectedId(null) : setThemePanelOpen(false))} />
+            onClose={() => (selectedPerson ? setSelectedId(null) : pairName ? setPairName(null) : setThemePanelOpen(false))} />
         )}
       </main>
     </div>

@@ -296,6 +296,41 @@ a { color: var(--link); text-underline-offset: 2px; }
 .legend-dot.research { background: var(--mist); border: 1.5px solid var(--person); }
 .legend-dot.category { background: var(--swatch); }
 
+/* ---------- Overlap between two themes ---------- */
+
+.focus-wrap { position: relative; width: 100%; height: 100%; }
+
+.overlap-card {
+  position: absolute;
+  top: 0.75rem;
+  left: 1.25rem;
+  z-index: 2;
+  width: min(17rem, 45%);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.75rem 0.9rem;
+  box-shadow: 0 10px 28px -18px rgb(22 48 43 / 0.45);
+  pointer-events: none;
+  font-size: var(--step--1);
+}
+
+.overlap-card.low { top: auto; bottom: 0.75rem; }
+.overlap-title { font-weight: 900; font-size: var(--step-0); line-height: 1.25; }
+.overlap-card dl, .overlap-facts { margin: 0.6rem 0 0; }
+.overlap-card dl { display: grid; grid-template-columns: 1fr auto; gap: 0.15rem 0.75rem; }
+.overlap-card dl div { display: contents; }
+.overlap-card dt { color: var(--ink-soft); }
+.overlap-card dd, .overlap-facts dd { margin: 0; font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
+.overlap-hint { margin-top: 0.5rem; color: var(--ink-soft); }
+
+.overlap-bar { display: flex; gap: 2px; height: 1.1rem; margin-top: 0.6rem; border-radius: 4px; overflow: hidden; }
+.overlap-part { display: flex; align-items: center; justify-content: center; font-size: 0.6875rem; font-weight: 700; min-width: 2px; }
+.overlap-part.only-a { background: var(--strength-weak); color: var(--ink); }
+.overlap-part.both { background: var(--strength-strong); color: white; }
+.overlap-part.only-b { background: var(--strength-medium); color: var(--ink); }
+.detail .overlap-bar { margin-top: 0.9rem; }
+
 /* ---------- List ---------- */
 
 .list { overflow: auto; padding: 1rem 1.5rem 2rem; }

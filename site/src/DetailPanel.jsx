@@ -1,5 +1,6 @@
 import { CATEGORY_COLORS, profileLink } from './data.js'
 import { THEME_DESCRIPTIONS } from './themeInfo.js'
+import { OverlapBar } from './ThemeFocus.jsx'
 
 function sourceText(sources) {
   const names = {
@@ -16,6 +17,43 @@ function sourceText(sources) {
 export default function DetailPanel({ item, visibleFaculty, themes, links = [], onSelect, onOpenTheme, onClose }) {
   if (!item) return null
   const themeCategory = new Map(themes.map((t) => [t.name, t.category]))
+
+  if (item.kind === 'pair') {
+    const { a, b, totalB } = item
+    const inA = visibleFaculty.filter((p) => p.themes.includes(a.name))
+    const both = inA.filter((p) => p.themes.includes(b.name))
+      .sort((x, y) => x.name.split(' ').at(-1).localeCompare(y.name.split(' ').at(-1)))
+    const onlyA = inA.length - both.length
+    const onlyB = Math.max(0, totalB - both.length)
+    return (
+      <aside className="detail" aria-label={`${a.name} and ${b.name}`}>
+        <button type="button" className="close" onClick={onClose} aria-label={`Back to ${a.name}`}>×</button>
+        <p className="detail-category">Where two themes meet</p>
+        <h2>{a.name} and {b.name}</h2>
+        <OverlapBar a={a.name} b={b.name} onlyA={onlyA} both={both.length} onlyB={onlyB} />
+        <dl className="facts overlap-facts">
+          <dt>Work on both</dt><dd>{both.length}</dd>
+          <dt>Work on either</dt><dd>{onlyA + both.length + onlyB}</dd>
+          <dt>Only {a.name}</dt><dd>{onlyA}</dd>
+          <dt>Only {b.name}</dt><dd>{onlyB}</dd>
+        </dl>
+        <p className="profile-link">
+          <button type="button" className="text-button" onClick={() => onOpenTheme(b.name)}>Open {b.name} instead</button>
+        </p>
+        <h3>{both.length} {both.length === 1 ? 'person works' : 'people work'} on both</h3>
+        <ul className="people">
+          {both.map((p) => (
+            <li key={p.id}>
+              <button type="button" className="person-link" onClick={() => onSelect(p.id)}>
+                <span>{p.name}</span>
+                {p.college && <span className="person-college">{p.college}</span>}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    )
+  }
 
   if (item.kind === 'theme') {
     const people = visibleFaculty.filter((p) => p.themes.includes(item.name))

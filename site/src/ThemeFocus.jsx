@@ -21,7 +21,7 @@ const polar = (angle, r) => [Math.cos(angle) * r, Math.sin(angle) * r]
 
 // One theme in the middle, its people in rings around it, and the other themes those people
 // also work on around the outside. People are ordered so that those who share a second theme sit together.
-export default function ThemeFocus({ theme, people, themes, selectedId, onSelect, onOpenTheme }) {
+export default function ThemeFocus({ theme, people, themes, themeCounts, selectedId, pairTheme, onSelect, onSelectPair }) {
   const [hover, setHover] = useState(null)
   const themeByName = useMemo(() => new Map(themes.map((t) => [t.name, t])), [themes])
 
@@ -84,14 +84,39 @@ export default function ThemeFocus({ theme, people, themes, selectedId, onSelect
   const color = CATEGORY_COLORS[theme.category]
 
   const focusPerson = hover?.kind === 'person' ? hover.id : selectedId
-  const focusTheme = hover?.kind === 'theme' ? hover.id : null
+  // A clicked theme stays highlighted until the panel is closed; hovering another previews it
+  const focusTheme = hover?.kind === 'theme' ? hover.id : (!hover && pairTheme) || null
   const isActive = (dot) => (focusPerson ? dot.person.id === focusPerson : focusTheme ? dot.person.themes.includes(focusTheme) : false)
   const anyFocus = Boolean(focusPerson || focusTheme)
 
   const centerLines = wrapLabel(theme.name, 14)
   const anchor = (angle) => (Math.cos(angle) > 0.25 ? 'start' : Math.cos(angle) < -0.25 ? 'end' : 'middle')
 
+  const cardTheme = hover?.kind === 'theme' ? hover.id : null
+  const card = cardTheme && (() => {
+    const both = satByName.get(cardTheme)?.count ?? 0
+    const a = people.length
+    const b = themeCounts.get(cardTheme) ?? both
+    // Keep the card away from the theme being hovered: bottom corner for themes in the top half
+    const low = (satByName.get(cardTheme)?.y ?? 0) < 0
+    return { name: cardTheme, both, either: a + b - both, onlyA: a - both, onlyB: b - both, low }
+  })()
+
   return (
+    <div className="focus-wrap">
+    {card && (
+      <div className={`overlap-card${card.low ? ' low' : ''}`} role="status">
+        <p className="overlap-title">{theme.name} and {card.name}</p>
+        <OverlapBar a={theme.name} b={card.name} onlyA={card.onlyA} both={card.both} onlyB={card.onlyB} />
+        <dl>
+          <div><dt>Work on both</dt><dd>{card.both}</dd></div>
+          <div><dt>Work on either</dt><dd>{card.either}</dd></div>
+          <div><dt>Only {theme.name}</dt><dd>{card.onlyA}</dd></div>
+          <div><dt>Only {card.name}</dt><dd>{card.onlyB}</dd></div>
+        </dl>
+        <p className="overlap-hint">Click {card.name} to see who works on both.</p>
+      </div>
+    )}
     <svg className="focus" viewBox={`${-extentX} ${-extentY} ${extentX * 2} ${extentY * 2}`}
       role="group" aria-label={`${theme.name}: ${people.length} people, and the other themes they work on`}>
       <circle r={INNER + (rings - 1) * RING_GAP + 14} className="ring-band" style={{ fill: color }} />
@@ -142,11 +167,11 @@ export default function ThemeFocus({ theme, people, themes, selectedId, onSelect
         const dimmed = anyFocus && !(focusTheme === s.name || (focusPerson && dots.find((d) => d.person.id === focusPerson)?.person.themes.includes(s.name)))
         return (
           <g key={s.id} transform={`translate(${s.x}, ${s.y})`} className={`satellite${dimmed ? ' dimmed' : ''}`}
-            role="button" tabIndex="0" aria-label={`${s.name}: ${s.count} of these people also work on it. Open this theme.`}
-            onClick={() => onOpenTheme(s.name)} onKeyDown={activate(() => onOpenTheme(s.name))}
+            role="button" tabIndex="0" aria-label={`${s.name}: ${s.count} people work on both ${theme.name} and ${s.name}. Show who.`}
+            onClick={() => onSelectPair(s.name)} onKeyDown={activate(() => onSelectPair(s.name))}
             onMouseEnter={() => setHover({ kind: 'theme', id: s.name })} onMouseLeave={() => setHover(null)}
             onFocus={() => setHover({ kind: 'theme', id: s.name })} onBlur={() => setHover(null)}>
-            <title>{`${s.count} also work on ${s.name}. Click to open it.`}</title>
+            <title>{`${s.count} work on both. Click to see who.`}</title>
             <circle r={s.r} style={{ fill: CATEGORY_COLORS[s.category] }} />
             <text x={lx} y={ly} textAnchor={a} dy={Math.sin(s.angle) > 0.5 ? '0.9em' : Math.sin(s.angle) < -0.5 ? '-0.2em' : '0.35em'}
               className="satellite-name">
@@ -171,5 +196,19 @@ export default function ThemeFocus({ theme, people, themes, selectedId, onSelect
         return <text className="hover-name" x={x} y={y} textAnchor={anchor(d.angle + Math.PI)} dy="0.35em">{d.person.name}</text>
       })()}
     </svg>
+    </div>
+  )
+}
+
+// Three-part bar: only the first theme, both, only the second. Widths are shares of everyone in either.
+export function OverlapBar({ a, b, onlyA, both, onlyB }) {
+  const total = Math.max(1, onlyA + both + onlyB)
+  const part = (n, cls, label) => n > 0 && (
+    <span className={`overlap-part ${cls}`} style={{ flexGrow: n }} title={`${label}: ${n}`}>{n / total >= 0.12 ? n : ''}</span>
+  )
+  return (
+    <div className="overlap-bar" role="img" aria-label={`Only ${a}: ${onlyA}. Both: ${both}. Only ${b}: ${onlyB}.`}>
+      {part(onlyA, 'only-a', `Only ${a}`)}{part(both, 'both', 'Both')}{part(onlyB, 'only-b', `Only ${b}`)}
+    </div>
   )
 }
