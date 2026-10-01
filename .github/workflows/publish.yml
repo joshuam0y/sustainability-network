@@ -78,6 +78,7 @@ jobs:
         working-directory: site
         run: |
           npm ci
+          node scripts/check-layout.mjs
           npm run build
 
       - uses: actions/configure-pages@v5

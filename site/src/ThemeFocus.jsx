@@ -1,11 +1,8 @@
 import { useMemo, useState } from 'react'
 import { CATEGORY_COLORS } from './data.js'
 import { wrapLabel } from './svgText.js'
+import { DOT, INNER, RING_GAP, dotPosition, ringPlacement } from './ringLayout.js'
 
-const DOT = 4.6
-const DOT_SPACING = 13
-const RING_GAP = 15
-const INNER = 150
 
 function activate(handler) {
   return (e) => {
@@ -55,16 +52,14 @@ export default function ThemeFocus({ theme, people, themes, themeCounts, selecte
     const norm = (a) => ((a + Math.PI / 2) % TAU + TAU) % TAU
     const sorted = [...people].map((p) => ({ p, a: norm(target(p)) })).sort((a, b) => a.a - b.a || a.p.name.localeCompare(b.p.name))
 
-    const rings = Math.max(1, Math.ceil((sorted.length * DOT_SPACING) / (TAU * (INNER + RING_GAP))))
+    const { rings } = ringPlacement(sorted.length)
     // Shift the whole ring so people line up with their themes as well as possible
     const offset = sorted.length === 0 ? 0 : Math.atan2(
       sorted.reduce((s, { a }, i) => s + Math.sin(a - (i / sorted.length) * TAU), 0),
       sorted.reduce((s, { a }, i) => s + Math.cos(a - (i / sorted.length) * TAU), 0),
     )
     const dots = sorted.map(({ p }, i) => {
-      const angle = -Math.PI / 2 + offset + (i / sorted.length) * TAU
-      const r = INNER + (i % rings) * RING_GAP
-      const [x, y] = polar(angle, r)
+      const { x, y, angle } = dotPosition(i, sorted.length, offset)
       return { person: p, x, y, angle }
     })
 
