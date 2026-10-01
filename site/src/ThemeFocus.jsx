@@ -17,6 +17,10 @@ function activate(handler) {
 }
 
 const TAU = Math.PI * 2
+// Line spacing of satellite labels, in pixels (names are 15px, counts 13px)
+const NAME_LINE = 17
+const COUNT_LINE = 16
+const anchor = (angle) => (Math.cos(angle) > 0.25 ? 'start' : Math.cos(angle) < -0.25 ? 'end' : 'middle')
 const polar = (angle, r) => [Math.cos(angle) * r, Math.sin(angle) * r]
 
 // One theme in the middle, its people in rings around it, and the other themes those people
@@ -82,6 +86,7 @@ export default function ThemeFocus({ theme, people, themes, themeCounts, selecte
   const extentX = outer + 170
   const extentY = outer + 100
   const color = CATEGORY_COLORS[theme.category]
+  const labels = useMemo(() => placeLabels(satellites, anchor), [satellites])
 
   const focusPerson = hover?.kind === 'person' ? hover.id : selectedId
   // A clicked theme stays highlighted until the panel is closed; hovering another previews it
@@ -90,7 +95,6 @@ export default function ThemeFocus({ theme, people, themes, themeCounts, selecte
   const anyFocus = Boolean(focusPerson || focusTheme)
 
   const centerLines = wrapLabel(theme.name, 14)
-  const anchor = (angle) => (Math.cos(angle) > 0.25 ? 'start' : Math.cos(angle) < -0.25 ? 'end' : 'middle')
 
   const cardTheme = hover?.kind === 'theme' ? hover.id : null
   const card = cardTheme && (() => {
@@ -162,8 +166,7 @@ export default function ThemeFocus({ theme, people, themes, themeCounts, selecte
       </g>
 
       {satellites.map((s) => {
-        const [lx, ly] = polar(s.angle, s.r + 10)
-        const a = anchor(s.angle)
+        const { a, lx, ly, firstLine } = labels.get(s.name)
         const dimmed = anyFocus && !(focusTheme === s.name || (focusPerson && dots.find((d) => d.person.id === focusPerson)?.person.themes.includes(s.name)))
         return (
           <g key={s.id} transform={`translate(${s.x}, ${s.y})`} className={`satellite${dimmed ? ' dimmed' : ''}`}
@@ -173,10 +176,9 @@ export default function ThemeFocus({ theme, people, themes, themeCounts, selecte
             onFocus={() => setHover({ kind: 'theme', id: s.name })} onBlur={() => setHover(null)}>
             <title>{`${s.count} work on both. Click to see who.`}</title>
             <circle r={s.r} style={{ fill: CATEGORY_COLORS[s.category] }} />
-            <text x={lx} y={ly} textAnchor={a} dy={Math.sin(s.angle) > 0.5 ? '0.9em' : Math.sin(s.angle) < -0.5 ? '-0.2em' : '0.35em'}
-              className="satellite-name">
-              {s.lines.map((line, i) => <tspan key={line} x={lx} dy={i === 0 ? undefined : '1.15em'}>{line}</tspan>)}
-              <tspan x={lx} dy="1.2em" className="satellite-count">{s.count} shared</tspan>
+            <text x={lx} y={ly + firstLine} textAnchor={a} className="satellite-name">
+              {s.lines.map((line, i) => <tspan key={line} x={lx} dy={i === 0 ? undefined : NAME_LINE}>{line}</tspan>)}
+              <tspan x={lx} dy={COUNT_LINE} className="satellite-count">{s.count} shared</tspan>
             </text>
           </g>
         )
@@ -211,4 +213,44 @@ export function OverlapBar({ a, b, onlyA, both, onlyB }) {
       {part(onlyA, 'only-a', `Only ${a}`)}{part(both, 'both', 'Both')}{part(onlyB, 'only-b', `Only ${b}`)}
     </div>
   )
+}
+
+// Labels sit below circles in the bottom part of the ring, above the one at the very top, and beside all
+// others, so none runs into its own circle. Then labels that would still touch a neighbor are nudged apart.
+function placeLabels(satellites, anchorFor) {
+  const placed = satellites.map((s) => {
+    const a = anchorFor(s.angle)
+    const height = (s.lines.length - 1) * NAME_LINE + COUNT_LINE
+    const below = Math.sin(s.angle) > 0.5
+    const side = !below && a !== 'middle'
+    const lx = side ? Math.sign(Math.cos(s.angle)) * (s.r + 8) : below ? Math.cos(s.angle) * (s.r + 10) : 0
+    const ly = side ? 0 : below ? Math.sin(s.angle) * (s.r + 10) : -(s.r + 6)
+    const firstLine = side ? 4 - height / 2 : below ? 14 : -4 - height
+    // Rough box in drawing coordinates, from the longest line at about 9px per character, a little generous
+    const width = Math.max(...s.lines.map((l) => l.length)) * 9.3
+    const x0 = s.x + lx - (a === 'end' ? width : a === 'middle' ? width / 2 : 0)
+    return { s, a, lx, ly, firstLine, place: side ? 'side' : below ? 'below' : 'above', x0, x1: x0 + width, top: s.y + ly + firstLine - 13, bottom: s.y + ly + firstLine + height + 3 }
+  })
+  for (let pass = 0; pass < 40; pass++) {
+    let moved = false
+    for (let i = 0; i < placed.length; i++) {
+      for (let j = i + 1; j < placed.length; j++) {
+        const p = placed[i]
+        const q = placed[j]
+        if (p.x0 >= q.x1 || q.x0 >= p.x1) continue
+        const overlap = Math.min(p.bottom, q.bottom) - Math.max(p.top, q.top) + 6
+        if (overlap <= 0) continue
+        // Push the higher label up and the lower one down, but never back toward its own circle
+        const [up, down] = p.top < q.top ? [p, q] : [q, p]
+        const canUp = up.place !== 'below'
+        const canDown = down.place !== 'above'
+        if (!canUp && !canDown) continue
+        const share = canUp && canDown ? overlap / 2 : overlap
+        for (const [l, d] of [[up, canUp ? -share : 0], [down, canDown ? share : 0]]) { l.firstLine += d; l.top += d; l.bottom += d }
+        moved = true
+      }
+    }
+    if (!moved) break
+  }
+  return new Map(placed.map((p) => [p.s.name, p]))
 }

@@ -27,6 +27,9 @@ export default function CoursePanel({ course, programById, contact, onSelectProg
       )}
       <ThemeTags themes={course.themes} />
       <p className="course-description">{course.description}</p>
+      <p className="profile-link">
+        <a href={`https://catalog.northeastern.edu/search/?P=${encodeURIComponent(course.code)}`} target="_blank" rel="noreferrer">See it in the course catalog</a>
+      </p>
       <Instructors instructors={course.instructors} />
 
       <h3>Required by {required.length} {required.length === 1 ? 'program' : 'programs'}</h3>
