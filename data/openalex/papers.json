@@ -1073,6 +1073,36 @@
   ]
  },
  {
+  "id": "W7164028579",
+  "title": "An optimisation of power system load forecasting driven by deep learning model",
+  "year": 2026,
+  "url": "https://doi.org/10.1504/ijbidm.2026.10079069",
+  "themes": [
+   "Decarbonization",
+   "Future Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5138234618",
+    "name": "Jiahui Zhang",
+    "rawName": "Jiahui Zhang",
+    "orcid": null
+   },
+   {
+    "id": "A5105578786",
+    "name": "Detao Zou",
+    "rawName": "Detao Zou",
+    "orcid": "https://orcid.org/0009-0006-5605-9257"
+   },
+   {
+    "id": "A5138243948",
+    "name": "Pengyuan Zhao",
+    "rawName": "Pengyuan Zhao",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W7165107668",
   "title": "An optimisation of power system load forecasting driven by deep learning model",
   "year": 2026,
@@ -1505,6 +1535,24 @@
   ]
  },
  {
+  "id": "W7154302621",
+  "title": "CLASP: Closed-loop Asynchronous Spatial Perception for Open-vocabulary Desktop Object Grasping",
+  "year": 2026,
+  "url": "https://doi.org/10.48550/arxiv.2604.11320",
+  "themes": [
+   "Future Thinking",
+   "Sustainable Food Systems"
+  ],
+  "authors": [
+   {
+    "id": "A5133583617",
+    "name": "Xiaoyao Huang",
+    "rawName": "Huang, Xiaoyao",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W7162507291",
   "title": "Carbon Reduction Potential Evaluation of Data Centers Considering Dynamic Carbon Emission Factors",
   "year": 2026,
@@ -1601,6 +1649,23 @@
     "name": "Ravi Sundaram",
     "rawName": "Ravi Sundaram",
     "orcid": null
+   }
+  ]
+ },
+ {
+  "id": "W7168891459",
+  "title": "Cepstral coefficients for real-time recognition of known and unknown wind turbine damage and power-generation states",
+  "year": 2026,
+  "url": "https://doi.org/10.1016/j.renene.2026.126182",
+  "themes": [
+   "Decarbonization"
+  ],
+  "authors": [
+   {
+    "id": "A5050704714",
+    "name": "Eleonora Maria Tronci",
+    "rawName": "Eleonora Maria Tronci",
+    "orcid": "https://orcid.org/0000-0003-4609-1078"
    }
   ]
  },
@@ -2973,7 +3038,7 @@
     "id": "A5108047889",
     "name": "Yi-Xiang Wang",
     "rawName": "Jie Wang",
-    "orcid": "https://orcid.org/0000-0001-5697-0717"
+    "orcid": "https://orcid.org/0000-0002-5246-5497"
    },
    {
     "id": "A5113139080",
@@ -4576,6 +4641,24 @@
   ]
  },
  {
+  "id": "W7170039375",
+  "title": "Hybrid physics-based and data-driven digital twinning of a 6 MW offshore wind turbine",
+  "year": 2026,
+  "url": "https://doi.org/10.1016/j.oceaneng.2026.127075",
+  "themes": [
+   "Decarbonization",
+   "Future Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5050704714",
+    "name": "Eleonora Maria Tronci",
+    "rawName": "Eleonora M. Tronci",
+    "orcid": "https://orcid.org/0000-0003-4609-1078"
+   }
+  ]
+ },
+ {
   "id": "W7139044633",
   "title": "Identifying Key Variables Influencing User Satisfaction in Urban Waterfront Greenways: A Case Study of Shenyang, China",
   "year": 2026,
@@ -4741,6 +4824,23 @@
   ]
  },
  {
+  "id": "W7160121941",
+  "title": "Influence of span-wise turbulence correlation on the flow-induced loads and the stochastic stability of wind turbine blades",
+  "year": 2026,
+  "url": "https://doi.org/10.1016/j.jfluidstructs.2026.104594",
+  "themes": [
+   "Decarbonization"
+  ],
+  "authors": [
+   {
+    "id": "A5040597886",
+    "name": "Luca Caracoglia",
+    "rawName": "Luca Caracoglia",
+    "orcid": "https://orcid.org/0000-0002-4783-2600"
+   }
+  ]
+ },
+ {
   "id": "W7155414717",
   "title": "Integrated Multiscale Simulation System for Analyzing Restoration of Barrier Islands",
   "year": 2026,
@@ -4842,6 +4942,24 @@
   ]
  },
  {
+  "id": "W7163682291",
+  "title": "Intercomparison of Machine Learning Algorithms for Remote Sensing-based In-season Crop Mapping",
+  "year": 2026,
+  "url": "https://doi.org/10.48550/arxiv.2606.05731",
+  "themes": [
+   "Future Thinking",
+   "Sustainable Food Systems"
+  ],
+  "authors": [
+   {
+    "id": "A5106580909",
+    "name": "August Posch",
+    "rawName": "Posch, August",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W7167710722",
   "title": "Intergenerational Spillovers of Environmental Attitudes and Behaviors",
   "year": 2026,
@@ -4924,6 +5042,23 @@
     "name": "Yun Yu",
     "rawName": "Yun Yu",
     "orcid": "https://orcid.org/0000-0002-8785-5073"
+   }
+  ]
+ },
+ {
+  "id": "W7170073278",
+  "title": "Isosbestic points in time resolved SAXS: from spectroscopic analogy to model free structural markers during colloidal gelation",
+  "year": 2026,
+  "url": "https://doi.org/10.48550/arxiv.2607.18954",
+  "themes": [
+   "Biosphere"
+  ],
+  "authors": [
+   {
+    "id": "A5055980067",
+    "name": "Safa Jamali",
+    "rawName": "Jamali, Safa",
+    "orcid": "https://orcid.org/0000-0001-6031-3779"
    }
   ]
  },
@@ -5978,6 +6113,53 @@
   ]
  },
  {
+  "id": "W7163171229",
+  "title": "Nitrogen form alters root but not leaf endophyte communities and growth traits in a foundation plant",
+  "year": 2026,
+  "url": "https://doi.org/10.1016/j.funeco.2026.101520",
+  "themes": [
+   "Biosphere"
+  ],
+  "authors": [
+   {
+    "id": "A5035386632",
+    "name": "Kylea Rose Garces",
+    "rawName": "Kylea Rose Garces",
+    "orcid": "https://orcid.org/0000-0002-4045-9786"
+   },
+   {
+    "id": "A5093227967",
+    "name": "Mya A. Darsan",
+    "rawName": "Mya A. Darsan",
+    "orcid": "https://orcid.org/0000-0003-4384-2120"
+   },
+   {
+    "id": "A5135511676",
+    "name": "Abigail Moulton",
+    "rawName": "Abigail Moulton",
+    "orcid": "https://orcid.org/0009-0002-0135-3898"
+   },
+   {
+    "id": "A5048990207",
+    "name": "Matthew T. Costa",
+    "rawName": "Matthew T. Costa",
+    "orcid": "https://orcid.org/0000-0002-2323-9343"
+   },
+   {
+    "id": "A5135475889",
+    "name": "Jennifer Bowen",
+    "rawName": "Jennifer L. Bowen",
+    "orcid": "https://orcid.org/0000-0003-0339-1564"
+   },
+   {
+    "id": "A5087344715",
+    "name": "A. Randall Hughes",
+    "rawName": "A. Randall Hughes",
+    "orcid": "https://orcid.org/0000-0001-5072-7310"
+   }
+  ]
+ },
+ {
   "id": "W7130551904",
   "title": "Non-local physics-informed neural networks for forward and inverse solutions of granular flows",
   "year": 2026,
@@ -6247,6 +6429,72 @@
     "name": "Wenqiang Sun",
     "rawName": "Wenqiang Sun",
     "orcid": "https://orcid.org/0000-0002-3885-9254"
+   }
+  ]
+ },
+ {
+  "id": "W7125984751",
+  "title": "Passive Daytime Radiative Cooling Enabled by Bio-Derived Ceramic-Polymer Coatings on Rapid-Curing Fiberglass Casts",
+  "year": 2026,
+  "url": "https://doi.org/10.48550/arxiv.2601.19116",
+  "themes": [
+   "Air and Climate Science",
+   "Waste"
+  ],
+  "authors": [
+   {
+    "id": "A5013071523",
+    "name": "Xuguang Zhang",
+    "rawName": "Zhang, Xuguang",
+    "orcid": "https://orcid.org/0009-0009-2639-4873"
+   },
+   {
+    "id": "A5008099001",
+    "name": "H. Y. Zhang",
+    "rawName": "Zhang, Hexiang",
+    "orcid": "https://orcid.org/0009-0006-1025-8162"
+   },
+   {
+    "id": "A5124092689",
+    "name": "Hanqing Liu",
+    "rawName": "Liu, Hanqing",
+    "orcid": null
+   },
+   {
+    "id": "A5124110251",
+    "name": "Xiaoli Li",
+    "rawName": "Li, Xiaoli",
+    "orcid": null
+   },
+   {
+    "id": "A5124116738",
+    "name": "Mu Ying",
+    "rawName": "Ying, Mu",
+    "orcid": null
+   },
+   {
+    "id": "A5124095227",
+    "name": "Yutian Yang",
+    "rawName": "Yang, Yutian",
+    "orcid": null
+   },
+   {
+    "id": "A5086593478",
+    "name": "Marilyn L. Minus",
+    "rawName": "Minus, Marilyn L.",
+    "orcid": "https://orcid.org/0000-0003-0103-8273"
+   },
+   {
+    "id": "A5108979162",
+    "name": "Ming Su",
+    "rawName": "Su, Ming",
+    "orcid": "https://orcid.org/0000-0001-9821-1268"
+   },
+   {
+    "id": "A5124084735",
+    "name": "Yi Zheng",
+    "rawName": "Zheng, Yi",
+    "orcid": null
    }
   ]
  },
@@ -8032,6 +8280,23 @@
   ]
  },
  {
+  "id": "W7138855794",
+  "title": "The Geometry of Quasi-Cycles: How Stoichiometric Covariance Alters Pre-Bifurcation Signatures",
+  "year": 2026,
+  "url": "https://doi.org/10.48550/arxiv.2603.15662",
+  "themes": [
+   "Biosphere"
+  ],
+  "authors": [
+   {
+    "id": "A5129772403",
+    "name": "Louis Shuo Wang",
+    "rawName": "Wang, Louis Shuo",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W7169535204",
   "title": "The Labor of Meaning: Constructing and Protecting Meaningful Work Amid Persistent Constraints",
   "year": 2026,
@@ -8358,9 +8623,21 @@
     "orcid": null
    },
    {
+    "id": "A5153601040",
+    "name": "Qi Liu",
+    "rawName": "Qi Liu",
+    "orcid": null
+   },
+   {
     "id": "A5128529157",
     "name": "Xin-Yue Zhang",
     "rawName": "Xin-Yue Zhang",
+    "orcid": null
+   },
+   {
+    "id": "A5153604688",
+    "name": "Yi Lu",
+    "rawName": "Yi Lu",
     "orcid": null
    },
    {
@@ -8567,6 +8844,29 @@
   ]
  },
  {
+  "id": "W7214654863",
+  "title": "Uneven attention to climate tipping points",
+  "year": 2026,
+  "url": "https://doi.org/10.1073/pnas.2618666123",
+  "themes": [
+   "Air and Climate Science"
+  ],
+  "authors": [
+   {
+    "id": "A5014550523",
+    "name": "Heming Wang",
+    "rawName": "Heming Wang",
+    "orcid": "https://orcid.org/0000-0003-3487-0912"
+   },
+   {
+    "id": "A5108312555",
+    "name": "B. Chen",
+    "rawName": "Bingyu Chen",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W7135200487",
   "title": "Using ML for the prediction of flood-related emergency calls",
   "year": 2026,
@@ -8721,6 +9021,30 @@
   ]
  },
  {
+  "id": "W7166130042",
+  "title": "Wave attenuation through a saltmarsh: Heterogeneous vegetation characteristics and seasonal variability",
+  "year": 2026,
+  "url": "https://doi.org/10.1016/j.coastaleng.2026.105099",
+  "themes": [
+   "Biosphere",
+   "Future Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5139414463",
+    "name": "Qin Chen",
+    "rawName": "Qin Chen",
+    "orcid": null
+   },
+   {
+    "id": "A5139408931",
+    "name": "Ling Zhu",
+    "rawName": "Ling Zhu",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W7165153950",
   "title": "What Kind of Medium is Architecture? Toward Ecological Computation",
   "year": 2026,
@@ -8758,6 +9082,29 @@
     "name": "Yannan Zhang",
     "rawName": "Yannan Zhang",
     "orcid": "https://orcid.org/0009-0003-4699-4362"
+   }
+  ]
+ },
+ {
+  "id": "W7155563825",
+  "title": "climt-paraformer: Stable Emulation of Convective Parameterization using a Temporal Memory-aware Transformer",
+  "year": 2026,
+  "url": "https://doi.org/10.48550/arxiv.2604.21085",
+  "themes": [
+   "Air and Climate Science"
+  ],
+  "authors": [
+   {
+    "id": "A5134560653",
+    "name": "Shuochen Wang",
+    "rawName": "Wang, Shuochen",
+    "orcid": null
+   },
+   {
+    "id": "A5064658255",
+    "name": "Auroop Ratan Ganguly",
+    "rawName": "Ganguly, Auroop R.",
+    "orcid": "https://orcid.org/0000-0002-4292-4856"
    }
   ]
  },
@@ -9209,6 +9556,27 @@
     "name": "Thomas Stephen Stracensky",
     "rawName": "Thomas Stracensky",
     "orcid": "https://orcid.org/0000-0002-2408-0063"
+   }
+  ]
+ },
+ {
+  "id": "W4409569155",
+  "title": "Advancing the circular economy of healthcare plastics: A systematic literature review",
+  "year": 2025,
+  "url": "https://doi.org/10.1016/j.resconrec.2025.108317",
+  "themes": [
+   "Economics",
+   "Interpersonal Competency",
+   "Local and National Governance",
+   "Physical Well-being",
+   "Waste"
+  ],
+  "authors": [
+   {
+    "id": "A5063597830",
+    "name": "Matthew J. Eckelman",
+    "rawName": "Matthew J Eckelman",
+    "orcid": "https://orcid.org/0000-0002-0595-3682"
    }
   ]
  },
@@ -10565,35 +10933,6 @@
   ]
  },
  {
-  "id": "W4413469829",
-  "title": "Critical Thresholds and Marginal Effects Analysis of Risk-Health Factors of Ecosystem Services in Shenyang Based on the Ecological Security Model",
-  "year": 2025,
-  "url": "https://doi.org/10.2139/ssrn.5403314",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5008289090",
-    "name": "Xiaofei Xu",
-    "rawName": "Xiaofei Xu",
-    "orcid": "https://orcid.org/0000-0002-8019-9245"
-   },
-   {
-    "id": "A5011985406",
-    "name": "Chunliang Xiu",
-    "rawName": "Chunliang XIU",
-    "orcid": "https://orcid.org/0000-0002-5762-2818"
-   },
-   {
-    "id": "A5058149622",
-    "name": "Yanpeng Gao",
-    "rawName": "Yanpeng Gao",
-    "orcid": "https://orcid.org/0000-0003-2156-8167"
-   }
-  ]
- },
- {
   "id": "W4413270794",
   "title": "Critical investments in bioregenerative life support systems for bioastronautics and sustainable lunar exploration",
   "year": 2025,
@@ -11399,32 +11738,6 @@
     "name": "Yiannis A. Levendis",
     "rawName": "Yiannis A. Levendis",
     "orcid": "https://orcid.org/0000-0002-8158-2123"
-   }
-  ]
- },
- {
-  "id": "W4414079578",
-  "title": "Energy equity, transitions, and futures: Photovoice insights from Latinx community members in Boston",
-  "year": 2025,
-  "url": "https://doi.org/10.1016/j.erss.2025.104295",
-  "themes": [
-   "Decarbonization",
-   "Equity",
-   "Interpersonal Competency",
-   "Justice"
-  ],
-  "authors": [
-   {
-    "id": "A5021862606",
-    "name": "Johan Arango-Quiroga",
-    "rawName": "Johan Arango-Quiroga",
-    "orcid": "https://orcid.org/0000-0001-7821-2335"
-   },
-   {
-    "id": "A5009980562",
-    "name": "Laura Kuhl",
-    "rawName": "Laura Kuhl",
-    "orcid": "https://orcid.org/0000-0002-1379-9435"
    }
   ]
  },
@@ -12598,6 +12911,23 @@
   ]
  },
  {
+  "id": "W4407313321",
+  "title": "Heat transfer model for temperature-sensing polymer composite EV battery enclosure",
+  "year": 2025,
+  "url": "https://doi.org/10.1016/j.compositesb.2025.112258",
+  "themes": [
+   "Decarbonization"
+  ],
+  "authors": [
+   {
+    "id": "A5050704714",
+    "name": "Eleonora Maria Tronci",
+    "rawName": "Eleonora M. Tronci",
+    "orcid": "https://orcid.org/0000-0003-4609-1078"
+   }
+  ]
+ },
+ {
   "id": "W4413777178",
   "title": "High configuration entropy P2-type Mn-based layered oxide with robust structure and wide-window cycling stability for sodium-ion batteries",
   "year": 2025,
@@ -13020,30 +13350,6 @@
     "name": "Mansoor M. Amiji",
     "rawName": "Mansoor M. Amiji",
     "orcid": "https://orcid.org/0000-0001-6170-881X"
-   }
-  ]
- },
- {
-  "id": "W4408815606",
-  "title": "Influence of Human Activities and Benthic Processes on Water Quality Dynamics in the Plum Island Estuary",
-  "year": 2025,
-  "url": "https://doi.org/10.5194/oos2025-142",
-  "themes": [
-   "Biosphere",
-   "Sustainable Food Systems"
-  ],
-  "authors": [
-   {
-    "id": "A5101493797",
-    "name": "Qi Ye",
-    "rawName": "Qi Ye",
-    "orcid": "https://orcid.org/0009-0002-9034-8010"
-   },
-   {
-    "id": "A5086402813",
-    "name": "Cristina Schultz",
-    "rawName": "Cristina Schultz",
-    "orcid": "https://orcid.org/0000-0003-2006-7053"
    }
   ]
  },
@@ -14744,6 +15050,23 @@
     "name": "Victoria B. Klimkowski",
     "rawName": "Victoria B. Klimkowski",
     "orcid": null
+   }
+  ]
+ },
+ {
+  "id": "W4406634876",
+  "title": "Perceptions and adaptive strategies of artisanal fishers to a changing environment",
+  "year": 2025,
+  "url": "https://doi.org/10.1016/j.rsma.2025.104045",
+  "themes": [
+   "Biosphere"
+  ],
+  "authors": [
+   {
+    "id": "A5050451120",
+    "name": "Jahson Berhane Alemu I",
+    "rawName": "Jahson B. Alemu I",
+    "orcid": "https://orcid.org/0000-0002-6936-2857"
    }
   ]
  },
@@ -16930,6 +17253,23 @@
   ]
  },
  {
+  "id": "W4407021125",
+  "title": "Waste Animal Bone-derived Calcium Phosphate Particles with High Solar Reflectance",
+  "year": 2025,
+  "url": "https://doi.org/10.48550/arxiv.2501.18130",
+  "themes": [
+   "Waste"
+  ],
+  "authors": [
+   {
+    "id": "A5029305216",
+    "name": "Yi Zheng",
+    "rawName": "Zheng, Yi",
+    "orcid": "https://orcid.org/0000-0003-4963-9684"
+   }
+  ]
+ },
+ {
   "id": "W4407113480",
   "title": "Waterfront property owners' shoreline preferences amid salt marsh to mangrove transitions",
   "year": 2025,
@@ -17296,7 +17636,7 @@
     "id": "A5036434338",
     "name": "Yuzhen Dang",
     "rawName": "Yuzhen Dang",
-    "orcid": "https://orcid.org/0009-0003-2025-7225"
+    "orcid": null
    },
    {
     "id": "A5059496516",
@@ -18298,6 +18638,23 @@
     "name": "Álvaro Cuervo-Cazurra",
     "rawName": "Alvaro Cuervo-Cazurra",
     "orcid": "https://orcid.org/0000-0002-1998-4076"
+   }
+  ]
+ },
+ {
+  "id": "W4396572443",
+  "title": "Carbon collusion: Cooperation, competition, and climate obstruction in the global oil and gas extraction network",
+  "year": 2024,
+  "url": "https://doi.org/10.1016/j.enpol.2024.114103",
+  "themes": [
+   "Local and National Governance"
+  ],
+  "authors": [
+   {
+    "id": "A5067925308",
+    "name": "Jennie C. Stephens",
+    "rawName": "Jennie C. Stephens",
+    "orcid": "https://orcid.org/0000-0003-0386-8115"
    }
   ]
  },
@@ -19901,6 +20258,24 @@
   ]
  },
  {
+  "id": "W4393300039",
+  "title": "Eternagram: Probing Player Attitudes in Alternate Climate Scenarios Through a ChatGPT-Driven Text Adventure",
+  "year": 2024,
+  "url": "https://doi.org/10.48550/arxiv.2403.18160",
+  "themes": [
+   "Air and Climate Science",
+   "Future Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5086419321",
+    "name": "Suifang Zhou",
+    "rawName": "Zhou, Suifang",
+    "orcid": "https://orcid.org/0000-0001-5103-580X"
+   }
+  ]
+ },
+ {
   "id": "W4401909663",
   "title": "Evaluating Multiple Oyster Reef Restoration Practices Across Space and Time in Coastal Rhode Island",
   "year": 2024,
@@ -20556,6 +20931,23 @@
     "name": "Stefano Rosa",
     "rawName": "Stefano Rosa",
     "orcid": "https://orcid.org/0000-0003-0856-6351"
+   }
+  ]
+ },
+ {
+  "id": "W4396814901",
+  "title": "Global Scale Self-Supervised Channel Charting with Sensor Fusion",
+  "year": 2024,
+  "url": "https://doi.org/10.48550/arxiv.2405.04357",
+  "themes": [
+   "Sustainable Design"
+  ],
+  "authors": [
+   {
+    "id": "A5042528606",
+    "name": "Florian Kaltenberger",
+    "rawName": "Kaltenberger, Florian",
+    "orcid": "https://orcid.org/0000-0002-3225-3569"
    }
   ]
  },
@@ -21491,6 +21883,25 @@
     "name": "P. James Dennedy‐Frank",
     "rawName": "P. James Dennedy‐Frank",
     "orcid": "https://orcid.org/0000-0001-9148-647X"
+   }
+  ]
+ },
+ {
+  "id": "W4404088497",
+  "title": "LTPNet Integration of Deep Learning and Environmental Decision Support Systems for Renewable Energy Demand Forecasting",
+  "year": 2024,
+  "url": "https://doi.org/10.48550/arxiv.2410.15286",
+  "themes": [
+   "Decarbonization",
+   "Future Thinking",
+   "Strategic Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5103282189",
+    "name": "Yan Zhou",
+    "rawName": "Zhou, Yan",
+    "orcid": "https://orcid.org/0009-0002-0564-0915"
    }
   ]
  },
@@ -24349,6 +24760,47 @@
   ]
  },
  {
+  "id": "W4390647717",
+  "title": "Strong and Highly Switchable Soft Sticky Adhesives",
+  "year": 2024,
+  "url": "https://doi.org/10.48550/arxiv.2401.02002",
+  "themes": [
+   "Waste"
+  ],
+  "authors": [
+   {
+    "id": "A5035342121",
+    "name": "Qianfeng Yin",
+    "rawName": "Yin, Qianfeng",
+    "orcid": null
+   },
+   {
+    "id": "A5093552998",
+    "name": "Yilmaz Arin Manav",
+    "rawName": "Manav, Yilmaz Arin",
+    "orcid": null
+   },
+   {
+    "id": "A5113431567",
+    "name": "Yichen Wan",
+    "rawName": "Wan, Yichen",
+    "orcid": "https://orcid.org/0009-0005-5747-6063"
+   },
+   {
+    "id": "A5013721686",
+    "name": "Benyamin Davaji",
+    "rawName": "Davaji, Benyamin",
+    "orcid": "https://orcid.org/0000-0002-6375-4120"
+   },
+   {
+    "id": "A5004334120",
+    "name": "Ruobing Bai",
+    "rawName": "Bai, Ruobing",
+    "orcid": "https://orcid.org/0000-0002-5847-0502"
+   }
+  ]
+ },
+ {
   "id": "W4400773204",
   "title": "Structure and Function of Restored and Natural Salt Marshes: Implications for Ecosystem Resilience and Adaptive Potential",
   "year": 2024,
@@ -24534,6 +24986,31 @@
     "name": "David M. J. Lazer",
     "rawName": "David Lazer",
     "orcid": "https://orcid.org/0000-0002-7991-9110"
+   }
+  ]
+ },
+ {
+  "id": "W4395064525",
+  "title": "Surveying Attitudinal Alignment Between Large Language Models Vs. Humans Towards 17 Sustainable Development Goals",
+  "year": 2024,
+  "url": "https://doi.org/10.48550/arxiv.2404.13885",
+  "themes": [
+   "Equity",
+   "International Governance",
+   "Strategic Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5100444188",
+    "name": "Yichi Zhang",
+    "rawName": "Zhang, Yichi",
+    "orcid": "https://orcid.org/0000-0002-4292-6835"
+   },
+   {
+    "id": "A5100326577",
+    "name": "Yuwei Zhang",
+    "rawName": "Zhang, Yuwei",
+    "orcid": "https://orcid.org/0000-0002-3260-6782"
    }
   ]
  },
@@ -24786,6 +25263,35 @@
     "name": "Fuhui Wang",
     "rawName": "Fuhui Wang",
     "orcid": null
+   }
+  ]
+ },
+ {
+  "id": "W4404347009",
+  "title": "The Influence of Ridership Weighting on Targeting and Recovery Strategies for Urban Rail Rapid Transit Systems",
+  "year": 2024,
+  "url": "https://doi.org/10.48550/arxiv.2410.23688",
+  "themes": [
+   "Air and Climate Science"
+  ],
+  "authors": [
+   {
+    "id": "A5106580909",
+    "name": "August Posch",
+    "rawName": "Posch, August",
+    "orcid": null
+   },
+   {
+    "id": "A5021409251",
+    "name": "Jack R. Watson",
+    "rawName": "Watson, Jack",
+    "orcid": null
+   },
+   {
+    "id": "A5064658255",
+    "name": "Auroop Ratan Ganguly",
+    "rawName": "Ganguly, Auroop",
+    "orcid": "https://orcid.org/0000-0002-4292-4856"
    }
   ]
  },
@@ -25205,6 +25711,36 @@
     "name": "Vivan Clements",
     "rawName": "Vivan Clements",
     "orcid": null
+   }
+  ]
+ },
+ {
+  "id": "W4393027724",
+  "title": "Toward Sustainable GenAI using Generation Directives for Carbon-Friendly Large Language Model Inference",
+  "year": 2024,
+  "url": "https://doi.org/10.48550/arxiv.2403.12900",
+  "themes": [
+   "Biosphere",
+   "Life-cycle Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5100733204",
+    "name": "Baolin Li",
+    "rawName": "Li, Baolin",
+    "orcid": "https://orcid.org/0000-0001-9778-1023"
+   },
+   {
+    "id": "A5102690379",
+    "name": "Yankai Jiang",
+    "rawName": "Jiang, Yankai",
+    "orcid": "https://orcid.org/0009-0006-9968-7560"
+   },
+   {
+    "id": "A5074406596",
+    "name": "Devesh Tiwari",
+    "rawName": "Tiwari, Devesh",
+    "orcid": "https://orcid.org/0000-0002-7253-2458"
    }
   ]
  },
@@ -25928,6 +26464,36 @@
   ]
  },
  {
+  "id": "W4387559082",
+  "title": "A Nationwide Multi-Location Multi-Resource Stochastic Programming Based Energy Planning Framework",
+  "year": 2023,
+  "url": "https://doi.org/10.48550/arxiv.2310.04441",
+  "themes": [
+   "Decarbonization",
+   "Future Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5053012035",
+    "name": "Razan A. H. Al-Lawati",
+    "rawName": "Al-Lawati, Razan A. H.",
+    "orcid": "https://orcid.org/0000-0001-6499-8875"
+   },
+   {
+    "id": "A5078145555",
+    "name": "Tasnim Ibn Faiz",
+    "rawName": "Faiz, Tasnim Ibn",
+    "orcid": "https://orcid.org/0000-0003-1987-9863"
+   },
+   {
+    "id": "A5066395624",
+    "name": "Md. Noor‐E‐Alam",
+    "rawName": "Noor-E-Alam, Md.",
+    "orcid": "https://orcid.org/0000-0001-5353-9710"
+   }
+  ]
+ },
+ {
   "id": "W4317490307",
   "title": "A Parallel Feature Selection Method Based on NMI-XGBoost and Distance Correlation for Typhoon Trajectory Prediction",
   "year": 2023,
@@ -26053,6 +26619,25 @@
     "name": "Ali Abur",
     "rawName": "Ali Abur",
     "orcid": "https://orcid.org/0000-0002-8751-9125"
+   }
+  ]
+ },
+ {
+  "id": "W4385261365",
+  "title": "A Vision for Cleaner Rivers: Harnessing Snapshot Hyperspectral Imaging to Detect Macro-Plastic Litter",
+  "year": 2023,
+  "url": "https://doi.org/10.48550/arxiv.2307.12145",
+  "themes": [
+   "Biosphere",
+   "Future Thinking",
+   "Waste"
+  ],
+  "authors": [
+   {
+    "id": "A5045728989",
+    "name": "Aron Stubbins",
+    "rawName": "Stubbins, Aron",
+    "orcid": "https://orcid.org/0000-0002-3994-1946"
    }
   ]
  },
@@ -26761,23 +27346,6 @@
   ]
  },
  {
-  "id": "W4387723784",
-  "title": "Anyon condensation web and multipartite entanglement in 2D modulated gauge theories",
-  "year": 2023,
-  "url": "https://doi.org/10.48550/arxiv.2310.09490",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5087752109",
-    "name": "Yizhi You",
-    "rawName": "You, Yizhi",
-    "orcid": "https://orcid.org/0000-0002-8115-8672"
-   }
-  ]
- },
- {
   "id": "W4376623297",
   "title": "Application of Biomass as Clean Energy in Magnetized Roasting of Iron Tailings",
   "year": 2023,
@@ -27474,6 +28042,24 @@
     "name": "Luis Alfonso Dau",
     "rawName": "Luis Alfonso Dau",
     "orcid": "https://orcid.org/0000-0001-7369-2544"
+   }
+  ]
+ },
+ {
+  "id": "W4385848851",
+  "title": "Challenges and Opportunities for Second-life Batteries: A Review of Key Technologies and Economy",
+  "year": 2023,
+  "url": "https://doi.org/10.48550/arxiv.2308.06786",
+  "themes": [
+   "Decarbonization",
+   "Future Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5101869803",
+    "name": "Juner Zhu",
+    "rawName": "Zhu, Juner",
+    "orcid": "https://orcid.org/0000-0001-7072-2293"
    }
   ]
  },
@@ -28317,10 +28903,10 @@
   ]
  },
  {
-  "id": "W4393639180",
+  "id": "W4393742797",
   "title": "Data from: Herbivory limits success of vegetation restoration globally",
   "year": 2023,
-  "url": "https://doi.org/10.5281/zenodo.8338052",
+  "url": "https://doi.org/10.5281/zenodo.8338051",
   "themes": [
    "Biosphere"
   ],
@@ -28334,10 +28920,10 @@
   ]
  },
  {
-  "id": "W4393742797",
+  "id": "W4393639180",
   "title": "Data from: Herbivory limits success of vegetation restoration globally",
   "year": 2023,
-  "url": "https://doi.org/10.5281/zenodo.8338051",
+  "url": "https://doi.org/10.5281/zenodo.8338052",
   "themes": [
    "Biosphere"
   ],
@@ -30213,6 +30799,23 @@
   ]
  },
  {
+  "id": "W4313531100",
+  "title": "Individual Path Recommendation Under Public Transit Service Disruptions Considering Behavior Uncertainty",
+  "year": 2023,
+  "url": "https://doi.org/10.48550/arxiv.2301.00916",
+  "themes": [
+   "Decarbonization"
+  ],
+  "authors": [
+   {
+    "id": "A5009464945",
+    "name": "Haris N. Koutsopoulos",
+    "rawName": "Koutsopoulos, Haris N.",
+    "orcid": "https://orcid.org/0000-0003-3830-9794"
+   }
+  ]
+ },
+ {
   "id": "W4362731327",
   "title": "Industrial Ecology and Sustainability",
   "year": 2023,
@@ -31609,6 +32212,25 @@
   ]
  },
  {
+  "id": "W4386793453",
+  "title": "Oceananigans.jl: A model that achieves breakthrough resolution, memory and energy efficiency in global ocean simulations",
+  "year": 2023,
+  "url": "https://doi.org/10.48550/arxiv.2309.06662",
+  "themes": [
+   "Air and Climate Science",
+   "Biosphere",
+   "Future Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5045260326",
+    "name": "Matin Raayai Ardakani",
+    "rawName": "Ardakani, Matin Raayai",
+    "orcid": "https://orcid.org/0000-0002-9221-705X"
+   }
+  ]
+ },
+ {
   "id": "W4361764850",
   "title": "Oil-paper-umbrella-inspired passive radiative cooling using recycled packaging foam",
   "year": 2023,
@@ -31898,6 +32520,29 @@
     "name": "Christopher King",
     "rawName": "Christopher King",
     "orcid": "https://orcid.org/0000-0001-9572-8122"
+   }
+  ]
+ },
+ {
+  "id": "W4322716982",
+  "title": "Phase-Field DeepONet: Physics-informed deep operator neural network for fast simulations of pattern formation governed by gradient flows of free-energy functionals",
+  "year": 2023,
+  "url": "https://doi.org/10.48550/arxiv.2302.13368",
+  "themes": [
+   "Decarbonization"
+  ],
+  "authors": [
+   {
+    "id": "A5100687391",
+    "name": "Wei Li",
+    "rawName": "Li, Wei",
+    "orcid": "https://orcid.org/0000-0002-6937-8234"
+   },
+   {
+    "id": "A5101869803",
+    "name": "Juner Zhu",
+    "rawName": "Zhu, Juner",
+    "orcid": "https://orcid.org/0000-0001-7072-2293"
    }
   ]
  },
@@ -34853,6 +35498,35 @@
   ]
  },
  {
+  "id": "W4225085268",
+  "title": "An Iterative Labeling Method for Annotating Fisheries Imagery",
+  "year": 2022,
+  "url": "https://doi.org/10.48550/arxiv.2204.12934",
+  "themes": [
+   "Biosphere"
+  ],
+  "authors": [
+   {
+    "id": "A5100352605",
+    "name": "Zhiyong Zhang",
+    "rawName": "Zhang, Zhiyong",
+    "orcid": "https://orcid.org/0000-0002-8841-8799"
+   },
+   {
+    "id": "A5066616671",
+    "name": "Pushyami Kaveti",
+    "rawName": "Kaveti, Pushyami",
+    "orcid": "https://orcid.org/0000-0002-2182-7985"
+   },
+   {
+    "id": "A5047246028",
+    "name": "Hanumant Singh",
+    "rawName": "Singh, Hanumant",
+    "orcid": "https://orcid.org/0000-0002-4975-3244"
+   }
+  ]
+ },
+ {
   "id": "W4214895555",
   "title": "An eco‐evolutionary perspective on the humpty‐dumpty effect and community restoration",
   "year": 2022,
@@ -37373,6 +38047,24 @@
   ]
  },
  {
+  "id": "W4306815197",
+  "title": "Global city densities: re-examining urban scaling theory",
+  "year": 2022,
+  "url": "https://doi.org/10.48550/arxiv.2210.08067",
+  "themes": [
+   "Biosphere",
+   "Physical Well-being"
+  ],
+  "authors": [
+   {
+    "id": "A5112033181",
+    "name": "Munik Shrestha",
+    "rawName": "Shrestha, Munik",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W4225388852",
   "title": "Governing sustainable transformations of urban social-ecological-technological systems",
   "year": 2022,
@@ -39314,10 +40006,10 @@
   ]
  },
  {
-  "id": "W4302046807",
+  "id": "W4298340228",
   "title": "Planning for innovation: understanding and analyzing the application of fiscal, regional, and land use planning in the development of innovation clusters",
   "year": 2022,
-  "url": "https://doi.org/10.32920/19750309.v1",
+  "url": "https://doi.org/10.32920/19750309",
   "themes": [
    "Biosphere",
    "Local and National Governance",
@@ -39333,10 +40025,10 @@
   ]
  },
  {
-  "id": "W4298340228",
+  "id": "W4302046807",
   "title": "Planning for innovation: understanding and analyzing the application of fiscal, regional, and land use planning in the development of innovation clusters",
   "year": 2022,
-  "url": "https://doi.org/10.32920/19750309",
+  "url": "https://doi.org/10.32920/19750309.v1",
   "themes": [
    "Biosphere",
    "Local and National Governance",
@@ -40069,6 +40761,23 @@
     "name": "Talia Kaufmann",
     "rawName": "Talia Kaufmann",
     "orcid": null
+   }
+  ]
+ },
+ {
+  "id": "W4221161514",
+  "title": "Searches for Baryon Number Violation in Neutrino Experiments: A White Paper",
+  "year": 2022,
+  "url": "https://doi.org/10.48550/arxiv.2203.08771",
+  "themes": [
+   "Biosphere"
+  ],
+  "authors": [
+   {
+    "id": "A5021943677",
+    "name": "Pran Nath",
+    "rawName": "Nath, P.",
+    "orcid": "https://orcid.org/0000-0001-9879-9751"
    }
   ]
  },
@@ -40829,6 +41538,36 @@
   ]
  },
  {
+  "id": "W4225103626",
+  "title": "Towards A COLREGs Compliant Autonomous Surface Vessel in a Constrained Channel",
+  "year": 2022,
+  "url": "https://doi.org/10.48550/arxiv.2204.12906",
+  "themes": [
+   "Biosphere",
+   "Future Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5062925090",
+    "name": "James Connor Meyers",
+    "rawName": "Meyers, James Connor",
+    "orcid": "https://orcid.org/0009-0004-6345-2538"
+   },
+   {
+    "id": "A5100352581",
+    "name": "Zhiyong Zhang",
+    "rawName": "Zhang, Zhiyong",
+    "orcid": "https://orcid.org/0000-0001-8347-2641"
+   },
+   {
+    "id": "A5047246028",
+    "name": "Hanumant Singh",
+    "rawName": "Singh, Hanumant",
+    "orcid": "https://orcid.org/0000-0002-4975-3244"
+   }
+  ]
+ },
+ {
   "id": "W4310267240",
   "title": "Towards a unified drag coefficient formula for quantifying wave energy reduction by salt marshes",
   "year": 2022,
@@ -41158,6 +41897,23 @@
     "id": "A5016674253",
     "name": "Laurent Lessard",
     "rawName": "Laurent Lessard",
+    "orcid": "https://orcid.org/0000-0001-5389-9361"
+   }
+  ]
+ },
+ {
+  "id": "W4297675888",
+  "title": "Unifying Effects of Direct and Relational Associations for Visual Communication",
+  "year": 2022,
+  "url": "https://doi.org/10.48550/arxiv.2209.02782",
+  "themes": [
+   "Biosphere"
+  ],
+  "authors": [
+   {
+    "id": "A5016674253",
+    "name": "Laurent Lessard",
+    "rawName": "Lessard, Laurent",
     "orcid": "https://orcid.org/0000-0001-5389-9361"
    }
   ]

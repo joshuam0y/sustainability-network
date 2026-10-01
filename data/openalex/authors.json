@@ -5,9 +5,10 @@
    "Jenna Brooks",
    "Jenna M. Brooks"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
-   "University of California San Diego"
+   "Northeastern University",
+   "University of South Florida"
   ],
   "name": "Jenna M. Brooks",
   "orcid": "https://orcid.org/0000-0001-5828-8244",
@@ -126,7 +127,6 @@
  "A5000516169": {
   "alternativeNames": [
    "Isaacs, Jacqueline",
-   "Isaacs, John",
    "J. A. Isaacs",
    "J. Isaacs",
    "J.A Isaacs",
@@ -213,7 +213,6 @@
   "alternativeNames": [
    "Coley, John",
    "Coley, John D.",
-   "J Coley",
    "J.D Coley",
    "JOHN D. COLEY",
    "John Coley",
@@ -375,6 +374,7 @@
    "Hebei University of Economics and Business",
    "Foshan University",
    "Jilin University",
+   "Henan University of Technology",
    "Second Affiliated Hospital of Jilin University"
   ],
   "name": "Qing Yuan Han",
@@ -509,16 +509,13 @@
    "E Mostafavi",
    "E. Mostafavi",
    "Ebrahim Mostafavi",
-   "Ebrahim Mostafavi (4439644)",
    "Mostafavi E",
-   "Mostafavi E.",
    "Mostafavi, Ebrahim"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
    "Stanford Medicine",
-   "Stanford Cardiovascular Institute",
    "Stanford University"
   ],
   "name": "Ebrahim Mostafavi",
@@ -717,7 +714,6 @@
  },
  "A5003062961": {
   "alternativeNames": [
-   "B Gao",
    "B. Gao",
    "Bo GAO",
    "Bo Gao",
@@ -731,7 +727,6 @@
    "Northeastern University",
    "Ministry of Education of the People's Republic of China",
    "Key Laboratory of Ecological Metallurgy of Multimetallic Mineral of Ministry of Education",
-   "Jinzhou Medical University",
    "Northeastern University"
   ],
   "name": "Bo Gao",
@@ -759,6 +754,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Xiangtan University",
    "Northeastern University"
   ],
   "name": "Wenlong Huang",
@@ -802,10 +798,7 @@
   "alternativeNames": [
    "Khoshnevisan, M.",
    "Khoshnevisan, Mohammad",
-   "M Khoshnevisan",
    "M. Khoshnevisan",
-   "Mohammad A. Khoshnevisan",
-   "Mohammad Hossein Khoshnevisan",
    "Mohammad Khoshnevisan"
   ],
   "atNortheastern": true,
@@ -1120,21 +1113,16 @@
  },
  "A5004334120": {
   "alternativeNames": [
-   "Bai, R.",
    "Bai, Ruobing",
    "Ruobing Bai"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University",
-   "Jilin University",
-   "National Medical Products Administration",
-   "State Key Laboratory of Inorganic Synthesis and Preparative Chemistry",
-   "Southern Medical University"
+   "Northeastern University"
   ],
   "name": "Ruobing Bai",
   "orcid": "https://orcid.org/0000-0002-5847-0502",
-  "papers": 2
+  "papers": 3
  },
  "A5004441687": {
   "alternativeNames": [
@@ -1265,7 +1253,8 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University"
+   "Northeastern University",
+   "University of Bologna"
   ],
   "name": "Leonardo Bonati",
   "orcid": "https://orcid.org/0000-0002-1511-1833",
@@ -1355,7 +1344,9 @@
    "Sungku Kang"
   ],
   "atNortheastern": false,
-  "currentInstitutions": [],
+  "currentInstitutions": [
+   "Korea Aerospace University"
+  ],
   "name": "SungKu Kang",
   "orcid": "https://orcid.org/0000-0001-8146-4103",
   "papers": 2
@@ -1448,7 +1439,6 @@
    "M. Chu",
    "M. S. Chu",
    "M.-S. Chu",
-   "M.S. Chu",
    "Man-Sheng Chu",
    "Man-sheng CHU",
    "Man-sheng Chu",
@@ -1508,8 +1498,6 @@
  },
  "A5006350021": {
   "alternativeNames": [
-   "L M MacLean",
-   "L. M. MacLean",
    "LAUREN M. MACLEAN",
    "Lauren M MacLean",
    "Lauren M. MacLean",
@@ -1560,11 +1548,8 @@
  "A5006580001": {
   "alternativeNames": [
    "S DURÁN",
-   "S. A. Duran",
    "S. Duran",
    "S. Durán",
-   "S.A Duran",
-   "S.A. Duran",
    "Salih Duran"
   ],
   "atNortheastern": true,
@@ -1592,7 +1577,6 @@
  },
  "A5006968293": {
   "alternativeNames": [
-   "J. Mott",
    "Jason D. Mott",
    "Jason Mott"
   ],
@@ -1721,6 +1705,25 @@
   "orcid": null,
   "papers": 1
  },
+ "A5008099001": {
+  "alternativeNames": [
+   "H. Y. Zhang",
+   "H. Y. Zhang",
+   "Hexiang Zhang",
+   "Zhang, H. Y.",
+   "Zhang, Hexiang"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "Centre National de la Recherche Scientifique",
+   "Université de Montpellier",
+   "Laboratoire Charles Coulomb"
+  ],
+  "name": "H. Y. Zhang",
+  "orcid": "https://orcid.org/0009-0006-1025-8162",
+  "papers": 1
+ },
  "A5008200238": {
   "alternativeNames": [
    "J Nokelainen",
@@ -1737,20 +1740,6 @@
   "name": "Johannes Nokelainen",
   "orcid": "https://orcid.org/0000-0003-2885-7850",
   "papers": 2
- },
- "A5008289090": {
-  "alternativeNames": [
-   "Xiao-Fei XU",
-   "Xiaofei Xu",
-   "Xu Xiao-fei",
-   "Xu Xiaofei",
-   "Xu, Xiaofei"
-  ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
-  "name": "Xiaofei Xu",
-  "orcid": "https://orcid.org/0000-0002-8019-9245",
-  "papers": 1
  },
  "A5008293667": {
   "alternativeNames": [
@@ -1991,7 +1980,7 @@
   ],
   "name": "Haris N. Koutsopoulos",
   "orcid": "https://orcid.org/0000-0003-3830-9794",
-  "papers": 5
+  "papers": 6
  },
  "A5009553286": {
   "alternativeNames": [
@@ -2042,7 +2031,6 @@
  "A5009700063": {
   "alternativeNames": [
    "K. -T. Wan",
-   "K. Wan",
    "K.-T. Wan",
    "KAI-TAK WAN",
    "Kai-Tak WAN",
@@ -2105,7 +2093,7 @@
   ],
   "name": "Laura Kuhl",
   "orcid": "https://orcid.org/0000-0002-1379-9435",
-  "papers": 8
+  "papers": 7
  },
  "A5010048926": {
   "alternativeNames": [
@@ -2394,6 +2382,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Amherst College",
    "University of Massachusetts Amherst"
   ],
   "name": "Sanjay  Raja Arwade",
@@ -2404,8 +2393,7 @@
   "alternativeNames": [
    "Duffy, Kate",
    "Kate Duffy",
-   "Kate Marie Duffy",
-   "Kate R. Duffy"
+   "Kate Marie Duffy"
   ],
   "atNortheastern": false,
   "currentInstitutions": [],
@@ -2459,7 +2447,7 @@
   ],
   "name": "Chunliang Xiu",
   "orcid": "https://orcid.org/0000-0002-5762-2818",
-  "papers": 4
+  "papers": 3
  },
  "A5012113736": {
   "alternativeNames": [
@@ -2524,7 +2512,6 @@
  },
  "A5012490183": {
   "alternativeNames": [
-   "A. Mueller",
    "A.V. Mueller",
    "Amy Mueller",
    "Amy V. Mueller",
@@ -2584,7 +2571,7 @@
   ],
   "name": "Xuguang Zhang",
   "orcid": "https://orcid.org/0009-0009-2639-4873",
-  "papers": 2
+  "papers": 3
  },
  "A5013152450": {
   "alternativeNames": [
@@ -2733,7 +2720,7 @@
   ],
   "name": "Benyamin Davaji",
   "orcid": "https://orcid.org/0000-0002-6375-4120",
-  "papers": 5
+  "papers": 6
  },
  "A5013733052": {
   "alternativeNames": [
@@ -2749,12 +2736,12 @@
  },
  "A5014132735": {
   "alternativeNames": [
-   "Rui-feng An",
    "Ruifeng An"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
-   "Sun Yat-sen University"
+   "Key Laboratory of Ecological Metallurgy of Multimetallic Mineral of Ministry of Education",
+   "Northeastern University"
   ],
   "name": "Ruifeng An",
   "orcid": "https://orcid.org/0009-0000-6505-3101",
@@ -2810,6 +2797,30 @@
   ],
   "name": "Timothy B. Lannin",
   "orcid": "https://orcid.org/0000-0002-3859-7645",
+  "papers": 1
+ },
+ "A5014550523": {
+  "alternativeNames": [
+   "He Ming Wang",
+   "He-Ming Wang",
+   "He-ming WANG",
+   "He-ming Wang",
+   "Heming WANG",
+   "Heming Wang",
+   "He‐Ming Wang",
+   "He‐ming Wang",
+   "Peng Wang",
+   "Yao Wang"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "Commonwealth Scientific and Industrial Research Organisation",
+   "Corvinus University of Budapest",
+   "Northeastern University"
+  ],
+  "name": "Heming Wang",
+  "orcid": "https://orcid.org/0000-0003-3487-0912",
   "papers": 1
  },
  "A5014551839": {
@@ -2910,12 +2921,9 @@
  },
  "A5014895444": {
   "alternativeNames": [
-   "A BRUCK",
-   "A. Bruck",
    "Andrea Bruck",
    "Andrea M Bruck",
-   "Andrea M. Bruck",
-   "Bruck, A."
+   "Andrea M. Bruck"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -3039,10 +3047,7 @@
  "A5015767100": {
   "alternativeNames": [
    "Bhatia, Udit",
-   "U Bhatia",
-   "U. Bhatia",
-   "Udit Bhatia",
-   "Umit Bhatia"
+   "Udit Bhatia"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -3084,7 +3089,6 @@
   "alternativeNames": [
    "Bordin, Matteo",
    "M. Bordin",
-   "M.R. Bordin",
    "Matteo Bordin"
   ],
   "atNortheastern": true,
@@ -3155,19 +3159,17 @@
  },
  "A5016674253": {
   "alternativeNames": [
-   "L Lessard",
    "L. Lessard",
    "Laurent Lessard",
    "Lessard, Laurent"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University",
-   "Université du Québec à Trois-Rivières"
+   "Northeastern University"
   ],
   "name": "Laurent Lessard",
   "orcid": "https://orcid.org/0000-0001-5389-9361",
-  "papers": 2
+  "papers": 3
  },
  "A5016685727": {
   "alternativeNames": [
@@ -3262,7 +3264,6 @@
  },
  "A5017136551": {
   "alternativeNames": [
-   "S. de la Rosa",
    "Stefano Rosa"
   ],
   "atNortheastern": false,
@@ -3333,7 +3334,8 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University"
+   "Northeastern University",
+   "University of California San Diego"
   ],
   "name": "Gregory D. Abowd",
   "orcid": "https://orcid.org/0000-0002-3408-587X",
@@ -3360,10 +3362,6 @@
  },
  "A5017651445": {
   "alternativeNames": [
-   "Guo, Rui",
-   "Guo, Rui Jie",
-   "R. Guo",
-   "RUI GUO",
    "Rui GUO",
    "Rui Guo",
    "Rui Jie Guo"
@@ -3411,7 +3409,6 @@
  },
  "A5017863793": {
   "alternativeNames": [
-   "M. J. Moghaddam",
    "M. Moghaddam",
    "Moghaddam, Mohsen",
    "Mohsen Moghaddam"
@@ -3624,8 +3621,10 @@
    "Sachini Weerasekara",
    "Weerasekara, Sachini"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Sachini Weerasekara",
   "orcid": null,
   "papers": 1
@@ -3645,7 +3644,6 @@
  },
  "A5018811482": {
   "alternativeNames": [
-   "A.A. Bello",
    "Alliy Adewale Bello",
    "Alliy Bello"
   ],
@@ -3695,7 +3693,6 @@
  "A5019141593": {
   "alternativeNames": [
    "Catharina Rieneke Slager",
-   "R. Slager",
    "RIENEKE SLAGER",
    "Rieneke Catharina Slager",
    "Rieneke Slager",
@@ -3786,7 +3783,6 @@
  "A5019639933": {
   "alternativeNames": [
    "Flatau, Ron",
-   "R Flatau",
    "Ron Flatau"
   ],
   "atNortheastern": true,
@@ -3949,7 +3945,6 @@
   "alternativeNames": [
    "M Pavel",
    "M. PAVEL",
-   "M. Paoloma Pavel",
    "M. Pavel",
    "Misha Pavel",
    "Pavel, Misha"
@@ -4038,7 +4033,6 @@
  },
  "A5021367039": {
   "alternativeNames": [
-   "M. Webster",
    "Mark D Webster",
    "Mark D. Webster",
    "Mark Webster"
@@ -4075,7 +4069,7 @@
   ],
   "name": "Jack R. Watson",
   "orcid": null,
-  "papers": 1
+  "papers": 2
  },
  "A5021568652": {
   "alternativeNames": [
@@ -4225,21 +4219,33 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "Beihang University",
    "Northeastern University"
   ],
   "name": "Songbo Nan",
   "orcid": null,
   "papers": 1
  },
- "A5021862606": {
+ "A5021943677": {
   "alternativeNames": [
-   "Johan Arango-Quiroga"
+   "Nath P.",
+   "Nath, P",
+   "Nath, P.",
+   "Nath, Pran",
+   "P Nath",
+   "P. NATH",
+   "P. Nath",
+   "PRAN NATH",
+   "Pran Nath",
+   "Pran Nath (b",
+   "Pran Nath A",
+   "Pran Nath B"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
-  "name": "Johan Arango-Quiroga",
-  "orcid": "https://orcid.org/0000-0001-7821-2335",
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Pran Nath",
+  "orcid": "https://orcid.org/0000-0001-9879-9751",
   "papers": 1
  },
  "A5022073847": {
@@ -4412,16 +4418,11 @@
    "T. Zhu",
    "Tong Zhu",
    "Tong zhu",
-   "Tongxuan Zhu",
-   "Yaonan Zhu",
-   "Zhu, Tong"
+   "Yaonan Zhu"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "Chinese Academy of Sciences",
-   "Institutes of Science and Development",
-   "University of Chinese Academy of Sciences",
    "Northeastern University"
   ],
   "name": "Tong Zhu",
@@ -4484,9 +4485,7 @@
    "Niu, Hongkun"
   ],
   "atNortheastern": false,
-  "currentInstitutions": [
-   "Aluminum Corporation of China (China)"
-  ],
+  "currentInstitutions": [],
   "name": "Hongkun Niu",
   "orcid": "https://orcid.org/0009-0000-7178-0583",
   "papers": 1
@@ -4695,7 +4694,6 @@
  "A5025833119": {
   "alternativeNames": [
    "Xiao LYU",
-   "Xiao Lu (355468)",
    "Xiao Lyu"
   ],
   "atNortheastern": false,
@@ -4796,7 +4794,6 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "Hengyang Normal University",
    "Key Laboratory of Ecological Metallurgy of Multimetallic Mineral of Ministry of Education",
    "Northeastern University"
   ],
@@ -5011,7 +5008,6 @@
  },
  "A5027330816": {
   "alternativeNames": [
-   "Huang, Xianzhen",
    "X Z Huang",
    "X. Huang",
    "Xian-Zhen Huang",
@@ -5152,7 +5148,6 @@
  },
  "A5028350299": {
   "alternativeNames": [
-   "E. Moore",
    "Elizabeth M Moore",
    "Elizabeth M. Moore",
    "Elizabeth Marie Moore",
@@ -5185,6 +5180,7 @@
   "currentInstitutions": [
    "Northeastern University",
    "Donghua University",
+   "Westlake University",
    "Tsinghua–Berkeley Shenzhen Institute",
    "Affiliated Hospital of Shaanxi University of Chinese Medicine",
    "Jining First People's Hospital",
@@ -5227,7 +5223,6 @@
   "alternativeNames": [
    "Gabriela Garcia",
    "Gabriela García",
-   "Gabriela García C.D.",
    "Gabriela M. Garcia",
    "Gabriela Marie Garcia"
   ],
@@ -5356,7 +5351,7 @@
   ],
   "name": "Yi Zheng",
   "orcid": "https://orcid.org/0000-0003-4963-9684",
-  "papers": 12
+  "papers": 13
  },
  "A5029307299": {
   "alternativeNames": [
@@ -5466,7 +5461,6 @@
   "alternativeNames": [
    "Julien, Scott E.",
    "S. E. Julien",
-   "S. Julien",
    "Scott\nE. Julien",
    "Scott E Julien",
    "Scott E. Julien",
@@ -5512,7 +5506,9 @@
    "Yang Gang"
   ],
   "atNortheastern": false,
-  "currentInstitutions": [],
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Gang Yang",
   "orcid": "https://orcid.org/0000-0002-4873-9205",
   "papers": 1
@@ -5534,7 +5530,6 @@
  },
  "A5029956797": {
   "alternativeNames": [
-   "Wu, Zi-Yang",
    "Zi-Yang Wu"
   ],
   "atNortheastern": true,
@@ -5577,10 +5572,8 @@
  },
  "A5030142104": {
   "alternativeNames": [
-   "F FAN",
    "Fan, Fuqiang",
    "Fu-Qiang Fan",
-   "FuQiang Fan",
    "Fuqiang Fan",
    "Fu‐Qiang Fan"
   ],
@@ -5946,9 +5939,6 @@
  },
  "A5032374633": {
   "alternativeNames": [
-   "P.J. Hurley",
-   "Patrick Hurley",
-   "Patrick J Hurley",
    "Patrick J. Hurley",
    "Patrick Joseph Hurley"
   ],
@@ -6095,7 +6085,6 @@
  },
  "A5033493087": {
   "alternativeNames": [
-   "Liu, Shiqin",
    "Shi-Qin Liu",
    "Shiqin Liu"
   ],
@@ -6174,6 +6163,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "University of California, Riverside",
    "Oak Ridge National Laboratory"
   ],
   "name": "Bharat Sharma",
@@ -6356,7 +6346,6 @@
  },
  "A5034728918": {
   "alternativeNames": [
-   "Amini, R.",
    "Amini, Rouzbeh",
    "R. Amini",
    "Rouzbeh Amini",
@@ -6401,7 +6390,6 @@
  },
  "A5034986217": {
   "alternativeNames": [
-   "P. Purushothaman Pillai",
    "Pillai, Pradeep",
    "Pradeep Pillai"
   ],
@@ -6415,8 +6403,6 @@
  },
  "A5035003432": {
   "alternativeNames": [
-   "E Santi",
-   "E. Santi",
    "Ettore SANTI",
    "Ettore Santi"
   ],
@@ -6436,6 +6422,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Shenyang Institute of Engineering",
    "Beijing Research Institute of Automation for Machinery Industry (China)"
   ],
   "name": "Honggang Pan",
@@ -6534,6 +6521,19 @@
   "orcid": "https://orcid.org/0000-0003-2301-853X",
   "papers": 4
  },
+ "A5035342121": {
+  "alternativeNames": [
+   "Qianfeng Yin",
+   "Yin, Qianfeng"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Qianfeng Yin",
+  "orcid": null,
+  "papers": 1
+ },
  "A5035386632": {
   "alternativeNames": [
    "Garces, Kylea R",
@@ -6549,7 +6549,7 @@
   ],
   "name": "Kylea Rose Garces",
   "orcid": "https://orcid.org/0000-0002-4045-9786",
-  "papers": 1
+  "papers": 2
  },
  "A5035464435": {
   "alternativeNames": [
@@ -6667,14 +6667,12 @@
  },
  "A5036162806": {
   "alternativeNames": [
-   "B. James",
    "Bryan D James",
    "Bryan D. James",
    "Bryan James"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Rush University Medical Center",
    "Northeastern University"
   ],
   "name": "Bryan D. James",
@@ -6768,10 +6766,10 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
-   "Qinghai University"
+   "Northeastern University"
   ],
   "name": "Yuzhen Dang",
-  "orcid": "https://orcid.org/0009-0003-2025-7225",
+  "orcid": null,
   "papers": 1
  },
  "A5036519242": {
@@ -7013,7 +7011,6 @@
  },
  "A5037462720": {
   "alternativeNames": [
-   "S.H. Emam",
    "Shadi Emam"
   ],
   "atNortheastern": true,
@@ -7067,7 +7064,6 @@
  },
  "A5037701847": {
   "alternativeNames": [
-   "Li, Yuxiao",
    "Y. Li",
    "Yuxiao Li"
   ],
@@ -7263,12 +7259,10 @@
   "alternativeNames": [
    "Nasim Soltani",
    "Nasim Yahya Soltani",
-   "Soltani, Nasim",
-   "Soltani, Nasim Yahya"
+   "Soltani, Nasim"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
-   "Marquette University",
    "The University of Texas at Austin"
   ],
   "name": "Nasim Soltani",
@@ -7309,8 +7303,7 @@
    "LAURA FORLANO",
    "Laura E. Forlano",
    "Laura Ellen Forlano",
-   "Laura Forlano",
-   "Л. Форлано"
+   "Laura Forlano"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -7698,6 +7691,7 @@
   "atNortheastern": false,
   "currentInstitutions": [
    "University of Shanghai for Science and Technology",
+   "Northwestern Polytechnical University",
    "BYD (China)",
    "Eindhoven University of Technology"
   ],
@@ -7747,7 +7741,7 @@
   ],
   "name": "Luca Caracoglia",
   "orcid": "https://orcid.org/0000-0002-4783-2600",
-  "papers": 16
+  "papers": 17
  },
  "A5040603672": {
   "alternativeNames": [
@@ -7892,9 +7886,6 @@
  },
  "A5041135937": {
   "alternativeNames": [
-   "Q Xie",
-   "Q. Xie",
-   "Q.M Xie",
    "Qinghua Xie"
   ],
   "atNortheastern": false,
@@ -7976,13 +7967,11 @@
  "A5041495865": {
   "alternativeNames": [
    "L Mylott",
-   "L. Mylott",
    "Laura Mylott"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
-   "Guy's and St Thomas' NHS Foundation Trust",
-   "King's College Hospital NHS Foundation Trust"
+   "Northeastern University"
   ],
   "name": "Laura Mylott",
   "orcid": "https://orcid.org/0000-0001-7018-7390",
@@ -8214,8 +8203,7 @@
  },
  "A5042267128": {
   "alternativeNames": [
-   "Amir Taqieddin",
-   "Taqieddin, Amir"
+   "Amir Taqieddin"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -8293,6 +8281,21 @@
   "orcid": "https://orcid.org/0009-0003-6614-6846",
   "papers": 1
  },
+ "A5042528606": {
+  "alternativeNames": [
+   "F. Kaltenberger",
+   "Florian Kaltenberger",
+   "Kaltenberger, F.",
+   "Kaltenberger, Florian"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [
+   "EURECOM"
+  ],
+  "name": "Florian Kaltenberger",
+  "orcid": "https://orcid.org/0000-0002-3225-3569",
+  "papers": 1
+ },
  "A5042796086": {
   "alternativeNames": [
    "Bowen Xiao",
@@ -8302,7 +8305,6 @@
   "currentInstitutions": [
    "Northeastern University",
    "The Hong Kong University of Science and Technology (Guangzhou)",
-   "Xiangtan University",
    "Northeastern University"
   ],
   "name": "Bowen Xiao",
@@ -8356,7 +8358,6 @@
  },
  "A5042913485": {
   "alternativeNames": [
-   "T. Hirsch",
    "Tad Hirsch"
   ],
   "atNortheastern": true,
@@ -8453,6 +8454,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Hainan Normal University",
    "State Key Laboratory of Estuarine and Coastal Research",
    "East China Normal University"
   ],
@@ -8469,10 +8471,7 @@
    "Vijay N. Gadepally"
   ],
   "atNortheastern": false,
-  "currentInstitutions": [
-   "MIT Lincoln Laboratory",
-   "Massachusetts Institute of Technology"
-  ],
+  "currentInstitutions": [],
   "name": "Vijay N. Gadepally",
   "orcid": "https://orcid.org/0000-0002-4598-2808",
   "papers": 1
@@ -8588,11 +8587,12 @@
    "A.T. Myers",
    "Andrew Myers",
    "Andrew T Myers",
-   "Andrew T. Myers",
-   "Andrew Thomas Myers"
+   "Andrew T. Myers"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Andrew T. Myers",
   "orcid": "https://orcid.org/0000-0003-3555-1227",
   "papers": 4
@@ -8812,6 +8812,19 @@
   "orcid": "https://orcid.org/0000-0003-3861-6030",
   "papers": 3
  },
+ "A5045260326": {
+  "alternativeNames": [
+   "Ardakani, Matin Raayai",
+   "Matin Raayai Ardakani"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Matin Raayai Ardakani",
+  "orcid": "https://orcid.org/0000-0002-9221-705X",
+  "papers": 1
+ },
  "A5045476201": {
   "alternativeNames": [
    "Gond, J",
@@ -8865,7 +8878,7 @@
   ],
   "name": "Aron Stubbins",
   "orcid": "https://orcid.org/0000-0002-3994-1946",
-  "papers": 21
+  "papers": 22
  },
  "A5045930648": {
   "alternativeNames": [
@@ -8897,7 +8910,6 @@
    "Davis, J.T.",
    "Davis, Jessica T",
    "Davis, Jessica T.",
-   "J. Davis",
    "Jessica Davis",
    "Jessica T Davis",
    "Jessica T. Davis"
@@ -8981,7 +8993,8 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "Shanghai University of Engineering Science"
+   "Shanghai University of Engineering Science",
+   "Northeastern University"
   ],
   "name": "Qinchen Zhang",
   "orcid": "https://orcid.org/0000-0003-2622-7820",
@@ -9156,7 +9169,6 @@
  "A5047120127": {
   "alternativeNames": [
    "Bellini, Chiara",
-   "C BELLINI",
    "C M Bellini",
    "C. Bellini",
    "C.M. Bellini",
@@ -9220,7 +9232,7 @@
   ],
   "name": "Hanumant Singh",
   "orcid": "https://orcid.org/0000-0002-4975-3244",
-  "papers": 3
+  "papers": 5
  },
  "A5047333314": {
   "alternativeNames": [
@@ -9416,7 +9428,6 @@
  },
  "A5048305510": {
   "alternativeNames": [
-   "M Cecilia Fowler",
    "M. Fowler",
    "M.A. Fowler",
    "Melinda A Fowler",
@@ -9553,11 +9564,13 @@
    "M. T. A. COSTA",
    "Matthew T. Costa"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Matthew T. Costa",
   "orcid": "https://orcid.org/0000-0002-2323-9343",
-  "papers": 1
+  "papers": 2
  },
  "A5049049507": {
   "alternativeNames": [
@@ -9565,7 +9578,6 @@
    "Anderson, Christopher L",
    "C L Anderson",
    "C. Anderson",
-   "C. L. ANDERSON",
    "C. L. Anderson",
    "C.L. Anderson",
    "Christopher Anderson",
@@ -9664,7 +9676,6 @@
    "Bi, Dapeng",
    "D Bi",
    "D. Bi",
-   "Da-peng Bi",
    "Daipeng Bi",
    "Dapeng Bi",
    "Li, Xinzhi"
@@ -9684,6 +9695,7 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
+   "National University of Defense Technology",
    "Northeastern University"
   ],
   "name": "Xiaosong Lin",
@@ -9720,7 +9732,6 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
-   "Xi'an University of Science and Technology",
    "Yangzhou University"
   ],
   "name": "Tingting Bai",
@@ -9731,7 +9742,6 @@
   "alternativeNames": [
    "Do, Khanh",
    "Khanh Do",
-   "Khanh Nam Do",
    "Khanh, Do"
   ],
   "atNortheastern": true,
@@ -9845,7 +9855,9 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University"
+   "Northeastern University",
+   "Eastern University",
+   "Sapienza University of Rome"
   ],
   "name": "Andrea Lacava",
   "orcid": "https://orcid.org/0000-0001-9217-5956",
@@ -9900,7 +9912,7 @@
   ],
   "name": "Jahson Berhane Alemu I",
   "orcid": "https://orcid.org/0000-0002-6936-2857",
-  "papers": 4
+  "papers": 5
  },
  "A5050535281": {
   "alternativeNames": [
@@ -9971,6 +9983,7 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
+   "Tufts University",
    "Northeastern University",
    "University of Padua",
    "University of South Carolina",
@@ -9979,7 +9992,7 @@
   ],
   "name": "Eleonora Maria Tronci",
   "orcid": "https://orcid.org/0000-0003-4609-1078",
-  "papers": 8
+  "papers": 11
  },
  "A5050764641": {
   "alternativeNames": [
@@ -10030,7 +10043,6 @@
  "A5051039938": {
   "alternativeNames": [
    "E. Levine",
-   "E.A. Levine",
    "Erel Levine",
    "Levine, Erel"
   ],
@@ -10328,17 +10340,18 @@
  },
  "A5052731876": {
   "alternativeNames": [
-   "L. TONG",
    "L. Tong",
    "Lin-Lin Tong",
    "Lin-lin TONG",
    "Lin-lin Tong",
    "Linlin Tong",
-   "Lin‐Lin Tong",
-   "Tong, Lin-Lin"
+   "Lin‐Lin Tong"
   ],
   "atNortheastern": false,
-  "currentInstitutions": [],
+  "currentInstitutions": [
+   "Key Laboratory of Ecological Metallurgy of Multimetallic Mineral of Ministry of Education",
+   "Northeastern University"
+  ],
   "name": "L. Tong",
   "orcid": "https://orcid.org/0000-0002-7369-4811",
   "papers": 2
@@ -10346,7 +10359,6 @@
  "A5052795319": {
   "alternativeNames": [
    "J M Oakes",
-   "J Oakes",
    "J.M. Oakes",
    "Jessica M Oakes",
    "Jessica M. Oakes",
@@ -10385,7 +10397,9 @@
    "Zerebecki, Robyn A."
   ],
   "atNortheastern": false,
-  "currentInstitutions": [],
+  "currentInstitutions": [
+   "University of Louisiana at Lafayette"
+  ],
   "name": "Robyn A. Zerebecki",
   "orcid": "https://orcid.org/0000-0001-9976-6134",
   "papers": 1
@@ -10417,6 +10431,21 @@
   "orcid": "https://orcid.org/0000-0003-4396-4494",
   "papers": 1
  },
+ "A5053012035": {
+  "alternativeNames": [
+   "Al-Lawati, Razan A. H.",
+   "Hassan, Razan",
+   "Razan A. H. Al-Lawati",
+   "Razan A.H. Al-Lawati"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Razan A. H. Al-Lawati",
+  "orcid": "https://orcid.org/0000-0001-6499-8875",
+  "papers": 1
+ },
  "A5053013014": {
   "alternativeNames": [
    "Yunrong Chai"
@@ -10442,7 +10471,6 @@
    "Bo 波 Zhao 赵",
    "X B Zhao",
    "Zhao, Bing",
-   "Zhao, Bo",
    "赵兵",
    "赵冰"
   ],
@@ -10479,8 +10507,7 @@
  },
  "A5053581677": {
   "alternativeNames": [
-   "Avantika Velho",
-   "Velho, Avantika"
+   "Avantika Velho"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -10550,7 +10577,9 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University"
+   "Northeastern University",
+   "Eastern University",
+   "University of Bologna"
   ],
   "name": "Salvatore D’Oro",
   "orcid": "https://orcid.org/0000-0002-7690-0449",
@@ -10572,7 +10601,6 @@
  "A5053825081": {
   "alternativeNames": [
    "I Todorova",
-   "I. TODOROVA",
    "I. Todorova",
    "Irina L. G. Todorova",
    "Irina L.G. Todorova",
@@ -10582,9 +10610,7 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University",
-   "Technical University of Varna",
-   "Prof. Assen Zlatarov University"
+   "Northeastern University"
   ],
   "name": "Irina L. G. Todorova",
   "orcid": "https://orcid.org/0000-0001-9765-8949",
@@ -10711,7 +10737,9 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University"
+   "Northeastern University",
+   "Eastern University",
+   "University of Bologna"
   ],
   "name": "Tommaso Melodia",
   "orcid": "https://orcid.org/0000-0002-2719-1789",
@@ -10881,9 +10909,7 @@
  },
  "A5055198563": {
   "alternativeNames": [
-   "S. Carr",
    "SARA JENSEN CARR",
-   "Sara Carr",
    "Sara J. Carr",
    "Sara Jensen Carr"
   ],
@@ -10978,15 +11004,12 @@
  },
  "A5055855207": {
   "alternativeNames": [
-   "I. Khan",
    "Ibrahim Haleem Khan",
-   "Ibrahim Khan",
    "IbrahimHaleem Khan"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
-   "Gopalganj Science and Technology University",
-   "Jamia Millia Islamia"
+   "Northeastern University"
   ],
   "name": "Ibrahim Haleem Khan",
   "orcid": "https://orcid.org/0000-0003-1068-4218",
@@ -11009,7 +11032,6 @@
  },
  "A5055894630": {
   "alternativeNames": [
-   "J B Ries",
    "J Ries",
    "J. B. RIES",
    "J. B. Ries",
@@ -11045,7 +11067,7 @@
   ],
   "name": "Safa Jamali",
   "orcid": "https://orcid.org/0000-0001-6031-3779",
-  "papers": 2
+  "papers": 3
  },
  "A5056010189": {
   "alternativeNames": [
@@ -11466,6 +11488,7 @@
    "JIN HAN",
    "Jin HAN",
    "Jin Han",
+   "Jin S. Han",
    "Jin Soo HAN",
    "Jin Soo Han",
    "Jin Soo Han Han"
@@ -11480,11 +11503,6 @@
  },
  "A5057535114": {
   "alternativeNames": [
-   "P R Schindler",
-   "P Schindler",
-   "P. R. G. Schindler",
-   "P. Schindler",
-   "P.R.G. Schindler",
    "Peter R. G. Schindler",
    "Peter Schindler",
    "Schindler, Peter"
@@ -11502,9 +11520,6 @@
   "alternativeNames": [
    "Kearns, Patrick",
    "Kearns, Patrick J.",
-   "P J KEARNS",
-   "P J Kearns",
-   "P. Kearns",
    "P.J. Kearns",
    "Patrick J Kearns",
    "Patrick J. Kearns",
@@ -11540,7 +11555,8 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University"
+   "Northeastern University",
+   "Artificial Intelligence in Medicine (Canada)"
   ],
   "name": "Somnath Mondal",
   "orcid": "https://orcid.org/0000-0001-8217-1361",
@@ -11708,22 +11724,6 @@
   "orcid": "https://orcid.org/0000-0003-2744-3007",
   "papers": 1
  },
- "A5058149622": {
-  "alternativeNames": [
-   "Gao, Yanpeng",
-   "Y. P. Gao",
-   "Yan-Peng Gao",
-   "Yanpeng Gao",
-   "高艳鹏"
-  ],
-  "atNortheastern": false,
-  "currentInstitutions": [
-   "Guangdong University of Technology"
-  ],
-  "name": "Yanpeng Gao",
-  "orcid": "https://orcid.org/0000-0003-2156-8167",
-  "papers": 1
- },
  "A5058214353": {
   "alternativeNames": [
    "Chen-yang Zhu",
@@ -11759,7 +11759,6 @@
    "FRASER, Timothy",
    "Fraser, Timothy",
    "Fraser, Timothy (Northeastern University)",
-   "T. Fraser",
    "Timothy Fraser"
   ],
   "atNortheastern": false,
@@ -11877,7 +11876,6 @@
  },
  "A5059738966": {
   "alternativeNames": [
-   ". H. OLLEY R",
    "H. Ronghuan",
    "He Ronghuan",
    "He, Ronghuan",
@@ -12154,8 +12152,10 @@
    "Amir T. Namin",
    "Namin, Amir T."
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Amir T. Namin",
   "orcid": "https://orcid.org/0000-0003-0669-7366",
   "papers": 1
@@ -12169,6 +12169,7 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
+   "California Institute of Technology",
    "Northeastern University"
   ],
   "name": "Shuanglong Liu",
@@ -12231,10 +12232,7 @@
   "alternativeNames": [
    ", David DE Cremer",
    "Cremer, D D",
-   "D Cremer",
-   "D. Cremer",
    "DAVID DE CREMER",
-   "David Cremer",
    "David DE Cremer",
    "David De Cremer",
    "David De Cremer",
@@ -12379,6 +12377,20 @@
   "orcid": "https://orcid.org/0000-0002-0202-794X",
   "papers": 1
  },
+ "A5062925090": {
+  "alternativeNames": [
+   "James Connor Meyers",
+   "Meyers, James Connor"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "United States Coast Guard"
+  ],
+  "name": "James Connor Meyers",
+  "orcid": "https://orcid.org/0009-0004-6345-2538",
+  "papers": 1
+ },
  "A5062940844": {
   "alternativeNames": [
    "Qingying Jia"
@@ -12394,10 +12406,8 @@
  },
  "A5063142393": {
   "alternativeNames": [
-   "Ehsan, Muhammad",
    "Fahad Ehsan Muhammad",
    "M. F. Ehsan",
-   "Muhammad Ehsan",
    "Muhammad Fahad Ehsan"
   ],
   "atNortheastern": true,
@@ -12477,7 +12487,7 @@
   ],
   "name": "Matthew J. Eckelman",
   "orcid": "https://orcid.org/0000-0002-0595-3682",
-  "papers": 46
+  "papers": 47
  },
  "A5063609114": {
   "alternativeNames": [
@@ -12680,11 +12690,12 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "Pacific Northwest National Laboratory"
+   "Pacific Northwest National Laboratory",
+   "Artificial Intelligence in Medicine (Canada)"
   ],
   "name": "Auroop Ratan Ganguly",
   "orcid": "https://orcid.org/0000-0002-4292-4856",
-  "papers": 25
+  "papers": 27
  },
  "A5065001177": {
   "alternativeNames": [
@@ -13055,6 +13066,7 @@
    "National University of Singapore",
    "Hunan University",
    "Xinjiang Agricultural University",
+   "Liaoning Shihua University",
    "Nanjing Forestry University",
    "Henan University of Science and Technology",
    "Chongqing University of Science and Technology",
@@ -13253,11 +13265,13 @@
    "Institute of Acoustics",
    "Shandong Jiaotong University",
    "Shenzhen Research Institute of Big Data",
+   "Institute of Geology and Geophysics",
    "Institute of Oceanology",
    "Northeast Institute of Geography and Agroecology",
    "Hubei University of Science and Technology",
    "Yan'an University",
    "High Magnetic Field Laboratory",
+   "Jilin Vocational College of Industry and Technology",
    "Center for Agricultural Resources Research",
    "South China Sea Institute Of Oceanology",
    "Air Force Engineering University",
@@ -13322,6 +13336,7 @@
    "Suzhou Research Institute",
    "First Affiliated Hospital of GuangXi Medical University",
    "Institute of Geology and Geophysics",
+   "Shanghai Electric (China)",
    "Hubei University of Automotive Technology",
    "General Research Institute for Nonferrous Metals (China)",
    "Tianmu Lake Institute of Advanced Energy Storage Technologies (China)",
@@ -13331,6 +13346,7 @@
    "Institute of Optics and Electronics, Chinese Academy of Sciences",
    "Nanjing Xiaozhuang University",
    "Guangzhou Institute of Energy Conversion",
+   "Institut de Recerca en Energia de Catalunya",
    "Chinese Academy of Forestry",
    "Peking University Shenzhen Hospital",
    "Institute of Software",
@@ -13356,14 +13372,17 @@
    "Shanghai Institute of Technical Physics",
    "Weifang University of Science and Technology",
    "Institute of Pomology",
+   "Xi’an University of Posts and Telecommunications",
    "Institute of High Energy Physics",
    "Aerospace Information Research Institute",
    "South Subtropical Crops Research Institute",
    "Dalian National Laboratory for Clean Energy",
    "Institute for Advanced Study",
    "Wuhan National Laboratory for Optoelectronics",
+   "Liupanshui Normal University",
    "Chinese Academy of Agricultural Sciences",
    "Tianjin Institute of Industrial Biotechnology",
+   "State Nuclear Power Technology Company (China)",
    "Science and Technology on Surface Physics and Chemistry Laboratory",
    "Renmin Hospital of Wuhan University",
    "Institute of Rock and Soil Mechanics",
@@ -13678,6 +13697,7 @@
    "Fujian Agriculture and Forestry University",
    "Dalian Minzu University",
    "Beijing University of Civil Engineering and Architecture",
+   "Liverpool John Moores University",
    "Sichuan Normal University",
    "Chongqing Jiaotong University",
    "City University of Macau",
@@ -13813,6 +13833,7 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
+   "Qilu University of Technology",
    "China Three Gorges University",
    "Hunan University",
    "Shanghai Jiao Tong University",
@@ -13825,8 +13846,10 @@
    "National Space Science Center",
    "Zhongshan Hospital of Xiamen University",
    "Xiamen University Malaysia",
+   "Shandong Academy of Sciences",
    "Collaborative Innovation Center of Chemistry for Energy Materials",
    "Henan Polytechnic University",
+   "Dalian Maritime University",
    "State Key Laboratory of Chemobiosensing and Chemometrics",
    "State Key Laboratory of Marine Environmental Science",
    "State Key Laboratory Cultivation Base for Gas Geology and Gas Control",
@@ -13842,7 +13865,6 @@
    "Ben Donnelly",
    "Benjamin Donnelly",
    "Brian R. Donnelly",
-   "Brian Russell Donnelly",
    "Donnelly, Ben"
   ],
   "atNortheastern": true,
@@ -13912,7 +13934,7 @@
   ],
   "name": "Md. Noor‐E‐Alam",
   "orcid": "https://orcid.org/0000-0001-5353-9710",
-  "papers": 1
+  "papers": 2
  },
  "A5066597054": {
   "alternativeNames": [
@@ -13941,7 +13963,7 @@
   ],
   "name": "Pushyami Kaveti",
   "orcid": "https://orcid.org/0000-0002-2182-7985",
-  "papers": 1
+  "papers": 2
  },
  "A5066691766": {
   "alternativeNames": [
@@ -13963,7 +13985,6 @@
  "A5066744261": {
   "alternativeNames": [
    "Bauman, Syd",
-   "S. M. Bauman",
    "Syd Bauman",
    "Sydney Bauman"
   ],
@@ -14043,7 +14064,7 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "KTH Royal Institute of Technology"
+   "University of Oulu"
   ],
   "name": "Josep Miquel Jornet",
   "orcid": "https://orcid.org/0000-0001-6351-1754",
@@ -14260,7 +14281,7 @@
   ],
   "name": "Jennie C. Stephens",
   "orcid": "https://orcid.org/0000-0003-0386-8115",
-  "papers": 10
+  "papers": 11
  },
  "A5067945065": {
   "alternativeNames": [
@@ -14398,10 +14419,7 @@
  },
  "A5068461199": {
   "alternativeNames": [
-   "M. Venkatesan",
-   "M.N. Venkatesan",
    "Madhavi Venkatesan",
-   "Venkatesan M",
    "Venkatesan, Madhavi"
   ],
   "atNortheastern": true,
@@ -14416,7 +14434,6 @@
   "alternativeNames": [
    "Marion, Tucker",
    "T. J. Marion",
-   "T. Marion",
    "Tucker J. Marion",
    "Tucker James Marion",
    "Tucker Marion"
@@ -14705,7 +14722,6 @@
    "A. Z. Gu",
    "A.Z. Gu",
    "APRIL Z. GU",
-   "Alden Gu",
    "April Gu",
    "April Z Gu",
    "April Z. Gu",
@@ -15021,8 +15037,10 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
+   "Zhejiang Normal University",
    "Charles Sturt University",
-   "Hefei University"
+   "Hefei University",
+   "Northeastern University"
   ],
   "name": "Xiaodi Huang",
   "orcid": "https://orcid.org/0000-0002-6084-1851",
@@ -15087,10 +15105,8 @@
  },
  "A5072502985": {
   "alternativeNames": [
-   "Castro Franco, Edgar",
    "Castro, Edgar",
-   "Edgar Castro",
-   "Edgar Orlando Ramírez Castro"
+   "Edgar Castro"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -15157,7 +15173,6 @@
  "A5072804892": {
   "alternativeNames": [
    "A S Dahiya",
-   "A. Dahiya",
    "A. S. Dahiya",
    "A.S. Dahiya",
    "Abhishek Dahiya",
@@ -15333,7 +15348,6 @@
  },
  "A5073596125": {
   "alternativeNames": [
-   "HILLARY SULLIVAN",
    "Hillary L Sullivan",
    "Hillary L. Sullivan",
    "Hillary Sullivan"
@@ -15437,7 +15451,6 @@
  },
  "A5073983917": {
   "alternativeNames": [
-   "J Selwyn",
    "J.D. Selwyn",
    "Jason D Selwyn",
    "Jason D. Selwyn",
@@ -15520,12 +15533,14 @@
  "A5074243458": {
   "alternativeNames": [
    "R. M. Pei",
-   "Rongkang Pei",
    "Ruimin Pei"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
-   "Nanjing Institute of Tourism and Hospitality"
+   "Northeastern University",
+   "Chinese Academy of Sciences",
+   "Institutes of Science and Development",
+   "University of Chinese Academy of Sciences"
   ],
   "name": "Ruimin Pei",
   "orcid": "https://orcid.org/0009-0006-1302-7618",
@@ -15533,7 +15548,6 @@
  },
  "A5074347727": {
   "alternativeNames": [
-   "B Ozek",
    "Burcu Ozek",
    "Ozek, Burcu"
   ],
@@ -15558,7 +15572,6 @@
  },
  "A5074406596": {
   "alternativeNames": [
-   "D. Tiwari",
    "Devesh Tiwari",
    "Tiwari, Devesh"
   ],
@@ -15568,7 +15581,7 @@
   ],
   "name": "Devesh Tiwari",
   "orcid": "https://orcid.org/0000-0002-7253-2458",
-  "papers": 3
+  "papers": 4
  },
  "A5074450905": {
   "alternativeNames": [
@@ -15614,15 +15627,14 @@
  },
  "A5074897413": {
   "alternativeNames": [
-   "D. C. Villa",
-   "Davide C. Villa",
    "Davide Carlo Villa",
    "Davide Villa",
    "Villa, Davide"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University"
+   "Northeastern University",
+   "Nvidia (United States)"
   ],
   "name": "Davide Carlo Villa",
   "orcid": "https://orcid.org/0000-0002-4299-3915",
@@ -15708,7 +15720,6 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
-   "Shanghai Jiao Tong University",
    "Changsha University of Science and Technology"
   ],
   "name": "Pengcheng Luan",
@@ -15718,7 +15729,6 @@
  "A5075870721": {
   "alternativeNames": [
    "K. J. Pieper",
-   "K. Pieper",
    "Kelsey  J. Pieper",
    "Kelsey J Pieper",
    "Kelsey J. Pieper",
@@ -15742,7 +15752,6 @@
    "Thomas J. Webster",
    "Thomas Jay Webster",
    "Thomas Webster",
-   "Webster T",
    "Webster, Thomas",
    "Webster, Thomas J",
    "Webster, Thomas J."
@@ -15818,8 +15827,10 @@
    "Andrew Cupo",
    "Cupo, Andrew"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Andrew Cupo",
   "orcid": "https://orcid.org/0000-0002-3908-004X",
   "papers": 1
@@ -15917,8 +15928,7 @@
    "Glenn L Pierce",
    "Glenn L. Pierce",
    "Glenn Pierce",
-   "Pierce, Glenn L.",
-   "Pierce, Glenn L.,"
+   "Pierce, Glenn L."
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -15943,7 +15953,6 @@
  },
  "A5076891029": {
   "alternativeNames": [
-   "Joseph L. Rodriguez",
    "Joseph Rodriguez",
    "Rodriguez, Joseph"
   ],
@@ -15987,8 +15996,6 @@
    "A Paul",
    "A. Paul",
    "Ayan Paul",
-   "Paul A.",
-   "Paul, A.",
    "Paul, Ayan",
    "paul, ayan"
   ],
@@ -16037,14 +16044,11 @@
  },
  "A5077322608": {
   "alternativeNames": [
-   ". ZIAULLAH",
-   "Zia-Ullah Zia-Ullah",
    "Ziaullah Ziaullah"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University",
-   "Saidu Teaching Hospital"
+   "Northeastern University"
   ],
   "name": "Ziaullah Ziaullah",
   "orcid": "https://orcid.org/0009-0009-5270-0264",
@@ -16128,6 +16132,22 @@
   ],
   "name": "Fangyu Hu",
   "orcid": "https://orcid.org/0000-0003-4616-517X",
+  "papers": 1
+ },
+ "A5078145555": {
+  "alternativeNames": [
+   "Faiz, Tasnim Ibn",
+   "Tasnim Ibn Faiz"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "National Institute of Standards and Technology",
+   "Engineering Laboratory",
+   "University of Maryland, College Park"
+  ],
+  "name": "Tasnim Ibn Faiz",
+  "orcid": "https://orcid.org/0000-0003-1987-9863",
   "papers": 1
  },
  "A5078297807": {
@@ -16229,7 +16249,6 @@
  },
  "A5078778951": {
   "alternativeNames": [
-   "J. Gould",
    "Jessica Gould",
    "Jessica L.A. Gould"
   ],
@@ -16343,18 +16362,12 @@
  },
  "A5079329106": {
   "alternativeNames": [
-   "Feng Ke",
-   "Feng, Ke",
-   "Ke FENG",
-   "Ke Feng",
-   "Ke, Feng"
+   "Ke Feng"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
    "East China Jiaotong University",
    "National University of Singapore",
-   "Peking University",
-   "Zhejiang University of Technology",
    "Henan Normal University",
    "Xi'an Jiaotong University"
   ],
@@ -16367,8 +16380,6 @@
    "Qian, Zhenyun",
    "Z Qian",
    "Z. Qian",
-   "Z.F. Qian",
-   "Zhenyang Qian",
    "Zhenyun Qian"
   ],
   "atNortheastern": true,
@@ -16417,13 +16428,11 @@
  },
  "A5079712884": {
   "alternativeNames": [
-   "Marano, Valentina",
    "Valentina Marano"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University",
-   "Telethon Institute Of Genetics And Medicine"
+   "Northeastern University"
   ],
   "name": "Valentina Marano",
   "orcid": "https://orcid.org/0000-0002-4609-7704",
@@ -16431,9 +16440,7 @@
  },
  "A5079741126": {
   "alternativeNames": [
-   "K. E. Schulte",
    "Kathryn E. Schulte",
-   "Kathryn Schulte",
    "Kathryn Schulte Grahame"
   ],
   "atNortheastern": true,
@@ -16669,8 +16676,7 @@
  },
  "A5080579311": {
   "alternativeNames": [
-   "Mingyu Yin",
-   "Yin, Mingyu"
+   "Mingyu Yin"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -16684,22 +16690,16 @@
  },
  "A5080647116": {
   "alternativeNames": [
-   "M. Sevillano",
    "Maria C. Sevillano-Rivera",
    "Maria Sevillano",
    "Maria Sevillano-Rivera",
-   "María Eugenia Sevillano",
    "Sevillano, Maria",
    "Sevillano-Rivera, Maria",
    "Sevillano-Rivera, Maria C."
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
-   "Consejo Nacional de Investigaciones Científicas y Técnicas",
-   "Universidad Nacional de Cuyo",
-   "University of South Florida",
-   "Tampa General Hospital",
-   "Instituto de Biología Agrícola de Mendoza"
+   "Northeastern University"
   ],
   "name": "Maria Sevillano",
   "orcid": "https://orcid.org/0000-0003-0230-0624",
@@ -16750,7 +16750,6 @@
  },
  "A5080789540": {
   "alternativeNames": [
-   "R. J. De Falco",
    "Rosalia Falco",
    "Rosalia Falco Poulin"
   ],
@@ -16848,7 +16847,6 @@
  },
  "A5081287607": {
   "alternativeNames": [
-   "A. Ray",
    "Arnob Ray",
    "Ray, Arnob"
   ],
@@ -16896,7 +16894,6 @@
   "alternativeNames": [
    "Lustig, S.",
    "Lustig, S.R.",
-   "S. LUSTIG",
    "S. Lustig",
    "S.R. Lustig",
    "Steve Lustig",
@@ -16972,14 +16969,12 @@
   "alternativeNames": [
    "F. Meneghello",
    "Francesca Meneghello",
-   "MENEGHELLO, FRANCESCA",
    "Meneghello, Francesca"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "University of Padua",
-   "Technical University of Denmark"
+   "University of Padua"
   ],
   "name": "Francesca Meneghello",
   "orcid": "https://orcid.org/0000-0002-9905-0360",
@@ -17161,17 +17156,12 @@
  },
  "A5083146923": {
   "alternativeNames": [
-   "H Qu",
-   "H. Qu",
-   "HONG QU",
-   "Hong P. Qu",
    "Hong Ping Qu",
    "Hong Qu"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
-   "Kunming University of Science and Technology",
-   "First People's Hospital of Yunnan Province"
+   "Northeastern University"
   ],
   "name": "Hong Ping Qu",
   "orcid": "https://orcid.org/0000-0001-9003-3882",
@@ -17209,9 +17199,9 @@
    "Mehdi Nasrollahpour",
    "Mehdi Nasrollahpourmotlaghzanjani"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
-   "Tarbiat Modares University"
+   "Northeastern University"
   ],
   "name": "Mehdi Nasrollahpour",
   "orcid": "https://orcid.org/0000-0003-0420-7423",
@@ -17358,8 +17348,7 @@
    "N MOHAJERI",
    "N Mohajeri",
    "N. Mohajeri",
-   "Nahid Mohajeri",
-   "PhD Nahid Mohajeri"
+   "Nahid Mohajeri"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -17421,7 +17410,6 @@
  "A5083670815": {
   "alternativeNames": [
    "Cooper, Seth",
-   "S. C. Cooper",
    "Seth Cooper"
   ],
   "atNortheastern": true,
@@ -17447,15 +17435,10 @@
  },
  "A5083813345": {
   "alternativeNames": [
-   "Ugur Can Yilmaz",
-   "Uğur Can Yılmaz",
-   "Uğur YİLMAZ"
+   "Ugur Can Yilmaz"
   ],
   "atNortheastern": false,
-  "currentInstitutions": [
-   "Dr Lütfi Kırdar Kartal Eğitim ve Araştırma Hastanesi",
-   "Sağlık Bilimleri Üniversitesi"
-  ],
+  "currentInstitutions": [],
   "name": "Ugur Can Yilmaz",
   "orcid": "https://orcid.org/0000-0002-8161-8878",
   "papers": 3
@@ -17764,15 +17747,13 @@
  "A5085319644": {
   "alternativeNames": [
    "Jie Qian",
-   "Jie Yuan Qian",
-   "Qian Jie"
+   "Jie Yuan Qian"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
    "Chongqing University of Posts and Telecommunications",
    "Northeastern University",
    "Liaoning Shihua University",
-   "Nanjing University of Information Science and Technology",
    "Northeastern University"
   ],
   "name": "Jie Yuan Qian",
@@ -17873,8 +17854,6 @@
  },
  "A5085864488": {
   "alternativeNames": [
-   "S Savage",
-   "S W Savage",
    "Saiph Savage",
    "Saiph Savage*",
    "Savage, Saiph"
@@ -17958,7 +17937,7 @@
   ],
   "name": "Cristina Schultz",
   "orcid": "https://orcid.org/0000-0003-2006-7053",
-  "papers": 8
+  "papers": 7
  },
  "A5086419321": {
   "alternativeNames": [
@@ -17967,10 +17946,12 @@
    "Zhou, Suifang"
   ],
   "atNortheastern": false,
-  "currentInstitutions": [],
+  "currentInstitutions": [
+   "City University of Hong Kong"
+  ],
   "name": "Suifang Zhou",
   "orcid": "https://orcid.org/0000-0001-5103-580X",
-  "papers": 1
+  "papers": 2
  },
  "A5086593478": {
   "alternativeNames": [
@@ -17981,11 +17962,13 @@
    "Marilyn Minus",
    "Minus, Marilyn L."
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Marilyn L. Minus",
   "orcid": "https://orcid.org/0000-0003-0103-8273",
-  "papers": 3
+  "papers": 4
  },
  "A5086840897": {
   "alternativeNames": [
@@ -18066,14 +18049,11 @@
    "BO YI",
    "Bo YI",
    "Bo Yi",
-   "Yi Bo",
    "Yi, Bo"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "Nanchang University",
-   "Northeast Petroleum University",
    "Northeastern University"
   ],
   "name": "Bo Yi",
@@ -18140,6 +18120,7 @@
   "atNortheastern": false,
   "currentInstitutions": [
    "State Key Laboratory of Computer Aided Design and Graphics",
+   "Ocean University of China",
    "Zhejiang University"
   ],
   "name": "Taoran Liu",
@@ -18167,7 +18148,7 @@
   ],
   "name": "A. Randall Hughes",
   "orcid": "https://orcid.org/0000-0001-5072-7310",
-  "papers": 32
+  "papers": 33
  },
  "A5087348917": {
   "alternativeNames": [
@@ -18188,14 +18169,11 @@
    "Cui, Meng",
    "M. Cui",
    "Meng Cui",
-   "Meng Qi Cui",
-   "Meng Ying Cui"
+   "Meng Qi Cui"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University",
-   "Yanbian University",
-   "Zhejiang University"
+   "Northeastern University"
   ],
   "name": "Meng Qi Cui",
   "orcid": "https://orcid.org/0000-0002-3895-135X",
@@ -18250,7 +18228,6 @@
  },
  "A5087752109": {
   "alternativeNames": [
-   "Y. X. You",
    "Yizhi You",
    "You, Yizhi"
   ],
@@ -18260,7 +18237,7 @@
   ],
   "name": "Yizhi You",
   "orcid": "https://orcid.org/0000-0002-8115-8672",
-  "papers": 3
+  "papers": 2
  },
  "A5087777101": {
   "alternativeNames": [
@@ -18297,6 +18274,9 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Chinese Academy of Sciences",
+   "Institute of High Energy Physics",
+   "University of Chinese Academy of Sciences",
    "Northeastern University"
   ],
   "name": "Haibo Li",
@@ -18361,12 +18341,10 @@
  },
  "A5088007613": {
   "alternativeNames": [
-   "J LOWREY",
    "JOHN LOWREY",
    "John D Lowrey",
    "John D. Lowrey",
-   "John Lowrey",
-   "Lowrey, John"
+   "John Lowrey"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -18390,8 +18368,6 @@
  },
  "A5088048561": {
   "alternativeNames": [
-   "G SCHMITZ",
-   "G. Schmitz",
    "Gloria M. Schmitz",
    "Gloria Schmitz"
   ],
@@ -18473,24 +18449,26 @@
  "A5088694364": {
   "alternativeNames": [
    "Griffin, Jacqueline",
-   "J. Griffin",
    "Jacqueline A Griffin",
    "Jacqueline A. Griffin",
    "Jacqueline Griffin"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Jacqueline A. Griffin",
   "orcid": "https://orcid.org/0000-0001-7729-1748",
   "papers": 1
  },
  "A5088770761": {
   "alternativeNames": [
-   "Dan Jackson",
-   "Jackson, Dan"
+   "Dan Jackson"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Dan Jackson",
   "orcid": "https://orcid.org/0009-0007-7152-7351",
   "papers": 1
@@ -18511,7 +18489,6 @@
  },
  "A5088868924": {
   "alternativeNames": [
-   "T.D. Jennings",
    "Turner Jennings"
   ],
   "atNortheastern": true,
@@ -18555,9 +18532,6 @@
  },
  "A5088997228": {
   "alternativeNames": [
-   "Ge, Xiaowei",
-   "X. C. Ge",
-   "X.C. Ge",
    "Xiaowei Ge"
   ],
   "atNortheastern": true,
@@ -18671,7 +18645,6 @@
    "Yongqi Li",
    "Yongqiang 永强 Li 李",
    "Yongzhen Li",
-   "You Fu Li",
    "You Li",
    "Yu Li",
    "YuZheng Li",
@@ -18709,6 +18682,7 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Shanghai University",
+   "University of Technology Sydney",
    "Aviation Industry Corporation of China (China)",
    "Hunan University of Science and Technology",
    "Northeastern University",
@@ -18725,8 +18699,10 @@
    "Shanxi University",
    "Chinese Academy of Sciences",
    "Nanjing University of Information Science and Technology",
+   "Harbin Institute of Technology",
    "Dalian University of Technology",
    "Beijing Forestry University",
+   "Henan University of Technology",
    "Wuhan University",
    "Southeast University",
    "Tianjin Research Institute of Water Transport Engineering",
@@ -18734,6 +18710,8 @@
    "Institute of Oceanographic Instrumentation",
    "Xi'an University of Technology",
    "Shandong Academy of Sciences",
+   "China State Construction Engineering (China)",
+   "CCFEB Industrial Equipment Installation (China)",
    "Xinxiang University",
    "State Key Laboratory of Digital Medical Engineering",
    "State Key Laboratory of Powder Metallurgy",
@@ -18845,8 +18823,10 @@
    "Z. Y. Wei",
    "Zhengxuan Wei"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Zhengxuan Wei",
   "orcid": "https://orcid.org/0000-0003-2872-8418",
   "papers": 2
@@ -18908,13 +18888,9 @@
  },
  "A5089842725": {
   "alternativeNames": [
-   "A Quintana",
-   "A. Enebral Quintana",
-   "A. Quintana",
    "Alexi Quintana",
    "Alexi Quintana-Mathe",
    "Alexi Quintana-Mathé",
-   "Quintana A",
    "Quintana-Mathé, Alexi"
   ],
   "atNortheastern": true,
@@ -19028,12 +19004,10 @@
  },
  "A5090265262": {
   "alternativeNames": [
-   "D. Daramola",
    "D.A. Daramola",
    "Damilola A. Daramola",
    "Damilola Ayotunde Daramola",
-   "Damilola Daramola",
-   "Deborah. O. Daramola"
+   "Damilola Daramola"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -19501,6 +19475,19 @@
   "orcid": null,
   "papers": 1
  },
+ "A5093227967": {
+  "alternativeNames": [
+   "Darsan, Mya",
+   "Mya A. Darsan"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Mya A. Darsan",
+  "orcid": "https://orcid.org/0000-0003-4384-2120",
+  "papers": 1
+ },
  "A5093280708": {
   "alternativeNames": [
    "Pax Emmanuel Makhura"
@@ -19617,7 +19604,7 @@
   ],
   "name": "Yilmaz Arin Manav",
   "orcid": null,
-  "papers": 3
+  "papers": 4
  },
  "A5093614516": {
   "alternativeNames": [
@@ -20478,11 +20465,14 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Nanyang Technological University",
+   "Shanghai Jiao Tong University",
    "Harbin Institute of Technology",
    "Lanzhou University of Technology",
    "Sichuan University",
    "China University of Mining and Technology",
    "University of Michigan",
+   "State Key Laboratory of Metal Matrix Composites",
    "Southwest Jiaotong University",
    "Northeastern University"
   ],
@@ -20530,7 +20520,7 @@
   ],
   "name": "Yuwei Zhang",
   "orcid": "https://orcid.org/0000-0002-3260-6782",
-  "papers": 1
+  "papers": 2
  },
  "A5100327487": {
   "alternativeNames": [
@@ -20543,7 +20533,6 @@
    "Xin ZHANG",
    "Xin Zhang",
    "Xin 鑫 Zhang 张",
-   "Zhang, X.",
    "Zhang, Xiaomei",
    "Zhang, Xin"
   ],
@@ -20776,6 +20765,7 @@
   "currentInstitutions": [
    "University of Nottingham Ningbo China",
    "Xi'an University of Architecture and Technology",
+   "University of Alberta",
    "Jinan University",
    "Henan University of Science and Technology",
    "Central China Normal University",
@@ -20911,7 +20901,9 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "George Mason University"
+   "George Mason University",
+   "Allen Institute for Artificial Intelligence",
+   "University of California, Berkeley"
   ],
   "name": "Qi Wang",
   "orcid": "https://orcid.org/0000-0001-6804-1173",
@@ -20984,6 +20976,7 @@
   "atNortheastern": false,
   "currentInstitutions": [
    "University of Science and Technology of China",
+   "Harbin Engineering University",
    "Chinese Academy of Sciences",
    "Changchun Institute of Applied Chemistry",
    "Jiangsu University of Science and Technology",
@@ -21042,6 +21035,7 @@
   "atNortheastern": false,
   "currentInstitutions": [
    "Tianjin University of Technology",
+   "Guizhou University",
    "Anhui University of Science and Technology",
    "Sichuan University",
    "Henan University of Technology",
@@ -21112,8 +21106,7 @@
    "Lin ZHANG",
    "Lin Zhang",
    "ZHANG Lin",
-   "Zhang Lin",
-   "Zhang, Lin"
+   "Zhang Lin"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -21165,6 +21158,23 @@
   "orcid": "https://orcid.org/0000-0003-1871-9323",
   "papers": 2
  },
+ "A5100352581": {
+  "alternativeNames": [
+   "ZHANG Zhiyong",
+   "Zhang, Zhiyong",
+   "Zhi-Yong Zhang",
+   "Zhi-yong Zhang",
+   "Zhiyong ZHANG",
+   "Zhiyong Zhang"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [
+   "Xinjiang Agricultural University"
+  ],
+  "name": "Zhiyong Zhang",
+  "orcid": "https://orcid.org/0000-0001-8347-2641",
+  "papers": 1
+ },
  "A5100352605": {
   "alternativeNames": [
    "Z Zhang",
@@ -21187,7 +21197,7 @@
   ],
   "name": "Zhiyong Zhang",
   "orcid": "https://orcid.org/0000-0002-8841-8799",
-  "papers": 1
+  "papers": 2
  },
  "A5100352898": {
   "alternativeNames": [
@@ -21347,6 +21357,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Chongqing University",
    "The University of Queensland",
    "Chinese Academy of Sciences",
    "South China Sea Institute Of Oceanology",
@@ -21365,7 +21376,6 @@
  },
  "A5100359408": {
   "alternativeNames": [
-   "Kim, Tae-Hwan",
    "Kim, Taehwan",
    "TAE-HWAN KIM",
    "Tae Hwan Kim",
@@ -21397,9 +21407,11 @@
   "currentInstitutions": [
    "Northeastern University",
    "Taiyuan Normal University",
+   "University of California, Santa Cruz",
    "Chinese Academy of Sciences",
    "Lanzhou Institute of Chemical Physics",
    "Third People 's Hospital of Chongqing",
+   "Massachusetts Institute of Technology",
    "Tsinghua University"
   ],
   "name": "Yanqing Liu",
@@ -21545,6 +21557,7 @@
   "atNortheastern": false,
   "currentInstitutions": [
    "Beijing Jiaotong University",
+   "Renmin University of China",
    "Northeastern University"
   ],
   "name": "Yanfeng Zhang",
@@ -21697,12 +21710,14 @@
    "University of Science and Technology Liaoning",
    "Beijing Union University",
    "Tongji University",
+   "Jiangsu Normal University",
    "Anhui Jianzhu University",
    "Shandong University of Technology",
    "Central South University of Forestry and Technology",
    "Nanjing Agricultural University",
    "Inner Mongolia Agricultural University",
    "Hunan University of Science and Technology",
+   "Beihua University",
    "Northwest Minzu University",
    "Beijing Institute of Technology",
    "University of Science and Technology of China",
@@ -21718,6 +21733,7 @@
    "Nanjing Tech University",
    "North University of China",
    "Shanghai Polytechnic University",
+   "University of Nottingham Ningbo China",
    "Tianjin University of Technology",
    "North China University of Science and Technology",
    "Guangdong University of Technology",
@@ -21854,6 +21870,7 @@
    "Hefei University",
    "Nanjing University of Posts and Telecommunications",
    "Jiangxi Science and Technology Normal University",
+   "Jilin Jianzhu University",
    "Jiangsu Academy of Agricultural Sciences",
    "China Resources (China)",
    "Changchun Institute of Optics, Fine Mechanics and Physics",
@@ -21865,10 +21882,12 @@
    "Southeast University",
    "Henan Academy of Sciences",
    "China Institute of Water Resources and Hydropower Research",
+   "Suzhou Institute of Nano-tech and Nano-bionics",
    "Suzhou Institute of Biomedical Engineering and Technology",
    "Dalian University",
    "Zhoukou Normal University",
    "Henan University of Engineering",
+   "Jiangsu University of Science and Technology",
    "State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation",
    "Zhejiang Cancer Hospital",
    "Institute of Food Science and Technology",
@@ -21884,12 +21903,15 @@
    "Xinjiang Technical Institute of Physics & Chemistry",
    "Hubei University for Nationalities",
    "Wuhan Institute of Virology",
+   "Nanomaterials Research (United States)",
+   "Yantai Institute of Coastal Zone Research",
    "Chinese General Chamber of Commerce",
    "Second Institute of Oceanography",
    "Nanjing Drum Tower Hospital",
    "Shanghai Advanced Research Institute",
    "Nanjing Hydraulic Research Institute",
    "Institute of Biophysics",
+   "Guangzhou Automobile Group (China)",
    "Songshan Lake Materials Laboratory",
    "Institute of Plasma Physics",
    "Nanyang Institute of Technology",
@@ -21924,6 +21946,7 @@
    "Chinese Academy of Agricultural Sciences",
    "Research Institute of Highway",
    "Institute of Rock and Soil Mechanics",
+   "National Center for Nanoscience and Technology",
    "Center for High Pressure Science and Technology Advanced Research",
    "Peking University Third Hospital",
    "Research Center for Eco-Environmental Sciences",
@@ -21941,6 +21964,7 @@
    "Ministry of Water Resources of the People's Republic of China",
    "State Key Laboratory of Chemical Engineering",
    "Institute of Information Engineering",
+   "Chengdu Tiger Microwave Technology (China)",
    "Yancheng Institute of Technology",
    "Xinjiang Uygur Autonomous Region Education Department",
    "Institute of Coal Chemistry",
@@ -21951,6 +21975,7 @@
    "National Institute of Metrology",
    "China Institute of Geological Environmental Monitoring",
    "University of Chinese Academy of Sciences",
+   "Ningbo Institute of Industrial Technology",
    "Henan Polytechnic University",
    "Dalian Maritime University",
    "Hebei University",
@@ -22068,6 +22093,7 @@
    "Yangzhou University",
    "Shandong University of Science and Technology",
    "Fuzhou University",
+   "Old Dominion University",
    "Taizhou University",
    "Beihang University",
    "Shenyang Jianzhu University",
@@ -22179,8 +22205,9 @@
    "Wang, Yiming",
    "Yiming Wang"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
+   "Northeastern University",
    "University of Shanghai for Science and Technology",
    "North China Electric Power University",
    "Tianjin University",
@@ -22260,12 +22287,14 @@
   "currentInstitutions": [
    "Northeastern University",
    "Zhongyuan University of Technology",
+   "Wuhan University of Technology",
    "Chang'an University",
    "Beijing Forestry University",
    "Ghent University",
    "Institute of Chemical Industry of Forest Products",
    "Chinese Academy of Forestry",
    "Shenzhen Technology University",
+   "State Key Laboratory of Advanced Technology For Materials Synthesis and Processing",
    "China Ship Scientific Research Center",
    "Shanghai Institute of Technology",
    "Fuzhou University",
@@ -22436,6 +22465,7 @@
    "Henan University",
    "Shenzhen University",
    "Yongjiang Laboratory",
+   "Ocean University of China",
    "Shandong University of Science and Technology",
    "Northeastern University",
    "University of Science and Technology Beijing"
@@ -22786,7 +22816,6 @@
  },
  "A5100414050": {
   "alternativeNames": [
-   "Li, Y.",
    "Li, Ying",
    "Y Li",
    "Y. Li",
@@ -22829,20 +22858,7 @@
    "ZHANG QIN"
   ],
   "atNortheastern": false,
-  "currentInstitutions": [
-   "Guangxi University",
-   "Hohai University",
-   "Yunnan University",
-   "Guilin University of Technology",
-   "Zhaotong University",
-   "Zhoukou Normal University",
-   "CNPC Chuanqing Drilling Engineering Company Limited (China)",
-   "Huazhong University of Science and Technology",
-   "Nanjing Medical University",
-   "Anhui University of Technology",
-   "China National Petroleum Corporation (China)",
-   "Nanjing University of Aeronautics and Astronautics"
-  ],
+  "currentInstitutions": [],
   "name": "Qin Zhang",
   "orcid": "https://orcid.org/0000-0002-2823-2263",
   "papers": 1
@@ -22853,9 +22869,10 @@
    "Chen Chen",
    "chen Chen"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
    "Fujian Normal University",
+   "Northeastern University",
    "State Key Laboratory of Pollution Control and Resource Reuse",
    "Jiangsu University of Science and Technology",
    "Nanjing University"
@@ -23050,7 +23067,6 @@
  "A5100430456": {
   "alternativeNames": [
    "HAN Yue",
-   "Han, Yue",
    "Han, Yuexin",
    "Y Han",
    "Y. Han",
@@ -23312,7 +23328,6 @@
   "alternativeNames": [
    "Ma Yifei",
    "Ma, Yaqing",
-   "Ma, Yifei",
    "Yaqing Ma",
    "Yi-Fei Ma",
    "Yifei Ma",
@@ -23350,6 +23365,29 @@
   ],
   "name": "Yuhang Li",
   "orcid": "https://orcid.org/0000-0003-4086-0323",
+  "papers": 1
+ },
+ "A5100444188": {
+  "alternativeNames": [
+   "<p>Yichi Zhang<sup>1</sup>, Boyu Hu<sup>2</sup>, Xinyi Yuan<sup>3</sup>, Yupeng Li<sup>4</sup></p>",
+   "Yi-Chi Zhang",
+   "Yichi ZHANG",
+   "Yichi Zhang",
+   "ZHANG, Yichi",
+   "Zhang Yichi",
+   "Zhang, Yichi"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [
+   "National University of Singapore",
+   "Nanyang Technological University",
+   "Princeton University",
+   "Fudan University",
+   "Ant Group (China)",
+   "Zhejiang University"
+  ],
+  "name": "Yichi Zhang",
+  "orcid": "https://orcid.org/0000-0002-4292-6835",
   "papers": 1
  },
  "A5100448854": {
@@ -23615,7 +23653,6 @@
  "A5100580322": {
   "alternativeNames": [
    "LYU Xiao",
-   "Lyu, Xiao",
    "Xiao Lyu",
    "Xiao Lyu,"
   ],
@@ -23629,15 +23666,10 @@
  },
  "A5100587485": {
   "alternativeNames": [
-   "Ma Ting",
    "Ting Ma"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
-   "Tianjin University",
-   "Nankai University",
-   "Collaborative Innovation Center of Chemical Science and Engineering Tianjin",
-   "State Key Laboratory of Chemical Engineering",
    "Northeastern University"
   ],
   "name": "Ting Ma",
@@ -23788,8 +23820,7 @@
    "WEI ZHANG",
    "Wei ZHANG",
    "Wei Zhang",
-   "Zhang Wei",
-   "Zhang, Wei"
+   "Zhang Wei"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -24191,7 +24222,6 @@
  },
  "A5100671644": {
   "alternativeNames": [
-   "Liu, Yumin",
    "Yu-Min Liu",
    "Yu-min Liu",
    "YuMin Liu",
@@ -24262,7 +24292,6 @@
    "Hongfeng Wang",
    "Wang Hong-Feng",
    "Wang Hong-feng",
-   "Wang, Hong-Feng",
    "Wang, Hongfeng"
   ],
   "atNortheastern": true,
@@ -24346,37 +24375,11 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Aviation Industry Corporation of China (China)",
-   "University of Science and Technology of China",
-   "Northeastern University",
-   "Ministry of Education of the People's Republic of China",
-   "Central South University",
-   "University of Shanghai for Science and Technology",
-   "Xidian University",
-   "Shandong University",
-   "Guizhou Normal University",
-   "Jinan University",
-   "Hefei University of Technology",
-   "Southwest Petroleum University",
-   "Northwestern Polytechnical University",
-   "Yunnan University",
-   "Fudan University",
-   "China University of Mining and Technology",
-   "Technische Universität Darmstadt",
-   "University of Alabama at Birmingham",
-   "Zhengzhou University",
-   "Key Laboratory of Guangdong Province",
-   "Changcheng Institute of Metrology & Measurement",
-   "Contemporary Amperex Technology Co., Limited.",
-   "PLA National Defence University",
-   "Stony Brook University",
-   "Beihang University",
-   "Northeast Petroleum University",
-   "Tsinghua University"
+   "Northeastern University"
   ],
   "name": "Wei Li",
   "orcid": "https://orcid.org/0000-0002-6937-8234",
-  "papers": 4
+  "papers": 5
  },
  "A5100687834": {
   "alternativeNames": [
@@ -24723,7 +24726,7 @@
   ],
   "name": "Baolin Li",
   "orcid": "https://orcid.org/0000-0001-9778-1023",
-  "papers": 1
+  "papers": 2
  },
  "A5100736012": {
   "alternativeNames": [
@@ -24895,8 +24898,9 @@
    "Sun, Hongbin",
    "hongbin sun"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
+   "Northeastern University",
    "Polar Research Institute of China",
    "State Key Laboratory of Power System Operation and Control",
    "Shenyang University of Chemical Technology",
@@ -24957,7 +24961,6 @@
  },
  "A5100763966": {
   "alternativeNames": [
-   "M. SHEN",
    "M. Shen",
    "Ming Shen",
    "Shen, Ming"
@@ -24992,6 +24995,9 @@
   "atNortheastern": false,
   "currentInstitutions": [
    "Southern University of Science and Technology",
+   "Chinese University of Hong Kong, Shenzhen",
+   "Mila - Quebec Artificial Intelligence Institute",
+   "McGill University",
    "Zhejiang University of Technology"
   ],
   "name": "Fengyuan Liu",
@@ -25137,16 +25143,13 @@
    "Ziyang Qiu"
   ],
   "atNortheastern": false,
-  "currentInstitutions": [
-   "Dongguan University of Technology"
-  ],
+  "currentInstitutions": [],
   "name": "Ziyang Qiu",
   "orcid": null,
   "papers": 1
  },
  "A5101075315": {
   "alternativeNames": [
-   "Xiao-dong Zhi",
    "Xiaodong Zhi"
   ],
   "atNortheastern": true,
@@ -25347,7 +25350,6 @@
  },
  "A5101363910": {
   "alternativeNames": [
-   "Jiao, Junning",
    "Junning Jiao"
   ],
   "atNortheastern": true,
@@ -25418,7 +25420,6 @@
    "A. Coskun",
    "A. Ümit Coşkun",
    "A.U. Coskun",
-   "AHMET COŞKUN",
    "Ahmed U Coskun",
    "Ahmet Coskun",
    "Ahmet U Coskun",
@@ -25438,7 +25439,6 @@
  "A5101428828": {
   "alternativeNames": [
    "Ivanova, Maria",
-   "M Ivanova",
    "MARIA IVANOVA",
    "Maria H. Ivanova",
    "Maria Ivanova"
@@ -25483,21 +25483,6 @@
   "orcid": "https://orcid.org/0000-0002-4154-152X",
   "papers": 2
  },
- "A5101493797": {
-  "alternativeNames": [
-   "Qi Ye",
-   "Qigang Ye",
-   "Ye Qi",
-   "Ye, Qi"
-  ],
-  "atNortheastern": false,
-  "currentInstitutions": [
-   "Dalian Ocean University"
-  ],
-  "name": "Qi Ye",
-  "orcid": "https://orcid.org/0009-0002-9034-8010",
-  "papers": 1
- },
  "A5101494590": {
   "alternativeNames": [
    "Chu-Han Wang",
@@ -25513,6 +25498,7 @@
    "Chinese Academy of Sciences",
    "Beijing Normal University",
    "Hebei University of Science and Technology",
+   "University of California San Diego",
    "State Key Laboratory of Electronic Thin Films and Integrated Devices",
    "Beijing Normal University, Zhuhai",
    "East China Normal University",
@@ -25911,7 +25897,6 @@
  },
  "A5101718382": {
   "alternativeNames": [
-   "R. Andre",
    "RAE ANDRÉ",
    "Rae Andre",
    "Rae André"
@@ -26213,6 +26198,8 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Shenyang Institute of Engineering",
+   "Shenyang University",
    "Northeastern University"
   ],
   "name": "Jingchao Sun",
@@ -26249,7 +26236,7 @@
   ],
   "name": "Juner Zhu",
   "orcid": "https://orcid.org/0000-0001-7072-2293",
-  "papers": 4
+  "papers": 6
  },
  "A5101871265": {
   "alternativeNames": [
@@ -26348,7 +26335,8 @@
  "A5101901353": {
   "alternativeNames": [
    "Lin Wang",
-   "Wang Lin"
+   "Wang Lin",
+   "Wang, Lin"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -26364,6 +26352,7 @@
    "Gao Tian-Han",
    "Gao, Tianhan",
    "Tian-Han GAO",
+   "Tian-han GAO",
    "Tian-han Gao",
    "TianHan Gao",
    "Tianhan Gao"
@@ -26371,6 +26360,7 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
+   "University of Michigan",
    "Northeastern University"
   ],
   "name": "Tianhan Gao",
@@ -26434,8 +26424,6 @@
  },
  "A5101945710": {
   "alternativeNames": [
-   "A. Badri Ramezani",
-   "A. Ramezani",
    "Alireza Ramezani",
    "Ramezani, A.",
    "Ramezani, Alireza"
@@ -26471,7 +26459,6 @@
   "alternativeNames": [
    "Chatterjee, Samrat",
    "Chatterjee, Samrat [Pacific Northwest National Laboratory (PNNL), Richland, WA (United States)]; Thomas, Dennis G. [Pacific Northwest National Laboratory (PNNL), Richland, WA (United States)]; Fortin, Daniel C. [Pacific Northwest National Laboratory (PNNL), Richland, WA (United States)]; Pazdernik, Karl TL [Pacific Northwest National Laboratory (PNNL), Richland, WA (United States)]; Wilson, Benjamin A. [Pacific Northwest National Laboratory (PNNL), Richland, WA (United States)]; Newburn, Lisa LN",
-   "S. Chatterjee",
    "Samrat Chatterjee"
   ],
   "atNortheastern": true,
@@ -26534,6 +26521,7 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
+   "Zhejiang Lab",
    "Xi'an University of Technology",
    "Zhejiang University",
    "Xi'an Jiaotong University"
@@ -26805,11 +26793,12 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University"
+   "Northeastern University",
+   "Shanghai Artificial Intelligence Laboratory"
   ],
   "name": "Yankai Jiang",
   "orcid": "https://orcid.org/0009-0006-9968-7560",
-  "papers": 3
+  "papers": 4
  },
  "A5102704114": {
   "alternativeNames": [
@@ -26856,9 +26845,7 @@
  "A5102712927": {
   "alternativeNames": [
    "P. F. Xing",
-   "P. Xing",
    "P.F. Xing",
-   "Peng-Fei Xing",
    "Peng-fei XING",
    "Peng-fei Xing",
    "Pengfei XING",
@@ -26926,8 +26913,9 @@
    "Yanfei Kou",
    "Yinghang Kou"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
+   "Northeastern University",
    "Northeastern University"
   ],
   "name": "Yinghang Kou",
@@ -27220,10 +27208,8 @@
  "A5103159653": {
   "alternativeNames": [
    "R Sundaram",
-   "R. Chokkanathapuram Sundaram",
    "R. Sundaram",
    "Ravi Sundaram",
-   "Sundaram R.",
    "Sundaram, R.",
    "Sundaram, Ravi"
   ],
@@ -27280,6 +27266,19 @@
   ],
   "name": "Yu Gao",
   "orcid": "https://orcid.org/0000-0003-1288-8580",
+  "papers": 1
+ },
+ "A5103282189": {
+  "alternativeNames": [
+   "Yan Zhou",
+   "Zhou, Yan"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [
+   "Kuaishou (China)"
+  ],
+  "name": "Yan Zhou",
+  "orcid": "https://orcid.org/0009-0002-0564-0915",
   "papers": 1
  },
  "A5103363110": {
@@ -27390,8 +27389,6 @@
  },
  "A5103837205": {
   "alternativeNames": [
-   "S. Xiong",
-   "S.W. Xiong",
    "Shixian Xiong"
   ],
   "atNortheastern": false,
@@ -27701,7 +27698,7 @@
   ],
   "name": "Detao Zou",
   "orcid": "https://orcid.org/0009-0006-5605-9257",
-  "papers": 1
+  "papers": 2
  },
  "A5106278895": {
   "alternativeNames": [
@@ -27728,6 +27725,7 @@
    "Chinese Academy of Sciences",
    "Research Institute of Petroleum Exploration and Development",
    "Technical Institute of Physics and Chemistry",
+   "Shanghai Artificial Intelligence Laboratory",
    "State Key Laboratory of Enhanced Oil Recovery",
    "Taiyuan University of Technology"
   ],
@@ -27782,6 +27780,19 @@
   "name": "Jessica Eig",
   "orcid": null,
   "papers": 1
+ },
+ "A5106580909": {
+  "alternativeNames": [
+   "August Posch",
+   "Posch, August"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "August Posch",
+  "orcid": null,
+  "papers": 2
  },
  "A5106606754": {
   "alternativeNames": [
@@ -27967,7 +27978,6 @@
    "Gui Wang",
    "Hai-fu Wang",
    "Hanyue Wang",
-   "J Yi-Xiang Wang",
    "J. C. Wang",
    "J. WANG",
    "J. Wang",
@@ -28061,7 +28071,8 @@
    "Jiageng Wang",
    "Jiagui Wang",
    "Jiahai Wang",
-   "Jiahan Wang"
+   "Jiahan Wang",
+   "Jiahang Wang"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -28318,6 +28329,7 @@
    "Nanjing University of Information Science and Technology",
    "Brookhaven National Laboratory",
    "University of Washington",
+   "Guangdong University Of Finances and Economics",
    "Changchun Normal University",
    "Qufu Normal University",
    "Peking University",
@@ -28486,6 +28498,7 @@
    "Dalian University",
    "Fudan University Shanghai Cancer Center",
    "Third People's Hospital of Chengdu",
+   "Shanghai Tunnel Engineering (China)",
    "Zhoukou Normal University",
    "First Affiliated Hospital of Jiangxi Medical College",
    "Kaohsiung Chang Gung Memorial Hospital",
@@ -28582,6 +28595,7 @@
    "Beijing Chest Hospital",
    "CCTEG Shenyang Research Institute",
    "Sichuan Mianyang 404 Hospital",
+   "China Spallation Neutron Source",
    "Wuzhou University",
    "Tongren Hospital",
    "Tropical Crops Genetic Resources Institute",
@@ -28600,6 +28614,7 @@
    "Shanghai Cancer Institute",
    "Institute of Applied Ecology",
    "Aerospace Center Hospital",
+   "Beijing Municipal Government",
    "Hebei General Hospital",
    "Xi'an Technological University",
    "Hunan Academy of Agricultural Sciences",
@@ -28713,6 +28728,7 @@
    "Guangzhou Institute of Energy Conversion",
    "Chinese Academy of Forestry",
    "Peking University Shenzhen Hospital",
+   "Tianjin Fire Research Institute",
    "Institute of Software",
    "Institute of Electrical Engineering",
    "The First Affiliated Hospital, Sun Yat-sen University",
@@ -28753,6 +28769,7 @@
    "Henan Provincial People's Hospital",
    "First Affiliated Hospital of Gannan Medical University",
    "Peking University International Hospital",
+   "China Railway Construction Corporation (China)",
    "Institute of Biophysics",
    "Beijing Research Institute of Uranium Geology",
    "Anhui Institute of Optics and Fine Mechanics",
@@ -28788,6 +28805,7 @@
    "Wuhan National Laboratory for Optoelectronics",
    "Chinese Academy of Agricultural Sciences",
    "Yunnan Provincial Department of Education",
+   "People's Government of Shaanxi Province",
    "First Hospital of Jiaxing",
    "Ningxia Medical University General Hospital",
    "Tianjin Institute of Industrial Biotechnology",
@@ -28827,6 +28845,7 @@
    "Henan Cancer Hospital",
    "Taizhou First People's Hospital",
    "Institute of Environment and Sustainable Development in Agriculture",
+   "Sinomach (China)",
    "Jiangsu University of Technology",
    "Research Center for Eco-Environmental Sciences",
    "Beijing Children’s Hospital",
@@ -28860,6 +28879,7 @@
    "Institute of Semiconductors",
    "Feed Research Institute",
    "Second Affiliated Hospital of Anhui Medical University",
+   "Guangdong University of Finance",
    "Tianjin Chest Hospital",
    "First Affiliated Hospital of Bengbu Medical College",
    "Collaborative Innovation Center of Chemical Science and Engineering Tianjin",
@@ -28902,6 +28922,7 @@
    "Institute of Information Engineering",
    "First Affiliated Hospital of Harbin Medical University",
    "Shandong Maternal and Child Health Hospital",
+   "Collaborative Innovation Center of Chemistry for Energy Materials",
    "First Affiliated Hospital of Zhengzhou University",
    "Third Xiangya Hospital",
    "Yancheng Institute of Technology",
@@ -28967,6 +28988,7 @@
    "University of Chinese Academy of Sciences",
    "Ningbo Institute of Industrial Technology",
    "Hangzhou Medical College",
+   "Shanghai Municipal People's Government",
    "Dezhou University",
    "Xinxiang University",
    "Nanjing Institute of Agricultural Mechanization",
@@ -29137,6 +29159,7 @@
    "Key Laboratory of Leather Chemistry and Engineering of Ministry of Education",
    "China Ship Scientific Research Center",
    "State Key Laboratory of Biocatalysis and Enzyme Engineering",
+   "Ministry of Emergency Management of the People's Republic of China",
    "Jiangsu Key Laboratory for Advanced Metallic Materials",
    "State Grid Hubei Electric Power Co., Ltd. (China)",
    "Key Laboratory of Bioorganic Chemistry and Molecular Engineering, Ministry of Education",
@@ -29155,6 +29178,7 @@
    "State Key Laboratory of Separation Membranes and Membrane Processes",
    "CNPC Chuanqing Drilling Engineering Company Limited (China)",
    "Shanghai Key Laboratory of Psychotic Disorders",
+   "Jiangsu Provincial Key Laboratory of New Environmental Protection",
    "China Yangtze Power Co., Ltd. (China)",
    "Beijing Synchrotron Radiation Facility",
    "National Health Commission of the People's Republic of China",
@@ -29354,7 +29378,7 @@
    "Air Force Medical University"
   ],
   "name": "Yi-Xiang Wang",
-  "orcid": "https://orcid.org/0000-0001-5697-0717",
+  "orcid": "https://orcid.org/0000-0002-5246-5497",
   "papers": 1
  },
  "A5108048806": {
@@ -29396,7 +29420,6 @@
    "Nathan L. Post",
    "Nathan L. Post,",
    "Nathan Post",
-   "Post, Nathan",
    "Post, Nathan L.",
    "Post, Nathan Leon"
   ],
@@ -29505,6 +29528,20 @@
   "orcid": null,
   "papers": 2
  },
+ "A5108312555": {
+  "alternativeNames": [
+   "B. Chen",
+   "Bingyu Chen"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "Northeastern University"
+  ],
+  "name": "B. Chen",
+  "orcid": null,
+  "papers": 1
+ },
  "A5108558538": {
   "alternativeNames": [
    "Han, Xiaoyu",
@@ -29576,13 +29613,26 @@
   "orcid": null,
   "papers": 1
  },
+ "A5108979162": {
+  "alternativeNames": [
+   "Ming Su",
+   "Su, Ming"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "Chinese Academy of Sciences",
+   "Research Center for Eco-Environmental Sciences",
+   "University of Chinese Academy of Sciences"
+  ],
+  "name": "Ming Su",
+  "orcid": "https://orcid.org/0000-0001-9821-1268",
+  "papers": 1
+ },
  "A5109145790": {
   "alternativeNames": [
    "Epstein, Slava S.",
    "S Epstein",
-   "S S Epstein",
-   "S. Epstein",
-   "S. S. EPSTEIN",
    "S. S. Epstein",
    "S.S. Epstein",
    "SLAVA S. EPSTEIN",
@@ -29652,18 +29702,10 @@
  },
  "A5109365092": {
   "alternativeNames": [
-   "Mu, Yu",
-   "Yu Mu",
-   "Yuejuan Li"
+   "Yu Mu"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
-   "North China University of Science and Technology",
-   "Shandong University",
-   "Southwest Petroleum University",
-   "Jilin University",
-   "Nanjing University of Posts and Telecommunications",
-   "Second Affiliated Hospital of Jilin University",
    "Northeastern University"
   ],
   "name": "Yu Mu",
@@ -29717,6 +29759,7 @@
   "alternativeNames": [
    "MARGARET Y. K. WOO",
    "MARGARET Y.K. WOO",
+   "Margaret Woo",
    "Margaret Y K Woo",
    "Margaret Y. K. Woo",
    "Margaret Y.K. Woo",
@@ -29744,8 +29787,7 @@
  },
  "A5109562143": {
   "alternativeNames": [
-   "Joan Fitzgerald",
-   "Joan M. Fitzgerald"
+   "Joan Fitzgerald"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -29814,8 +29856,7 @@
  },
  "A5109638109": {
   "alternativeNames": [
-   "Gaoyu Wei",
-   "Wei, G."
+   "Gaoyu Wei"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -29829,8 +29870,7 @@
  },
  "A5109652318": {
   "alternativeNames": [
-   "Carlos Arriaga Serrano",
-   "Carlos Serrano"
+   "Carlos Arriaga Serrano"
   ],
   "atNortheastern": false,
   "currentInstitutions": [],
@@ -29975,8 +30015,6 @@
   "alternativeNames": [
    "H Qin",
    "H. Qin",
-   "HUA QIN",
-   "Hua QIN",
    "Hua Qin",
    "Qin, Hua"
   ],
@@ -29984,8 +30022,7 @@
   "currentInstitutions": [
    "University of Science and Technology of China",
    "Chinese Academy of Sciences",
-   "ShanghaiTech University",
-   "Shanghai Institute of Technology"
+   "ShanghaiTech University"
   ],
   "name": "Hua Qin",
   "orcid": "https://orcid.org/0000-0003-4885-0963",
@@ -30030,7 +30067,6 @@
  },
  "A5110230452": {
   "alternativeNames": [
-   "K. Tom Thorne",
    "Kalaina A. Thorne",
    "Kalaina B. Thorne",
    "Kalaina Thorne"
@@ -30072,7 +30108,6 @@
   "alternativeNames": [
    "V G Godoy",
    "V. G. Godoy",
-   "V. Godoy",
    "Veronica G Godoy",
    "Veronica G. Godoy",
    "Veronica Godoy",
@@ -30096,7 +30131,9 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "Liaoning University of Technology"
+   "State Ethnic Affairs Commission",
+   "Liaoning University of Technology",
+   "Dalian Minzu University"
   ],
   "name": "Donggang Li",
   "orcid": null,
@@ -30152,6 +30189,7 @@
   "currentInstitutions": [
    "Tianjin University of Traditional Chinese Medicine",
    "Brigham and Women's Hospital",
+   "Harvard University",
    "Central South University",
    "University of Illinois Urbana-Champaign",
    "Jilin University",
@@ -30420,7 +30458,7 @@
   ],
   "name": "Munik Shrestha",
   "orcid": null,
-  "papers": 1
+  "papers": 2
  },
  "A5112117050": {
   "alternativeNames": [
@@ -30476,7 +30514,8 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
-   "Chengdu Institute of Plateau Meteorology, China Meteorological Administration"
+   "Chengdu Institute of Plateau Meteorology, China Meteorological Administration",
+   "Northeastern University"
   ],
   "name": "Tao Du",
   "orcid": "https://orcid.org/0009-0004-2209-1844",
@@ -30498,9 +30537,6 @@
  },
  "A5112851653": {
   "alternativeNames": [
-   "L Qian",
-   "L. H. Qian",
-   "L.H. Qian",
    "Li-Xiong Qian",
    "Li-xiong Qian",
    "Lixiong Qian",
@@ -30609,8 +30645,11 @@
   "alternativeNames": [
    "Matthew Rock"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "American Society For Engineering Education",
+   "Northeastern University"
+  ],
   "name": "Matthew Rock",
   "orcid": null,
   "papers": 1
@@ -30783,6 +30822,19 @@
   "orcid": null,
   "papers": 1
  },
+ "A5113431567": {
+  "alternativeNames": [
+   "Wan, Yichen",
+   "Yichen Wan"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Yichen Wan",
+  "orcid": "https://orcid.org/0009-0005-5747-6063",
+  "papers": 1
+ },
  "A5113563512": {
   "alternativeNames": [
    "Gui-Bin JIANG",
@@ -30876,7 +30928,6 @@
  },
  "A5113963910": {
   "alternativeNames": [
-   "L.‐Q. QIAN",
    "Lizhi Qian"
   ],
   "atNortheastern": false,
@@ -31143,7 +31194,6 @@
   "alternativeNames": [
    "D. P. Kirby",
    "D.P. Kirby",
-   "Daniel Kirby",
    "Daniel P. Kirby",
    "Kirby, Daniel P."
   ],
@@ -31233,9 +31283,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
-   "Chinese Academy of Sciences",
-   "Shanghai Institute of Optics and Fine Mechanics",
-   "University of Chinese Academy of Sciences"
+   "Hebei Academy of Agriculture and Forestry Sciences"
   ],
   "name": "Chang Liu",
   "orcid": "https://orcid.org/0009-0009-1196-2620",
@@ -31266,6 +31314,7 @@
    "Xinjiang Normal University",
    "Nanchang University",
    "Southwest University",
+   "Xi'an University of Architecture and Technology",
    "Xidian University",
    "University of Electronic Science and Technology of China",
    "State Grid Corporation of China (China)",
@@ -32389,7 +32438,8 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "Gulf of Maine Research Institute"
+   "Gulf of Maine Research Institute",
+   "Artificial Intelligence in Medicine (Canada)"
   ],
   "name": "Iván Felipe Benavides Martínez",
   "orcid": null,
@@ -32516,6 +32566,71 @@
   "name": "Mengting Ye",
   "orcid": null,
   "papers": 2
+ },
+ "A5124084735": {
+  "alternativeNames": [
+   "Yi Zheng",
+   "Zheng, Yi"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Yi Zheng",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5124092689": {
+  "alternativeNames": [
+   "Hanqing Liu",
+   "Liu, Hanqing"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Hanqing Liu",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5124095227": {
+  "alternativeNames": [
+   "Yang, Yutian",
+   "Yutian Yang"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Yutian Yang",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5124110251": {
+  "alternativeNames": [
+   "Li, Xiaoli",
+   "Xiaoli Li"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Xiaoli Li",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5124116738": {
+  "alternativeNames": [
+   "Mu Ying",
+   "Ying, Mu"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Mu Ying",
+  "orcid": null,
+  "papers": 1
  },
  "A5124274934": {
   "alternativeNames": [
@@ -33021,7 +33136,11 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
+   "Soochow University",
    "Yunnan Agricultural University",
+   "Guangzhou University",
+   "Soochow University",
+   "Shanghai Artificial Intelligence Laboratory",
    "University of Technology Malaysia"
   ],
   "name": "Tong Zhu",
@@ -33191,6 +33310,19 @@
    "George Mason University"
   ],
   "name": "Justin Guthrie",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5129772403": {
+  "alternativeNames": [
+   "Louis Shuo Wang",
+   "Wang, Louis Shuo"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Louis Shuo Wang",
   "orcid": null,
   "papers": 1
  },
@@ -33563,6 +33695,19 @@
   "orcid": null,
   "papers": 1
  },
+ "A5133583617": {
+  "alternativeNames": [
+   "Huang, Xiaoyao",
+   "Xiaoyao Huang"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Xiaoyao Huang",
+  "orcid": null,
+  "papers": 1
+ },
  "A5133614057": {
   "alternativeNames": [
    "Wenshu Zheng"
@@ -33699,6 +33844,19 @@
    "Jiangsu Provincial Hospital of Traditional Chinese Medicine"
   ],
   "name": "Jie Han",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5134560653": {
+  "alternativeNames": [
+   "Shuochen Wang",
+   "Wang, Shuochen"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Shuochen Wang",
   "orcid": null,
   "papers": 1
  },
@@ -33901,6 +34059,33 @@
   ],
   "name": "Andrea W. Gutierrez",
   "orcid": "https://orcid.org/0009-0004-3136-2044",
+  "papers": 1
+ },
+ "A5135475889": {
+  "alternativeNames": [
+   "Bowen, Jennifer",
+   "Jennifer Bowen",
+   "Jennifer L. Bowen"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Jennifer Bowen",
+  "orcid": "https://orcid.org/0000-0003-0339-1564",
+  "papers": 1
+ },
+ "A5135511676": {
+  "alternativeNames": [
+   "Abigail Moulton",
+   "Moulton, Abigail"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Abigail Moulton",
+  "orcid": "https://orcid.org/0009-0002-0135-3898",
   "papers": 1
  },
  "A5135559754": {
@@ -34403,7 +34588,7 @@
   ],
   "name": "Jiahui Zhang",
   "orcid": null,
-  "papers": 1
+  "papers": 2
  },
  "A5138243948": {
   "alternativeNames": [
@@ -34415,7 +34600,7 @@
   ],
   "name": "Pengyuan Zhao",
   "orcid": null,
-  "papers": 1
+  "papers": 2
  },
  "A5138274450": {
   "alternativeNames": [
@@ -34525,6 +34710,30 @@
    "Northeastern University"
   ],
   "name": "Wei-na Zhang",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5139408931": {
+  "alternativeNames": [
+   "Ling Zhu"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Ling Zhu",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5139414463": {
+  "alternativeNames": [
+   "Qin Chen"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Qin Chen",
   "orcid": null,
   "papers": 1
  },
@@ -34847,8 +35056,9 @@
   "alternativeNames": [
    "Jiayao Gao"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
+   "Northeastern University",
    "Northeastern University"
   ],
   "name": "Jiayao Gao",
@@ -34861,7 +35071,8 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University"
+   "Northeastern University",
+   "Pingdingshan University"
   ],
   "name": "Tao Yu",
   "orcid": null,
@@ -35528,6 +35739,54 @@
    "Northeastern University"
   ],
   "name": "Kai Wang",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5153231384": {
+  "alternativeNames": [
+   "You Fu"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "You Fu",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5153299730": {
+  "alternativeNames": [
+   "Zhenyu Wang"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Zhenyu Wang",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5153351049": {
+  "alternativeNames": [
+   "Yaxin Li"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Yaxin Li",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5153367353": {
+  "alternativeNames": [
+   "Zilong Liu"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Zilong Liu",
   "orcid": null,
   "papers": 1
  }
