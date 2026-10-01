@@ -45,8 +45,10 @@ jobs:
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 9 1 * *'
         run: python pipeline/curriculum/scrape_catalog.py
 
+      # If OpenAlex is busy or down, keep yesterday's research and still publish everything else
       - name: Collect new research from OpenAlex
         if: github.event_name != 'push'
+        continue-on-error: true
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python pipeline/scrape_openalex.py

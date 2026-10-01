@@ -48,3 +48,4 @@
 .theme-check dl div { padding: 0.5rem 0; border-bottom: 1px solid var(--line); }
 .theme-check dt { font-weight: 700; }
 .theme-check dd { margin: 0.1rem 0 0; }
+.review-count { margin-top: 0.75rem; font-size: var(--step--1); color: var(--ink-soft); }

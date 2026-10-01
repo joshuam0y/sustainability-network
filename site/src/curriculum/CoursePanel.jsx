@@ -14,8 +14,10 @@ export default function CoursePanel({ course, programById, contact, onSelectProg
       <h2>{course.title}</h2>
       <p className="detail-lede">{course.department ?? course.college}</p>
       <p className="focus-note">
-        {course.focus === 'focused' ? 'Focused on sustainability' : 'Includes sustainability'}
-        {!course.focusReviewed && <span> (estimated from the title)</span>}
+        {course.focusReviewed
+          ? (course.focus === 'focused' ? 'Focused on sustainability' : 'Includes sustainability')
+          : <>Not yet designated <span>(the title suggests {course.focus === 'focused' ? 'focused' : 'includes'}).{' '}
+            <a href="../review/?show=unreviewed">Designate it</a></span></>}
       </p>
       {course.label === 'model' && (
         <p className="panel-note">

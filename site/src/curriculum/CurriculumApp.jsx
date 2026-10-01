@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { formatDate } from '../data.js'
 import SharePanel from '../SharePanel.jsx'
-import { loadCurriculum, PROGRAM_TYPES } from './data.js'
+import { DESIGNATIONS, loadCurriculum, matchesDesignation, PROGRAM_TYPES } from './data.js'
 import CollegeChart from './CollegeChart.jsx'
 import ProgramList from './ProgramList.jsx'
 import ProgramPanel from './ProgramPanel.jsx'
@@ -108,7 +108,7 @@ export default function CurriculumApp() {
     const majorIds = state.major ? new Set(data.programs.filter((p) => p.baseName === state.major).map((p) => p.id)) : null
     const courses = data.courses.filter((c) =>
       (!majorIds || c.programs.some((id) => majorIds.has(id)))
-      && (!state.focus || c.focus === state.focus)
+      && matchesDesignation(c, state.focus)
       && (!state.college || c.college === state.college)
       && (!state.theme || c.themes.includes(state.theme))
       && (!query || `${c.code} ${c.title} ${c.description}`.toLowerCase().includes(query))
@@ -177,8 +177,9 @@ export default function CurriculumApp() {
               <MajorInput names={derived.majorNames} value={state.major} onChange={set('major')} />
               <Select label="Theme" value={state.theme} onChange={set('theme')}
                 options={[{ value: '', label: 'All themes' }, ...derived.themes.map((t) => ({ value: t, label: t }))]} />
-              <Select label="How much sustainability" value={state.focus} onChange={set('focus')}
-                options={[{ value: '', label: 'Any' }, { value: 'focused', label: 'Focused on sustainability' }, { value: 'inclusive', label: 'Includes sustainability' }]} />
+              <Select label="Focused or includes sustainability" value={state.focus} onChange={set('focus')}
+                options={[{ value: '', label: `Any (${data.courses.length})` },
+                  ...DESIGNATIONS.map((d) => ({ value: d.value, label: `${d.label} (${data.courses.filter((c) => matchesDesignation(c, d.value)).length})` }))]} />
             </>
           )}
           </div>
@@ -234,7 +235,7 @@ export default function CurriculumApp() {
               <ProgramList programs={programs} sort={state.sort} onSort={set('sort')} selectedId={selection?.id} onSelect={openProgram} />
             </>
           ) : isCourses ? (
-            <CourseList courses={courses} selectedCode={selection?.id} onSelect={openCourse} />
+            <CourseList courses={courses} selectedCode={selection?.id} onSelect={openCourse} designation={state.focus} />
           ) : state.view === 'overview' ? (
             <OverviewView overview={data.overview} college={state.college} onSelectCollege={set('college')} />
           ) : (

@@ -302,3 +302,12 @@ button.bar-row:hover, .bar-row.active { background: var(--paper); }
   .bar-label { font-size: var(--step--1); }
   .program-row { grid-template-columns: 1fr; gap: 0.35rem; }
 }
+
+/* Focused / includes / not yet designated */
+.course-list-actions { display: flex; flex-wrap: wrap; gap: 0.6rem 1.25rem; align-items: center; padding: 0 0.75rem 0.75rem; border-bottom: 1px solid var(--line); }
+.course-list-actions p { font-size: var(--step--1); color: var(--ink-soft); max-width: 52ch; }
+.designation { display: inline-block; font-size: 0.75rem; font-weight: 700; padding: 0.05rem 0.5rem; border-radius: 999px; margin-right: 0.4rem; border: 1px solid; }
+.designation.focused { background: var(--strength-strong); border-color: var(--strength-strong); color: white; }
+.designation.inclusive { background: var(--strength-medium); border-color: var(--strength-medium); color: white; }
+.designation.undesignated { border-style: dashed; border-color: var(--ink-soft); color: var(--ink-soft); background: transparent; }
+.designation small { font-weight: 400; }

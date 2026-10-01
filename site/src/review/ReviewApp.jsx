@@ -36,7 +36,9 @@ export default function ReviewApp() {
   const [existing, setExisting] = useState([])
   const [error, setError] = useState(null)
   const [state, setState] = useState(loadSaved)
-  const [filter, setFilter] = useState('suggested')
+  const params = new URLSearchParams(window.location.search)
+  const [filter, setFilter] = useState(['suggested', 'unreviewed', 'mine', 'all'].includes(params.get('show')) ? params.get('show') : 'suggested')
+  const [college, setCollege] = useState('')
 
   useEffect(() => {
     Promise.all(['courses', 'reviews'].map((n) => fetch(`${DATA}${n}.json`).then((r) => {
@@ -64,11 +66,11 @@ export default function ReviewApp() {
   if (!courses) return <p className="status">Loading courses…</p>
 
   const needsReview = (c) => !reviewedBefore.has(c.code) && (c.label === 'model' || !c.focusReviewed)
-  const shown = courses.filter((c) =>
+  const shown = courses.filter((c) => (!college || c.college === college) && (
     filter === 'suggested' ? c.label === 'model' && !reviewedBefore.has(c.code)
       : filter === 'unreviewed' ? needsReview(c)
         : filter === 'mine' ? state.decisions[c.code]
-          : true)
+          : true))
     .sort((a, b) => (b.confidence ?? 0) - (a.confidence ?? 0) || a.code.localeCompare(b.code))
   const mine = Object.entries(state.decisions).filter(([, d]) => d.decision)
 
@@ -97,13 +99,21 @@ export default function ReviewApp() {
           <label className="field">
             <span className="field-label">Show</span>
             <select value={filter} onChange={(e) => setFilter(e.target.value)}>
-              <option value="suggested">Suggested by the model, not yet checked</option>
-              <option value="unreviewed">Everything not yet checked</option>
+              <option value="suggested">Newer courses suggested by the model, not yet checked</option>
+              <option value="unreviewed">Not yet designated focused or inclusive</option>
               <option value="mine">My decisions</option>
               <option value="all">All {courses.length} sustainability courses</option>
             </select>
           </label>
+          <label className="field">
+            <span className="field-label">College</span>
+            <select id="review-college" value={college} onChange={(e) => setCollege(e.target.value)}>
+              <option value="">All colleges</option>
+              {[...new Set(courses.map((c) => c.college))].sort().map((c) => <option key={c} value={c}>{c}</option>)}
+            </select>
+          </label>
         </div>
+        <p className="review-count" aria-live="polite">{shown.length} {shown.length === 1 ? 'course' : 'courses'} to look at</p>
       </header>
 
       <section className="finish" aria-labelledby="finish-title">

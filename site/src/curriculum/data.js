@@ -38,3 +38,16 @@ export function problemLink(contact, subject) {
     ? `${contact}?subject=${encodeURIComponent(title)}`
     : `${contact}?title=${encodeURIComponent(title)}`
 }
+
+// Whether someone has designated a course focused or inclusive (on the review page), or it's still a title-based guess
+export const DESIGNATIONS = [
+  { value: 'focused', label: 'Focused, confirmed' },
+  { value: 'inclusive', label: 'Includes, confirmed' },
+  { value: 'undesignated', label: 'Not yet designated' },
+]
+
+export function matchesDesignation(course, value) {
+  if (!value) return true
+  if (value === 'undesignated') return !course.focusReviewed
+  return course.focusReviewed && course.focus === value
+}
