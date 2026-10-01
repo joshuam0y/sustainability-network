@@ -10933,6 +10933,35 @@
   ]
  },
  {
+  "id": "W4413469829",
+  "title": "Critical Thresholds and Marginal Effects Analysis of Risk-Health Factors of Ecosystem Services in Shenyang Based on the Ecological Security Model",
+  "year": 2025,
+  "url": "https://doi.org/10.2139/ssrn.5403314",
+  "themes": [
+   "Biosphere"
+  ],
+  "authors": [
+   {
+    "id": "A5008289090",
+    "name": "Xiaofei Xu",
+    "rawName": "Xiaofei Xu",
+    "orcid": "https://orcid.org/0000-0002-8019-9245"
+   },
+   {
+    "id": "A5011985406",
+    "name": "Chunliang Xiu",
+    "rawName": "Chunliang XIU",
+    "orcid": "https://orcid.org/0000-0002-5762-2818"
+   },
+   {
+    "id": "A5058149622",
+    "name": "Yanpeng Gao",
+    "rawName": "Yanpeng Gao",
+    "orcid": "https://orcid.org/0000-0003-2156-8167"
+   }
+  ]
+ },
+ {
   "id": "W4413270794",
   "title": "Critical investments in bioregenerative life support systems for bioastronautics and sustainable lunar exploration",
   "year": 2025,
@@ -11738,6 +11767,32 @@
     "name": "Yiannis A. Levendis",
     "rawName": "Yiannis A. Levendis",
     "orcid": "https://orcid.org/0000-0002-8158-2123"
+   }
+  ]
+ },
+ {
+  "id": "W4414079578",
+  "title": "Energy equity, transitions, and futures: Photovoice insights from Latinx community members in Boston",
+  "year": 2025,
+  "url": "https://doi.org/10.1016/j.erss.2025.104295",
+  "themes": [
+   "Decarbonization",
+   "Equity",
+   "Interpersonal Competency",
+   "Justice"
+  ],
+  "authors": [
+   {
+    "id": "A5021862606",
+    "name": "Johan Arango-Quiroga",
+    "rawName": "Johan Arango-Quiroga",
+    "orcid": "https://orcid.org/0000-0001-7821-2335"
+   },
+   {
+    "id": "A5009980562",
+    "name": "Laura Kuhl",
+    "rawName": "Laura Kuhl",
+    "orcid": "https://orcid.org/0000-0002-1379-9435"
    }
   ]
  },
@@ -13350,6 +13405,30 @@
     "name": "Mansoor M. Amiji",
     "rawName": "Mansoor M. Amiji",
     "orcid": "https://orcid.org/0000-0001-6170-881X"
+   }
+  ]
+ },
+ {
+  "id": "W4408815606",
+  "title": "Influence of Human Activities and Benthic Processes on Water Quality Dynamics in the Plum Island Estuary",
+  "year": 2025,
+  "url": "https://doi.org/10.5194/oos2025-142",
+  "themes": [
+   "Biosphere",
+   "Sustainable Food Systems"
+  ],
+  "authors": [
+   {
+    "id": "A5101493797",
+    "name": "Qi Ye",
+    "rawName": "Qi Ye",
+    "orcid": "https://orcid.org/0009-0002-9034-8010"
+   },
+   {
+    "id": "A5086402813",
+    "name": "Cristina Schultz",
+    "rawName": "Cristina Schultz",
+    "orcid": "https://orcid.org/0000-0003-2006-7053"
    }
   ]
  },

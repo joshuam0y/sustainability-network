@@ -1741,6 +1741,20 @@
   "orcid": "https://orcid.org/0000-0003-2885-7850",
   "papers": 2
  },
+ "A5008289090": {
+  "alternativeNames": [
+   "Xiao-Fei XU",
+   "Xiaofei Xu",
+   "Xu Xiao-fei",
+   "Xu Xiaofei",
+   "Xu, Xiaofei"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [],
+  "name": "Xiaofei Xu",
+  "orcid": "https://orcid.org/0000-0002-8019-9245",
+  "papers": 1
+ },
  "A5008293667": {
   "alternativeNames": [
    "G. A. O'DOHERTY",
@@ -2093,7 +2107,7 @@
   ],
   "name": "Laura Kuhl",
   "orcid": "https://orcid.org/0000-0002-1379-9435",
-  "papers": 7
+  "papers": 8
  },
  "A5010048926": {
   "alternativeNames": [
@@ -2447,7 +2461,7 @@
   ],
   "name": "Chunliang Xiu",
   "orcid": "https://orcid.org/0000-0002-5762-2818",
-  "papers": 3
+  "papers": 4
  },
  "A5012113736": {
   "alternativeNames": [
@@ -4223,6 +4237,16 @@
   ],
   "name": "Songbo Nan",
   "orcid": null,
+  "papers": 1
+ },
+ "A5021862606": {
+  "alternativeNames": [
+   "Johan Arango-Quiroga"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [],
+  "name": "Johan Arango-Quiroga",
+  "orcid": "https://orcid.org/0000-0001-7821-2335",
   "papers": 1
  },
  "A5021943677": {
@@ -11724,6 +11748,22 @@
   "orcid": "https://orcid.org/0000-0003-2744-3007",
   "papers": 1
  },
+ "A5058149622": {
+  "alternativeNames": [
+   "Gao, Yanpeng",
+   "Y. P. Gao",
+   "Yan-Peng Gao",
+   "Yanpeng Gao",
+   "高艳鹏"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [
+   "Guangdong University of Technology"
+  ],
+  "name": "Yanpeng Gao",
+  "orcid": "https://orcid.org/0000-0003-2156-8167",
+  "papers": 1
+ },
  "A5058214353": {
   "alternativeNames": [
    "Chen-yang Zhu",
@@ -17937,7 +17977,7 @@
   ],
   "name": "Cristina Schultz",
   "orcid": "https://orcid.org/0000-0003-2006-7053",
-  "papers": 7
+  "papers": 8
  },
  "A5086419321": {
   "alternativeNames": [
@@ -25482,6 +25522,21 @@
   "name": "Mohammad Abbas Yaseen",
   "orcid": "https://orcid.org/0000-0002-4154-152X",
   "papers": 2
+ },
+ "A5101493797": {
+  "alternativeNames": [
+   "Qi Ye",
+   "Qigang Ye",
+   "Ye Qi",
+   "Ye, Qi"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [
+   "Dalian Ocean University"
+  ],
+  "name": "Qi Ye",
+  "orcid": "https://orcid.org/0009-0002-9034-8010",
+  "papers": 1
  },
  "A5101494590": {
   "alternativeNames": [
