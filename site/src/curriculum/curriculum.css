@@ -311,3 +311,11 @@ button.bar-row:hover, .bar-row.active { background: var(--paper); }
 .designation.inclusive { background: var(--strength-medium); border-color: var(--strength-medium); color: white; }
 .designation.undesignated { border-style: dashed; border-color: var(--ink-soft); color: var(--ink-soft); background: transparent; }
 .designation small { font-weight: 400; }
+
+.stars-reported .stars-table { max-width: 56rem; }
+.stars-reported thead th { text-align: left; font-size: var(--step--1); color: var(--ink-soft); font-weight: 700; }
+.stars-reported thead th:not(:first-child) { text-align: right; }
+.stars-reported td { white-space: nowrap; vertical-align: top; }
+.row-note { display: block; font-size: var(--step--1); color: var(--ink-soft); margin-top: 0.2rem; max-width: 52ch; }
+.stars-credits { margin-top: 0.75rem; }
+.stars-credits summary { cursor: pointer; font-weight: 700; }

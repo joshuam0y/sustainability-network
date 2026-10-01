@@ -1,0 +1,29 @@
+{
+  "source": "Northeastern University STARS 3.0 report, provisional preview (2026 submission)",
+  "status": "provisional",
+  "rating": "Gold",
+  "score": 68.52,
+  "areas": {
+    "Curriculum": [33.05, 45],
+    "Research": [22.33, 23]
+  },
+  "courseYear": "2023-24",
+  "departments": 48,
+  "departmentsWithSustainability": 45,
+  "researchDepartments": 47,
+  "researchDepartmentsEngaged": 45,
+  "qualifications": {
+    "Undergraduate": {"year": 2024, "awarded": 4595, "focused": 176, "requirement": 40},
+    "Graduate": {"year": 2024, "awarded": 6657, "focused": 80, "requirement": 104}
+  },
+  "credits": [
+    ["Sustainability Course Offerings", 12.5, 14],
+    ["Undergraduate Programs", 8.33, 15],
+    ["Graduate Programs", 4.22, 8],
+    ["Applied Learning", 4, 4],
+    ["Sustainability Literacy Assessment", 4, 4],
+    ["Sustainability Research", 10, 10],
+    ["Center for Sustainability Research", 6, 6],
+    ["Responsible Research and Innovation", 6.33, 7]
+  ]
+}

@@ -192,6 +192,10 @@ def write_overview_and_stars(labels, reviews, course_rows, program_rows):
             for level in ("Undergraduate", "Graduate")
         },
     }
+    # Figures Northeastern actually submitted, typed in from the STARS report, so the page can compare
+    reported = BASE / "stars_reported.json"
+    if reported.exists():
+        stars["reported"] = json.loads(reported.read_text())
     (OUT / "stars.json").write_text(json.dumps(stars, separators=(",", ":")))
 
 

@@ -47,6 +47,8 @@ export default function StarsView({ stars, meta }) {
       </p>
       <button type="button" className="button" onClick={csv}>Download as CSV</button>
 
+      {stars.reported && <Reported reported={stars.reported} stars={stars} />}
+
       <h3 className="subsection">Academic courses</h3>
       <table className="data-table stars-table">
         <tbody>{rows.map(([k, v]) => <tr key={k}><th scope="row" className={k.startsWith('  ') ? 'indent' : ''}>{k.trim()}</th><td>{typeof v === 'number' ? v.toLocaleString() : v}</td></tr>)}</tbody>
@@ -92,5 +94,63 @@ function CopyBlock({ title, text }) {
       </div>
       <p>{text}</p>
     </div>
+  )
+}
+
+const pct = (n, d) => `${((100 * n) / d).toFixed(1)}%`
+
+// What Northeastern submitted in its latest STARS report, next to what this site counts from the catalog
+function Reported({ reported, stars }) {
+  const r = reported
+  const rows = [
+    {
+      measure: 'Departments with a sustainability course',
+      report: `${r.departmentsWithSustainability} of ${r.departments} (${pct(r.departmentsWithSustainability, r.departments)})`,
+      site: `${stars.departmentsWithSustainability} of ${stars.departments} (${pct(stars.departmentsWithSustainability, stars.departments)})`,
+      why: 'The report groups interdisciplinary units into one “non-traditional department” and leaves out practice-only departments. This site counts every department that owns a course in the catalog.',
+    },
+    {
+      measure: 'Departments engaged in sustainability research',
+      report: `${r.researchDepartmentsEngaged} of ${r.researchDepartments} (${pct(r.researchDepartmentsEngaged, r.researchDepartments)})`,
+      site: '—',
+      why: 'The faculty map records each person’s college, not their department, so it can’t count departments yet.',
+    },
+    ...['Undergraduate', 'Graduate'].map((level) => {
+      const q = r.qualifications[level]
+      return {
+        measure: `${level} degrees awarded with a sustainability requirement (${q.year})`,
+        report: `${(q.focused + q.requirement).toLocaleString()} of ${q.awarded.toLocaleString()} (${pct(q.focused + q.requirement, q.awarded)})`,
+        site: `${stars.programs[level].requiring} of ${stars.programs[level].total} programs require a sustainability course`,
+        why: 'STARS counts graduates, which needs Registrar data. The catalog shows which programs could count, so it can help find more qualifying programs.',
+      }
+    }),
+  ]
+  return (
+    <section className="stars-reported" aria-labelledby="reported-title">
+      <h3 id="reported-title" className="subsection">Compared with the 2026 STARS submission</h3>
+      <p className="section-note">
+        From {r.source}: {r.rating}, {r.score} points.{' '}
+        {Object.entries(r.areas).map(([area, [got, of]]) => `${area} ${got} of ${of}`).join(', ')}.
+        The course list in the report is from {r.courseYear}.
+      </p>
+      <table className="data-table stars-table">
+        <thead><tr><th scope="col">Measure</th><th scope="col">2026 report</th><th scope="col">This site</th></tr></thead>
+        <tbody>
+          {rows.map((row) => (
+            <tr key={row.measure}>
+              <th scope="row">{row.measure}<span className="row-note">{row.why}</span></th>
+              <td>{row.report}</td>
+              <td>{row.site}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <details className="stars-credits">
+        <summary>Academics points by credit</summary>
+        <table className="data-table stars-table">
+          <tbody>{r.credits.map(([name, got, of]) => <tr key={name}><th scope="row">{name}</th><td>{got} of {of}</td></tr>)}</tbody>
+        </table>
+      </details>
+    </section>
   )
 }
