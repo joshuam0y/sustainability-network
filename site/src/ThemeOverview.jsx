@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { forceCollide, forceSimulation, forceX, forceY } from 'd3-force'
 import { CATEGORY_COLORS, CATEGORY_ORDER } from './data.js'
 import { CATEGORY_DESCRIPTIONS } from './themeInfo.js'
@@ -8,14 +8,22 @@ const CLUSTER_X = { Values: -350, Content: 0, Skills: 350 }
 // On phones the three groups stack top to bottom instead
 const CLUSTER_Y_NARROW = { Values: -440, Content: 0, Skills: 480 }
 
-function useNarrow(query = '(max-width: 640px)') {
-  const [narrow, setNarrow] = useState(() => window.matchMedia(query).matches)
+// Stack the groups only when the space the drawing gets is actually narrow (a phone, or a thin embed).
+// Measuring the drawing's own container avoids relying on the window size, which can be stale in embeds.
+function useNarrow(ref, below = 620) {
+  const [narrow, setNarrow] = useState(() => window.innerWidth < below)
   useEffect(() => {
-    const m = window.matchMedia(query)
-    const update = () => setNarrow(m.matches)
-    m.addEventListener('change', update)
-    return () => m.removeEventListener('change', update)
-  }, [query])
+    const el = ref.current?.parentElement
+    if (!el) return undefined
+    const update = () => {
+      const width = el.getBoundingClientRect().width
+      if (width > 0) setNarrow(width < below)
+    }
+    update()
+    const observer = new ResizeObserver(update)
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [ref, below])
   return narrow
 }
 const MAX_RADIUS = 64
@@ -33,7 +41,8 @@ function activate(handler) {
 // Theme bubbles sized by how many (filtered) people work on each, grouped by category
 export default function ThemeOverview({ themes, counts, onOpenTheme }) {
   const [hover, setHover] = useState(null)
-  const narrow = useNarrow()
+  const svgRef = useRef(null)
+  const narrow = useNarrow(svgRef)
   const maxCount = Math.max(1, ...themes.map((t) => counts.get(t.name) ?? 0))
 
   const layout = useMemo(() => {
@@ -66,7 +75,7 @@ export default function ThemeOverview({ themes, counts, onOpenTheme }) {
   const maxY = Math.max(...layout.map((n) => n.y + n.r + 20 + (n.lines.length + (n.r < 22 ? 1 : 0)) * 15)) + pad
 
   return (
-    <svg className="overview" viewBox={`${minX} ${minY} ${maxX - minX} ${maxY - minY}`}
+    <svg ref={svgRef} className="overview" viewBox={`${minX} ${minY} ${maxX - minX} ${maxY - minY}`}
       role="group" aria-label="Sustainability themes. Choose a theme to see who works on it.">
       {CATEGORY_ORDER.map((category) => (
         <g key={category} className="cluster-label" transform={`translate(${narrow ? 0 : CLUSTER_X[category]}, ${clusterTop(category) - 38})`}>
