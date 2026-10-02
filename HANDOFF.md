@@ -22,8 +22,8 @@ Download, open the GitHub upload link on the page, and drop the file in. The sit
 - `new_people.csv`: people added to the faculty map from their published research. Remove anyone who shouldn't be
   there by adding their name to `data/exclude.csv`.
 - `found_emails.csv`: email addresses found each day on people's own public profile pages (or their public ORCID
-  record), with the page each came from. Common names can match the wrong person: if an address is wrong, delete
-  its email and source but keep the row, and it won't be looked up again for two weeks.
+  record), with the page each came from. Common names can match the wrong person: if an address is wrong, clear
+  its email and type `wrong` as the source. The map stops showing it and that person isn't looked up again.
 - `possible_departures.csv`: people whose research profile now lists another institution. OpenAlex sometimes mixes
   up people with the same name, so check before removing anyone.
 - `program_checks.csv`: programs whose results look unusual. Open the catalog link and compare.

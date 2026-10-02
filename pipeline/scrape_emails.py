@@ -93,7 +93,8 @@ def main():
         row = found.get(p["name"])
         if row is None:
             return True
-        if row["email"]:
+        # Someone marked this match as wrong: never look this person up again
+        if row["email"] or row["source"].strip().lower() == "wrong":
             return False
         return (today - dt.date.fromisoformat(row["checked"])).days >= RETRY_AFTER_DAYS
 
