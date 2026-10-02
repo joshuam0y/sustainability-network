@@ -53,6 +53,12 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python pipeline/scrape_openalex.py
 
+      # Emails from people's own public profile pages, for anyone on the map who doesn't have one yet
+      - name: Look up missing emails
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: python pipeline/scrape_emails.py
+
       - name: Build the curriculum data
         run: python pipeline/curriculum/build_curriculum.py
 

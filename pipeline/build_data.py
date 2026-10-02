@@ -159,6 +159,14 @@ def main():
     for t in themes:
         t["facultyCount"] = sum(1 for l in links.values() if l["source"] == t["id"])
 
+    # Addresses found on people's public profile pages (pipeline/scrape_emails.py) fill the gaps
+    found_emails = ROOT / "data" / "review" / "found_emails.csv"
+    if found_emails.exists():
+        found = {r["name"]: r["email"] for r in csv.DictReader(found_emails.open()) if r["email"]}
+        for p in people.values():
+            if not p.get("email") and p["name"] in found:
+                p["email"] = found[p["name"]]
+
     for p in people.values():
         if not settings.SHOW_EMAILS:
             p["email"] = None
