@@ -19,6 +19,13 @@ function isFramed() {
   }
 }
 
+// Below this width the filters move into a bar above the map. Embeds keep them at the side for longer,
+// because the host page usually gives the map less height than width.
+const compactQuery = (embedded) => `(max-width: ${embedded ? 800 : 1100}px)`
+const startsEmbedded = initial.embed || isFramed()
+document.documentElement.classList.toggle('embedded', startsEmbedded)
+document.documentElement.classList.toggle('compact', window.matchMedia(compactQuery(startsEmbedded)).matches)
+
 const VIEW_LABELS = { themes: 'Themes', everyone: 'Everyone', list: 'List' }
 
 export default function App() {
@@ -28,7 +35,7 @@ export default function App() {
   const [view, setView] = useState(initial.view)
   const [selectedId, setSelectedId] = useState(initial.person)
   // In narrow spaces (e.g. embedded in another site) the people list would cover the map, so it starts closed
-  const narrow = () => window.matchMedia('(max-width: 1100px)').matches
+  const narrow = () => window.matchMedia(compactQuery(initial.embed || isFramed())).matches
   const [themePanelOpen, setThemePanelOpen] = useState(!initial.embed && !narrow())
   const [shareOpen, setShareOpen] = useState(false)
   // Inside another website's frame, always use the compact layout, even if the embed code left out ?embed=1
@@ -38,6 +45,17 @@ export default function App() {
   useEffect(() => {
     loadNetwork().then(setNetwork).catch((e) => setError(e.message))
   }, [])
+
+  // Embedded in another page, everything is drawn a little smaller so it fits a normal browser window
+  useEffect(() => {
+    const root = document.documentElement
+    root.classList.toggle('embedded', embed)
+    const m = window.matchMedia(compactQuery(embed))
+    const update = () => root.classList.toggle('compact', m.matches)
+    update()
+    m.addEventListener('change', update)
+    return () => m.removeEventListener('change', update)
+  }, [embed])
 
   const state = { filters, view, person: selectedId }
   const query = toQuery({ ...state, embed: false })

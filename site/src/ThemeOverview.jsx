@@ -10,7 +10,7 @@ const CLUSTER_Y_NARROW = { Values: -440, Content: 0, Skills: 480 }
 
 // Stack the groups only when the space the drawing gets is actually narrow (a phone, or a thin embed).
 // Measuring the drawing's own container avoids relying on the window size, which can be stale in embeds.
-function useNarrow(ref, below = 620) {
+function useNarrow(ref, below = 460) {
   const [narrow, setNarrow] = useState(() => window.innerWidth < below)
   useEffect(() => {
     const el = ref.current?.parentElement
