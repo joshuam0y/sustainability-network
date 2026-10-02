@@ -18,7 +18,7 @@ export default function StarsView({ stars, meta }) {
     + '(numbers below 5000 are undergraduate). Courses whose titles are about sustainability are counted as sustainability-focused and the rest as sustainability-inclusive'
     + (stars.focusReviewed ? `; ${stars.focusReviewed} of these were confirmed by hand.` : '; this split has not yet been confirmed by hand.')
   const researchText = 'Researchers were identified from Faculty Insight profiles, faculty web pages, research records and course listings, cross-referenced with a human resources report, '
-    + `and supplemented with recent publications indexed by OpenAlex that address sustainability topics (updated ${meta?.researchUpdated ?? 'monthly'}).`
+    + `and supplemented with recent publications indexed by OpenAlex that address sustainability topics (updated daily).`
 
   const rows = [
     ['Undergraduate courses offered', ug.courses], ['Undergraduate sustainability courses', ug.sustainability],
