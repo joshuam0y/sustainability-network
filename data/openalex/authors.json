@@ -1791,7 +1791,6 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "National Museum of Natural History",
    "National Museum of Natural History"
   ],
   "name": "Sarit B. Truskey",
@@ -3385,7 +3384,7 @@
    "Northeastern University",
    "Northeastern University"
   ],
-  "name": "Rui Jie Guo",
+  "name": "Rui Guo",
   "orcid": "https://orcid.org/0000-0002-0275-1735",
   "papers": 1
  },
@@ -3751,7 +3750,6 @@
    "C.J. Yang",
    "Chuang YANG",
    "Chuang Yang",
-   "Yang, C.",
    "Yang, Chuang"
   ],
   "atNortheastern": true,
@@ -3834,7 +3832,6 @@
   "currentInstitutions": [
    "Shihezi University",
    "Northeastern University",
-   "Southeast University",
    "Southeast University"
   ],
   "name": "Ying Wang",
@@ -6154,7 +6151,9 @@
    "Sarah L. Salois"
   ],
   "atNortheastern": false,
-  "currentInstitutions": [],
+  "currentInstitutions": [
+   "National Oceanic and Atmospheric Administration"
+  ],
   "name": "Sarah L. Salois",
   "orcid": "https://orcid.org/0000-0002-0756-0778",
   "papers": 1
@@ -9694,6 +9693,19 @@
   "orcid": "https://orcid.org/0009-0007-5835-3406",
   "papers": 1
  },
+ "A5049247948": {
+  "alternativeNames": [
+   "Ihle, Laura Haaber",
+   "Laura Haaber Ihle"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Laura Haaber Ihle",
+  "orcid": "https://orcid.org/0000-0001-7281-8002",
+  "papers": 1
+ },
  "A5049308484": {
   "alternativeNames": [
    "B Y Dapeng Bi",
@@ -9880,8 +9892,7 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "Eastern University",
-   "Sapienza University of Rome"
+   "Eastern University"
   ],
   "name": "Andrea Lacava",
   "orcid": "https://orcid.org/0000-0001-9217-5956",
@@ -9915,6 +9926,25 @@
   ],
   "name": "Zhongning Shi",
   "orcid": "https://orcid.org/0000-0001-6550-9172",
+  "papers": 1
+ },
+ "A5050439418": {
+  "alternativeNames": [
+   "E. Ortega, John",
+   "John E Ortega",
+   "John E. Ortega",
+   "John Ortega",
+   "Ortega, John",
+   "Ortega, John E",
+   "Ortega, John E."
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "University of Minnesota"
+  ],
+  "name": "John E. Ortega",
+  "orcid": "https://orcid.org/0000-0002-2328-3205",
   "papers": 1
  },
  "A5050451120": {
@@ -11536,7 +11566,7 @@
    "Northeastern University",
    "Northeastern University"
   ],
-  "name": "Peter R. G. Schindler",
+  "name": "Peter Schindler",
   "orcid": "https://orcid.org/0000-0002-1319-6570",
   "papers": 1
  },
@@ -12610,6 +12640,24 @@
   "orcid": "https://orcid.org/0000-0001-7066-1451",
   "papers": 1
  },
+ "A5063894825": {
+  "alternativeNames": [
+   "Annika M Schoene",
+   "Annika M. Schoene",
+   "Annika Marie Schoene",
+   "Annika Schoene",
+   "Schoene, Annika",
+   "Schoene, Annika Marie"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "Northeastern University"
+  ],
+  "name": "Annika Marie Schoene",
+  "orcid": "https://orcid.org/0000-0002-9248-617X",
+  "papers": 1
+ },
  "A5064024072": {
   "alternativeNames": [
    "Nicole Betz",
@@ -13147,7 +13195,6 @@
    "Anhui University of Science and Technology",
    "Hebei University of Technology",
    "Northeast Normal University",
-   "Soochow University",
    "South China Normal University",
    "Yunnan University",
    "Shanghai University of Sport",
@@ -13275,7 +13322,6 @@
    "Institute of Computing Technology",
    "Shaanxi Provincial People's Hospital",
    "State Key Laboratory of Pollution Control and Resource Reuse",
-   "Southeast University",
    "East University Of Heilongjiang",
    "Shanghai Stomatological Hospital",
    "Henan Academy of Sciences",
@@ -13305,7 +13351,6 @@
    "Institute of Acoustics",
    "Shandong Jiaotong University",
    "Shenzhen Research Institute of Big Data",
-   "Institute of Geology and Geophysics",
    "Institute of Oceanology",
    "Northeast Institute of Geography and Agroecology",
    "Hubei University of Science and Technology",
@@ -13391,7 +13436,6 @@
    "Peking University Shenzhen Hospital",
    "Institute of Software",
    "Institute of Electrical Engineering",
-   "The First Affiliated Hospital, Sun Yat-sen University",
    "Grinm Advanced Materials (China)",
    "Helmholtz-Institute Ulm",
    "China Communications Construction Company (China)",
@@ -13417,7 +13461,6 @@
    "Aerospace Information Research Institute",
    "South Subtropical Crops Research Institute",
    "Dalian National Laboratory for Clean Energy",
-   "Institute for Advanced Study",
    "Wuhan National Laboratory for Optoelectronics",
    "Liupanshui Normal University",
    "Chinese Academy of Agricultural Sciences",
@@ -13432,6 +13475,7 @@
    "First Affiliated Hospital of Dalian Medical University",
    "Institute of Tibetan Plateau Research",
    "National Center for Nanoscience and Technology",
+   "Advanced Propulsion Centre",
    "China Academy of Chinese Medical Sciences",
    "Jilin Agricultural Science and Technology University",
    "Peking University Third Hospital",
@@ -13799,8 +13843,7 @@
    "Nanjing University of Aeronautics and Astronautics",
    "Wuyi University",
    "Tsinghua University",
-   "Air Force Medical University",
-   "National Taipei University"
+   "Air Force Medical University"
   ],
   "name": "Hui Li",
   "orcid": "https://orcid.org/0000-0001-9198-3951",
@@ -14353,7 +14396,6 @@
  "A5068184968": {
   "alternativeNames": [
    "L. Reede",
-   "Lynn J Reede",
    "Lynn J. Reede",
    "Lynn Reede"
   ],
@@ -15080,6 +15122,7 @@
    "Zhejiang Normal University",
    "Charles Sturt University",
    "Hefei University",
+   "Zhejiang University",
    "Northeastern University"
   ],
   "name": "Xiaodi Huang",
@@ -15419,9 +15462,7 @@
   "currentInstitutions": [
    "Centers for Disease Control and Prevention",
    "Northeastern University",
-   "Harvard University",
-   "Centers for Disease Control and Prevention",
-   "Centers for Disease Control and Prevention"
+   "Harvard University"
   ],
   "name": "Michael A. Johansson",
   "orcid": "https://orcid.org/0000-0002-5090-7722",
@@ -15676,7 +15717,7 @@
    "Northeastern University",
    "Nvidia (United States)"
   ],
-  "name": "Davide Carlo Villa",
+  "name": "Davide Villa",
   "orcid": "https://orcid.org/0000-0002-4299-3915",
   "papers": 1
  },
@@ -17203,7 +17244,7 @@
   "currentInstitutions": [
    "Northeastern University"
   ],
-  "name": "Hong Ping Qu",
+  "name": "Hong Qu",
   "orcid": "https://orcid.org/0000-0001-9003-3882",
   "papers": 1
  },
@@ -17796,7 +17837,7 @@
    "Liaoning Shihua University",
    "Northeastern University"
   ],
-  "name": "Jie Yuan Qian",
+  "name": "Jie Qian",
   "orcid": "https://orcid.org/0000-0003-3382-8245",
   "papers": 2
  },
@@ -18215,7 +18256,7 @@
   "currentInstitutions": [
    "Northeastern University"
   ],
-  "name": "Meng Qi Cui",
+  "name": "Meng Cui",
   "orcid": "https://orcid.org/0000-0002-3895-135X",
   "papers": 1
  },
@@ -18390,7 +18431,7 @@
   "currentInstitutions": [
    "Northeastern University"
   ],
-  "name": "John D. Lowrey",
+  "name": "John Lowrey",
   "orcid": "https://orcid.org/0000-0001-6349-8182",
   "papers": 1
  },
@@ -20270,7 +20311,9 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
+   "Hubei University of Medicine",
    "Northeastern University",
+   "Taihe Hospital",
    "Vrije Universiteit Amsterdam"
   ],
   "name": "Yiwei Zha",
@@ -20356,6 +20399,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Northwest Minzu University",
    "China Tobacco"
   ],
   "name": "Sun Hongwei",
@@ -20573,6 +20617,7 @@
    "Xin ZHANG",
    "Xin Zhang",
    "Xin 鑫 Zhang 张",
+   "Yong-Xin Zhang",
    "Zhang, Xiaomei",
    "Zhang, Xin"
   ],
@@ -21191,7 +21236,6 @@
   "atNortheastern": false,
   "currentInstitutions": [
    "Harbin University of Science and Technology",
-   "Southeast University",
    "Southeast University"
   ],
   "name": "Xin Liu",
@@ -21469,6 +21513,7 @@
   "atNortheastern": false,
   "currentInstitutions": [
    "Chongqing University of Posts and Telecommunications",
+   "University of Ulster",
    "Xi'an University of Technology",
    "Carnegie Mellon University"
   ],
@@ -21839,7 +21884,6 @@
    "Hebei University of Technology",
    "University of Toronto",
    "Guangxi University of Science and Technology",
-   "Soochow University",
    "Shaanxi University of Technology",
    "South China Normal University",
    "Yunnan University",
@@ -22230,6 +22274,8 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
+   "Hebei University of Engineering",
+   "Handan College",
    "Northeastern University",
    "Chinese Academy of Sciences",
    "Zhengzhou University",
@@ -22624,8 +22670,7 @@
    "Peng-Fei Wang",
    "Peng-fei Wang",
    "PengFei Wang",
-   "Pengfei Wang",
-   "Wang, P. F."
+   "Pengfei Wang"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -23273,6 +23318,7 @@
    "Institute of Environment and Sustainable Development in Agriculture",
    "State Key Laboratory of Geological Processes and Mineral Resources",
    "State Key Laboratory of Separation Membranes and Membrane Processes",
+   "Shaanxi University of Science and Technology",
    "Northeastern University",
    "University of Science and Technology Beijing"
   ],
@@ -23561,7 +23607,6 @@
   "atNortheastern": false,
   "currentInstitutions": [
    "Qingdao University",
-   "Soochow University",
    "Soochow University"
   ],
   "name": "Dandan Wang",
@@ -23945,7 +23990,6 @@
   "currentInstitutions": [
    "Southwest University of Science and Technology",
    "The University of Queensland",
-   "Soochow University",
    "Soochow University",
    "Changchun University of Technology",
    "Southeast University",
@@ -24720,13 +24764,17 @@
    "Bin LIU",
    "Bin Liu",
    "BingChen Liu",
+   "Bingchen Liu",
    "J. B. Liu",
    "Liu, Bin"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
    "Sinopec (China)",
+   "Chinese Academy of Sciences",
    "Beijing Jiaotong University",
+   "Institute of Chemistry",
+   "University of Chinese Academy of Sciences",
    "CNPC Chuanqing Drilling Engineering Company Limited (China)",
    "China National Petroleum Corporation (China)"
   ],
@@ -26220,7 +26268,6 @@
    "Yunnan University",
    "Chinese Academy of Sciences",
    "Dalian University of Technology",
-   "Institute of Natural Sciences",
    "Shanghai Chest Hospital",
    "Westlake University",
    "Zhejiang Water Conservancy and Hydropower Survey and Design Institute",
@@ -26929,7 +26976,8 @@
   "atNortheastern": false,
   "currentInstitutions": [
    "Sun Yat-sen University",
-   "Anhui Vocational College of Grain Engineering"
+   "Anhui Vocational College of Grain Engineering",
+   "Northeastern University"
   ],
   "name": "Zhengkun Li",
   "orcid": "https://orcid.org/0000-0001-9724-3057",
@@ -27591,7 +27639,9 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University"
+   "Northeastern University",
+   "Dalian University of Technology",
+   "Dalian University"
   ],
   "name": "Hanqing Liu",
   "orcid": "https://orcid.org/0009-0009-2931-2677",
@@ -28358,7 +28408,6 @@
    "Northeast Normal University",
    "University of Toronto",
    "Guangxi University of Science and Technology",
-   "Soochow University",
    "Shaanxi University of Technology",
    "South China Normal University",
    "Yunnan University",
@@ -28496,7 +28545,6 @@
    "Henan University of Technology",
    "University of California San Diego",
    "Nanjing University of Science and Technology",
-   "Northwest University",
    "Wuhan University",
    "Sichuan Agricultural University",
    "Beijing University of Technology",
@@ -28534,7 +28582,6 @@
    "West China Hospital of Sichuan University",
    "Chengdu Women's and Children's Central Hospital",
    "Institute of Computing Technology",
-   "Institute of Microelectronics",
    "Shaanxi Provincial People's Hospital",
    "State Key Laboratory of Pollution Control and Resource Reuse",
    "Second Affiliated Hospital of Guangzhou Medical University",
@@ -28602,7 +28649,6 @@
    "Second Affiliated Hospital & Yuying Children's Hospital of Wenzhou Medical University",
    "Fourth People’s Hospital of Jinan",
    "Beijing Satellite Navigation Center",
-   "Northwestern University",
    "Beijing Graphene Institute",
    "Shandong Tumor Hospital",
    "Second Affiliated Hospital of Dalian Medical University",
@@ -28630,6 +28676,7 @@
    "Shangdong Agriculture and Engineering University",
    "Ningxia Academy of Agriculture and Forestry Sciences",
    "City University of Hong Kong, Shenzhen Research Institute",
+   "Qujing Normal University",
    "Beibu Gulf University",
    "The First People's Hospital of Changzhou",
    "Capital Institute of Pediatrics",
@@ -28669,7 +28716,6 @@
    "Shanghai Cancer Institute",
    "Institute of Applied Ecology",
    "Aerospace Center Hospital",
-   "Beijing Municipal Government",
    "Hebei General Hospital",
    "Xi'an Technological University",
    "Hunan Academy of Agricultural Sciences",
@@ -28776,7 +28822,6 @@
    "Ningxia Medical University",
    "Xiyuan Hospital",
    "Zhoukou City Academy of Agricultural Sciences",
-   "Ministry of Natural Resources",
    "First Automotive Works (China)",
    "Jiangsu Food and Pharmaceutical Science College",
    "Shanghai East Hospital",
@@ -28825,7 +28870,6 @@
    "First Affiliated Hospital of Gannan Medical University",
    "Peking University International Hospital",
    "China Railway Construction Corporation (China)",
-   "Institute of Biophysics",
    "Beijing Research Institute of Uranium Geology",
    "Anhui Institute of Optics and Fine Mechanics",
    "Nanjing Institute of Geography and Limnology",
@@ -28853,14 +28897,12 @@
    "Northern Jiangsu People's Hospital",
    "Changsha Hospital for Maternal and Child Health Care",
    "Dalian National Laboratory for Clean Energy",
-   "Institute for Advanced Study",
    "Second Affiliated Hospital of Nanjing Medical University",
    "Jilin Electric Power Research Institute (China)",
    "Instituto de Recursos Naturales y Agrobiología de Sevilla",
    "Wuhan National Laboratory for Optoelectronics",
    "Chinese Academy of Agricultural Sciences",
    "Yunnan Provincial Department of Education",
-   "People's Government of Shaanxi Province",
    "First Hospital of Jiaxing",
    "Ningxia Medical University General Hospital",
    "Tianjin Institute of Industrial Biotechnology",
@@ -29043,7 +29085,6 @@
    "University of Chinese Academy of Sciences",
    "Ningbo Institute of Industrial Technology",
    "Hangzhou Medical College",
-   "Shanghai Municipal People's Government",
    "Dezhou University",
    "Xinxiang University",
    "Nanjing Institute of Agricultural Mechanization",
@@ -29199,6 +29240,7 @@
    "Chengdu Seventh People's Hospital",
    "Qilu Pharmaceutical Co., Ltd. (China)",
    "Cangzhou Hospital of Integrated Traditional Chinese and Western Medicine of Hebei Province",
+   "Shanghai Research Center for Quantum Sciences",
    "National Key Laboratory of Science and Technology on Micro/Nano Fabrication",
    "Wenzhou Institute, University of Chinese Academy of Sciences",
    "Xinjiang Second Medical College",
@@ -29229,7 +29271,6 @@
    "State Key Laboratory of Lunar and Planetary Sciences",
    "Key Laboratory of Smart Drug Delivery, Ministry of Education",
    "State Grid Jilin Electric Power (China)",
-   "Institute of Advanced Technology",
    "State Key Laboratory of Separation Membranes and Membrane Processes",
    "CNPC Chuanqing Drilling Engineering Company Limited (China)",
    "Shanghai Key Laboratory of Psychotic Disorders",
@@ -29593,7 +29634,7 @@
    "Northeastern University",
    "Northeastern University"
   ],
-  "name": "B. Chen",
+  "name": "Bingyu Chen",
   "orcid": null,
   "papers": 1
  },
@@ -31382,7 +31423,6 @@
    "Washington University in St. Louis",
    "Harbin Institute of Technology",
    "Suzhou University of Science and Technology",
-   "Southeast University",
    "Affiliated Hospital of Guizhou Medical University",
    "Sichuan Cancer Hospital",
    "Qingdao Institute of Animal Husbandry and Veterinary Medicine",
@@ -31483,6 +31523,16 @@
   "name": "Nima Sakhaee",
   "orcid": "https://orcid.org/0009-0003-8467-8416",
   "papers": 2
+ },
+ "A5116547842": {
+  "alternativeNames": [
+   "Madeline Raynolds"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [],
+  "name": "Madeline Raynolds",
+  "orcid": null,
+  "papers": 1
  },
  "A5116563470": {
   "alternativeNames": [
@@ -33191,7 +33241,6 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "Soochow University",
    "Yunnan Agricultural University",
    "Guangzhou University",
    "Soochow University",
@@ -35772,19 +35821,6 @@
   "orcid": null,
   "papers": 1
  },
- "A5152543698": {
-  "alternativeNames": [
-   "Energy Efficiency Office USDOE Office of Energy Efficiency and Renewable Energy (EERE)",
-   "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office"
-  ],
-  "atNortheastern": true,
-  "currentInstitutions": [
-   "Northeastern University"
-  ],
-  "name": "Energy Efficiency Office USDOE Office of Energy Efficiency and Renewable Energy (EERE)",
-  "orcid": null,
-  "papers": 1
- },
  "A5152991447": {
   "alternativeNames": [
    "Kai Wang"
@@ -35842,6 +35878,30 @@
    "Northeastern University"
   ],
   "name": "Zilong Liu",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5153601040": {
+  "alternativeNames": [
+   "Qi Liu"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Qi Liu",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5153604688": {
+  "alternativeNames": [
+   "Yi Lu"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Yi Lu",
   "orcid": null,
   "papers": 1
  }

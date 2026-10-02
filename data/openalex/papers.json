@@ -3007,7 +3007,7 @@
    },
    {
     "id": "A5017651445",
-    "name": "Rui Jie Guo",
+    "name": "Rui Guo",
     "rawName": "Rui Guo",
     "orcid": "https://orcid.org/0000-0002-0275-1735"
    },
@@ -3993,10 +3993,10 @@
   ]
  },
  {
-  "id": "W7171969697",
+  "id": "W7171963095",
   "title": "From solid waste to resource: A review on physicochemical properties and high-value utilization technologies of coal gasification slag",
   "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.21714958",
+  "url": "https://doi.org/10.5281/zenodo.21714957",
   "themes": [
    "Biosphere",
    "Decarbonization",
@@ -4012,10 +4012,10 @@
   ]
  },
  {
-  "id": "W7171963095",
+  "id": "W7171969697",
   "title": "From solid waste to resource: A review on physicochemical properties and high-value utilization technologies of coal gasification slag",
   "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.21714957",
+  "url": "https://doi.org/10.5281/zenodo.21714958",
   "themes": [
    "Biosphere",
    "Decarbonization",
@@ -5324,10 +5324,10 @@
   ]
  },
  {
-  "id": "W7214457710",
+  "id": "W7214460640",
   "title": "Longitudinal Panel of Perceptions About Climate Change and Covid in the United States",
   "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.22940600",
+  "url": "https://doi.org/10.5281/zenodo.22940601",
   "themes": [
    "Air and Climate Science"
   ],
@@ -5341,10 +5341,10 @@
   ]
  },
  {
-  "id": "W7214460640",
+  "id": "W7214457710",
   "title": "Longitudinal Panel of Perceptions About Climate Change and Covid in the United States",
   "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.22940601",
+  "url": "https://doi.org/10.5281/zenodo.22940600",
   "themes": [
    "Air and Climate Science"
   ],
@@ -7130,10 +7130,10 @@
   ]
  },
  {
-  "id": "W7135222220",
+  "id": "W7135207390",
   "title": "Renewable energy discourses of fossil fuel companies: obstruction and delay of climate action",
   "year": 2026,
-  "url": "https://doi.org/10.6084/m9.figshare.c.8349551",
+  "url": "https://doi.org/10.6084/m9.figshare.c.8349551.v1",
   "themes": [
    "Decarbonization",
    "International Governance"
@@ -7154,10 +7154,10 @@
   ]
  },
  {
-  "id": "W7135207390",
+  "id": "W7135222220",
   "title": "Renewable energy discourses of fossil fuel companies: obstruction and delay of climate action",
   "year": 2026,
-  "url": "https://doi.org/10.6084/m9.figshare.c.8349551.v1",
+  "url": "https://doi.org/10.6084/m9.figshare.c.8349551",
   "themes": [
    "Decarbonization",
    "International Governance"
@@ -8860,7 +8860,7 @@
    },
    {
     "id": "A5108312555",
-    "name": "B. Chen",
+    "name": "Bingyu Chen",
     "rawName": "Bingyu Chen",
     "orcid": null
    }
@@ -12159,7 +12159,7 @@
    },
    {
     "id": "A5085319644",
-    "name": "Jie Yuan Qian",
+    "name": "Jie Qian",
     "rawName": "Jie Qian",
     "orcid": "https://orcid.org/0000-0003-3382-8245"
    },
@@ -19007,10 +19007,10 @@
   ]
  },
  {
-  "id": "W4396991949",
+  "id": "W4396807518",
   "title": "Comment on egusphere-2024-448",
   "year": 2024,
-  "url": "https://doi.org/10.5194/egusphere-2024-448-rc2",
+  "url": "https://doi.org/10.5194/egusphere-2024-448-rc1",
   "themes": [
    "Air and Climate Science",
    "Sustainable Food Systems"
@@ -19031,10 +19031,10 @@
   ]
  },
  {
-  "id": "W4396807518",
+  "id": "W4396991949",
   "title": "Comment on egusphere-2024-448",
   "year": 2024,
-  "url": "https://doi.org/10.5194/egusphere-2024-448-rc1",
+  "url": "https://doi.org/10.5194/egusphere-2024-448-rc2",
   "themes": [
    "Air and Climate Science",
    "Sustainable Food Systems"
@@ -20544,7 +20544,7 @@
    },
    {
     "id": "A5074897413",
-    "name": "Davide Carlo Villa",
+    "name": "Davide Villa",
     "rawName": "Davide Villa",
     "orcid": "https://orcid.org/0000-0002-4299-3915"
    },
@@ -21368,7 +21368,7 @@
   "authors": [
    {
     "id": "A5088007613",
-    "name": "John D. Lowrey",
+    "name": "John Lowrey",
     "rawName": "John Lowrey",
     "orcid": "https://orcid.org/0000-0001-6349-8182"
    }
@@ -22061,6 +22061,35 @@
     "name": "Matthew J. Eckelman",
     "rawName": "Matthew J. Eckelman",
     "orcid": "https://orcid.org/0000-0002-0595-3682"
+   }
+  ]
+ },
+ {
+  "id": "W4405714781",
+  "title": "Lexicography Saves Lives (LSL): Automatically Translating Suicide-Related Language",
+  "year": 2024,
+  "url": "https://doi.org/10.48550/arxiv.2412.15497",
+  "themes": [
+   "International Governance"
+  ],
+  "authors": [
+   {
+    "id": "A5063894825",
+    "name": "Annika Marie Schoene",
+    "rawName": "Schoene, Annika Marie",
+    "orcid": "https://orcid.org/0000-0002-9248-617X"
+   },
+   {
+    "id": "A5050439418",
+    "name": "John E. Ortega",
+    "rawName": "Ortega, John E.",
+    "orcid": "https://orcid.org/0000-0002-2328-3205"
+   },
+   {
+    "id": "A5049247948",
+    "name": "Laura Haaber Ihle",
+    "rawName": "Ihle, Laura Haaber",
+    "orcid": "https://orcid.org/0000-0001-7281-8002"
    }
   ]
  },
@@ -23826,10 +23855,10 @@
   ]
  },
  {
-  "id": "W7125477450",
+  "id": "W7125504564",
   "title": "Rationalisation of Explicit Subsidies at State Level",
   "year": 2024,
-  "url": "https://doi.org/10.5281/zenodo.18350367",
+  "url": "https://doi.org/10.5281/zenodo.18350366",
   "themes": [
    "Sustainable Food Systems"
   ],
@@ -23843,10 +23872,10 @@
   ]
  },
  {
-  "id": "W7125504564",
+  "id": "W7125477450",
   "title": "Rationalisation of Explicit Subsidies at State Level",
   "year": 2024,
-  "url": "https://doi.org/10.5281/zenodo.18350366",
+  "url": "https://doi.org/10.5281/zenodo.18350367",
   "themes": [
    "Sustainable Food Systems"
   ],
@@ -28982,10 +29011,10 @@
   ]
  },
  {
-  "id": "W4393742797",
+  "id": "W4393639180",
   "title": "Data from: Herbivory limits success of vegetation restoration globally",
   "year": 2023,
-  "url": "https://doi.org/10.5281/zenodo.8338051",
+  "url": "https://doi.org/10.5281/zenodo.8338052",
   "themes": [
    "Biosphere"
   ],
@@ -28999,10 +29028,10 @@
   ]
  },
  {
-  "id": "W4393639180",
+  "id": "W4393742797",
   "title": "Data from: Herbivory limits success of vegetation restoration globally",
   "year": 2023,
-  "url": "https://doi.org/10.5281/zenodo.8338052",
+  "url": "https://doi.org/10.5281/zenodo.8338051",
   "themes": [
    "Biosphere"
   ],
@@ -29501,7 +29530,7 @@
   "authors": [
    {
     "id": "A5057535114",
-    "name": "Peter R. G. Schindler",
+    "name": "Peter Schindler",
     "rawName": "Peter Schindler",
     "orcid": "https://orcid.org/0000-0002-1319-6570"
    }
@@ -31349,10 +31378,10 @@
   ]
  },
  {
-  "id": "W4387561873",
+  "id": "W4378965025",
   "title": "Low cost 3D printable flow reactors for electrochemistry",
   "year": 2023,
-  "url": "https://doi.org/10.5281/zenodo.8435816",
+  "url": "https://doi.org/10.5281/zenodo.7992149",
   "themes": [
    "Air and Climate Science",
    "Decarbonization"
@@ -31397,10 +31426,10 @@
   ]
  },
  {
-  "id": "W4378965025",
+  "id": "W4387561873",
   "title": "Low cost 3D printable flow reactors for electrochemistry",
   "year": 2023,
-  "url": "https://doi.org/10.5281/zenodo.7992149",
+  "url": "https://doi.org/10.5281/zenodo.8435816",
   "themes": [
    "Air and Climate Science",
    "Decarbonization"
@@ -35298,7 +35327,7 @@
     "orcid": "https://orcid.org/0000-0001-5972-8221"
    },
    {
-    "id": "A5152543698",
+    "id": "A5154055072",
     "name": "Energy Efficiency Office USDOE Office of Energy Efficiency and Renewable Energy (EERE)",
     "rawName": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office",
     "orcid": null
@@ -37829,7 +37858,7 @@
    },
    {
     "id": "A5085319644",
-    "name": "Jie Yuan Qian",
+    "name": "Jie Qian",
     "rawName": "Jie Qian",
     "orcid": "https://orcid.org/0000-0003-3382-8245"
    },
@@ -39747,7 +39776,7 @@
   "authors": [
    {
     "id": "A5087424945",
-    "name": "Meng Qi Cui",
+    "name": "Meng Cui",
     "rawName": "Meng Cui",
     "orcid": "https://orcid.org/0000-0002-3895-135X"
    }
@@ -40041,6 +40070,23 @@
     "name": "Seth Cooper",
     "rawName": "Seth Cooper",
     "orcid": "https://orcid.org/0000-0003-4504-0877"
+   }
+  ]
+ },
+ {
+  "id": "W7215409709",
+  "title": "Permaculture and Sustainable Educational Systems",
+  "year": 2022,
+  "url": "https://openalex.org/W7215409709",
+  "themes": [
+   "Biosphere"
+  ],
+  "authors": [
+   {
+    "id": "A5116547842",
+    "name": "Madeline Raynolds",
+    "rawName": "Raynolds, Madeline",
+    "orcid": null
    }
   ]
  },
@@ -41338,7 +41384,7 @@
    },
    {
     "id": "A5083146923",
-    "name": "Hong Ping Qu",
+    "name": "Hong Qu",
     "rawName": "Hong Qu",
     "orcid": "https://orcid.org/0000-0001-9003-3882"
    }
@@ -42302,6 +42348,23 @@
     "name": "Matthew J. Eckelman",
     "rawName": "Matthew J Eckelman",
     "orcid": "https://orcid.org/0000-0002-0595-3682"
+   }
+  ]
+ },
+ {
+  "id": "W7215528275",
+  "title": "การพฒนาภมปญญาทองถนสความเปนชมชนนวตวถ ของโรงเรยนผสงอาย ตำบลหนองกงธนสาร อำเภอภเวยง จงหวดขอนแกน",
+  "year": 2022,
+  "url": "https://openalex.org/W7215528275",
+  "themes": [
+   "Sustainable Food Systems"
+  ],
+  "authors": [
+   {
+    "id": "A5154004643",
+    "name": "Lakkana Inbueng",
+    "rawName": "Inbueng  , Lakkana",
+    "orcid": null
    }
   ]
  }
