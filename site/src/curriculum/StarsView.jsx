@@ -129,7 +129,7 @@ function Reported({ reported, stars }) {
     <section className="stars-reported" aria-labelledby="reported-title">
       <h3 id="reported-title" className="subsection">Compared with the 2026 STARS submission</h3>
       <p className="section-note">
-        From {r.source}: {r.rating}, {r.score} points.{' '}
+        From {r.url ? <a href={r.url} target="_blank" rel="noreferrer">{r.source}</a> : r.source}: {r.rating}, {r.score} points.{' '}
         {Object.entries(r.areas).map(([area, [got, of]]) => `${area} ${got} of ${of}`).join(', ')}.
         The course list in the report is from {r.courseYear}.
       </p>
