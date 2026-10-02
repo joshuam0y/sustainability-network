@@ -71,6 +71,22 @@ a { color: var(--link); text-underline-offset: 2px; }
 .embed .rail h1 { font-size: var(--step-2); }
 .rail-note { margin-top: 1.25rem; font-size: var(--step--1); }
 
+/* Faculty | Courses & majors, at the top of both maps */
+.site-switch {
+  display: flex;
+  margin-bottom: 1.1rem;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  padding: 2px;
+  font-size: var(--step--1);
+  font-weight: 700;
+}
+.site-switch > * { flex: 1; text-align: center; padding: 0.4rem 0.6rem; border-radius: 5px; }
+.site-switch a { color: var(--ink-soft); text-decoration: none; }
+.site-switch a:hover { background: var(--paper); color: var(--ink); }
+.site-switch [aria-current] { background: var(--ink); color: white; }
+
 /* ---------- Filters ---------- */
 
 .filters { margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1.1rem; }

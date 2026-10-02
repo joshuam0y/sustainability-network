@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { formatDate } from '../data.js'
 import SharePanel from '../SharePanel.jsx'
+import SiteSwitch from '../SiteSwitch.jsx'
 import { DESIGNATIONS, loadCurriculum, matchesDesignation, PROGRAM_TYPES } from './data.js'
 import CollegeChart from './CollegeChart.jsx'
 import ProgramList from './ProgramList.jsx'
@@ -82,7 +83,11 @@ export default function CurriculumApp() {
   const set = (key) => (value) => { setState({ ...state, [key]: value }); setSelection(null) }
 
   useEffect(() => {
-    loadCurriculum().then(setData).catch((e) => setError(e.message))
+    loadCurriculum().then((d) => {
+      // A theme passed from the faculty map that no course has would show an empty list, so drop it
+      setState((s) => (s.theme && !d.courses.some((c) => c.themes.includes(s.theme)) ? { ...s, theme: '' } : s))
+      setData(d)
+    }).catch((e) => setError(e.message))
   }, [])
 
   const fullQuery = toQuery(state, selection, embed)
@@ -139,6 +144,7 @@ export default function CurriculumApp() {
   return (
     <div className={embed ? 'app embed curriculum' : 'app curriculum'}>
       <header className="rail">
+        <SiteSwitch current="courses" theme={state.theme} embed={embed} />
         <h1>How much sustainability is in each major?</h1>
         {!embed && (
           <p className="intro">
@@ -193,7 +199,6 @@ export default function CurriculumApp() {
           <p className="rail-note"><a href={window.location.pathname + toQuery(state, selection, false)} target="_blank" rel="noreferrer">Open the full curriculum map</a></p>
         ) : (
           <>
-            <p className="rail-note"><a href="../">See who works on sustainability: the faculty map</a></p>
             <details className="about">
               <summary>How this is worked out</summary>
               <p>

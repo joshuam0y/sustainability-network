@@ -8,6 +8,7 @@ import FilterRail from './FilterRail.jsx'
 import DetailPanel from './DetailPanel.jsx'
 import FacultyList from './FacultyList.jsx'
 import SharePanel from './SharePanel.jsx'
+import SiteSwitch from './SiteSwitch.jsx'
 
 const initial = readUrl()
 
@@ -101,6 +102,7 @@ export default function App() {
   return (
     <div className={embed ? 'app embed' : 'app'}>
       <header className="rail">
+        <SiteSwitch current="faculty" theme={filters.theme} embed={embed} />
         <h1>Who works on sustainability at Northeastern?</h1>
         {!embed && (
           <p className="intro">
