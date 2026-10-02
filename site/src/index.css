@@ -65,6 +65,8 @@ a { color: var(--link); text-underline-offset: 2px; }
 
 .intro { margin-top: 0.75rem; font-size: var(--step-0); color: var(--ink-soft); max-width: 34ch; }
 
+/* Embeds are often given a short frame; the rail scrolls on its own if it needs to */
+:root.embedded .app { min-height: 400px; }
 .embed .rail { padding: 1.25rem 1.25rem 1.5rem; }
 .embed .rail h1 { font-size: var(--step-2); }
 .rail-note { margin-top: 1.25rem; font-size: var(--step--1); }

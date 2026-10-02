@@ -19,7 +19,7 @@ function CopyField({ label, value }) {
 export default function SharePanel({ query, embedQuery, onClose, title = 'Sustainability Faculty Network' }) {
   const base = window.location.origin + window.location.pathname
   const link = base + query
-  const iframe = `<iframe src="${base + embedQuery}" title="${title}" width="100%" height="720" style="border:0" loading="lazy"></iframe>`
+  const iframe = `<iframe src="${base + embedQuery}" title="${title}" width="100%" height="560" style="border:0; height:min(560px, 70vh)" loading="lazy"></iframe>`
 
   return (
     <div className="share" role="dialog" aria-label="Share or embed this view">
