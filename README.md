@@ -27,7 +27,7 @@ Set up the view you want (for example, the Waste theme with only the College of 
 
 ```html
 <iframe src="https://joshuam0y.github.io/sustainability-network/?theme=Waste&college=College+of+Engineering&embed=1"
-  title="Sustainability Faculty Network" width="100%" height="560" style="border:0" loading="lazy"></iframe>
+  title="Sustainability Faculty Network" width="100%" height="620" style="border:0" loading="lazy"></iframe>
 ```
 
 ## How it stays up to date
