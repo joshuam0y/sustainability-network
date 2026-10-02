@@ -32,6 +32,26 @@ Download, open the GitHub upload link on the page, and drop the file in. The sit
 **Change a setting.** `pipeline/settings.py` has switches for showing emails and the "joined in the last 3 years"
 flag, and the email address "Report a problem" links send to. Edit it on GitHub with the pencil icon.
 
+**Add a new theme.** Three files, all editable on GitHub with the pencil icon:
+1. `data/base/nodes_keywords.json`: copy an existing theme's entry and change `id` (`theme:` plus the name), `name`,
+   `category` (`Values`, `Content` or `Skills`), and `topics`. Set `facultyCount` to 0; it's recalculated.
+2. `pipeline/themes.py`: add the theme to `THEME_TERMS` with the phrases that should put a paper in it. For a
+   Content theme, also add its name to `CONTENT_THEMES`.
+3. `site/src/themeInfo.js`: add a one-line description.
+
+People are added to the theme from their papers at the next morning update. The sites say "20 themes" in a few
+places (`site/src/App.jsx`, `README.md`), so change those too. To rename or remove a theme, change the same three files.
+
+**Getting help.** Northeastern students get Claude for free. With [Claude Code](https://claude.com/claude-code), open
+this repository and describe the change in plain English (for example "add a theme called Water"). It can read these
+files and make the edits.
+
+## Who has access
+
+The repositories belong to joshuam0y. The NU Sustain GitHub account (`nusustain`) is an admin on this one, so it
+can edit files, run updates and change the `OPENALEX_API_KEY` secret under **Settings → Secrets and variables → Actions**.
+Add more people under **Settings → Collaborators**.
+
 ## When something breaks
 
 GitHub emails the repository owner when an update fails. Open the **Actions** tab, click the failed run, and look
