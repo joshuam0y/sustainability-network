@@ -77,11 +77,12 @@ export default function ThemeFocus({ theme, people, themes, themeCounts, selecte
 
   const { dots, satellites, outer, rings, onlyLabel } = layout
   const satByName = new Map(satellites.map((s) => [s.name, s]))
-  // Wider than tall: labels on the left and right need room
-  const extentX = outer + 170
-  const extentY = outer + 100
   const color = CATEGORY_COLORS[theme.category]
   const labels = useMemo(() => placeLabels(satellites, anchor), [satellites])
+  // Wider than tall: labels on the left and right need room. Grow further if a nudged label ends up outside.
+  const placedLabels = [...labels.values()]
+  const extentX = Math.max(outer + 170, ...placedLabels.map((l) => Math.max(-l.x0, l.x1) + 12))
+  const extentY = Math.max(outer + 100, ...placedLabels.map((l) => Math.max(-l.top, l.bottom) + 12))
 
   const focusPerson = hover?.kind === 'person' ? hover.id : selectedId
   // A clicked theme stays highlighted until the panel is closed; hovering another previews it
