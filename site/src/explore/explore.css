@@ -1,0 +1,135 @@
+/* Northeastern look: red, black and white, Lato, pill buttons that turn red on hover (as on the Incubator site) */
+:root {
+  --nu-red: #C8102E;
+  --nu-red-hover: #D41B2C;
+  --ink: #111;
+  --ink-soft: #555;
+  --paper: #fff;
+  font-family: Lato, 'Helvetica Neue', Arial, sans-serif;
+  color: var(--ink);
+}
+
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; height: 100%; }
+body { background: #222; overflow: hidden; }
+
+.explore { position: relative; width: 100%; height: 100vh; height: 100dvh; overflow: hidden; }
+.room { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
+.status { position: absolute; inset: 0; display: grid; place-items: center; color: white; margin: 0; font-size: 1.1rem; }
+
+.intro-card {
+  position: absolute; z-index: 2; top: 1.25rem; left: 1.25rem; max-width: 22rem;
+  background: rgba(255, 255, 255, 0.94); padding: 1rem 1.25rem 1.1rem; border-radius: 4px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
+}
+.intro-card .bar { display: block; width: 2.5rem; height: 4px; background: var(--nu-red); margin-bottom: 0.6rem; }
+.intro-card h1 { margin: 0; font-size: 1.35rem; font-weight: 900; line-height: 1.15; }
+.intro-card p { margin: 0.4rem 0 0; color: var(--ink-soft); font-size: 0.92rem; }
+
+/* Markers float over the objects they describe; their position is set every frame by the room */
+.marker {
+  position: absolute; top: 0; left: 0; border: 0; background: none; padding: 0; cursor: pointer;
+  display: flex; align-items: center; gap: 0.5rem; transition: opacity 0.2s; font: inherit;
+}
+.marker .ring {
+  width: 26px; height: 26px; margin: -13px 0 0 -13px; border-radius: 50%;
+  background: var(--nu-red); border: 3px solid white; box-shadow: 0 0 0 0 rgba(200, 16, 46, 0.6);
+  animation: pulse 2s infinite;
+}
+.marker-label {
+  margin-top: -13px; background: var(--ink); color: white; font-weight: 700; font-size: 0.85rem;
+  padding: 0.3rem 0.65rem; border-radius: 25px; white-space: nowrap;
+}
+.marker:hover .marker-label, .marker:focus-visible .marker-label, .marker.active .marker-label, .marker.hover .marker-label { background: var(--nu-red); }
+.marker.hover .ring { transform: scale(1.25); }
+.marker .ring { transition: transform 0.15s; }
+.marker:focus-visible { outline: none; }
+.marker:focus-visible .ring { outline: 3px solid white; outline-offset: 3px; }
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(200, 16, 46, 0.6); }
+  70% { box-shadow: 0 0 0 14px rgba(200, 16, 46, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(200, 16, 46, 0); }
+}
+@media (prefers-reduced-motion: reduce) { .marker .ring { animation: none; } }
+
+.jump {
+  position: absolute; z-index: 2; left: 50%; bottom: 1.25rem; transform: translateX(-50%);
+  display: flex; gap: 0.4rem; padding: 0.4rem; background: rgba(255, 255, 255, 0.94); border-radius: 30px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25); max-width: calc(100% - 2rem); overflow-x: auto;
+}
+.jump button {
+  border: 0; background: none; font: inherit; font-weight: 700; font-size: 0.88rem; padding: 0.5rem 0.95rem;
+  border-radius: 25px; cursor: pointer; white-space: nowrap; color: var(--ink);
+}
+.jump button:hover { background: #eee; }
+.jump button[aria-pressed="true"] { background: var(--ink); color: white; }
+
+.panel {
+  position: absolute; z-index: 3; top: 1.25rem; right: 1.25rem; bottom: 5.5rem; width: min(24rem, calc(100% - 2.5rem));
+  background: var(--paper); padding: 1.5rem 1.5rem 1.75rem; overflow-y: auto; border-radius: 4px;
+  border-top: 5px solid var(--nu-red); box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+}
+.panel .close {
+  position: absolute; top: 0.6rem; right: 0.75rem; border: 0; background: none; font-size: 1.6rem; line-height: 1;
+  cursor: pointer; color: var(--ink-soft); padding: 0.25rem;
+}
+.panel .kicker { margin: 0; text-transform: uppercase; letter-spacing: 3px; font-size: 0.72rem; font-weight: 700; color: var(--nu-red); }
+.panel h2 { margin: 0.3rem 0 0.8rem; font-size: 1.7rem; font-weight: 900; line-height: 1.1; }
+.panel h3 { margin: 1.2rem 0 0.4rem; font-size: 0.95rem; }
+.panel p { margin: 0 0 0.8rem; line-height: 1.55; }
+.panel .lede { font-size: 1.08rem; font-weight: 700; }
+.panel a { color: var(--ink); }
+.panel a:hover { color: var(--nu-red); }
+
+.pill {
+  display: inline-block; margin: 0.6rem 0.75rem 0 0; padding: 0.65rem 1.5rem; border-radius: 25px;
+  background: var(--ink); color: white !important; font-weight: 700; text-decoration: none;
+}
+.pill:hover { background: var(--nu-red-hover); }
+.text-link { display: inline-block; margin-top: 0.6rem; font-weight: 700; }
+
+.ranked { list-style: none; padding: 0; margin: 0 0 0.5rem; }
+.ranked li { display: flex; justify-content: space-between; padding: 0.45rem 0; border-bottom: 1px solid #e5e5e5; }
+.ranked li { gap: 1rem; }
+.ranked span { font-weight: 700; color: var(--ink-soft); white-space: nowrap; }
+
+.involved { list-style: none; padding: 0; margin: 0; }
+.involved li { padding: 0.7rem 0; border-bottom: 1px solid #e5e5e5; }
+.involved a { font-weight: 900; font-size: 1.02rem; }
+.involved p { margin: 0.25rem 0 0; color: var(--ink-soft); font-size: 0.93rem; }
+
+blockquote { margin: 0 0 0.9rem; padding: 0.2rem 0 0.2rem 1rem; border-left: 4px solid var(--nu-red); font-style: italic; line-height: 1.5; }
+blockquote cite { display: block; margin-top: 0.4rem; font-style: normal; font-weight: 700; font-size: 0.85rem; color: var(--ink-soft); }
+
+/* Phones: the panel becomes a sheet along the bottom */
+@media (max-width: 640px) {
+  .intro-card { top: 0.75rem; left: 0.75rem; right: 0.75rem; max-width: none; padding: 0.75rem 1rem; }
+  .intro-card h1 { font-size: 1.1rem; }
+  .panel { top: auto; left: 0.75rem; right: 0.75rem; width: auto; bottom: 4.6rem; max-height: 55%; }
+  .jump { bottom: 0.75rem; }
+  .marker-label { font-size: 0.78rem; }
+}
+
+/* How many of the things in the room have been opened */
+.found { display: flex; align-items: center; gap: 0.6rem; margin-top: 0.7rem !important; font-weight: 700; color: var(--ink) !important; font-size: 0.85rem !important; }
+.found-track { flex: 0 0 6rem; height: 6px; background: #e3e3e3; border-radius: 3px; overflow: hidden; }
+.found-track span { display: block; height: 100%; background: var(--nu-red); transition: width 0.4s; }
+.marker.seen .ring { background: white; border-color: var(--nu-red); animation: none; }
+
+.stats { display: flex; gap: 1rem; margin: 0.4rem 0 0.6rem; }
+.stats div { flex: 1; padding: 0.7rem 0.8rem; background: #F5F3EF; border-left: 4px solid var(--nu-red); }
+.stats strong { display: block; font-size: 1.7rem; font-weight: 900; line-height: 1; }
+.stats span { font-size: 0.82rem; color: var(--ink-soft); }
+
+.bars { display: flex; align-items: flex-end; gap: 0.5rem; height: 11rem; margin: 0.8rem 0 0.4rem; }
+.bar { flex: 1; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; }
+.bar-fill { width: 100%; background: #2A2A2A; border-radius: 2px 2px 0 0; }
+.bar.latest .bar-fill { background: var(--nu-red); }
+.bar-value { font-size: 0.75rem; font-weight: 700; margin-bottom: 0.2rem; }
+.bar-year { font-size: 0.72rem; color: var(--ink-soft); margin-top: 0.3rem; white-space: nowrap; }
+.note { font-size: 0.82rem; color: var(--ink-soft); }
+
+.panel-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 1.6rem; padding-top: 1rem; border-top: 1px solid #e5e5e5; }
+.next { border: 0; background: none; font: inherit; font-weight: 900; cursor: pointer; color: var(--ink); padding: 0.3rem 0; }
+.next:hover { color: var(--nu-red); }
+.step { font-size: 0.8rem; color: var(--ink-soft); }

@@ -13,6 +13,7 @@ export default defineConfig({
         faculty: resolve(import.meta.dirname, 'index.html'),
         curriculum: resolve(import.meta.dirname, 'curriculum/index.html'),
         review: resolve(import.meta.dirname, 'review/index.html'),
+        explore: resolve(import.meta.dirname, 'explore/index.html'),
       },
     },
   },
