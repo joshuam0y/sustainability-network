@@ -48,9 +48,9 @@ files and make the edits.
 
 ## Who has access
 
-The repositories belong to joshuam0y. The NU Sustain GitHub account (`nusustain`) is an admin on this one, so it
-can edit files, run updates and change the `OPENALEX_API_KEY` secret under **Settings → Secrets and variables → Actions**.
-Add more people under **Settings → Collaborators**.
+The repositories belong to joshuam0y. The NU Sustain GitHub account (`nusustain`) is a collaborator on this one, so it
+can edit files and run updates. Changing the `OPENALEX_API_KEY` secret (**Settings → Secrets and variables → Actions**)
+needs the Admin role. Add people or change roles under **Settings → Collaborators**.
 
 ## When something breaks
 
