@@ -3569,6 +3569,12 @@
     "orcid": null
    },
    {
+    "id": "A5157112293",
+    "name": "Xiaoman Zou",
+    "rawName": "Xiaoman Zou",
+    "orcid": null
+   },
+   {
     "id": "A5015564499",
     "name": "Jiading Zhou",
     "rawName": "Jiading Zhou",
@@ -6491,6 +6497,12 @@
     "orcid": null
    },
    {
+    "id": "A5157172020",
+    "name": "Han Zhang",
+    "rawName": "Han Zhang",
+    "orcid": null
+   },
+   {
     "id": "A5147145891",
     "name": "Xinrui Liu",
     "rawName": "Xinrui Liu",
@@ -6507,6 +6519,12 @@
    "Decarbonization"
   ],
   "authors": [
+   {
+    "id": "A5157172020",
+    "name": "Han Zhang",
+    "rawName": "Han Zhang",
+    "orcid": null
+   },
    {
     "id": "A5147165456",
     "name": "Jiazeng Zhou",
@@ -13282,12 +13300,6 @@
     "name": "Xinran Shi",
     "rawName": "Xinran Shi",
     "orcid": null
-   },
-   {
-    "id": "A5100318419",
-    "name": "Wei Li",
-    "rawName": "Wei Li",
-    "orcid": "https://orcid.org/0000-0003-2802-7443"
    }
   ]
  },

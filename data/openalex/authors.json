@@ -810,7 +810,8 @@
   "currentInstitutions": [
    "Jilin University",
    "Harbin Institute of Technology",
-   "Northwest University"
+   "Northwest University",
+   "Zhejiang University of Technology"
   ],
   "name": "Tong Mu",
   "orcid": "https://orcid.org/0009-0007-6717-1946",
@@ -1877,7 +1878,8 @@
    "Lauren MacLean",
    "Lauren Morris MacLean",
    "Lauren Morris Maclean",
-   "MacLean, Lauren"
+   "MacLean, Lauren",
+   "Maclean, Lauren M."
   ],
   "atNortheastern": false,
   "currentInstitutions": [],
@@ -2380,7 +2382,8 @@
    "Raditya D Riyanto",
    "Raditya D. Riyanto",
    "Raditya Danu Riyanto",
-   "Raditya Riyanto"
+   "Raditya Riyanto",
+   "Riyanto, Raditya Danu"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -3163,8 +3166,9 @@
   "alternativeNames": [
    "Wanruo Hu"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
+   "Northeastern University",
    "Northeastern University"
   ],
   "name": "Wanruo Hu",
@@ -3463,7 +3467,10 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Chinese Academy of Sciences",
    "Nanjing University of Science and Technology",
+   "Shanghai Advanced Research Institute",
+   "University of Chinese Academy of Sciences",
    "Ministry of Industry and Information Technology"
   ],
   "name": "Xiang Chen",
@@ -5040,8 +5047,9 @@
    "Zhen’gao SUN",
    "Zhongqiao Sun"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
+   "Northeastern University",
    "Shandong University of Traditional Chinese Medicine",
    "Affiliated Hospital of Shandong University of Traditional Chinese Medicine"
   ],
@@ -5546,6 +5554,7 @@
  },
  "A5022914393": {
   "alternativeNames": [
+   "FURNARI, SANTI",
    "Furnari, Santi",
    "S. Furnari",
    "Santi Furnari"
@@ -7422,8 +7431,9 @@
    "Chao-Bo Wang",
    "Chaobo Wang"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
+   "Northeastern University",
    "Northeastern University"
   ],
   "name": "Chaobo Wang",
@@ -7447,6 +7457,7 @@
  "A5033447925": {
   "alternativeNames": [
    "Alessandra Urbinati",
+   "URBINATI, ALESSANDRA",
    "Urbinati, Alessandra"
   ],
   "atNortheastern": true,
@@ -7562,7 +7573,6 @@
  },
  "A5033801186": {
   "alternativeNames": [
-   "Kiet La-Tuan",
    "La Tuan Kiet",
    "Tuan Kiet La",
    "Tuan-Kiet La"
@@ -10605,7 +10615,9 @@
   "alternativeNames": [
    "C Zoppi",
    "Corrado Zoppi",
+   "ZOPPI C.",
    "ZOPPI, CORRADO",
+   "ZOPPI, Corrado",
    "Zoppi Corrado",
    "Zoppi, Corrado"
   ],
@@ -14924,6 +14936,7 @@
    "Karlsruhe Institute of Technology",
    "Xihua University",
    "Florida State University",
+   "Tohoku Institute of Technology",
    "Shenyang Pharmaceutical University",
    "Chongqing University of Posts and Telecommunications",
    "Hebei University of Engineering",
@@ -15028,6 +15041,7 @@
    "Shandong University",
    "University of Alberta",
    "University of Turku",
+   "Dalian University of Foreign Languages",
    "Shenyang University of Technology",
    "China National Nuclear Corporation",
    "Sun Yat-sen University",
@@ -15254,7 +15268,6 @@
    "Hubei University of Science and Technology",
    "Yan'an University",
    "High Magnetic Field Laboratory",
-   "Jilin Vocational College of Industry and Technology",
    "Center for Agricultural Resources Research",
    "South China Sea Institute Of Oceanology",
    "Air Force Engineering University",
@@ -15626,6 +15639,7 @@
    "Qinghai Institute of Technology",
    "Jiangxi Polytechnic University",
    "Ningxia Institute of Science and Technology",
+   "Jilin General Aviation Vocational and Technical College",
    "Shanghai Innovation Institute",
    "Anhui University of Applied Technology",
    "Institute of Spacecraft System Engineering",
@@ -17841,7 +17855,8 @@
  "A5074858197": {
   "alternativeNames": [
    "Binod Pant",
-   "Pant Binod"
+   "Pant Binod",
+   "Pant, Binod"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -18361,7 +18376,8 @@
  },
  "A5077322608": {
   "alternativeNames": [
-   "Ziaullah Ziaullah"
+   "Ziaullah Ziaullah",
+   "Ziaullah, Ziaullah"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -18590,8 +18606,10 @@
   "alternativeNames": [
    "Maqsood Mansur"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Maqsood Mansur",
   "orcid": null,
   "papers": 1
@@ -18840,6 +18858,7 @@
  },
  "A5079712884": {
   "alternativeNames": [
+   "MARANO, VALENTINA",
    "Valentina Marano"
   ],
   "atNortheastern": true,
@@ -20052,6 +20071,7 @@
    "Cuervo-Cazurra, Alvaro",
    "Cuervo-Cazurra, Alvaro 1968-",
    "Cuervo-Cazurra, Alvaro, 1968-",
+   "Cuervo-Cazurra, Álvaro",
    "Álvaro Cuervo-Cazurra"
   ],
   "atNortheastern": true,
@@ -23154,31 +23174,6 @@
   "orcid": "https://orcid.org/0000-0002-2133-9287",
   "papers": 1
  },
- "A5100318419": {
-  "alternativeNames": [
-   "Li, W. D.",
-   "Li, Wei",
-   "Li, Weiqiang",
-   "W. Li",
-   "Wei LI",
-   "Wei Li",
-   "Wei li",
-   "Weiguo Li",
-   "Xiaoyan Li",
-   "李伟"
-  ],
-  "atNortheastern": false,
-  "currentInstitutions": [
-   "Kunming University of Science and Technology",
-   "West Virginia University",
-   "Xiangtan University",
-   "Beijing University of Chemical Technology",
-   "Nanjing University"
-  ],
-  "name": "Wei Li",
-  "orcid": "https://orcid.org/0000-0003-2802-7443",
-  "papers": 1
- },
  "A5100320402": {
   "alternativeNames": [
    "J. Zhang",
@@ -24012,6 +24007,7 @@
    "Xidian University",
    "Tianjin University",
    "Northwestern Polytechnical University",
+   "Henan University",
    "Chinese Academy of Sciences",
    "Shanghai Normal University",
    "Beijing Normal University",
@@ -24654,7 +24650,10 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Chinese Academy of Sciences",
    "China University of Petroleum, Beijing",
+   "China Spallation Neutron Source",
+   "Institute of High Energy Physics",
    "Anhui Polytechnic University",
    "Aalborg University"
   ],
@@ -26130,6 +26129,7 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
+   "Hunan University",
    "Zhengzhou University of Light Industry",
    "Guilin University of Aerospace Technology",
    "Macao Polytechnic University",
@@ -26393,7 +26393,8 @@
    "ZHONG WANG",
    "ZHONG Wang",
    "Zhong WANG",
-   "Zhong Wang"
+   "Zhong Wang",
+   "Zhongjie Wang"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -26437,6 +26438,7 @@
   "atNortheastern": false,
   "currentInstitutions": [
    "Chinese Academy of Sciences",
+   "Chuzhou University",
    "Institute of Atmospheric Physics",
    "China Agricultural University"
   ],
@@ -27069,6 +27071,8 @@
   "currentInstitutions": [
    "Northeast Agricultural University",
    "First Affiliated Hospital of Guangzhou Medical University",
+   "Chinese Academy of Agricultural Sciences",
+   "Institute of Animal Sciences",
    "Jiangxi Academy of Forestry",
    "Guangzhou Medical University"
   ],
@@ -27851,6 +27855,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Natural Sciences and Engineering Research Council of Canada",
    "University of Windsor",
    "Freie Universität Berlin"
   ],
@@ -31086,7 +31091,6 @@
   "atNortheastern": false,
   "currentInstitutions": [
    "Shenyang Institute of Engineering",
-   "Shenyang University",
    "Northeastern University"
   ],
   "name": "Jingchao Sun",
@@ -31409,7 +31413,8 @@
   "alternativeNames": [
    "C. Lee",
    "Craig Lee",
-   "Lee, Craig"
+   "Lee, Craig",
+   "Lee, Craig,"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -32310,7 +32315,8 @@
   "atNortheastern": false,
   "currentInstitutions": [
    "Jilin Electric Power Research Institute (China)",
-   "State Grid Jilin Electric Power (China)"
+   "State Grid Jilin Electric Power (China)",
+   "The University of Tokyo"
   ],
   "name": "Haifeng Zhang",
   "orcid": "https://orcid.org/0000-0001-9023-5521",
@@ -33736,7 +33742,6 @@
    "Dalian University",
    "Fudan University Shanghai Cancer Center",
    "Third People's Hospital of Chengdu",
-   "Shanghai Tunnel Engineering (China)",
    "Zhoukou Normal University",
    "First Affiliated Hospital of Jiangxi Medical College",
    "Kaohsiung Chang Gung Memorial Hospital",
@@ -34005,7 +34010,6 @@
    "Henan Provincial People's Hospital",
    "First Affiliated Hospital of Gannan Medical University",
    "Peking University International Hospital",
-   "China Railway Construction Corporation (China)",
    "Beijing Research Institute of Uranium Geology",
    "Anhui Institute of Optics and Fine Mechanics",
    "Nanjing Institute of Geography and Limnology",
@@ -42367,6 +42371,7 @@
  "A5153703941": {
   "alternativeNames": [
    "Chatchai Ketprom",
+   "Ketprom , Chatchai",
    "Ketprom, Chatchai"
   ],
   "atNortheastern": false,
@@ -42378,12 +42383,11 @@
  "A5154004643": {
   "alternativeNames": [
    "Inbueng  , Lakkana",
+   "Inbueng, Lakkana",
    "Lakkana Inbueng"
   ],
-  "atNortheastern": true,
-  "currentInstitutions": [
-   "Northeastern University"
-  ],
+  "atNortheastern": false,
+  "currentInstitutions": [],
   "name": "Lakkana Inbueng",
   "orcid": null,
   "papers": 1
@@ -42406,9 +42410,36 @@
    "Nounphong Yingphan",
    "Yingphan, Nounphong"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "Southeast Asia University"
+  ],
   "name": "Nounphong Yingphan",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5154758035": {
+  "alternativeNames": [
+   "Hao Meng"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Hao Meng",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5155498304": {
+  "alternativeNames": [
+   "Wenhao Li"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Wenhao Li",
   "orcid": null,
   "papers": 1
  }
