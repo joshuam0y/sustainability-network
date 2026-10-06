@@ -7963,23 +7963,6 @@
   ]
  },
  {
-  "id": "W7172433953",
-  "title": "Parameter Identification of Electrochemical Model for Lithium-ion Battery via Proximal Policy Optimization Algorithm",
-  "year": 2026,
-  "url": "https://doi.org/10.1109/yac71005.2026.11615732",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5144329502",
-    "name": "Rui Wang",
-    "rawName": "Rui Wang",
-    "orcid": null
-   }
-  ]
- },
- {
   "id": "W7154731490",
   "title": "Participatory fuzzy cognitive modelling reveals leverage points for agroecological adoption in the Central Valleys of Oaxaca",
   "year": 2026,
@@ -8563,6 +8546,12 @@
    "Future Thinking"
   ],
   "authors": [
+   {
+    "id": "A5088760317",
+    "name": "Margaret A. Streeter",
+    "rawName": "Margaret Streeter",
+    "orcid": "https://orcid.org/0009-0000-9338-950X"
+   },
    {
     "id": "A5113094329",
     "name": "Jacob Grondin",
@@ -10255,47 +10244,6 @@
   ]
  },
  {
-  "id": "W7172407844",
-  "title": "The Application of Advanced Fault Diagnosis Techniques in Wind Turbines: A Review",
-  "year": 2026,
-  "url": "https://doi.org/10.1109/yac71005.2026.11616232",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5144354239",
-    "name": "Mingkai Wang",
-    "rawName": "Mingkai Wang",
-    "orcid": null
-   },
-   {
-    "id": "A5086637270",
-    "name": "Hanguang Su",
-    "rawName": "Hanguang Su",
-    "orcid": "https://orcid.org/0000-0003-1356-4158"
-   },
-   {
-    "id": "A5144327373",
-    "name": "Jiaxi Zhang",
-    "rawName": "Jiaxi Zhang",
-    "orcid": null
-   },
-   {
-    "id": "A5144348271",
-    "name": "Guorong Tang",
-    "rawName": "Guorong Tang",
-    "orcid": null
-   },
-   {
-    "id": "A5144363518",
-    "name": "Xiaoran Li",
-    "rawName": "Xiaoran Li",
-    "orcid": null
-   }
-  ]
- },
- {
   "id": "W7142511348",
   "title": "The Case for Deference in Ecosystem Management",
   "year": 2026,
@@ -10777,6 +10725,12 @@
    "Waste"
   ],
   "authors": [
+   {
+    "id": "A5112115799",
+    "name": "Meryl S. Baker",
+    "rawName": "Matthew S. Baker",
+    "orcid": "https://orcid.org/0009-0009-7195-071X"
+   },
    {
     "id": "A5056500299",
     "name": "Geoffrey C. Trussell",
@@ -11510,6 +11464,23 @@
     "name": "Hongli Zhu",
     "rawName": "Hongli Zhu",
     "orcid": "https://orcid.org/0000-0003-1733-4333"
+   }
+  ]
+ },
+ {
+  "id": "W7220068822",
+  "title": "21st Century Entrepreneurship Challenges, Opportunities, and Growth in case of Thailand",
+  "year": 2025,
+  "url": "https://openalex.org/W7220068822",
+  "themes": [
+   "Decarbonization"
+  ],
+  "authors": [
+   {
+    "id": "A5119870867",
+    "name": "Pot Toopot",
+    "rawName": "Toopot, Pot",
+    "orcid": null
    }
   ]
  },
@@ -23493,24 +23464,6 @@
   ]
  },
  {
-  "id": "W4409697667",
-  "title": "Temperature Controls the Lifetimes and Microbial Communities Degrading Cellulose Diacetate in the Coastal Ocean",
-  "year": 2025,
-  "url": "https://doi.org/10.26434/chemrxiv-2025-qd41h",
-  "themes": [
-   "Biosphere",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5036162806",
-    "name": "Bryan D. James",
-    "rawName": "Bryan James",
-    "orcid": "https://orcid.org/0000-0002-6104-8310"
-   }
-  ]
- },
- {
   "id": "W4413981030",
   "title": "Temperature Controls the Lifetimes and Microbial Communities Degrading Cellulose Diacetate in the Coastal Ocean",
   "year": 2025,
@@ -23525,6 +23478,24 @@
     "id": "A5036162806",
     "name": "Bryan D. James",
     "rawName": "Bryan D. James",
+    "orcid": "https://orcid.org/0000-0002-6104-8310"
+   }
+  ]
+ },
+ {
+  "id": "W4409697667",
+  "title": "Temperature Controls the Lifetimes and Microbial Communities Degrading Cellulose Diacetate in the Coastal Ocean",
+  "year": 2025,
+  "url": "https://doi.org/10.26434/chemrxiv-2025-qd41h",
+  "themes": [
+   "Biosphere",
+   "Waste"
+  ],
+  "authors": [
+   {
+    "id": "A5036162806",
+    "name": "Bryan D. James",
+    "rawName": "Bryan James",
     "orcid": "https://orcid.org/0000-0002-6104-8310"
    }
   ]
@@ -32980,10 +32951,10 @@
   ]
  },
  {
-  "id": "W7125504564",
+  "id": "W7125477450",
   "title": "Rationalisation of Explicit Subsidies at State Level",
   "year": 2024,
-  "url": "https://doi.org/10.5281/zenodo.18350366",
+  "url": "https://doi.org/10.5281/zenodo.18350367",
   "themes": [
    "Sustainable Food Systems"
   ],
@@ -32997,10 +32968,10 @@
   ]
  },
  {
-  "id": "W7125477450",
+  "id": "W7125504564",
   "title": "Rationalisation of Explicit Subsidies at State Level",
   "year": 2024,
-  "url": "https://doi.org/10.5281/zenodo.18350367",
+  "url": "https://doi.org/10.5281/zenodo.18350366",
   "themes": [
    "Sustainable Food Systems"
   ],
@@ -33419,6 +33390,26 @@
     "id": "A5100012236",
     "name": "Oluwabusola Dorcas Olagunju",
     "rawName": "Oluwabusola Dorcas Olagunju",
+    "orcid": null
+   }
+  ]
+ },
+ {
+  "id": "W7216651815",
+  "title": "Revolutionizing Eco-Conscious Eating: Biodegradable Preservation Stickers for Sustained Freshness and Reduced Food Waste",
+  "year": 2024,
+  "url": "https://openalex.org/W7216651815",
+  "themes": [
+   "Economics",
+   "Ethics",
+   "Sustainable Food Systems",
+   "Waste"
+  ],
+  "authors": [
+   {
+    "id": "A5096043824",
+    "name": "Elizabeth Keshchian",
+    "rawName": "Elizabeth Keshchian",
     "orcid": null
    }
   ]
@@ -33896,6 +33887,24 @@
     "name": "Ali Abur",
     "rawName": "Ali Abur",
     "orcid": "https://orcid.org/0000-0002-8751-9125"
+   }
+  ]
+ },
+ {
+  "id": "W7217645266",
+  "title": "SpectraLink cognitive frameworks: Adaptive fusion and edge-enhanced real-time urban sign interpretation",
+  "year": 2024,
+  "url": "https://openalex.org/W7217645266",
+  "themes": [
+   "Future Thinking",
+   "Sustainable Design"
+  ],
+  "authors": [
+   {
+    "id": "A5155210407",
+    "name": "S. Dong",
+    "rawName": "S. Dong",
+    "orcid": null
    }
   ]
  },
@@ -35961,6 +35970,27 @@
     "id": "A5153703941",
     "name": "Chatchai Ketprom",
     "rawName": "Ketprom, Chatchai",
+    "orcid": null
+   }
+  ]
+ },
+ {
+  "id": "W7219293191",
+  "title": "แนวทางการบรหารจดการการทองเทยวเชงเกษตรและนเวศโดยชมชนอยางยงยน จงหวดชยภม",
+  "year": 2024,
+  "url": "https://openalex.org/W7219293191",
+  "themes": [
+   "Biosphere",
+   "Equity",
+   "Interpersonal Competency",
+   "Sustainable Food Systems",
+   "Waste"
+  ],
+  "authors": [
+   {
+    "id": "A5153969698",
+    "name": "Ratchada Phakdeeying",
+    "rawName": "Phakdeeying, Ratchada",
     "orcid": null
    }
   ]
@@ -39169,6 +39199,35 @@
     "name": "D. A. Abiodun",
     "rawName": "Dare Abiodun",
     "orcid": null
+   }
+  ]
+ },
+ {
+  "id": "W4388094378",
+  "title": "Energy Efficient, Secure and Spectrum Aware Ultra-Low Power Internet-of-Things System Infrastructure for Precision Agriculture",
+  "year": 2023,
+  "url": "https://doi.org/10.1109/cafe58535.2023.10292002",
+  "themes": [
+   "Sustainable Food Systems"
+  ],
+  "authors": [
+   {
+    "id": "A5051965447",
+    "name": "Ankit Mittal",
+    "rawName": "Ankit Mittal",
+    "orcid": "https://orcid.org/0000-0001-8761-2269"
+   },
+   {
+    "id": "A5045039002",
+    "name": "Ziyue Xu",
+    "rawName": "Ziyue Xu",
+    "orcid": "https://orcid.org/0000-0002-1917-0910"
+   },
+   {
+    "id": "A5020694155",
+    "name": "Aatmesh Shrivastava",
+    "rawName": "Aatmesh Shrivastava",
+    "orcid": "https://orcid.org/0000-0002-5738-9868"
    }
   ]
  },
