@@ -1428,6 +1428,21 @@
   "orcid": "https://orcid.org/0000-0002-8460-0331",
   "papers": 1
  },
+ "A5004835299": {
+  "alternativeNames": [
+   "Boonpeng Sittivongsa",
+   "Sittivongsa, Boonpeng",
+   "Sittivongsa, ิBoonpeng"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "North Eastern University"
+  ],
+  "name": "Boonpeng Sittivongsa",
+  "orcid": null,
+  "papers": 1
+ },
  "A5004857406": {
   "alternativeNames": [
    "Ardra Sreedevi Ashok"
@@ -3136,7 +3151,7 @@
   ],
   "name": "Shengxue Yan",
   "orcid": "https://orcid.org/0009-0007-1724-6575",
-  "papers": 13
+  "papers": 14
  },
  "A5012991682": {
   "alternativeNames": [
@@ -5613,6 +5628,20 @@
   "orcid": "https://orcid.org/0000-0002-3460-7316",
   "papers": 1
  },
+ "A5023377268": {
+  "alternativeNames": [
+   "Amir Grinstein",
+   "Grinstein, A."
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "Vrije Universiteit Amsterdam"
+  ],
+  "name": "Amir Grinstein",
+  "orcid": "https://orcid.org/0000-0002-0743-6961",
+  "papers": 1
+ },
  "A5023442255": {
   "alternativeNames": [
    "W. Paul Chiou",
@@ -7333,7 +7362,7 @@
   ],
   "name": "Devyesh Rana",
   "orcid": "https://orcid.org/0000-0003-3961-6227",
-  "papers": 3
+  "papers": 2
  },
  "A5032672771": {
   "alternativeNames": [
@@ -17679,7 +17708,7 @@
   ],
   "name": "Jason D. Selwyn",
   "orcid": "https://orcid.org/0000-0002-9100-217X",
-  "papers": 2
+  "papers": 1
  },
  "A5073998939": {
   "alternativeNames": [
@@ -28463,7 +28492,7 @@
   ],
   "name": "Jun Cong",
   "orcid": "https://orcid.org/0000-0002-5006-0621",
-  "papers": 4
+  "papers": 5
  },
  "A5100705971": {
   "alternativeNames": [
@@ -35134,7 +35163,7 @@
   ],
   "name": "Ge Xiaowei",
   "orcid": null,
-  "papers": 2
+  "papers": 1
  },
  "A5109531789": {
   "alternativeNames": [
@@ -36146,6 +36175,19 @@
   "orcid": null,
   "papers": 1
  },
+ "A5113012729": {
+  "alternativeNames": [
+   "X. An",
+   "Xinyu An"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Xinyu An",
+  "orcid": null,
+  "papers": 1
+ },
  "A5113022072": {
   "alternativeNames": [
    "Yiyue Yang"
@@ -36515,7 +36557,7 @@
   ],
   "name": "Shaohua Luo",
   "orcid": "https://orcid.org/0000-0002-4517-3728",
-  "papers": 10
+  "papers": 11
  },
  "A5113952386": {
   "alternativeNames": [
@@ -37983,6 +38025,22 @@
   "orcid": null,
   "papers": 1
  },
+ "A5121899278": {
+  "alternativeNames": [
+   "Yin Qiao"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [
+   "Nanchang University",
+   "Chinese Academy of Sciences",
+   "Shenzhen Institutes of Advanced Technology",
+   "Shenzhen Institute of Advanced Electronic Materials",
+   "Northeastern University"
+  ],
+  "name": "Yin Qiao",
+  "orcid": null,
+  "papers": 1
+ },
  "A5121919964": {
   "alternativeNames": [
    "Joshua Rosen"
@@ -38461,7 +38519,7 @@
   ],
   "name": "Kishan Narayan",
   "orcid": null,
-  "papers": 2
+  "papers": 1
  },
  "A5123640460": {
   "alternativeNames": [
@@ -38514,7 +38572,7 @@
   ],
   "name": "Samuel Muñoz",
   "orcid": "https://orcid.org/0000-0002-0994-0483",
-  "papers": 3
+  "papers": 2
  },
  "A5123849542": {
   "alternativeNames": [
@@ -38619,7 +38677,7 @@
   ],
   "name": "Steve Lustig",
   "orcid": null,
-  "papers": 2
+  "papers": 1
  },
  "A5123931247": {
   "alternativeNames": [
@@ -38660,7 +38718,7 @@
   ],
   "name": "Michela Cavalieri",
   "orcid": null,
-  "papers": 2
+  "papers": 1
  },
  "A5123953848": {
   "alternativeNames": [
@@ -42381,6 +42439,20 @@
   "orcid": null,
   "papers": 1
  },
+ "A5153474629": {
+  "alternativeNames": [
+   "Lixiong Qian"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "Eastern University",
+   "Shijiazhuang Tiedao University"
+  ],
+  "name": "Lixiong Qian",
+  "orcid": null,
+  "papers": 1
+ },
  "A5153601040": {
   "alternativeNames": [
    "Qi Liu"
@@ -42506,6 +42578,32 @@
   "orcid": null,
   "papers": 1
  },
+ "A5156452991": {
+  "alternativeNames": [
+   "Panuwat Kittikornwaranon Rattanapimonphonsaen",
+   "Rattanapimonphonsaen, Panuwat Kittikornwaranon"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [
+   "North Eastern University"
+  ],
+  "name": "Panuwat Kittikornwaranon Rattanapimonphonsaen",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5156830826": {
+  "alternativeNames": [
+   "Agustin, Elysa Putri",
+   "Elysa Putri Agustin"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Elysa Putri Agustin",
+  "orcid": null,
+  "papers": 1
+ },
  "A5157112293": {
   "alternativeNames": [
    "Xiaoman Zou"
@@ -42530,5 +42628,19 @@
   "name": "Han Zhang",
   "orcid": null,
   "papers": 2
+ },
+ "A5157626499": {
+  "alternativeNames": [
+   "Rui Huang"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "Eastern University",
+   "Shijiazhuang Tiedao University"
+  ],
+  "name": "Rui Huang",
+  "orcid": null,
+  "papers": 1
  }
 }

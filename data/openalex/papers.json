@@ -1104,6 +1104,12 @@
     "orcid": "https://orcid.org/0009-0004-2330-2228"
    },
    {
+    "id": "A5113012729",
+    "name": "Xinyu An",
+    "rawName": "Xinyu An",
+    "orcid": null
+   },
+   {
     "id": "A5140645025",
     "name": "Zekun Li",
     "rawName": "Zekun Li",
@@ -2217,24 +2223,6 @@
  },
  {
   "id": "W7213940166",
-  "title": "Code and data for Panama Canal draft reliability projections",
-  "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.22876483",
-  "themes": [
-   "Air and Climate Science",
-   "Future Thinking"
-  ],
-  "authors": [
-   {
-    "id": "A5123778466",
-    "name": "Samuel Muñoz",
-    "rawName": "Muñoz, Samuel",
-    "orcid": "https://orcid.org/0000-0002-0994-0483"
-   }
-  ]
- },
- {
-  "id": "W7213953674",
   "title": "Code and data for Panama Canal draft reliability projections",
   "year": 2026,
   "url": "https://doi.org/10.5281/zenodo.22876482",
@@ -4797,29 +4785,10 @@
   ]
  },
  {
-  "id": "W7171963095",
-  "title": "From solid waste to resource: A review on physicochemical properties and high-value utilization technologies of coal gasification slag",
-  "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.21714957",
-  "themes": [
-   "Biosphere",
-   "Decarbonization",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5109473914",
-    "name": "Ge Xiaowei",
-    "rawName": "Xiaowei, Ge",
-    "orcid": null
-   }
-  ]
- },
- {
   "id": "W7171969697",
   "title": "From solid waste to resource: A review on physicochemical properties and high-value utilization technologies of coal gasification slag",
   "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.21714958",
+  "url": "https://doi.org/10.5281/zenodo.21714957",
   "themes": [
    "Biosphere",
    "Decarbonization",
@@ -6593,6 +6562,23 @@
   ]
  },
  {
+  "id": "W7220692569",
+  "title": "Magnetically Recyclable Fe3O4/Au Nanocomposites for Efficient Degradation of Organic Dyes via Tribocatalysis",
+  "year": 2026,
+  "url": "https://doi.org/10.1021/acs.langmuir.6c03705",
+  "themes": [
+   "Waste"
+  ],
+  "authors": [
+   {
+    "id": "A5121899278",
+    "name": "Yin Qiao",
+    "rawName": "Yin Qiao",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W7214357550",
   "title": "Managing through polycrises: Integrating geopolitics and climate change into global strategy",
   "year": 2026,
@@ -6683,6 +6669,47 @@
     "name": "Ethan McIntosh",
     "rawName": "Ethan McIntosh",
     "orcid": "https://orcid.org/0009-0001-2856-3927"
+   }
+  ]
+ },
+ {
+  "id": "W7220402223",
+  "title": "Mechanical Damping at the P2/O3 Heterostructure in Fe/Mn-Based Cathodes: A Shock-Absorber Mechanism for Superior Sodium Storage",
+  "year": 2026,
+  "url": "https://doi.org/10.1021/acssuschemeng.6c07192",
+  "themes": [
+   "Decarbonization"
+  ],
+  "authors": [
+   {
+    "id": "A5157626499",
+    "name": "Rui Huang",
+    "rawName": "Rui Huang",
+    "orcid": null
+   },
+   {
+    "id": "A5113892484",
+    "name": "Shaohua Luo",
+    "rawName": "Shaohua Luo",
+    "orcid": "https://orcid.org/0000-0002-4517-3728"
+   },
+   {
+    "id": "A5100705237",
+    "name": "Jun Cong",
+    "rawName": "Jun Cong",
+    "orcid": "https://orcid.org/0000-0002-5006-0621"
+   },
+   {
+    "id": "A5153474629",
+    "name": "Lixiong Qian",
+    "rawName": "Lixiong Qian",
+    "orcid": null
+   },
+   {
+    "id": "A5012555439",
+    "name": "Shengxue Yan",
+    "rawName": "Shengxue Yan",
+    "orcid": "https://orcid.org/0009-0007-1724-6575"
    }
   ]
  },
@@ -11394,6 +11421,24 @@
   ]
  },
  {
+  "id": "W7219350653",
+  "title": "แนวทางเพมประสทธภาพการจดเกบรายไดของเทศบาลตำบลภแลนชาง อำเภอนาค จงหวดกาฬสนธ",
+  "year": 2026,
+  "url": "https://openalex.org/W7219350653",
+  "themes": [
+   "Interpersonal Competency",
+   "Local and National Governance"
+  ],
+  "authors": [
+   {
+    "id": "A5156452991",
+    "name": "Panuwat Kittikornwaranon Rattanapimonphonsaen",
+    "rawName": "Rattanapimonphonsaen, Panuwat Kittikornwaranon",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W7139982016",
   "title": "‘The smokin’ hot trophy wife of the oil and gas industry’: The role of petro-masculinity in geothermal rhetoric and policy",
   "year": 2026,
@@ -12421,6 +12466,24 @@
     "name": "Yi Zheng",
     "rawName": "Yi Zheng",
     "orcid": "https://orcid.org/0000-0003-4963-9684"
+   }
+  ]
+ },
+ {
+  "id": "W7220435127",
+  "title": "Analysis of Iron and Lead in Refilled Drinking Water from Yogyakarta Depots",
+  "year": 2025,
+  "url": "https://doi.org/10.21107/jsa.v3i1.25",
+  "themes": [
+   "Local and National Governance",
+   "Physical Well-being"
+  ],
+  "authors": [
+   {
+    "id": "A5156830826",
+    "name": "Elysa Putri Agustin",
+    "rawName": "Agustin, Elysa Putri",
+    "orcid": null
    }
   ]
  },
@@ -19164,36 +19227,6 @@
   "id": "W7125796512",
   "title": "Liquid metal-enabled CO2 conversion to value-added products: a review",
   "year": 2025,
-  "url": "https://doi.org/10.5281/zenodo.18391412",
-  "themes": [
-   "Air and Climate Science",
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5123916332",
-    "name": "Steve Lustig",
-    "rawName": "Lustig, Steve",
-    "orcid": null
-   },
-   {
-    "id": "A5123948844",
-    "name": "Michela Cavalieri",
-    "rawName": "Cavalieri, Michela",
-    "orcid": null
-   },
-   {
-    "id": "A5032426264",
-    "name": "Devyesh Rana",
-    "rawName": "Rana, Devyesh",
-    "orcid": "https://orcid.org/0000-0003-3961-6227"
-   }
-  ]
- },
- {
-  "id": "W7125807738",
-  "title": "Liquid metal-enabled CO2 conversion to value-added products: a review",
-  "year": 2025,
   "url": "https://doi.org/10.5281/zenodo.18391411",
   "themes": [
    "Air and Climate Science",
@@ -19359,24 +19392,6 @@
     "name": "Jingshuai Yang",
     "rawName": "Jingshuai Yang",
     "orcid": "https://orcid.org/0000-0002-0275-0978"
-   }
-  ]
- },
- {
-  "id": "W4408240898",
-  "title": "Long-Term Changes in Fish Assemblage Structure Associated with Hydrological Alteration in the Lower Rio Grande/Rio Bravo del Norte (USA/Mexico)",
-  "year": 2025,
-  "url": "https://doi.org/10.1643/i2024024",
-  "themes": [
-   "Biosphere",
-   "Sustainable Food Systems"
-  ],
-  "authors": [
-   {
-    "id": "A5073983917",
-    "name": "Jason D. Selwyn",
-    "rawName": "Jason D. Selwyn",
-    "orcid": "https://orcid.org/0000-0002-9100-217X"
    }
   ]
  },
@@ -32954,23 +32969,6 @@
   "id": "W7125477450",
   "title": "Rationalisation of Explicit Subsidies at State Level",
   "year": 2024,
-  "url": "https://doi.org/10.5281/zenodo.18350367",
-  "themes": [
-   "Sustainable Food Systems"
-  ],
-  "authors": [
-   {
-    "id": "A5123632203",
-    "name": "Kishan Narayan",
-    "rawName": "Kishan Narayan",
-    "orcid": null
-   }
-  ]
- },
- {
-  "id": "W7125504564",
-  "title": "Rationalisation of Explicit Subsidies at State Level",
-  "year": 2024,
   "url": "https://doi.org/10.5281/zenodo.18350366",
   "themes": [
    "Sustainable Food Systems"
@@ -35946,6 +35944,23 @@
   ]
  },
  {
+  "id": "W7220229682",
+  "title": "การบรหารจดการเมองอจฉรยะศนยกลางการคาการลงทนการทองเทยวและไมซในอนภมภาคลมแมนำโขงตอนบน 4 จงหวด ประเทศไทย",
+  "year": 2024,
+  "url": "https://openalex.org/W7220229682",
+  "themes": [
+   "Sustainable Design"
+  ],
+  "authors": [
+   {
+    "id": "A5004835299",
+    "name": "Boonpeng Sittivongsa",
+    "rawName": "Sittivongsa, Boonpeng",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W7215574172",
   "title": "การพฒนากลยทธการบรหารสความเปนเลศของวทยาลยเกษตรและเทคโนโลย",
   "year": 2024,
@@ -36543,16 +36558,12 @@
   ]
  },
  {
-  "id": "W4388653081",
+  "id": "W4388672558",
   "title": "Accelerating Environmental Research to Achieve Sustainable Development Goals",
   "year": 2023,
-  "url": "https://doi.org/10.1021/acs.est.3c08894",
+  "url": "https://doi.org/10.1021/acs.estlett.3c00765",
   "themes": [
-   "Air and Climate Science",
-   "Biosphere",
-   "International Governance",
-   "Sustainable Food Systems",
-   "Waste"
+   "International Governance"
   ],
   "authors": [
    {
@@ -36564,12 +36575,16 @@
   ]
  },
  {
-  "id": "W4388672558",
+  "id": "W4388653081",
   "title": "Accelerating Environmental Research to Achieve Sustainable Development Goals",
   "year": 2023,
-  "url": "https://doi.org/10.1021/acs.estlett.3c00765",
+  "url": "https://doi.org/10.1021/acs.est.3c08894",
   "themes": [
-   "International Governance"
+   "Air and Climate Science",
+   "Biosphere",
+   "International Governance",
+   "Sustainable Food Systems",
+   "Waste"
   ],
   "authors": [
    {
@@ -52638,6 +52653,24 @@
     "name": "Samuel V. Scarpino",
     "rawName": "Samuel V. Scarpino",
     "orcid": "https://orcid.org/0000-0001-5716-2770"
+   }
+  ]
+ },
+ {
+  "id": "W4281480815",
+  "title": "Well-Being in a Global World—The Role of International Marketing: An Editorial",
+  "year": 2022,
+  "url": "https://doi.org/10.1177/1069031x221096237",
+  "themes": [
+   "Air and Climate Science",
+   "Equity"
+  ],
+  "authors": [
+   {
+    "id": "A5023377268",
+    "name": "Amir Grinstein",
+    "rawName": "Amir Grinstein",
+    "orcid": "https://orcid.org/0000-0002-0743-6961"
    }
   ]
  },
