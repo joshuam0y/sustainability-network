@@ -265,6 +265,55 @@
   ]
  },
  {
+  "id": "W7220686768",
+  "title": "A Review and Future Development of Chlorination Treatment Technology for Metallurgical Slag",
+  "year": 2026,
+  "url": "https://doi.org/10.1080/08827508.2026.2743915",
+  "themes": [
+   "Air and Climate Science",
+   "Decarbonization",
+   "Waste"
+  ],
+  "authors": [
+   {
+    "id": "A5077371537",
+    "name": "Ren-yun Zhang",
+    "rawName": "Ren-Yun Zhang",
+    "orcid": null
+   },
+   {
+    "id": "A5109396933",
+    "name": "Ting-an Zhang",
+    "rawName": "Ting-An Zhang",
+    "orcid": "https://orcid.org/0000-0002-9778-5259"
+   },
+   {
+    "id": "A5157727969",
+    "name": "Long Wang",
+    "rawName": "Long Wang",
+    "orcid": null
+   },
+   {
+    "id": "A5157710646",
+    "name": "Kun Wang",
+    "rawName": "Kun Wang",
+    "orcid": null
+   },
+   {
+    "id": "A5157757751",
+    "name": "Rui Zhang",
+    "rawName": "Rui Zhang",
+    "orcid": null
+   },
+   {
+    "id": "A5115988847",
+    "name": "Zhao Xin-Xin",
+    "rawName": "Xin-Xin Zhao",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W7202211621",
   "title": "A Scalable Approach for Estimating Employee Commuting Emissions at U.S. Healthcare Facilities",
   "year": 2026,
@@ -382,30 +431,6 @@
     "name": "Katie E. Lotterhos",
     "rawName": "Katie E. Lotterhos",
     "orcid": "https://orcid.org/0000-0001-7529-2771"
-   }
-  ]
- },
- {
-  "id": "W7130415198",
-  "title": "A high-resolution coupled physical-biogeochemical model of the northeastern US continental shelf: MOM6-COBALT-NEUS25v1.0",
-  "year": 2026,
-  "url": "https://doi.org/10.5194/egusphere-2025-5672",
-  "themes": [
-   "Air and Climate Science",
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5122103173",
-    "name": "Dalton Kei Sasaki",
-    "rawName": "Dalton Kei Sasaki",
-    "orcid": "https://orcid.org/0000-0002-8006-0200"
-   },
-   {
-    "id": "A5086402813",
-    "name": "Cristina Schultz",
-    "rawName": "Cristina Schultz",
-    "orcid": "https://orcid.org/0000-0003-2006-7053"
    }
   ]
  },
@@ -692,56 +717,10 @@
   ]
  },
  {
-  "id": "W7135176802",
-  "title": "Additional file 1 of Renewable energy discourses of fossil fuel companies: obstruction and delay of climate action",
-  "year": 2026,
-  "url": "https://doi.org/10.6084/m9.figshare.31697528.v1",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5028315989",
-    "name": "Dipa Desai",
-    "rawName": "Desai, Dipa",
-    "orcid": "https://orcid.org/0009-0008-7184-1196"
-   },
-   {
-    "id": "A5044762650",
-    "name": "Sheila M. Puffer",
-    "rawName": "Puffer, Sheila M.",
-    "orcid": "https://orcid.org/0000-0002-7916-6091"
-   }
-  ]
- },
- {
   "id": "W7135225029",
   "title": "Additional file 2 of Renewable energy discourses of fossil fuel companies: obstruction and delay of climate action",
   "year": 2026,
   "url": "https://doi.org/10.6084/m9.figshare.31697531",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5028315989",
-    "name": "Dipa Desai",
-    "rawName": "Desai, Dipa",
-    "orcid": "https://orcid.org/0009-0008-7184-1196"
-   },
-   {
-    "id": "A5044762650",
-    "name": "Sheila M. Puffer",
-    "rawName": "Puffer, Sheila M.",
-    "orcid": "https://orcid.org/0000-0002-7916-6091"
-   }
-  ]
- },
- {
-  "id": "W7135229646",
-  "title": "Additional file 2 of Renewable energy discourses of fossil fuel companies: obstruction and delay of climate action",
-  "year": 2026,
-  "url": "https://doi.org/10.6084/m9.figshare.31697531.v1",
   "themes": [
    "Decarbonization"
   ],
@@ -869,26 +848,6 @@
   ]
  },
  {
-  "id": "W7141295929",
-  "title": "Agriculture-Energy-Justice Nexus",
-  "year": 2026,
-  "url": "https://doi.org/10.17632/thnhm366yc.1",
-  "themes": [
-   "Equity",
-   "Future Thinking",
-   "Sustainable Food Systems",
-   "Systems Thinking"
-  ],
-  "authors": [
-   {
-    "id": "A5123477695",
-    "name": "Lawrence Swaminathan Xavier Prince",
-    "rawName": "Swaminathan Xavier Prince, Lawrence",
-    "orcid": null
-   }
-  ]
- },
- {
   "id": "W7135393801",
   "title": "Air Quality in Cities: What Do Sparse Sensor Networks Miss?",
   "year": 2026,
@@ -922,41 +881,6 @@
     "name": "Amy V. Mueller",
     "rawName": "Amy V. Mueller",
     "orcid": "https://orcid.org/0000-0001-8745-9006"
-   }
-  ]
- },
- {
-  "id": "W7135414801",
-  "title": "Air Quality in Cities: What do Sparse Sensor Networks Miss?",
-  "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.18718401",
-  "themes": [
-   "Air and Climate Science"
-  ],
-  "authors": [
-   {
-    "id": "A5068037187",
-    "name": "Rui-feng Song",
-    "rawName": "Song, Ruifeng",
-    "orcid": "https://orcid.org/0000-0002-3548-2543"
-   },
-   {
-    "id": "A5012490183",
-    "name": "Amy V. Mueller",
-    "rawName": "Mueller, Amy",
-    "orcid": "https://orcid.org/0000-0001-8745-9006"
-   },
-   {
-    "id": "A5104954234",
-    "name": "Nail F. Bashan",
-    "rawName": "Bashan, Nail",
-    "orcid": "https://orcid.org/0009-0005-9226-6504"
-   },
-   {
-    "id": "A5100341195",
-    "name": "Qi Wang",
-    "rawName": "Wang, Qi",
-    "orcid": "https://orcid.org/0000-0001-6804-1173"
    }
   ]
  },
@@ -1801,35 +1725,6 @@
     "name": "Liza Weinstein",
     "rawName": "Liza Weinstein",
     "orcid": "https://orcid.org/0009-0008-8948-0712"
-   }
-  ]
- },
- {
-  "id": "W7203761036",
-  "title": "Butylene Carbonate as a Cosolvent to Suppress Aluminum Corrosion in LiFSI Electrolytes for Long-Life Lithium-Ion Batteries",
-  "year": 2026,
-  "url": "https://doi.org/10.17632/ssy62w7cdg.1",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5147474438",
-    "name": "Wenlong Zhang",
-    "rawName": "Zhang, Wenlong",
-    "orcid": null
-   },
-   {
-    "id": "A5147472589",
-    "name": "Na Ju",
-    "rawName": "Ju, Na",
-    "orcid": null
-   },
-   {
-    "id": "A5025552222",
-    "name": "Zilong Liu",
-    "rawName": "Liu, Zilong",
-    "orcid": "https://orcid.org/0000-0003-1023-177X"
    }
   ]
  },
@@ -2880,29 +2775,6 @@
   ]
  },
  {
-  "id": "W7127888643",
-  "title": "Data and code for: Multiyear Multiscale Modeling and Future Projections of CO2 Mixing Ratios Using Coupled WRF-GHG Model over the Contiguous U.S.",
-  "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.18498368",
-  "themes": [
-   "Air and Climate Science"
-  ],
-  "authors": [
-   {
-    "id": "A5087202803",
-    "name": "Eeshan Basu",
-    "rawName": "Basu, Eeshan",
-    "orcid": "https://orcid.org/0009-0002-9732-891X"
-   },
-   {
-    "id": "A5100354734",
-    "name": "Yang Zhang",
-    "rawName": "Zhang, Yang",
-    "orcid": "https://orcid.org/0000-0002-8591-9598"
-   }
-  ]
- },
- {
   "id": "W7127951164",
   "title": "Data and code for: Multiyear Multiscale Modeling and Future Projections of CO2 Mixing Ratios Using Coupled WRF-GHG Model over the Contiguous U.S.",
   "year": 2026,
@@ -3673,6 +3545,30 @@
     "name": "Xuanwen Liu",
     "rawName": "Xuanwen Liu",
     "orcid": "https://orcid.org/0000-0003-0783-2427"
+   }
+  ]
+ },
+ {
+  "id": "W7220666440",
+  "title": "Dynamic Ensemble Framework with Neural Meta-Learner for Carbon Dioxide Emission Forecasting in the Steel Industry",
+  "year": 2026,
+  "url": "https://doi.org/10.1109/case69030.2026.11704131",
+  "themes": [
+   "Air and Climate Science",
+   "Future Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5157756396",
+    "name": "Weishuo Liu",
+    "rawName": "Weishuo Liu",
+    "orcid": null
+   },
+   {
+    "id": "A5060328200",
+    "name": "Jin Lang",
+    "rawName": "Jin Lang",
+    "orcid": "https://orcid.org/0000-0003-4726-5084"
    }
   ]
  },
@@ -4821,6 +4717,37 @@
   ]
  },
  {
+  "id": "W7220832461",
+  "title": "Future in- and out-of-state air pollutant emissions under decarbonization pathways for Massachusetts",
+  "year": 2026,
+  "url": "https://doi.org/10.1016/j.enpol.2026.115645",
+  "themes": [
+   "Air and Climate Science",
+   "Decarbonization",
+   "Future Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5157809876",
+    "name": "Kaixin Huang",
+    "rawName": "Kaixin Huang",
+    "orcid": null
+   },
+   {
+    "id": "A5118819409",
+    "name": "Emma K Walter",
+    "rawName": "Emma K. Walter",
+    "orcid": "https://orcid.org/0009-0006-7240-6669"
+   },
+   {
+    "id": "A5063597830",
+    "name": "Matthew J. Eckelman",
+    "rawName": "Matthew J. Eckelman",
+    "orcid": "https://orcid.org/0000-0002-0595-3682"
+   }
+  ]
+ },
+ {
   "id": "W7128405169",
   "title": "Gas Chromatography-Atmospheric Pressure Chemical Ionization (GC-APCI) Expands the Analytical Window for Detection of Large PAHs (≥24 Ringed-Carbons) in Pyroplastics and Other Environmental Matrices",
   "year": 2026,
@@ -5107,23 +5034,6 @@
   ]
  },
  {
-  "id": "W7128603436",
-  "title": "Grand Challenges in Designing Resilient Wind Energy Systems in Areas Prone to Tropical Cyclones",
-  "year": 2026,
-  "url": "https://doi.org/10.5194/wes-2026-32",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5125614983",
-    "name": "Andrew Myers",
-    "rawName": "Andrew Myers",
-    "orcid": null
-   }
-  ]
- },
- {
   "id": "W7172313089",
   "title": "Grand challenges in designing resilient wind energy systems in areas prone to tropical cyclones",
   "year": 2026,
@@ -5319,35 +5229,6 @@
   "title": "High-resolution UAV RGB imagery and segmentation masks for biological soil crust mapping in a mining-impacted dryland ecosystem",
   "year": 2026,
   "url": "https://doi.org/10.5281/zenodo.20962758",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5067178249",
-    "name": "Yusheng Liang",
-    "rawName": "liang, yusheng",
-    "orcid": "https://orcid.org/0000-0003-4337-2448"
-   },
-   {
-    "id": "A5005263452",
-    "name": "Fan Zhang",
-    "rawName": "zhang, fan",
-    "orcid": "https://orcid.org/0000-0001-5967-9917"
-   },
-   {
-    "id": "A5139014629",
-    "name": "Qiyun Cao",
-    "rawName": "cao, qiyun",
-    "orcid": null
-   }
-  ]
- },
- {
-  "id": "W7166319206",
-  "title": "High-resolution UAV RGB imagery and segmentation masks for biological soil crust mapping in a mining-impacted dryland ecosystem",
-  "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.20962759",
   "themes": [
    "Biosphere"
   ],
@@ -6151,7 +6032,7 @@
     "id": "A5089035386",
     "name": "Yan Li",
     "rawName": "Yong Li",
-    "orcid": "https://orcid.org/0000-0001-8600-1423"
+    "orcid": "https://orcid.org/0000-0001-7066-5890"
    },
    {
     "id": "A5065908604",
@@ -6368,23 +6249,6 @@
   "title": "Longitudinal Panel of Perceptions About Climate Change and Covid in the United States",
   "year": 2026,
   "url": "https://doi.org/10.5281/zenodo.22940600",
-  "themes": [
-   "Air and Climate Science"
-  ],
-  "authors": [
-   {
-    "id": "A5005092156",
-    "name": "Sara Madureira Constantino",
-    "rawName": "Constantino, Sara",
-    "orcid": "https://orcid.org/0000-0001-5533-5885"
-   }
-  ]
- },
- {
-  "id": "W7214460640",
-  "title": "Longitudinal Panel of Perceptions About Climate Change and Covid in the United States",
-  "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.22940601",
   "themes": [
    "Air and Climate Science"
   ],
@@ -8528,24 +8392,6 @@
   ]
  },
  {
-  "id": "W7203697909",
-  "title": "Processed data for Compound heat-flood thresholds reshape global Aedes-borne arboviral risk frontiers",
-  "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.21987231",
-  "themes": [
-   "Biosphere",
-   "Future Thinking"
-  ],
-  "authors": [
-   {
-    "id": "A5147390870",
-    "name": "Weisong Sun",
-    "rawName": "Sun, Weisong",
-    "orcid": null
-   }
-  ]
- },
- {
   "id": "W7160659401",
   "title": "Progresses of Research in Anode Materials for Lithium-Ion Batteries",
   "year": 2026,
@@ -8978,30 +8824,6 @@
     "id": "A5044762650",
     "name": "Sheila M. Puffer",
     "rawName": "Sheila M. Puffer",
-    "orcid": "https://orcid.org/0000-0002-7916-6091"
-   }
-  ]
- },
- {
-  "id": "W7135207390",
-  "title": "Renewable energy discourses of fossil fuel companies: obstruction and delay of climate action",
-  "year": 2026,
-  "url": "https://doi.org/10.6084/m9.figshare.c.8349551.v1",
-  "themes": [
-   "Decarbonization",
-   "International Governance"
-  ],
-  "authors": [
-   {
-    "id": "A5028315989",
-    "name": "Dipa Desai",
-    "rawName": "Desai, Dipa",
-    "orcid": "https://orcid.org/0009-0008-7184-1196"
-   },
-   {
-    "id": "A5044762650",
-    "name": "Sheila M. Puffer",
-    "rawName": "Puffer, Sheila M.",
     "orcid": "https://orcid.org/0000-0002-7916-6091"
    }
   ]
@@ -9635,6 +9457,23 @@
   ]
  },
  {
+  "id": "W7220735412",
+  "title": "Smart City Pilot Programs and the Advancement of the Digital Economy: Empirical Insights from China",
+  "year": 2026,
+  "url": "https://doi.org/10.1061/jupddm.upeng-6265",
+  "themes": [
+   "Sustainable Design"
+  ],
+  "authors": [
+   {
+    "id": "A5157696527",
+    "name": "Chenle Dai",
+    "rawName": "Chenle Dai",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W7118196488",
   "title": "Social Determinants of Health and Pediatric Long COVID in the US",
   "year": 2026,
@@ -9820,7 +9659,7 @@
     "id": "A5089035386",
     "name": "Yan Li",
     "rawName": "Yan-rui Li",
-    "orcid": "https://orcid.org/0000-0001-8600-1423"
+    "orcid": "https://orcid.org/0000-0001-7066-5890"
    },
    {
     "id": "A5136093925",
@@ -10940,29 +10779,6 @@
     "name": "Tong Zhu",
     "rawName": "Tong Zhu",
     "orcid": "https://orcid.org/0000-0002-3460-7316"
-   }
-  ]
- },
- {
-  "id": "W7131787681",
-  "title": "True Closed-Loop Recyclable Hydrogels enabled by Imine Boronic Ester Crosslinking",
-  "year": 2026,
-  "url": "https://doi.org/10.26434/chemrxiv.15000471/v1",
-  "themes": [
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5126974928",
-    "name": "Jenna A King",
-    "rawName": "Jenna A King",
-    "orcid": "https://orcid.org/0009-0008-9297-4203"
-   },
-   {
-    "id": "A5017120682",
-    "name": "Diego M Alzate-Sánchez",
-    "rawName": "Diego M Alzate-Sánchez",
-    "orcid": null
    }
   ]
  },
@@ -13463,23 +13279,6 @@
   ]
  },
  {
-  "id": "W4413334347",
-  "title": "Climate models exaggerate the impact of greenhouse gases on recent interhemispheric temperature contrast and tropical climate",
-  "year": 2025,
-  "url": "https://doi.org/10.21203/rs.3.rs-6760163/v1",
-  "themes": [
-   "Air and Climate Science"
-  ],
-  "authors": [
-   {
-    "id": "A5057827069",
-    "name": "Chengfei He",
-    "rawName": "Chengfei He",
-    "orcid": "https://orcid.org/0000-0003-1453-9691"
-   }
-  ]
- },
- {
   "id": "W4414755855",
   "title": "Climate risk, climate policy uncertainty, and bank stability: new evidence from dynamic panel threshold models",
   "year": 2025,
@@ -13524,54 +13323,6 @@
     "name": "Patrice C. Williams",
     "rawName": "Patrice C. Williams",
     "orcid": "https://orcid.org/0000-0001-5755-2154"
-   }
-  ]
- },
- {
-  "id": "W4412927615",
-  "title": "Co-upcycling spent lithium-ion batteries and plastics to microwave absorbing materials: Ni-Co catalyst size confinement and poison mitigation",
-  "year": 2025,
-  "url": "https://doi.org/10.21203/rs.3.rs-7061097/v1",
-  "themes": [
-   "Decarbonization",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5006429680",
-    "name": "Baolong Qiu",
-    "rawName": "Baolong Qiu",
-    "orcid": "https://orcid.org/0009-0006-6593-4498"
-   },
-   {
-    "id": "A5112785826",
-    "name": "Pin Du",
-    "rawName": "Pin Du",
-    "orcid": null
-   },
-   {
-    "id": "A5001224033",
-    "name": "Hongwei Xie",
-    "rawName": "Hongwei Xie",
-    "orcid": "https://orcid.org/0000-0001-6530-5006"
-   },
-   {
-    "id": "A5046299006",
-    "name": "Kuiren Liu",
-    "rawName": "Kuiren Liu",
-    "orcid": null
-   },
-   {
-    "id": "A5020468094",
-    "name": "Jianshe Chen",
-    "rawName": "Jianshe Chen",
-    "orcid": "https://orcid.org/0000-0002-7000-1469"
-   },
-   {
-    "id": "A5025342348",
-    "name": "Binchuan Li",
-    "rawName": "Binchuan Li",
-    "orcid": null
    }
   ]
  },
@@ -13780,71 +13531,6 @@
     "name": "Yi Zheng",
     "rawName": "Zheng, Yi",
     "orcid": "https://orcid.org/0000-0003-4963-9684"
-   }
-  ]
- },
- {
-  "id": "W4406473035",
-  "title": "Comprehensive Study on Solvent Dynamics in Gel Polymer Electrolytes for Lithium-Sulfur Battery",
-  "year": 2025,
-  "url": "https://doi.org/10.26434/chemrxiv-2025-1szzf",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5003737916",
-    "name": "Luisa Gomes",
-    "rawName": "Luisa Gomes",
-    "orcid": "https://orcid.org/0000-0002-8968-524X"
-   },
-   {
-    "id": "A5077644669",
-    "name": "Huidong Dai",
-    "rawName": "Huidong Dai",
-    "orcid": "https://orcid.org/0000-0001-7328-4786"
-   },
-   {
-    "id": "A5046805778",
-    "name": "Daniel T. Chambers",
-    "rawName": "Daniel Chambers",
-    "orcid": "https://orcid.org/0009-0000-9919-5319"
-   },
-   {
-    "id": "A5106606639",
-    "name": "Victor Ribeiro Sanctis",
-    "rawName": "Victor Ribeiro Sanctis",
-    "orcid": null
-   },
-   {
-    "id": "A5110415223",
-    "name": "Kevin Yang",
-    "rawName": "Kevin Yang",
-    "orcid": "https://orcid.org/0000-0001-6928-5145"
-   },
-   {
-    "id": "A5083559851",
-    "name": "Ruizhi Dong",
-    "rawName": "Ruizhi Dong",
-    "orcid": null
-   },
-   {
-    "id": "A5115907637",
-    "name": "Anhtu Do",
-    "rawName": "Anhtu Do",
-    "orcid": null
-   },
-   {
-    "id": "A5083981465",
-    "name": "Tongtai Ji",
-    "rawName": "Tongtai Ji",
-    "orcid": "https://orcid.org/0000-0003-2106-6861"
-   },
-   {
-    "id": "A5088428434",
-    "name": "Sanjeev Mukerjee",
-    "rawName": "Sanjeev Mukerjee",
-    "orcid": "https://orcid.org/0000-0002-2980-7655"
    }
   ]
  },
@@ -14225,23 +13911,6 @@
     "name": "Yu Song",
     "rawName": "Yu Song",
     "orcid": "https://orcid.org/0000-0003-1444-5492"
-   }
-  ]
- },
- {
-  "id": "W4412515095",
-  "title": "Coupling Subgrid-Scale Surface Heterogeneity to the Convective Boundary Layer in the GFDL Global Model (AM4.0-LM4.0): Parameterization Development and Climate Impacts",
-  "year": 2025,
-  "url": "https://doi.org/10.22541/essoar.175308919.98162649/v1",
-  "themes": [
-   "Air and Climate Science"
-  ],
-  "authors": [
-   {
-    "id": "A5032957227",
-    "name": "Khaled Ghannam",
-    "rawName": "Khaled Ghannam",
-    "orcid": "https://orcid.org/0000-0002-2542-6388"
    }
   ]
  },
@@ -14629,26 +14298,6 @@
   ]
  },
  {
-  "id": "W4409773043",
-  "title": "Designing circular, sustainable, and non-persistent consumer plastic products: a case study of drinking straws",
-  "year": 2025,
-  "url": "https://doi.org/10.26434/chemrxiv-2025-vtczp",
-  "themes": [
-   "Air and Climate Science",
-   "Biosphere",
-   "Decarbonization",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5036162806",
-    "name": "Bryan D. James",
-    "rawName": "Bryan James",
-    "orcid": "https://orcid.org/0000-0002-6104-8310"
-   }
-  ]
- },
- {
   "id": "W4417107289",
   "title": "Differing proteome responses to ocean acidification between two common pocilloporid corals",
   "year": 2025,
@@ -14663,35 +14312,6 @@
     "name": "Justin B. Ries",
     "rawName": "Justin Ries",
     "orcid": "https://orcid.org/0000-0001-8427-206X"
-   }
-  ]
- },
- {
-  "id": "W4406247699",
-  "title": "Discovering Ni/Cu Single Atom Alloy as a Highly Active and Selective Catalyst for Direct Methane Conversion to Ethylene: A First-Principles Kinetic Study",
-  "year": 2025,
-  "url": "https://doi.org/10.26434/chemrxiv-2025-v4h7d",
-  "themes": [
-   "Air and Climate Science"
-  ],
-  "authors": [
-   {
-    "id": "A5064023940",
-    "name": "Manish Kothakonda",
-    "rawName": "Manish Kothakonda",
-    "orcid": "https://orcid.org/0000-0002-5055-0655"
-   },
-   {
-    "id": "A5008541866",
-    "name": "Chengyu Zhou",
-    "rawName": "Chengyu Zhou",
-    "orcid": "https://orcid.org/0009-0006-9484-8126"
-   },
-   {
-    "id": "A5102705262",
-    "name": "Qing Zhao",
-    "rawName": "Qing Zhao",
-    "orcid": "https://orcid.org/0000-0002-5003-9355"
    }
   ]
  },
@@ -15338,35 +14958,6 @@
   ]
  },
  {
-  "id": "W4413080857",
-  "title": "Electrochemical Performance and Corrosion Resistance of 316 Stainless Steel in Simulated Wastewater with Complex Ionic Composition",
-  "year": 2025,
-  "url": "https://doi.org/10.26434/chemrxiv-2025-9npbf",
-  "themes": [
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5034172096",
-    "name": "Mansoor Toorani",
-    "rawName": "Mansour Toorani",
-    "orcid": "https://orcid.org/0000-0001-9487-3643"
-   },
-   {
-    "id": "A5042842126",
-    "name": "Sana Heydarian",
-    "rawName": "Sana Heydarian",
-    "orcid": "https://orcid.org/0000-0001-5289-0736"
-   },
-   {
-    "id": "A5090265262",
-    "name": "Damilola A. Daramola",
-    "rawName": "Damilola Daramola",
-    "orcid": "https://orcid.org/0000-0002-6737-415X"
-   }
-  ]
- },
- {
   "id": "W4414556943",
   "title": "Electrochemical Platform Regulated by Cyclodextrin Chiral Microenvironments for Enhanced Enantioselective Recognition",
   "year": 2025,
@@ -15534,54 +15125,6 @@
   "title": "Emerging Trends in Palladium Nanoparticles: Sustainable Approaches for Enhanced Cross-Coupling Catalysis",
   "year": 2025,
   "url": "https://doi.org/10.3390/catal15020181",
-  "themes": [
-   "Decarbonization",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5106538097",
-    "name": "Numair Elahi",
-    "rawName": "Numair Elahi",
-    "orcid": null
-   },
-   {
-    "id": "A5069977841",
-    "name": "Constantinos D. Zeinalipour‐Yazdi",
-    "rawName": "Constantinos D. Zeinalipour-Yazdi",
-    "orcid": "https://orcid.org/0000-0002-8388-1549"
-   }
-  ]
- },
- {
-  "id": "W4406409199",
-  "title": "Emerging Trends in Palladium Nanoparticles: Sustainable Approaches for Enhanced Cross-Coupling Catalysis",
-  "year": 2025,
-  "url": "https://doi.org/10.20944/preprints202501.1052.v1",
-  "themes": [
-   "Decarbonization",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5106538097",
-    "name": "Numair Elahi",
-    "rawName": "Numair Elahi",
-    "orcid": null
-   },
-   {
-    "id": "A5069977841",
-    "name": "Constantinos D. Zeinalipour‐Yazdi",
-    "rawName": "Constantinos D. Zeinalipour-Yazdi",
-    "orcid": "https://orcid.org/0000-0002-8388-1549"
-   }
-  ]
- },
- {
-  "id": "W4406642165",
-  "title": "Emerging Trends in Palladium Nanoparticles: Sustainable Approaches for Enhanced Cross‐Coupling Catalysis",
-  "year": 2025,
-  "url": "https://doi.org/10.20944/preprints202501.1052.v2",
   "themes": [
    "Decarbonization",
    "Waste"
@@ -16258,7 +15801,6 @@
   "year": 2025,
   "url": "https://doi.org/10.5194/hess-29-4637-2025",
   "themes": [
-   "Biosphere",
    "Sustainable Food Systems"
   ],
   "authors": [
@@ -16503,40 +16045,6 @@
     "name": "Zihao Li",
     "rawName": "Zihao Li",
     "orcid": "https://orcid.org/0000-0002-5770-1487"
-   }
-  ]
- },
- {
-  "id": "W4414012318",
-  "title": "Extremely fine-scale soil heterogeneity in a rare serpentine endemic plant shapes patterns of genetic diversity",
-  "year": 2025,
-  "url": "https://doi.org/10.1101/2025.09.01.673272",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5079149668",
-    "name": "Sarah M. Swope",
-    "rawName": "Sarah Swope",
-    "orcid": "https://orcid.org/0000-0001-7365-5188"
-   }
-  ]
- },
- {
-  "id": "W4414458802",
-  "title": "Extremely fine-scale soil heterogeneity in a rare serpentine endemic plant shapes patterns of genetic diversity",
-  "year": 2025,
-  "url": "https://doi.org/10.22541/au.175873518.81404075/v1",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5079149668",
-    "name": "Sarah M. Swope",
-    "rawName": "Sarah Swope",
-    "orcid": "https://orcid.org/0000-0001-7365-5188"
    }
   ]
  },
@@ -17146,30 +16654,6 @@
   "themes": [
    "Air and Climate Science",
    "Biosphere",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5095920137",
-    "name": "Cara Megill",
-    "rawName": "Cara Megill",
-    "orcid": "https://orcid.org/0009-0005-8916-4080"
-   },
-   {
-    "id": "A5036162806",
-    "name": "Bryan D. James",
-    "rawName": "Bryan James",
-    "orcid": "https://orcid.org/0000-0002-6104-8310"
-   }
-  ]
- },
- {
-  "id": "W4415909697",
-  "title": "Gas chromatography-atmospheric pressure chemical ionization (GC-APCI) expands the analytical window for detection of large PAHs (≥ 24 ringed-carbons) in pyroplastics and other environmental matrices",
-  "year": 2025,
-  "url": "https://doi.org/10.26434/chemrxiv-2025-bldwl-v2",
-  "themes": [
-   "Air and Climate Science",
    "Waste"
   ],
   "authors": [
@@ -19396,41 +18880,6 @@
   ]
  },
  {
-  "id": "W4411572462",
-  "title": "Long-range transport of oil by marine plastic debris: Evidence from an 8,500 km journey",
-  "year": 2025,
-  "url": "https://doi.org/10.26434/chemrxiv-2025-xhvpf",
-  "themes": [
-   "Biosphere",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5036162806",
-    "name": "Bryan D. James",
-    "rawName": "Bryan James",
-    "orcid": "https://orcid.org/0000-0002-6104-8310"
-   }
-  ]
- },
- {
-  "id": "W4407667826",
-  "title": "MXene-supported Ni-Co bimetallic MOF 2D lamellar membrane for enhanced electrochemical oxygen reactions and Li-O 2 battery",
-  "year": 2025,
-  "url": "https://doi.org/10.21203/rs.3.rs-6017278/v1",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5100429616",
-    "name": "Liming Liu",
-    "rawName": "Liming Liu",
-    "orcid": "https://orcid.org/0000-0002-1366-4370"
-   }
-  ]
- },
- {
   "id": "W7162091133",
   "title": "MacDuffie, Allen . Climate of Denial: Darwin, Climate Change, and the Literature of the Long Nineteenth Century",
   "year": 2025,
@@ -21353,10 +20802,10 @@
   ]
  },
  {
-  "id": "W4408122932",
-  "title": "Plasmon-Induced Resonant Energy Transfer and Flat Band Formation in Fe and Co Doped Ni(II) Hydroxide for Efficient Photocatalytic Oxygen Evolution",
+  "id": "W4412989396",
+  "title": "Plasmon-induced resonant energy transfer and flat band formation in Fe and Co doped Ni( ii ) hydroxide for efficient photocatalytic oxygen evolution",
   "year": 2025,
-  "url": "https://doi.org/10.26434/chemrxiv-2025-qkmp5",
+  "url": "https://doi.org/10.1039/d5cp01022e",
   "themes": [
    "Decarbonization"
   ],
@@ -21364,7 +20813,7 @@
    {
     "id": "A5003686574",
     "name": "Benjamin William Kaufold",
-    "rawName": "Benjamin Kaufold",
+    "rawName": "Benjamin W. Kaufold",
     "orcid": "https://orcid.org/0000-0002-1377-1248"
    },
    {
@@ -21380,15 +20829,9 @@
     "orcid": "https://orcid.org/0000-0002-3864-3461"
    },
    {
-    "id": "A5119272057",
-    "name": "Hana Cheng",
-    "rawName": "Hana Cheng",
-    "orcid": "https://orcid.org/0000-0002-5387-4241"
-   },
-   {
     "id": "A5057813194",
     "name": "Sijia S. Dong",
-    "rawName": "Sijia Dong",
+    "rawName": "Sijia S. Dong",
     "orcid": "https://orcid.org/0000-0001-8182-6522"
    },
    {
@@ -21756,30 +21199,6 @@
     "id": "A5083254257",
     "name": "Daniel L. Distel",
     "rawName": "Daniel L. Distel",
-    "orcid": "https://orcid.org/0000-0002-3860-194X"
-   }
-  ]
- },
- {
-  "id": "W4408056495",
-  "title": "Production of high-value antibiotics by Teredinibacter turnerae using paper- and plant-based waste products",
-  "year": 2025,
-  "url": "https://doi.org/10.26434/chemrxiv-2025-pk16s",
-  "themes": [
-   "Biosphere",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5014954767",
-    "name": "Marvin A. Altamia",
-    "rawName": "Marvin Altamia",
-    "orcid": "https://orcid.org/0000-0002-8625-767X"
-   },
-   {
-    "id": "A5083254257",
-    "name": "Daniel L. Distel",
-    "rawName": "Daniel Distel",
     "orcid": "https://orcid.org/0000-0002-3860-194X"
    }
   ]
@@ -22770,6 +22189,25 @@
   ]
  },
  {
+  "id": "W4413621686",
+  "title": "Social norms and groups structure safe operating spaces in renewable resource use in a social–ecological multi-layer network model",
+  "year": 2025,
+  "url": "https://doi.org/10.5194/esd-16-1365-2025",
+  "themes": [
+   "Biosphere",
+   "Decarbonization",
+   "Systems Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5005092156",
+    "name": "Sara Madureira Constantino",
+    "rawName": "Sara M. Constantino",
+    "orcid": "https://orcid.org/0000-0001-5533-5885"
+   }
+  ]
+ },
+ {
   "id": "W4410436126",
   "title": "Solvent Dynamics in Gel Polymer Electrolytes for Lithium–Sulfur Batteries",
   "year": 2025,
@@ -22887,23 +22325,6 @@
   ]
  },
  {
-  "id": "W4406241665",
-  "title": "Spatial density and habitat associations of Atlantic Cod on the Northeastern US Continental Shelf",
-  "year": 2025,
-  "url": "https://doi.org/10.1101/2025.01.08.631947",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5089294221",
-    "name": "Jonathan H. Grabowski",
-    "rawName": "Jonathan H. Grabowski",
-    "orcid": "https://orcid.org/0000-0003-4711-5481"
-   }
-  ]
- },
- {
   "id": "W4413378498",
   "title": "Spatial density and habitat associations of Atlantic cod on the Northeastern US Continental Shelf",
   "year": 2025,
@@ -22912,6 +22333,12 @@
    "Biosphere"
   ],
   "authors": [
+   {
+    "id": "A5038022653",
+    "name": "Graham D. Sherwood",
+    "rawName": "Graham D. Sherwood",
+    "orcid": null
+   },
    {
     "id": "A5089294221",
     "name": "Jonathan H. Grabowski",
@@ -23493,24 +22920,6 @@
     "id": "A5036162806",
     "name": "Bryan D. James",
     "rawName": "Bryan D. James",
-    "orcid": "https://orcid.org/0000-0002-6104-8310"
-   }
-  ]
- },
- {
-  "id": "W4409697667",
-  "title": "Temperature Controls the Lifetimes and Microbial Communities Degrading Cellulose Diacetate in the Coastal Ocean",
-  "year": 2025,
-  "url": "https://doi.org/10.26434/chemrxiv-2025-qd41h",
-  "themes": [
-   "Biosphere",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5036162806",
-    "name": "Bryan D. James",
-    "rawName": "Bryan James",
     "orcid": "https://orcid.org/0000-0002-6104-8310"
    }
   ]
@@ -24210,35 +23619,6 @@
   ]
  },
  {
-  "id": "W4408039292",
-  "title": "Towards the Computational Design of Single Atom Alloys for Methane to Ethylene Conversion",
-  "year": 2025,
-  "url": "https://doi.org/10.26434/chemrxiv-2025-4t8fh",
-  "themes": [
-   "Air and Climate Science"
-  ],
-  "authors": [
-   {
-    "id": "A5008541866",
-    "name": "Chengyu Zhou",
-    "rawName": "Chengyu Zhou",
-    "orcid": "https://orcid.org/0009-0006-9484-8126"
-   },
-   {
-    "id": "A5064023940",
-    "name": "Manish Kothakonda",
-    "rawName": "Manish Kothakonda",
-    "orcid": "https://orcid.org/0000-0002-5055-0655"
-   },
-   {
-    "id": "A5102705262",
-    "name": "Qing Zhao",
-    "rawName": "Qing Zhao",
-    "orcid": "https://orcid.org/0000-0002-5003-9355"
-   }
-  ]
- },
- {
   "id": "W4410051565",
   "title": "Towards the computational design of single atom alloys for methane to ethylene conversion",
   "year": 2025,
@@ -24615,6 +23995,23 @@
   ]
  },
  {
+  "id": "W4406917523",
+  "title": "Urban ozone formation and sensitivities to volatile chemical products, cooking emissions, and NO x upwind of and within two Los Angeles Basin cities",
+  "year": 2025,
+  "url": "https://doi.org/10.5194/acp-25-1121-2025",
+  "themes": [
+   "Air and Climate Science"
+  ],
+  "authors": [
+   {
+    "id": "A5100736012",
+    "name": "Shang Liu",
+    "rawName": "Shang Liu",
+    "orcid": "https://orcid.org/0000-0002-3403-8651"
+   }
+  ]
+ },
+ {
   "id": "W4416154126",
   "title": "Use of a multihazard sensor system for understanding rider experience and environmental conditions on urban rail",
   "year": 2025,
@@ -24712,6 +24109,29 @@
     "name": "Qin Chen",
     "rawName": "Qin Chen",
     "orcid": "https://orcid.org/0000-0002-4956-3635"
+   }
+  ]
+ },
+ {
+  "id": "W4411341355",
+  "title": "Variation in access to urban parks across six OECD countries",
+  "year": 2025,
+  "url": "https://doi.org/10.1038/s42949-025-00212-0",
+  "themes": [
+   "International Governance"
+  ],
+  "authors": [
+   {
+    "id": "A5085314418",
+    "name": "Talia Kaufmann",
+    "rawName": "Talia Kaufmann",
+    "orcid": null
+   },
+   {
+    "id": "A5083670541",
+    "name": "Daniel Tumminelli O'Brien",
+    "rawName": "Daniel T. O’Brien",
+    "orcid": "https://orcid.org/0000-0002-3799-8586"
    }
   ]
  },
@@ -25023,54 +24443,6 @@
   "title": "“Solid-in-Solid” Electrolyte via Scalable Melting Infiltration Method for High-Voltage Solid-State Lithium Metal Batteries",
   "year": 2025,
   "url": "https://doi.org/10.1021/acs.nanolett.5c04133",
-  "themes": [
-   "Decarbonization",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5083981465",
-    "name": "Tongtai Ji",
-    "rawName": "Tongtai Ji",
-    "orcid": "https://orcid.org/0000-0003-2106-6861"
-   },
-   {
-    "id": "A5003737916",
-    "name": "Luisa Gomes",
-    "rawName": "Luisa Gomes",
-    "orcid": "https://orcid.org/0000-0002-8968-524X"
-   },
-   {
-    "id": "A5083559851",
-    "name": "Ruizhi Dong",
-    "rawName": "Ruizhi Dong",
-    "orcid": null
-   },
-   {
-    "id": "A5059871556",
-    "name": "Jason Jianxin Guo",
-    "rawName": "Jason Guo",
-    "orcid": "https://orcid.org/0000-0002-3748-7575"
-   },
-   {
-    "id": "A5088428434",
-    "name": "Sanjeev Mukerjee",
-    "rawName": "Sanjeev Mukerjee",
-    "orcid": "https://orcid.org/0000-0002-2980-7655"
-   },
-   {
-    "id": "A5077644669",
-    "name": "Huidong Dai",
-    "rawName": "Huidong Dai",
-    "orcid": "https://orcid.org/0000-0001-7328-4786"
-   }
-  ]
- },
- {
-  "id": "W4412698944",
-  "title": "“Solid-in-Solid” Electrolyte via Scalable Melting Infiltration Method for High-Voltage Solid-State Lithium Metal Batteries",
-  "year": 2025,
-  "url": "https://doi.org/10.26434/chemrxiv-2025-hmvf2",
   "themes": [
    "Decarbonization",
    "Waste"
@@ -25918,7 +25290,8 @@
   "year": 2024,
   "url": "https://doi.org/10.3390/cli12020026",
   "themes": [
-   "Air and Climate Science"
+   "Air and Climate Science",
+   "Decarbonization"
   ],
   "authors": [
    {
@@ -26184,29 +25557,6 @@
     "name": "Mithun Dineshkumar",
     "rawName": "Mithun Dineshkumar",
     "orcid": null
-   }
-  ]
- },
- {
-  "id": "W4400684819",
-  "title": "Automatic Generation of Chemical Mechanisms for Electrochemical Systems: Solid Electrolyte Interphase Formation in Lithium Batteries",
-  "year": 2024,
-  "url": "https://doi.org/10.26434/chemrxiv-2024-plzrv",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5089721780",
-    "name": "David S. Farina",
-    "rawName": "David Farina Jr.",
-    "orcid": "https://orcid.org/0000-0002-8670-6121"
-   },
-   {
-    "id": "A5045093343",
-    "name": "Richard H. West",
-    "rawName": "Richard West",
-    "orcid": "https://orcid.org/0000-0003-3861-6030"
    }
   ]
  },
@@ -26540,29 +25890,6 @@
   ]
  },
  {
-  "id": "W4402783267",
-  "title": "Building plumbing influences the microdiversity and community assembly of the drinking water microbiome",
-  "year": 2024,
-  "url": "https://doi.org/10.1101/2024.09.23.614467",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5075870721",
-    "name": "Kelsey J. Pieper",
-    "rawName": "Kelsey J. Pieper",
-    "orcid": "https://orcid.org/0000-0002-0273-6527"
-   },
-   {
-    "id": "A5045728989",
-    "name": "Aron Stubbins",
-    "rawName": "Aron Stubbins",
-    "orcid": "https://orcid.org/0000-0002-3994-1946"
-   }
-  ]
- },
- {
   "id": "W4404964162",
   "title": "Carbon Pricing Policies and Firms' Climate Change Mitigation Strategies",
   "year": 2024,
@@ -26594,41 +25921,6 @@
     "name": "Jennie C. Stephens",
     "rawName": "Jennie C. Stephens",
     "orcid": "https://orcid.org/0000-0003-0386-8115"
-   }
-  ]
- },
- {
-  "id": "W4395063811",
-  "title": "Carbon powders transforming from waste PP materials for optimization of 8 mol% yttria-stabilized zirconia nano-powders",
-  "year": 2024,
-  "url": "https://doi.org/10.21203/rs.3.rs-4001594/v1",
-  "themes": [
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5051058518",
-    "name": "Qiaoyang Sun",
-    "rawName": "Qiaoyang Sun",
-    "orcid": "https://orcid.org/0000-0001-8265-9383"
-   },
-   {
-    "id": "A5011922661",
-    "name": "Tianpeng Wen",
-    "rawName": "Tianpeng Wen",
-    "orcid": "https://orcid.org/0000-0001-9585-2254"
-   },
-   {
-    "id": "A5100338131",
-    "name": "Tao Liu",
-    "rawName": "Tao Liu",
-    "orcid": "https://orcid.org/0000-0003-1451-5251"
-   },
-   {
-    "id": "A5100734793",
-    "name": "Jingkun Yu",
-    "rawName": "Jingkun Yu",
-    "orcid": "https://orcid.org/0000-0002-3986-9868"
    }
   ]
  },
@@ -26768,24 +26060,6 @@
   "title": "Chemical Treatments on Invasive Bivalve, Corbicula fluminea",
   "year": 2024,
   "url": "https://doi.org/10.3390/ani14121789",
-  "themes": [
-   "Air and Climate Science",
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5096742103",
-    "name": "Katie D. Goulder",
-    "rawName": "Katie D. Goulder",
-    "orcid": null
-   }
-  ]
- },
- {
-  "id": "W4396696751",
-  "title": "Chemical Treatments on Invasive Bivalve, Corbicula fluminea",
-  "year": 2024,
-  "url": "https://doi.org/10.20944/preprints202405.0260.v1",
   "themes": [
    "Air and Climate Science",
    "Biosphere"
@@ -28055,61 +27329,6 @@
   ]
  },
  {
-  "id": "W4398183452",
-  "title": "Effects of land use change on runoff depth in the Songnen Plain, China",
-  "year": 2024,
-  "url": "https://doi.org/10.21203/rs.3.rs-4379755/v1",
-  "themes": [
-   "Air and Climate Science",
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5100682055",
-    "name": "Chaoqun Li",
-    "rawName": "Chaoqun Li",
-    "orcid": "https://orcid.org/0000-0002-6122-4855"
-   },
-   {
-    "id": "A5104216607",
-    "name": "Ziyang Yu",
-    "rawName": "Ziyang Yu",
-    "orcid": "https://orcid.org/0009-0002-9388-3588"
-   }
-  ]
- },
- {
-  "id": "W4401410573",
-  "title": "Electrified Nutrient Recovery at Municipal Wastewater Facilities: Sampling, Screening and Multivariate Analyses",
-  "year": 2024,
-  "url": "https://doi.org/10.26434/chemrxiv-2024-gwpw5",
-  "themes": [
-   "Local and National Governance",
-   "Systems Thinking",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5042842126",
-    "name": "Sana Heydarian",
-    "rawName": "Sana Heydarian",
-    "orcid": "https://orcid.org/0000-0001-5289-0736"
-   },
-   {
-    "id": "A5020607726",
-    "name": "Lawrence O. Ajayi",
-    "rawName": "Lawrence Ajayi",
-    "orcid": "https://orcid.org/0009-0001-3917-2147"
-   },
-   {
-    "id": "A5090265262",
-    "name": "Damilola A. Daramola",
-    "rawName": "Damilola Daramola",
-    "orcid": "https://orcid.org/0000-0002-6737-415X"
-   }
-  ]
- },
- {
   "id": "W4391789949",
   "title": "Electrochemical Behavior and Discharge Performance of Al-1zn-0.4mn-0.1sn-Xbi as Anode Alloys for Al-Air Battery in Koh Solution",
   "year": 2024,
@@ -28872,23 +28091,6 @@
     "name": "Opeyemi Samson Iyanu",
     "rawName": "Opeyemi Samson Iyanu",
     "orcid": "https://orcid.org/0009-0005-1767-2617"
-   }
-  ]
- },
- {
-  "id": "W4399503777",
-  "title": "Evaluation of hydroclimatic biases in the Community Earth System Model (CESM1) within the Mississippi River basin",
-  "year": 2024,
-  "url": "https://doi.org/10.5194/hess-2024-153",
-  "themes": [
-   "Sustainable Food Systems"
-  ],
-  "authors": [
-   {
-    "id": "A5057793501",
-    "name": "Samuel E. Muñoz",
-    "rawName": "Samuel Munoz",
-    "orcid": "https://orcid.org/0000-0002-0994-0483"
    }
   ]
  },
@@ -30912,41 +30114,6 @@
   ]
  },
  {
-  "id": "W4401518269",
-  "title": "Magnesium (Mg/Ca, δ 26 Mg), boron (B/Ca, δ 11 B), and calcium ([Ca 2+ ]) geochemistry of Arctica islandica and Crassostrea virginica extrapallial fluid and shell under ocean acidification",
-  "year": 2024,
-  "url": "https://doi.org/10.5194/egusphere-2024-1957",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5057230417",
-    "name": "Alan M. Downey‐Wall",
-    "rawName": "Alan Downey-Wall",
-    "orcid": "https://orcid.org/0000-0002-1770-1706"
-   },
-   {
-    "id": "A5052251031",
-    "name": "Louise P. Cameron",
-    "rawName": "Louise P. Cameron",
-    "orcid": "https://orcid.org/0000-0002-6839-2720"
-   },
-   {
-    "id": "A5055894630",
-    "name": "Justin B. Ries",
-    "rawName": "Justin B. Ries",
-    "orcid": "https://orcid.org/0000-0001-8427-206X"
-   },
-   {
-    "id": "A5040130605",
-    "name": "Katie E. Lotterhos",
-    "rawName": "Katie Lotterhos",
-    "orcid": "https://orcid.org/0000-0001-7529-2771"
-   }
-  ]
- },
- {
   "id": "W4400650966",
   "title": "Magnetic Graphene-Networked Iron Metal-Organic Frameworks for Enhanced Adsorption and Photocatalytic Performance in Wastewater Treatment",
   "year": 2024,
@@ -31245,35 +30412,6 @@
   ]
  },
  {
-  "id": "W4391467544",
-  "title": "Mechanically Tunable, Compostable, Healable and Scalable Engineered Living Materials",
-  "year": 2024,
-  "url": "https://doi.org/10.1101/2024.01.31.578234",
-  "themes": [
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5024802449",
-    "name": "Avinash Manjula‐Basavanna",
-    "rawName": "Avinash Manjula-Basavanna",
-    "orcid": "https://orcid.org/0000-0001-7806-2015"
-   },
-   {
-    "id": "A5011968788",
-    "name": "Anna Duraj‐Thatte",
-    "rawName": "Anna M. Duraj-Thatte",
-    "orcid": "https://orcid.org/0000-0003-3814-2963"
-   },
-   {
-    "id": "A5072006037",
-    "name": "Neel S Joshi",
-    "rawName": "Neel S. Joshi",
-    "orcid": "https://orcid.org/0000-0001-8236-3566"
-   }
-  ]
- },
- {
   "id": "W4404135754",
   "title": "Mechanistic Analysis of Hydrogen Mineral Phase-Transformed Iron Ore Tailings in Cementitious Materials: A Study on Hydration Kinetics, Mechanical Properties, and Microstructural Characteristics",
   "year": 2024,
@@ -31322,59 +30460,6 @@
     "name": "Qing Zhao",
     "rawName": "Qing Zhao",
     "orcid": "https://orcid.org/0000-0002-5003-9355"
-   }
-  ]
- },
- {
-  "id": "W4400290715",
-  "title": "Mechanistic Understanding of a Bifunctional Electrolyte Additive as a Solvation-Property Modifier and Polysulfide Mediator for Enhanced Performance in Lithium-Sulfur Battery",
-  "year": 2024,
-  "url": "https://doi.org/10.26434/chemrxiv-2024-gdbgq",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5077644669",
-    "name": "Huidong Dai",
-    "rawName": "Huidong Dai",
-    "orcid": "https://orcid.org/0000-0001-7328-4786"
-   },
-   {
-    "id": "A5099985653",
-    "name": "Colin Gallagher",
-    "rawName": "Colin Gallagher",
-    "orcid": "https://orcid.org/0009-0003-7229-8643"
-   },
-   {
-    "id": "A5003737916",
-    "name": "Luisa Gomes",
-    "rawName": "Luisa Gomes",
-    "orcid": "https://orcid.org/0000-0002-8968-524X"
-   },
-   {
-    "id": "A5110415223",
-    "name": "Kevin Yang",
-    "rawName": "Kevin Yang",
-    "orcid": "https://orcid.org/0000-0001-6928-5145"
-   },
-   {
-    "id": "A5083559851",
-    "name": "Ruizhi Dong",
-    "rawName": "Ruizhi Dong",
-    "orcid": null
-   },
-   {
-    "id": "A5101300143",
-    "name": "Qing Zhao",
-    "rawName": "Qing Zhao",
-    "orcid": "https://orcid.org/0009-0005-4756-3788"
-   },
-   {
-    "id": "A5088428434",
-    "name": "Sanjeev Mukerjee",
-    "rawName": "Sanjeev Mukerjee",
-    "orcid": "https://orcid.org/0000-0002-2980-7655"
    }
   ]
  },
@@ -31523,8 +30608,7 @@
   "year": 2024,
   "url": "https://doi.org/10.5194/amt-17-5429-2024",
   "themes": [
-   "Air and Climate Science",
-   "Future Thinking"
+   "Air and Climate Science"
   ],
   "authors": [
    {
@@ -31970,25 +31054,6 @@
   ]
  },
  {
-  "id": "W4391527632",
-  "title": "Numerical Investigation of Observational Flux Partitioning Methods for Water Vapor and Carbon Dioxide",
-  "year": 2024,
-  "url": "https://doi.org/10.22541/essoar.170716371.17109325/v1",
-  "themes": [
-   "Air and Climate Science",
-   "Biosphere",
-   "Future Thinking"
-  ],
-  "authors": [
-   {
-    "id": "A5032957227",
-    "name": "Khaled Ghannam",
-    "rawName": "Khaled Ghannam",
-    "orcid": "https://orcid.org/0000-0002-2542-6388"
-   }
-  ]
- },
- {
   "id": "W4401217491",
   "title": "Numerical Simulations of Satellite-Sensed Surface Maps in the Marginal Ice Zone",
   "year": 2024,
@@ -32066,54 +31131,6 @@
     "name": "Bowen Zhou",
     "rawName": "Bowen Zhou",
     "orcid": "https://orcid.org/0000-0002-7400-6603"
-   }
-  ]
- },
- {
-  "id": "W4401341977",
-  "title": "Optimization and performance analytics of global aircraft-based wastewater surveillance networks",
-  "year": 2024,
-  "url": "https://doi.org/10.1101/2024.08.02.24311418",
-  "themes": [
-   "Physical Well-being",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5048932707",
-    "name": "Guillaume St-Onge",
-    "rawName": "Guillaume St-Onge",
-    "orcid": "https://orcid.org/0000-0001-5415-3748"
-   },
-   {
-    "id": "A5046018227",
-    "name": "Jessica T. Davis",
-    "rawName": "Jessica T. Davis",
-    "orcid": "https://orcid.org/0000-0003-0726-1855"
-   },
-   {
-    "id": "A5033447925",
-    "name": "Alessandra Urbinati",
-    "rawName": "Alessandra Urbinati",
-    "orcid": "https://orcid.org/0000-0002-9031-1763"
-   },
-   {
-    "id": "A5026230453",
-    "name": "Samuel V. Scarpino",
-    "rawName": "Samuel V. Scarpino",
-    "orcid": "https://orcid.org/0000-0001-5716-2770"
-   },
-   {
-    "id": "A5061488382",
-    "name": "Matteo Chinazzi",
-    "rawName": "Matteo Chinazzi",
-    "orcid": "https://orcid.org/0000-0002-5955-1929"
-   },
-   {
-    "id": "A5046546654",
-    "name": "Alessandro Vespignani",
-    "rawName": "Alessandro Vespignani",
-    "orcid": "https://orcid.org/0000-0003-3419-4205"
    }
   ]
  },
@@ -32441,30 +31458,6 @@
     "name": "Liqun Gao",
     "rawName": "Liqun Gao",
     "orcid": "https://orcid.org/0000-0001-5384-6219"
-   }
-  ]
- },
- {
-  "id": "W4393155814",
-  "title": "Physicochemical Perturbation Increases Nitrous Oxide Production in Soils and Sediments",
-  "year": 2024,
-  "url": "https://doi.org/10.5194/egusphere-2024-448",
-  "themes": [
-   "Air and Climate Science",
-   "Sustainable Food Systems"
-  ],
-  "authors": [
-   {
-    "id": "A5057653023",
-    "name": "Patrick J. Kearns",
-    "rawName": "Patrick J. Kearns",
-    "orcid": "https://orcid.org/0000-0002-8112-9927"
-   },
-   {
-    "id": "A5000870875",
-    "name": "Jennifer L. Bowen",
-    "rawName": "Jennifer L. Bowen",
-    "orcid": "https://orcid.org/0000-0003-0339-1564"
    }
   ]
  },
@@ -32908,60 +31901,6 @@
     "name": "P. James Dennedy‐Frank",
     "rawName": "P. James Dennedy-Frank",
     "orcid": "https://orcid.org/0000-0001-9148-647X"
-   }
-  ]
- },
- {
-  "id": "W4393595282",
-  "title": "RBC-SatImg: Sentinel-2 Imagery and WatData Labels for Water Mapping",
-  "year": 2024,
-  "url": "https://doi.org/10.5281/zenodo.6999171",
-  "themes": [
-   "Biosphere",
-   "Future Thinking"
-  ],
-  "authors": [
-   {
-    "id": "A5054519063",
-    "name": "Helena Calatrava",
-    "rawName": "Calatrava, Helena",
-    "orcid": "https://orcid.org/0000-0001-8146-8411"
-   },
-   {
-    "id": "A5071452442",
-    "name": "Bhavya Duvvuri",
-    "rawName": "Duvvuri, Bhavya",
-    "orcid": "https://orcid.org/0000-0003-2910-8050"
-   },
-   {
-    "id": "A5034761291",
-    "name": "Haoqing Li",
-    "rawName": "Li, Haoqing",
-    "orcid": "https://orcid.org/0000-0001-6953-755X"
-   },
-   {
-    "id": "A5009495271",
-    "name": "Tales Imbiriba",
-    "rawName": "Imbiriba, Tales",
-    "orcid": "https://orcid.org/0000-0002-2626-2039"
-   },
-   {
-    "id": "A5043707054",
-    "name": "R. Edward Beighley",
-    "rawName": "Beighley, Edward",
-    "orcid": "https://orcid.org/0000-0003-1139-6226"
-   },
-   {
-    "id": "A5083261801",
-    "name": "Deniz Erdoğmuş",
-    "rawName": "Erdogmus, Deniz",
-    "orcid": "https://orcid.org/0000-0002-1114-3539"
-   },
-   {
-    "id": "A5070127242",
-    "name": "Pau Closas",
-    "rawName": "Closas, Pau",
-    "orcid": "https://orcid.org/0000-0002-5960-6600"
    }
   ]
  },
@@ -33676,25 +32615,6 @@
   ]
  },
  {
-  "id": "W4402748580",
-  "title": "Social norms and groups structure safe operating spaces in renewable resource use in a social-ecological multi-layer network model",
-  "year": 2024,
-  "url": "https://doi.org/10.5194/egusphere-2024-2924",
-  "themes": [
-   "Biosphere",
-   "Decarbonization",
-   "Systems Thinking"
-  ],
-  "authors": [
-   {
-    "id": "A5005092156",
-    "name": "Sara Madureira Constantino",
-    "rawName": "Sara M. Constantino",
-    "orcid": "https://orcid.org/0000-0001-5533-5885"
-   }
-  ]
- },
- {
   "id": "W4391251170",
   "title": "Solution-based electrical doping of organic photovoltaics with non-fullerene acceptors facilitated by solvent vapor pre-treatment",
   "year": 2024,
@@ -33796,29 +32716,6 @@
   ]
  },
  {
-  "id": "W4395456575",
-  "title": "Spatial-Temporal Variation and Correlation Analysis of Ecosystem Service Values and Ecological Risks in Winter Cities: Evidence from Shenyang, China",
-  "year": 2024,
-  "url": "https://doi.org/10.21203/rs.3.rs-4286802/v1",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5100421656",
-    "name": "Yang Li",
-    "rawName": "Yang Li",
-    "orcid": "https://orcid.org/0000-0002-8923-6364"
-   },
-   {
-    "id": "A5100992173",
-    "name": "Hao Xie",
-    "rawName": "Hao Xie",
-    "orcid": "https://orcid.org/0000-0003-3854-0849"
-   }
-  ]
- },
- {
   "id": "W4405943277",
   "title": "Spatial-temporal dynamics and vulnerability analysis of population, economy, and environment in mountainous urban agglomerations: a perspective on coordinated development",
   "year": 2024,
@@ -33903,24 +32800,6 @@
     "name": "S. Dong",
     "rawName": "S. Dong",
     "orcid": null
-   }
-  ]
- },
- {
-  "id": "W4405012406",
-  "title": "Spent lithium-ion battery recycling: multi-stage synergistic deep removal of impurities and lithium extraction",
-  "year": 2024,
-  "url": "https://doi.org/10.21203/rs.3.rs-5106953/v1",
-  "themes": [
-   "Decarbonization",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5100387067",
-    "name": "Jianzhong Li",
-    "rawName": "Jian-zhong LI",
-    "orcid": "https://orcid.org/0000-0002-7021-0658"
    }
   ]
  },
@@ -36068,42 +34947,6 @@
   ]
  },
  {
-  "id": "W4393460370",
-  "title": "1/8˚ resolution MOM6-COBALT physical and biogeochemical diagnostics for the Gulf of Mexico, monthly means between 2008-2018",
-  "year": 2023,
-  "url": "https://doi.org/10.5281/zenodo.10223185",
-  "themes": [
-   "Air and Climate Science",
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5086402813",
-    "name": "Cristina Schultz",
-    "rawName": "Schultz, Cristina",
-    "orcid": "https://orcid.org/0000-0003-2006-7053"
-   }
-  ]
- },
- {
-  "id": "W4393543660",
-  "title": "1/8˚ resolution MOM6-COBALT physical and biogeochemical diagnostics for the Gulf of Mexico, monthly means between 2008-2018",
-  "year": 2023,
-  "url": "https://doi.org/10.5281/zenodo.7591445",
-  "themes": [
-   "Air and Climate Science",
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5086402813",
-    "name": "Cristina Schultz",
-    "rawName": "Schultz, Cristina",
-    "orcid": "https://orcid.org/0000-0003-2006-7053"
-   }
-  ]
- },
- {
   "id": "W4362563317",
   "title": "A Green Cross-Linking Method for the Preparation of Renewable Three-Dimensional Graphene Sponges for Efficient Adsorption of Congo Red Dye",
   "year": 2023,
@@ -36490,23 +35333,6 @@
     "name": "Aubrey Foulk",
     "rawName": "Aubrey Foulk",
     "orcid": "https://orcid.org/0009-0005-6369-5465"
-   }
-  ]
- },
- {
-  "id": "W4365600548",
-  "title": "A new perspective on the prediction of the innovation performance: A data driven methodology to identify innovation indicators through a comparative study of Boston's neighborhoods",
-  "year": 2023,
-  "url": "https://doi.org/10.48550/arxiv.2304.06039",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5064574688",
-    "name": "Dimitris Belivanis",
-    "rawName": "Belivanis, Dimitris",
-    "orcid": null
    }
   ]
  },
@@ -36919,59 +35745,6 @@
   ]
  },
  {
-  "id": "W4386835264",
-  "title": "Annual Solar Geoengineering: Mitigating Yearly Global Warming Increases",
-  "year": 2023,
-  "url": "https://doi.org/10.20944/preprints202307.1580.v2",
-  "themes": [
-   "Air and Climate Science",
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5065510852",
-    "name": "Alec A. Feinberg",
-    "rawName": "Alec Feinberg",
-    "orcid": "https://orcid.org/0000-0003-4364-2460"
-   }
-  ]
- },
- {
-  "id": "W4387020770",
-  "title": "Annual Solar Geoengineering: Mitigating Yearly Global Warming Increases",
-  "year": 2023,
-  "url": "https://doi.org/10.20944/preprints202307.1580.v3",
-  "themes": [
-   "Air and Climate Science",
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5065510852",
-    "name": "Alec A. Feinberg",
-    "rawName": "Alec Feinberg",
-    "orcid": "https://orcid.org/0000-0003-4364-2460"
-   }
-  ]
- },
- {
-  "id": "W4386926367",
-  "title": "Annual Solar Geoengineering: Mitigating Yearly Global Warming Increases",
-  "year": 2023,
-  "url": "https://doi.org/10.21203/rs.3.rs-3189542/v2",
-  "themes": [
-   "Air and Climate Science"
-  ],
-  "authors": [
-   {
-    "id": "A5065510852",
-    "name": "Alec A. Feinberg",
-    "rawName": "Alec Feinberg",
-    "orcid": "https://orcid.org/0000-0003-4364-2460"
-   }
-  ]
- },
- {
   "id": "W4366975466",
   "title": "Anodic Potential and Conversion Chemistry of Anhydrous Iron (II) Oxalate in Na-Ion Batteries",
   "year": 2023,
@@ -37292,25 +36065,6 @@
   ]
  },
  {
-  "id": "W4380373765",
-  "title": "Biomass-burning smoke properties and its interactions with marine stratocumulus clouds in WRF-CAM5 and southeastern Atlantic field campaigns",
-  "year": 2023,
-  "url": "https://doi.org/10.5194/egusphere-2023-886",
-  "themes": [
-   "Air and Climate Science",
-   "Biosphere",
-   "Future Thinking"
-  ],
-  "authors": [
-   {
-    "id": "A5100354734",
-    "name": "Yang Zhang",
-    "rawName": "Yang Zhang",
-    "orcid": "https://orcid.org/0000-0002-8591-9598"
-   }
-  ]
- },
- {
   "id": "W4388513599",
   "title": "Biomass-burning smoke's properties and its interactions with marine stratocumulus clouds in WRF-CAM5 and southeastern Atlantic field campaigns",
   "year": 2023,
@@ -37402,25 +36156,6 @@
   ]
  },
  {
-  "id": "W4321250367",
-  "title": "Black Carbon Emission, Transport and Effect on Radiation Forcing Modelling During the Summer 2019–2020 Wildfires in Southeast Australia",
-  "year": 2023,
-  "url": "https://doi.org/10.20944/preprints202302.0293.v1",
-  "themes": [
-   "Air and Climate Science",
-   "Future Thinking",
-   "Physical Well-being"
-  ],
-  "authors": [
-   {
-    "id": "A5041603130",
-    "name": "Lisa Tzu-Chi Chang",
-    "rawName": "Lisa T.-C. Chang",
-    "orcid": "https://orcid.org/0000-0003-4127-6065"
-   }
-  ]
- },
- {
   "id": "W4364375921",
   "title": "Black Carbon Emissions, Transport and Effect on Radiation Forcing Modelling during the Summer 2019–2020 Wildfires in Southeast Australia",
   "year": 2023,
@@ -37440,7 +36175,7 @@
    {
     "id": "A5041603130",
     "name": "Lisa Tzu-Chi Chang",
-    "rawName": "Lisa Tzu-Chi Chang",
+    "rawName": "Lisa T.-C. Chang",
     "orcid": "https://orcid.org/0000-0003-4127-6065"
    }
   ]
@@ -38031,23 +36766,6 @@
   ]
  },
  {
-  "id": "W4321601302",
-  "title": "Community-Engaged Research is Best Positioned to Catalyze Systemic Change",
-  "year": 2023,
-  "url": "https://doi.org/10.31234/osf.io/c4t8q",
-  "themes": [
-   "Air and Climate Science"
-  ],
-  "authors": [
-   {
-    "id": "A5005092156",
-    "name": "Sara Madureira Constantino",
-    "rawName": "Sara Madureira Constantino",
-    "orcid": "https://orcid.org/0000-0001-5533-5885"
-   }
-  ]
- },
- {
   "id": "W4388761690",
   "title": "Community-based projects cultivating 21st century skills and civic engagement",
   "year": 2023,
@@ -38543,23 +37261,6 @@
     "name": "Brad Lehman",
     "rawName": "Brad Lehman",
     "orcid": "https://orcid.org/0000-0003-1120-399X"
-   }
-  ]
- },
- {
-  "id": "W4393639180",
-  "title": "Data from: Herbivory limits success of vegetation restoration globally",
-  "year": 2023,
-  "url": "https://doi.org/10.5281/zenodo.8338052",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5070356442",
-    "name": "Juhyung Lee",
-    "rawName": "Juhyung Lee",
-    "orcid": "https://orcid.org/0000-0002-1459-4351"
    }
   ]
  },
@@ -41025,102 +39726,6 @@
   ]
  },
  {
-  "id": "W4378965025",
-  "title": "Low cost 3D printable flow reactors for electrochemistry",
-  "year": 2023,
-  "url": "https://doi.org/10.5281/zenodo.7992149",
-  "themes": [
-   "Air and Climate Science",
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5092062589",
-    "name": "Erin Heeschen",
-    "rawName": "Heeschen, Erin",
-    "orcid": null
-   },
-   {
-    "id": "A5092062590",
-    "name": "Elena DeLucia",
-    "rawName": "DeLucia, Elena",
-    "orcid": null
-   },
-   {
-    "id": "A5093552998",
-    "name": "Yilmaz Arin Manav",
-    "rawName": "Yilmas Arin Manav",
-    "orcid": null
-   },
-   {
-    "id": "A5113684798",
-    "name": "Daisy Roberts",
-    "rawName": "Roberts, Daisy",
-    "orcid": null
-   },
-   {
-    "id": "A5013721686",
-    "name": "Benyamin Davaji",
-    "rawName": "Davaji, Benyamin",
-    "orcid": "https://orcid.org/0000-0002-6375-4120"
-   },
-   {
-    "id": "A5084448778",
-    "name": "Magda H. Barecka",
-    "rawName": "Barecka, Magda",
-    "orcid": "https://orcid.org/0000-0002-0772-164X"
-   }
-  ]
- },
- {
-  "id": "W4387561873",
-  "title": "Low cost 3D printable flow reactors for electrochemistry",
-  "year": 2023,
-  "url": "https://doi.org/10.5281/zenodo.8435816",
-  "themes": [
-   "Air and Climate Science",
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5092062589",
-    "name": "Erin Heeschen",
-    "rawName": "Heeschen, Erin",
-    "orcid": null
-   },
-   {
-    "id": "A5092062590",
-    "name": "Elena DeLucia",
-    "rawName": "DeLucia, Elena",
-    "orcid": null
-   },
-   {
-    "id": "A5093552998",
-    "name": "Yilmaz Arin Manav",
-    "rawName": "Yilmas Arin Manav",
-    "orcid": null
-   },
-   {
-    "id": "A5113684798",
-    "name": "Daisy Roberts",
-    "rawName": "Roberts, Daisy",
-    "orcid": null
-   },
-   {
-    "id": "A5013721686",
-    "name": "Benyamin Davaji",
-    "rawName": "Davaji, Benyamin",
-    "orcid": "https://orcid.org/0000-0002-6375-4120"
-   },
-   {
-    "id": "A5084448778",
-    "name": "Magda H. Barecka",
-    "rawName": "Barecka, Magda",
-    "orcid": "https://orcid.org/0000-0002-0772-164X"
-   }
-  ]
- },
- {
   "id": "W4383312159",
   "title": "Machine Learning Predicts the Methane Clumped Isotopologue (12CH2D2) Distributions Constrain Biogeochemical Processes and Estimates the Potential Budget",
   "year": 2023,
@@ -41268,24 +39873,6 @@
   ]
  },
  {
-  "id": "W4378966352",
-  "title": "Methane Point Source Quantification Using MethaneAIR: A New Airborne Imaging Spectrometer",
-  "year": 2023,
-  "url": "https://doi.org/10.5194/egusphere-2023-822",
-  "themes": [
-   "Air and Climate Science",
-   "Future Thinking"
-  ],
-  "authors": [
-   {
-    "id": "A5001860865",
-    "name": "Eamon K. Conway",
-    "rawName": "Eamon Conway",
-    "orcid": "https://orcid.org/0000-0002-6471-9474"
-   }
-  ]
- },
- {
   "id": "W4389261605",
   "title": "Methane point source quantification using MethaneAIR: a new airborne imaging spectrometer",
   "year": 2023,
@@ -41293,23 +39880,6 @@
   "themes": [
    "Air and Climate Science",
    "Future Thinking"
-  ],
-  "authors": [
-   {
-    "id": "A5001860865",
-    "name": "Eamon K. Conway",
-    "rawName": "Eamon Conway",
-    "orcid": "https://orcid.org/0000-0002-6471-9474"
-   }
-  ]
- },
- {
-  "id": "W4387404246",
-  "title": "Methane retrieval from MethaneAIR using the CO 2 Proxy Approach: A demonstration for the upcoming MethaneSAT mission",
-  "year": 2023,
-  "url": "https://doi.org/10.5194/egusphere-2023-1962",
-  "themes": [
-   "Air and Climate Science"
   ],
   "authors": [
    {
@@ -42425,41 +40995,6 @@
   ]
  },
  {
-  "id": "W4327941727",
-  "title": "Preparation of high-quality silicon with silicon cutting waste by a carbothermal reduction method",
-  "year": 2023,
-  "url": "https://doi.org/10.21203/rs.3.rs-2670309/v1",
-  "themes": [
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5088712454",
-    "name": "Donghui Wei",
-    "rawName": "Donghui Wei",
-    "orcid": "https://orcid.org/0009-0002-5549-4549"
-   },
-   {
-    "id": "A5100751305",
-    "name": "Zhaoyang Zhang",
-    "rawName": "Zhaoyang Zhang",
-    "orcid": "https://orcid.org/0000-0002-0684-9975"
-   },
-   {
-    "id": "A5085090071",
-    "name": "Yanxin Zhuang",
-    "rawName": "Yanxin Zhuang",
-    "orcid": "https://orcid.org/0000-0002-7830-6347"
-   },
-   {
-    "id": "A5102712927",
-    "name": "Pengfei Xing",
-    "rawName": "Pengfei Xing",
-    "orcid": "https://orcid.org/0000-0002-0803-9490"
-   }
-  ]
- },
- {
   "id": "W4318472818",
   "title": "Principles for Designing Green, Lean, and Smart Microfactories: Chicken as a Model",
   "year": 2023,
@@ -43283,41 +41818,6 @@
   ]
  },
  {
-  "id": "W4385215992",
-  "title": "Solar Geoengineering to Stop Annual Global Warming",
-  "year": 2023,
-  "url": "https://doi.org/10.20944/preprints202307.1580.v1",
-  "themes": [
-   "Air and Climate Science",
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5065510852",
-    "name": "Alec A. Feinberg",
-    "rawName": "Alec Feinberg",
-    "orcid": "https://orcid.org/0000-0003-4364-2460"
-   }
-  ]
- },
- {
-  "id": "W4385224952",
-  "title": "Solar Geoengineering to Stop Annual Global Warming",
-  "year": 2023,
-  "url": "https://doi.org/10.21203/rs.3.rs-3189542/v1",
-  "themes": [
-   "Air and Climate Science"
-  ],
-  "authors": [
-   {
-    "id": "A5065510852",
-    "name": "Alec A. Feinberg",
-    "rawName": "Alec Feinberg",
-    "orcid": "https://orcid.org/0000-0003-4364-2460"
-   }
-  ]
- },
- {
   "id": "W4317438549",
   "title": "Solid-state batteries based on composite polymer electrolytes",
   "year": 2023,
@@ -43766,23 +42266,6 @@
   ]
  },
  {
-  "id": "W4321496115",
-  "title": "TaOx electron transport layers for CO2 reduction Si photocathodes",
-  "year": 2023,
-  "url": "https://doi.org/10.26434/chemrxiv-2023-4h3x8",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5084448778",
-    "name": "Magda H. Barecka",
-    "rawName": "Magda Barecka",
-    "orcid": "https://orcid.org/0000-0002-0772-164X"
-   }
-  ]
- },
- {
   "id": "W4380787397",
   "title": "Tailor-to-Target: Configuring Collaborative Shareholder Engagements on Climate Change",
   "year": 2023,
@@ -44049,24 +42532,6 @@
   "title": "The influence of natural variability on extreme monsoons in Pakistan",
   "year": 2023,
   "url": "https://doi.org/10.1038/s41612-023-00462-8",
-  "themes": [
-   "Air and Climate Science",
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5064658255",
-    "name": "Auroop Ratan Ganguly",
-    "rawName": "Auroop R. Ganguly",
-    "orcid": "https://orcid.org/0000-0002-4292-4856"
-   }
-  ]
- },
- {
-  "id": "W4360937550",
-  "title": "The influence of natural variability on extreme monsoons in Pakistan",
-  "year": 2023,
-  "url": "https://doi.org/10.22541/essoar.167979638.80880022/v1",
   "themes": [
    "Air and Climate Science",
    "Biosphere"
@@ -44397,49 +42862,6 @@
   ]
  },
  {
-  "id": "W4383905225",
-  "title": "Towards sustainable transport: quantifying and mitigating pollutant emissions from heavy-duty diesel trucks in Northeast China",
-  "year": 2023,
-  "url": "https://doi.org/10.21203/rs.3.rs-3028394/v1",
-  "themes": [
-   "Decarbonization",
-   "Future Thinking",
-   "Physical Well-being"
-  ],
-  "authors": [
-   {
-    "id": "A5100368239",
-    "name": "Na Li",
-    "rawName": "Na Li",
-    "orcid": "https://orcid.org/0009-0007-7362-7743"
-   },
-   {
-    "id": "A5088100539",
-    "name": "Chengkang Gao",
-    "rawName": "Chengkang Gao",
-    "orcid": "https://orcid.org/0009-0002-7888-6561"
-   },
-   {
-    "id": "A5043316796",
-    "name": "Qiao Ba",
-    "rawName": "Qiao Ba",
-    "orcid": null
-   },
-   {
-    "id": "A5111080299",
-    "name": "Huan You",
-    "rawName": "Huan You",
-    "orcid": null
-   },
-   {
-    "id": "A5048171321",
-    "name": "Xinhong Zhang",
-    "rawName": "Xinhong Zhang",
-    "orcid": "https://orcid.org/0000-0003-2403-4777"
-   }
-  ]
- },
- {
   "id": "W4385481771",
   "title": "Transient Internet of Things: Redesigning the Lifetime of Electronics for a More Sustainable Networked Environment",
   "year": 2023,
@@ -44564,42 +42986,6 @@
     "name": "Sanjeev Mukerjee",
     "rawName": "Sanjeev Mukerjee",
     "orcid": "https://orcid.org/0000-0002-2980-7655"
-   }
-  ]
- },
- {
-  "id": "W4315650540",
-  "title": "Unveiling the Mechanical and Electrochemical Evolution of Nano Silicon Composite Anodes in Sulfide based All-solid-state Batteries",
-  "year": 2023,
-  "url": "https://doi.org/10.26434/chemrxiv-2023-6qxhb",
-  "themes": [
-   "Decarbonization",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5091648041",
-    "name": "Daxian Cao",
-    "rawName": "Daxian Cao",
-    "orcid": "https://orcid.org/0000-0003-1191-5954"
-   },
-   {
-    "id": "A5083981465",
-    "name": "Tongtai Ji",
-    "rawName": "Tongtai Ji",
-    "orcid": "https://orcid.org/0000-0003-2106-6861"
-   },
-   {
-    "id": "A5079004590",
-    "name": "Juner Zhu",
-    "rawName": "Juner Zhu",
-    "orcid": null
-   },
-   {
-    "id": "A5028366101",
-    "name": "Hongli Zhu",
-    "rawName": "Hongli Zhu",
-    "orcid": "https://orcid.org/0000-0003-1733-4333"
    }
   ]
  },
@@ -45411,25 +43797,6 @@
   ]
  },
  {
-  "id": "W4309130362",
-  "title": "Accumulation, transformation and transport of microplastics in estuarine fronts",
-  "year": 2022,
-  "url": "https://doi.org/10.5281/zenodo.7324029",
-  "themes": [
-   "Biosphere",
-   "Future Thinking",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5100565239",
-    "name": "Lixin Zhu",
-    "rawName": "Zhu, Lixin",
-    "orcid": null
-   }
-  ]
- },
- {
   "id": "W4281717819",
   "title": "Action research for energy system transformation",
   "year": 2022,
@@ -46070,29 +44437,6 @@
   ]
  },
  {
-  "id": "W4297666563",
-  "title": "Carbon Cycle Extremes Accelerate Weakening of the Land Carbon Sink in the Late 21st Century",
-  "year": 2022,
-  "url": "https://doi.org/10.5194/bg-2022-178",
-  "themes": [
-   "Air and Climate Science"
-  ],
-  "authors": [
-   {
-    "id": "A5033682890",
-    "name": "Bharat Sharma",
-    "rawName": "Bharat Sharma",
-    "orcid": "https://orcid.org/0000-0002-6698-2487"
-   },
-   {
-    "id": "A5064658255",
-    "name": "Auroop Ratan Ganguly",
-    "rawName": "Auroop R. Ganguly",
-    "orcid": "https://orcid.org/0000-0002-4292-4856"
-   }
-  ]
- },
- {
   "id": "W4313259461",
   "title": "Catching versus Counting: Comparing the Pro-Environmental Attitudes, Behaviors, and Climate Concerns of Recreational Fishers and Citizen Scientists",
   "year": 2022,
@@ -46301,30 +44645,6 @@
     "name": "Yutong Si",
     "rawName": "Yutong Si",
     "orcid": "https://orcid.org/0000-0002-4937-1721"
-   }
-  ]
- },
- {
-  "id": "W4311709113",
-  "title": "Co-occurrence and cooperation between comammox and anammox bacteria in a full-scale attached growth municipal wastewater treatment process",
-  "year": 2022,
-  "url": "https://doi.org/10.1101/2022.12.05.519185",
-  "themes": [
-   "Local and National Governance",
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5012412964",
-    "name": "Katherine Jeanne Vilardi",
-    "rawName": "Katherine Vilardi",
-    "orcid": "https://orcid.org/0000-0001-8039-1248"
-   },
-   {
-    "id": "A5075870721",
-    "name": "Kelsey J. Pieper",
-    "rawName": "Kelsey Pieper",
-    "orcid": "https://orcid.org/0000-0002-0273-6527"
    }
   ]
  },
@@ -47268,24 +45588,6 @@
   ]
  },
  {
-  "id": "W4289930610",
-  "title": "Does the paradigm of genotype-environment associations need to be re-assessed? The paradox of adaptive phenotypic clines with non-clinal patterns in causal alleles",
-  "year": 2022,
-  "url": "https://doi.org/10.1101/2022.08.03.502621",
-  "themes": [
-   "Air and Climate Science",
-   "Future Thinking"
-  ],
-  "authors": [
-   {
-    "id": "A5040130605",
-    "name": "Katie E. Lotterhos",
-    "rawName": "Katie E Lotterhos",
-    "orcid": "https://orcid.org/0000-0001-7529-2771"
-   }
-  ]
- },
- {
   "id": "W4220842652",
   "title": "Dome-arrayed chitosan/PVA hydrogel-based solar evaporator for steam generation",
   "year": 2022,
@@ -47797,47 +46099,6 @@
   ]
  },
  {
-  "id": "W4307526930",
-  "title": "Evaluation the potential of recovering various valuable elements from a vanadiferous titanomagnetite tailing based on chemical and process mineralogical characterization",
-  "year": 2022,
-  "url": "https://doi.org/10.21203/rs.3.rs-2082901/v1",
-  "themes": [
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5020204596",
-    "name": "Jinsheng Liu",
-    "rawName": "Jinsheng Liu",
-    "orcid": "https://orcid.org/0000-0001-6221-212X"
-   },
-   {
-    "id": "A5029452538",
-    "name": "Zhenxing Xing",
-    "rawName": "Zhenxing Xing",
-    "orcid": null
-   },
-   {
-    "id": "A5101400467",
-    "name": "Jianxing Liu",
-    "rawName": "Jianxing Liu",
-    "orcid": "https://orcid.org/0000-0002-5480-5651"
-   },
-   {
-    "id": "A5083572336",
-    "name": "Xueyong Ding",
-    "rawName": "Xueyong Ding",
-    "orcid": "https://orcid.org/0000-0002-0668-2116"
-   },
-   {
-    "id": "A5011525601",
-    "name": "Xiangxin Xue",
-    "rawName": "Xiangxin Xue",
-    "orcid": "https://orcid.org/0009-0009-6893-9771"
-   }
-  ]
- },
- {
   "id": "W4308382994",
   "title": "Evenness, biodiversity, and ecosystem function of intertidal communities along the Italian coasts: Experimental short-term response to ambient and extreme air temperatures",
   "year": 2022,
@@ -47941,31 +46202,6 @@
   ]
  },
  {
-  "id": "W4284699016",
-  "title": "Exploring the eco-efficiency of cultivated land utilization and its influencing factors in black soil region of Northeast China under the goal of reducing pollution emission and increasing carbon sink",
-  "year": 2022,
-  "url": "https://doi.org/10.21203/rs.3.rs-1800193/v1",
-  "themes": [
-   "Biosphere",
-   "Decarbonization",
-   "Sustainable Food Systems"
-  ],
-  "authors": [
-   {
-    "id": "A5100449007",
-    "name": "Lin Feng",
-    "rawName": "Lin Feng",
-    "orcid": "https://orcid.org/0009-0008-7721-226X"
-   },
-   {
-    "id": "A5100303800",
-    "name": "Guoping Lei",
-    "rawName": "Guoping Lei",
-    "orcid": null
-   }
-  ]
- },
- {
   "id": "W4296880708",
   "title": "Extraction And Recycling of Fluoride-Containing Phase from Spent Bottom Sedimentation Of Aluminum Smelting Cell By Leaching in Al3+ Solution Media",
   "year": 2022,
@@ -48040,23 +46276,6 @@
   "title": "FADUS_China",
   "year": 2022,
   "url": "https://doi.org/10.6084/m9.figshare.21129826",
-  "themes": [
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5007290434",
-    "name": "Qian Zhang",
-    "rawName": "Zhang, Qian",
-    "orcid": "https://orcid.org/0000-0001-9009-2997"
-   }
-  ]
- },
- {
-  "id": "W4394278287",
-  "title": "FADUS_China",
-  "year": 2022,
-  "url": "https://doi.org/10.6084/m9.figshare.21129826.v1",
   "themes": [
    "Biosphere"
   ],
@@ -48367,7 +46586,7 @@
    {
     "id": "A5055894630",
     "name": "Justin B. Ries",
-    "rawName": "Justin B. Ries",
+    "rawName": "Justin B Ries",
     "orcid": "https://orcid.org/0000-0001-8427-206X"
    }
   ]
@@ -48863,6 +47082,27 @@
   ]
  },
  {
+  "id": "W4292939183",
+  "title": "Integrating social equity and ecological variation for coastal and fisheries management",
+  "year": 2022,
+  "url": "https://doi.org/10.17760/d20439252",
+  "themes": [
+   "Biosphere",
+   "Equity",
+   "Interpersonal Competency",
+   "Strategic Thinking",
+   "Systems Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5014607198",
+    "name": "Kelsi L. Furman",
+    "rawName": "Kelsi Lynn Furman",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W4292939104",
   "title": "Integration of public transportation and mobility-on-demand services",
   "year": 2022,
@@ -48924,24 +47164,6 @@
     "name": "Yi Zheng",
     "rawName": "Yi Zheng",
     "orcid": "https://orcid.org/0000-0003-4963-9684"
-   }
-  ]
- },
- {
-  "id": "W4312123933",
-  "title": "Intercomparison of six national empirical models for PM2.5 air pollution in the contiguous US",
-  "year": 2022,
-  "url": "https://doi.org/10.26434/chemrxiv-2022-57s56",
-  "themes": [
-   "Air and Climate Science",
-   "Justice"
-  ],
-  "authors": [
-   {
-    "id": "A5100354731",
-    "name": "Yang Zhang",
-    "rawName": "Yang Zhang",
-    "orcid": "https://orcid.org/0000-0002-8495-1860"
    }
   ]
  },
@@ -49260,30 +47482,6 @@
   "year": 2022,
   "url": "https://doi.org/10.1016/j.watres.2022.119497",
   "themes": [
-   "Waste"
-  ],
-  "authors": [
-   {
-    "id": "A5025535554",
-    "name": "Irmarie Cotto",
-    "rawName": "Irmarie Cotto",
-    "orcid": "https://orcid.org/0000-0002-1626-1630"
-   },
-   {
-    "id": "A5012412964",
-    "name": "Katherine Jeanne Vilardi",
-    "rawName": "Katherine J. Vilardi",
-    "orcid": "https://orcid.org/0000-0001-8039-1248"
-   }
-  ]
- },
- {
-  "id": "W4281942072",
-  "title": "Low diversity and microdiversity of comammox bacteria in wastewater systems suggests wastewater-specific adaptation within the Ca . Nitrospira nitrosa cluster",
-  "year": 2022,
-  "url": "https://doi.org/10.1101/2022.06.11.495745",
-  "themes": [
-   "Biosphere",
    "Waste"
   ],
   "authors": [
@@ -49690,52 +47888,6 @@
     "name": "Yang Zhang",
     "rawName": "Yang Zhang",
     "orcid": "https://orcid.org/0000-0002-8591-9598"
-   }
-  ]
- },
- {
-  "id": "W4309834098",
-  "title": "Multiconfigurational calculations and photodynamics describe norbornadiene photochemistry",
-  "year": 2022,
-  "url": "https://doi.org/10.26434/chemrxiv-2022-w3x91-v2",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5073961212",
-    "name": "Jordan Cox",
-    "rawName": "Jordan Cox",
-    "orcid": null
-   },
-   {
-    "id": "A5083662167",
-    "name": "Steven A. Lopez",
-    "rawName": "Steven Lopez",
-    "orcid": "https://orcid.org/0000-0002-8418-3638"
-   }
-  ]
- },
- {
-  "id": "W4309698326",
-  "title": "Multiconfigurational calculations and photodynamics describe norbornadiene photochemistry",
-  "year": 2022,
-  "url": "https://doi.org/10.26434/chemrxiv-2022-w3x91",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5047997757",
-    "name": "Jordan M. Cox",
-    "rawName": "Jordan Cox",
-    "orcid": "https://orcid.org/0000-0003-4266-0990"
-   },
-   {
-    "id": "A5083662167",
-    "name": "Steven A. Lopez",
-    "rawName": "Steven Lopez",
-    "orcid": "https://orcid.org/0000-0002-8418-3638"
    }
   ]
  },
@@ -50421,24 +48573,6 @@
   ]
  },
  {
-  "id": "W4229458976",
-  "title": "Projected increases in wildfires may challenge regulatory curtailment of PM 2.5 over the eastern US by 2050",
-  "year": 2022,
-  "url": "https://doi.org/10.5194/acp-2022-324",
-  "themes": [
-   "Air and Climate Science",
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5100354734",
-    "name": "Yang Zhang",
-    "rawName": "Yang Zhang",
-    "orcid": "https://orcid.org/0000-0002-8591-9598"
-   }
-  ]
- },
- {
   "id": "W4313214397",
   "title": "Protocol for designing, optimizing, and analyzing reverse supply chains using RELOG",
   "year": 2022,
@@ -50482,43 +48616,56 @@
   ]
  },
  {
-  "id": "W4293637541",
-  "title": "Real-time active power dispatch of virtual power plant based on distributed model predictive control",
+  "id": "W4393595282",
+  "title": "RBC-SatImg: Sentinel-2 Imagery and WatData Labels for Water Mapping",
   "year": 2022,
-  "url": "https://doi.org/10.22541/au.166078084.47497672/v1",
+  "url": "https://doi.org/10.5281/zenodo.6999171",
   "themes": [
-   "Decarbonization"
+   "Biosphere",
+   "Future Thinking"
   ],
   "authors": [
    {
-    "id": "A5103128463",
-    "name": "Shuai Feng",
-    "rawName": "Shuai Feng",
-    "orcid": "https://orcid.org/0000-0002-3868-2110"
+    "id": "A5054519063",
+    "name": "Helena Calatrava",
+    "rawName": "Calatrava, Helena",
+    "orcid": "https://orcid.org/0000-0001-8146-8411"
    },
    {
-    "id": "A5040405791",
-    "name": "Dongsheng Yang",
-    "rawName": "Dongsheng Yang",
-    "orcid": "https://orcid.org/0000-0002-1808-1908"
+    "id": "A5071452442",
+    "name": "Bhavya Duvvuri",
+    "rawName": "Duvvuri, Bhavya",
+    "orcid": "https://orcid.org/0000-0003-2910-8050"
    },
    {
-    "id": "A5043486930",
-    "name": "Bowen Zhou",
-    "rawName": "Bowen Zhou",
-    "orcid": "https://orcid.org/0000-0002-7400-6603"
+    "id": "A5034761291",
+    "name": "Haoqing Li",
+    "rawName": "Li, Haoqing",
+    "orcid": "https://orcid.org/0000-0001-6953-755X"
    },
    {
-    "id": "A5022557900",
-    "name": "Yanhong Luo",
-    "rawName": "Yanhong Luo",
-    "orcid": "https://orcid.org/0000-0002-0943-4169"
+    "id": "A5009495271",
+    "name": "Tales Imbiriba",
+    "rawName": "Imbiriba, Tales",
+    "orcid": "https://orcid.org/0000-0002-2626-2039"
    },
    {
-    "id": "A5101904920",
-    "name": "Guangdi Li",
-    "rawName": "Guangdi Li",
-    "orcid": "https://orcid.org/0000-0002-3550-2700"
+    "id": "A5043707054",
+    "name": "R. Edward Beighley",
+    "rawName": "Beighley, Edward",
+    "orcid": "https://orcid.org/0000-0003-1139-6226"
+   },
+   {
+    "id": "A5083261801",
+    "name": "Deniz Erdoğmuş",
+    "rawName": "Erdogmus, Deniz",
+    "orcid": "https://orcid.org/0000-0002-1114-3539"
+   },
+   {
+    "id": "A5070127242",
+    "name": "Pau Closas",
+    "rawName": "Closas, Pau",
+    "orcid": "https://orcid.org/0000-0002-5960-6600"
    }
   ]
  },
@@ -52330,41 +50477,6 @@
     "name": "Zhengang Li",
     "rawName": "Zhengang Li",
     "orcid": "https://orcid.org/0000-0001-6644-4761"
-   }
-  ]
- },
- {
-  "id": "W4291972718",
-  "title": "Understanding Mechanisms of All-solid-state Lithium-Sulfur Batteries through Operando Raman and Ex-situ XAS Studying",
-  "year": 2022,
-  "url": "https://doi.org/10.26434/chemrxiv-2022-vk5lb",
-  "themes": [
-   "Decarbonization"
-  ],
-  "authors": [
-   {
-    "id": "A5074070055",
-    "name": "Xiao Hui Sun",
-    "rawName": "Xiao Sun",
-    "orcid": "https://orcid.org/0000-0002-0449-7603"
-   },
-   {
-    "id": "A5091648041",
-    "name": "Daxian Cao",
-    "rawName": "Daxian Cao",
-    "orcid": "https://orcid.org/0000-0003-1191-5954"
-   },
-   {
-    "id": "A5083981465",
-    "name": "Tongtai Ji",
-    "rawName": "Tongtai Ji",
-    "orcid": "https://orcid.org/0000-0003-2106-6861"
-   },
-   {
-    "id": "A5028366101",
-    "name": "Hongli Zhu",
-    "rawName": "Hongli Zhu",
-    "orcid": "https://orcid.org/0000-0003-1733-4333"
    }
   ]
  },
