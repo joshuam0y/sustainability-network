@@ -8,9 +8,10 @@ For whoever looks after these sites next. No coding is needed for anything in th
 |---|---|---|
 | Faculty map | https://joshuam0y.github.io/sustainability-network/ | Who works on sustainability, by theme |
 | Curriculum map | https://joshuam0y.github.io/sustainability-network/curriculum/ | Sustainability in each program, every sustainability course, charts, STARS numbers |
+| Programs list | https://joshuam0y.github.io/sustainability-network/programs/ | Sustainability-focused majors, minors, degrees and certificates, plus programs with strong sustainability coursework |
 | Review page | https://joshuam0y.github.io/sustainability-network/review/ | For the sustainability team: confirm or correct which courses count |
 
-Both update themselves: research every morning, the course catalog on the 1st of each month.
+They update themselves: research every morning, the course catalog on the 1st of each month.
 
 ## Regular jobs
 
@@ -28,6 +29,12 @@ Download, open the GitHub upload link on the page, and drop the file in. The sit
   up people with the same name, so check before removing anyone.
 - `program_checks.csv`: programs whose results look unusual. Open the catalog link and compare.
 - `model_labeled_courses.csv`: the same courses as the review page, as a spreadsheet.
+
+**Fix the programs list (when a program is in the wrong place).** Programs whose name mentions sustainability, the
+environment, climate, energy and similar topics are listed as sustainability-focused; others that require at least
+3 sustainability courses are listed under strong sustainability coursework. To change one, add a row to
+`data/base/program_directory.csv` with the program's name as the catalog writes it, without the campus (for example
+`Business Administration, MBA`), and `focused`, `related` or `hide`. It takes effect at the next monthly update.
 
 **Change a setting.** `pipeline/settings.py` has switches for showing emails and the "joined in the last 3 years"
 flag, and the email address "Report a problem" links send to. Edit it on GitHub with the pencil icon.

@@ -1,0 +1,22 @@
+.programs-page { max-width: 880px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+.programs-page header { margin-bottom: 2rem; }
+.eyebrow { font-size: var(--step--1); font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); }
+.programs-page h1 { font-size: var(--step-3); font-weight: 900; margin: 0.35rem 0 0.75rem; }
+.programs-page .intro { font-size: var(--step-1); max-width: 46rem; color: var(--ink); }
+.search input { margin-top: 1.25rem; width: 100%; max-width: 30rem; padding: 0.65rem 0.85rem; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); }
+.program-list { margin-top: 2.25rem; }
+.program-list h2 { font-size: var(--step-2); font-weight: 900; padding-bottom: 0.4rem; border-bottom: 3px solid var(--ink); }
+.list-intro { margin-top: 0.5rem; color: var(--ink-soft); }
+.group h3 { font-size: var(--step-1); font-weight: 700; margin: 1.5rem 0 0.6rem; }
+.group h3 .count { font-weight: 400; color: var(--ink-soft); font-size: var(--step--1); margin-left: 0.25rem; }
+.group ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; }
+.program { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 0.9rem 1.1rem; }
+.program h4 { font-size: var(--step-1); margin: 0; }
+.program h4 a { color: var(--ink); text-decoration: none; }
+.program h4 a:hover { text-decoration: underline; }
+.program-meta { font-size: var(--step--1); color: var(--ink-soft); margin-top: 0.15rem; }
+.program-notice { font-size: var(--step--1); font-weight: 700; margin-top: 0.4rem; }
+.program-desc { margin-top: 0.45rem; }
+.program-courses { font-size: var(--step--1); color: var(--ink-soft); margin-top: 0.45rem; }
+.none { margin-top: 1rem; color: var(--ink-soft); }
+.foot { margin-top: 2.5rem; color: var(--ink-soft); }

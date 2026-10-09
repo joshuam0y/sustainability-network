@@ -81,6 +81,9 @@ lists as **options**, plus a searchable list of every sustainability course and 
   2023–24 catalog (`data/base/course_labels.csv`). Newer courses are sorted by a model trained on that list and
   shown as "suggested"; they're listed in `data/review/model_labeled_courses.csv` for someone to check. To confirm or
   reject one, add it to `course_labels.csv` with `yes` or `no`.
+- **`/programs/`** lists sustainability-focused programs (by name) and programs that require at least 3 sustainability
+  courses, with the catalog's description of each. `data/base/program_directory.csv` (`program,list`) moves a
+  program to `focused`, `related` or `hide`.
 - A course named in a "choose from this list" group counts as an option. Open electives (any course a student
   likes) aren't counted.
 

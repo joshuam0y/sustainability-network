@@ -167,6 +167,36 @@ def parse_requirements(page):
     return list(found.values())
 
 
+# A program page has a requirements tab: "programrequirementstexttab" on majors and graduate programs,
+# "minorrequirementstexttab" on minors (and similar names elsewhere)
+REQUIREMENTS_TAB = re.compile(r'id="[a-z]*requirementstexttab"')
+
+
+# Short notices at the top of some overviews ("Admissions to this program will open for 2027-2028")
+NOTICE = re.compile(r"\badmission|\bwill (open|begin|close)\b|not (currently )?accepting|no longer (admit|accept|offer)|"
+                    r"^please note|^note:|\beffective (fall|spring|summer)\b", re.I)
+
+
+def plain(words):
+    """Catalog text, with em and en dashes written as commas and hyphens."""
+    return re.sub(r"\s*[\u2014]\s*", ", ", words).replace("\u2013", "-")
+
+
+def overview(page):
+    """(description, notice): the first real paragraph of the catalog page's overview tab, and any short notice
+    above it (for example when admissions open)."""
+    box = re.search(r'<div id="textcontainer"[^>]*>(.*?)</div>', page, re.S)
+    notice = ""
+    for para in re.findall(r"<p[^>]*>(.*?)</p>", box.group(1) if box else "", re.S):
+        words = plain(text(para))
+        if NOTICE.search(words) and len(words) < 200:
+            notice = notice or words
+            continue
+        if len(words) > 40:
+            return words, notice
+    return "", notice
+
+
 def links_under(page, prefix):
     return {h for h in re.findall(r'href="(' + re.escape(prefix) + r'[a-z0-9-]+/(?:[a-z0-9-]+/)*)"', page)}
 
@@ -188,7 +218,7 @@ def crawl_level(level):
             seen.add(path)
             title = re.search(r"<title>(.*?)</title>", page, re.S)
             name = html.unescape(title.group(1)).split("<")[0].strip() if title else path
-            if "sc_courselist" in page and "programrequirementstexttab" in page:
+            if "sc_courselist" in page and REQUIREMENTS_TAB.search(page):
                 college_name = " ".join(html.unescape((re.search(r'<a href="' + re.escape(college) + r'">([^<]+)</a>', page)
                                                        or [None, college.split("/")[2]])[1]).split())
                 programs.append({
@@ -197,6 +227,8 @@ def crawl_level(level):
                     "level": "Undergraduate" if level == "undergraduate" else "Graduate",
                     "college": college_name,
                     "url": BASE + path,
+                    "description": overview(page)[0],
+                    "notice": overview(page)[1],
                     "courses": parse_requirements(page),
                 })
             if path.count("/") < 6:

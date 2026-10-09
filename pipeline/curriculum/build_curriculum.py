@@ -57,6 +57,13 @@ COLLEGE_NAMES = {
     "Khoury": "Khoury College of Computer Sciences",
 }
 
+# Programs page (programs/): a program is "focused" when its name is about sustainability, and "related" when
+# it isn't but requires at least RELATED_MIN_REQUIRED sustainability courses. data/base/program_directory.csv
+# (columns: program, list) moves a program to "focused", "related" or "hide"; program is the name without campus.
+FOCUSED_NAME = re.compile(r"sustainab|environment|climate|energy|ecolog|marine|ocean|conservation|earth|geoscien|resilien|"
+                          r"\bwater\b|renewable", re.I)
+RELATED_MIN_REQUIRED = 3
+
 # Generic courses whose listing says nothing about their content
 GENERIC = re.compile(r"^(elective|directed study|independent study|thesis|dissertation|research|co-?op|internship|"
                      r"special topics|topics|seminar|practicum|readings|capstone|continuing|exam preparation)\b", re.I)
@@ -276,12 +283,29 @@ def main():
             "college": " ".join(p["college"].split()),
             "url": p["url"],
             "listedCount": len(listed),
+            "description": p.get("description", ""),
+            "notice": p.get("notice", ""),
             "required": sorted(required),
             "options": sorted(options),
             "inRanges": sorted(in_ranges),
         })
         for code in required | options:
             used_in[code].append(pid)
+
+    # ---- Which list each program goes in on the programs page
+    overrides = {}
+    if (BASE / "program_directory.csv").exists():
+        overrides = {r["program"].strip().lower(): r["list"].strip().lower() for r in load_csv(BASE / "program_directory.csv")}
+    for p in program_rows:
+        chosen = overrides.get(p["baseName"].lower())
+        if chosen in ("focused", "related", "hide"):
+            p["list"] = chosen
+        elif FOCUSED_NAME.search(p["baseName"]):
+            p["list"] = "focused"
+        elif len(p["required"]) >= RELATED_MIN_REQUIRED:
+            p["list"] = "related"
+        else:
+            p["list"] = ""
 
     # ---- Completion rates, when University Decision Support provides them (data/base/completions.csv with
     # columns: program, level, graduates, completed_sustainability, year). Matched by program name.
