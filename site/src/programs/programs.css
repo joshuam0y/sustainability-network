@@ -3,7 +3,7 @@
 .eyebrow { font-size: var(--step--1); font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); }
 .programs-page h1 { font-size: var(--step-3); font-weight: 900; margin: 0.35rem 0 0.75rem; }
 .programs-page .intro { font-size: var(--step-1); max-width: 46rem; color: var(--ink); }
-.search input { margin-top: 1.25rem; width: 100%; max-width: 30rem; padding: 0.65rem 0.85rem; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); }
+.search input { width: 100%; max-width: 30rem; padding: 0.65rem 0.85rem; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); }
 .program-list { margin-top: 2.25rem; }
 .program-list h2 { font-size: var(--step-2); font-weight: 900; padding-bottom: 0.4rem; border-bottom: 3px solid var(--ink); }
 .list-intro { margin-top: 0.5rem; color: var(--ink-soft); }
@@ -20,3 +20,18 @@
 .program-courses { font-size: var(--step--1); color: var(--ink-soft); margin-top: 0.45rem; }
 .none { margin-top: 1rem; color: var(--ink-soft); }
 .foot { margin-top: 2.5rem; color: var(--ink-soft); }
+.controls { position: sticky; top: 0; z-index: 2; background: var(--mist); padding: 0.75rem 0; display: grid; gap: 0.6rem; border-bottom: 1px solid var(--line); }
+.toggle { display: flex; align-items: center; gap: 0.75rem; }
+.toggle-label { flex: 0 0 2.6rem; font-size: var(--step--1); font-weight: 700; color: var(--ink-soft); }
+.toggle-options { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.toggle button { font: inherit; font-size: var(--step--1); font-weight: 700; padding: 0.45rem 0.85rem; min-height: 2.25rem; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); cursor: pointer; }
+.toggle button:hover { border-color: var(--ink-soft); }
+.toggle button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.toggle button .count { font-weight: 400; opacity: 0.75; margin-left: 0.15rem; }
+.toggle button:focus-visible, .search input:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
+.link-button { font: inherit; background: none; border: 0; padding: 0; color: var(--link); text-decoration: underline; cursor: pointer; }
+@media (max-width: 560px) {
+  .toggle { flex-direction: column; align-items: flex-start; gap: 0.3rem; }
+  .toggle-label { flex: none; }
+  .controls { position: static; }
+}

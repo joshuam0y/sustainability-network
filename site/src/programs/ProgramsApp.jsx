@@ -8,11 +8,11 @@ const DATA = `${import.meta.env.BASE_URL}../data/curriculum/`
 
 // Groups on the page, in order
 const GROUPS = [
-  { key: 'majors', title: 'Undergraduate majors', test: (p) => p.level === 'Undergraduate' && p.type === "Bachelor's" },
-  { key: 'minors', title: 'Undergraduate minors', test: (p) => p.level === 'Undergraduate' && p.type === 'Minor' },
-  { key: 'graduate', title: "Graduate degrees (master's and PhD)", test: (p) => p.level === 'Graduate' && (p.type === "Master's" || p.type === 'Doctorate') },
-  { key: 'certificates', title: 'Graduate certificates', test: (p) => p.level === 'Graduate' && p.type === 'Certificate' },
-  { key: 'other', title: 'Other programs', test: () => true },
+  { key: 'majors', short: 'Majors', title: 'Undergraduate majors', test: (p) => p.level === 'Undergraduate' && p.type === "Bachelor's" },
+  { key: 'minors', short: 'Minors', title: 'Undergraduate minors', test: (p) => p.level === 'Undergraduate' && p.type === 'Minor' },
+  { key: 'graduate', short: 'Graduate degrees', title: "Graduate degrees (master's and PhD)", test: (p) => p.level === 'Graduate' && (p.type === "Master's" || p.type === 'Doctorate') },
+  { key: 'certificates', short: 'Certificates', title: 'Graduate certificates', test: (p) => p.level === 'Graduate' && p.type === 'Certificate' },
+  { key: 'other', short: 'Other', title: 'Other programs', test: () => true },
 ]
 
 // The catalog lists a program once per campus; show it once with every campus
@@ -86,10 +86,40 @@ function Section({ title, intro, programs }) {
   )
 }
 
+const LISTS = [
+  { key: 'focused', label: 'Sustainability-focused' },
+  { key: 'related', label: 'Strong sustainability coursework' },
+  { key: 'all', label: 'Both' },
+]
+const KINDS = [{ key: 'all', label: 'All kinds' }, ...GROUPS.map((g) => ({ key: g.key, label: g.short }))]
+
+// A row of buttons where one is pressed, e.g. Majors | Minors | Certificates
+function Toggle({ label, options, value, onChange, counts }) {
+  return (
+    <div className="toggle" role="group" aria-label={label}>
+      <span className="toggle-label">{label}</span>
+      <div className="toggle-options">
+        {options.filter((o) => counts[o.key] || o.key === value || o.key === 'all').map((o) => (
+          <button key={o.key} type="button" aria-pressed={o.key === value} onClick={() => onChange(o.key)}>
+            {o.label} <span className="count">{counts[o.key] ?? 0}</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+// Keep the chosen toggles in the address, so a link opens the same view
+const params = new URLSearchParams(window.location.search)
+const initialList = LISTS.some((l) => l.key === params.get('show')) ? params.get('show') : 'focused'
+const initialKind = KINDS.some((k) => k.key === params.get('kind')) ? params.get('kind') : 'all'
+
 export default function ProgramsApp() {
   const [programs, setPrograms] = useState(null)
   const [error, setError] = useState(null)
   const [q, setQ] = useState('')
+  const [list, setList] = useState(initialList)
+  const [kind, setKind] = useState(initialKind)
 
   useEffect(() => {
     fetch(`${DATA}programs.json`)
@@ -98,13 +128,26 @@ export default function ProgramsApp() {
       .catch((e) => setError(e.message))
   }, [])
 
-  const { focused, related } = useMemo(() => {
-    const all = mergeCampuses((programs ?? []).filter((p) => p.list === 'focused' || p.list === 'related'))
-    const words = q.toLowerCase().split(/\s+/).filter(Boolean)
-    const match = (p) => words.every((w) => `${p.baseName} ${p.college} ${p.description}`.toLowerCase().includes(w))
-    const shown = all.filter(match)
-    return { focused: shown.filter((p) => p.list === 'focused'), related: shown.filter((p) => p.list === 'related') }
-  }, [programs, q])
+  useEffect(() => {
+    const next = new URLSearchParams()
+    if (list !== 'focused') next.set('show', list)
+    if (kind !== 'all') next.set('kind', kind)
+    const query = next.toString()
+    window.history.replaceState(null, '', query ? `?${query}` : window.location.pathname)
+  }, [list, kind])
+
+  const all = useMemo(() => mergeCampuses((programs ?? []).filter((p) => p.list === 'focused' || p.list === 'related')), [programs])
+  const words = q.toLowerCase().split(/\s+/).filter(Boolean)
+  const searched = all.filter((p) => words.every((w) => `${p.baseName} ${p.college} ${p.description}`.toLowerCase().includes(w)))
+  const kindOf = (p) => GROUPS.find((g) => g.test(p)).key
+  const inList = (p, l) => l === 'all' || p.list === l
+  const inKind = (p, k) => k === 'all' || kindOf(p) === k
+
+  const listCounts = Object.fromEntries(LISTS.map((l) => [l.key, searched.filter((p) => inList(p, l.key) && inKind(p, kind)).length]))
+  const kindCounts = Object.fromEntries(KINDS.map((k) => [k.key, searched.filter((p) => inList(p, list) && inKind(p, k.key)).length]))
+  const shown = searched.filter((p) => inKind(p, kind))
+  const focused = list === 'related' ? [] : shown.filter((p) => p.list === 'focused')
+  const related = list === 'focused' ? [] : shown.filter((p) => p.list === 'related')
 
   return (
     <main className="programs-page">
@@ -117,19 +160,28 @@ export default function ProgramsApp() {
           from business to architecture to public policy, require sustainability courses as part of the degree.
           Descriptions come from the Northeastern Academic Catalog, and the list updates every month.
         </p>
-        <label className="search">
-          <span className="visually-hidden">Search programs</span>
-          <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search programs, colleges or topics" />
-        </label>
       </header>
       {error && <p className="none">{error}</p>}
       {!programs && !error && <p className="none">Loading programs…</p>}
       {programs && (<>
+        <div className="controls">
+          <Toggle label="Show" options={LISTS} value={list} onChange={setList} counts={listCounts} />
+          <Toggle label="Kind" options={KINDS} value={kind} onChange={setKind} counts={kindCounts} />
+          <label className="search">
+            <span className="visually-hidden">Search programs</span>
+            <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search programs, colleges or topics" />
+          </label>
+        </div>
         <Section title="Sustainability-focused programs" programs={focused}
           intro="Majors, minors, degrees and certificates centered on sustainability, the environment, climate or energy." />
         <Section title="Programs with strong sustainability coursework" programs={related}
           intro="Programs in other fields that require several sustainability courses." />
-        {!focused.length && !related.length && <p className="none">No programs match your search.</p>}
+        {!focused.length && !related.length && (
+          <p className="none">
+            No programs match.{' '}
+            <button type="button" className="link-button" onClick={() => { setQ(''); setKind('all'); setList('all') }}>Show all programs</button>
+          </p>
+        )}
         <p className="foot">
           Looking for individual courses? See every sustainability course in the{' '}
           <a href="../curriculum/?view=courses">curriculum map</a>, or find faculty working on sustainability on the{' '}
