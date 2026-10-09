@@ -1,37 +1,37 @@
-.programs-page { max-width: 880px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
-.programs-page header { margin-bottom: 2rem; }
-.eyebrow { font-size: var(--step--1); font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); }
-.programs-page h1 { font-size: var(--step-3); font-weight: 900; margin: 0.35rem 0 0.75rem; }
-.programs-page .intro { font-size: var(--step-1); max-width: 46rem; color: var(--ink); }
-.search input { width: 100%; max-width: 30rem; padding: 0.65rem 0.85rem; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); }
-.program-list { margin-top: 2.25rem; }
-.program-list h2 { font-size: var(--step-2); font-weight: 900; padding-bottom: 0.4rem; border-bottom: 3px solid var(--ink); }
-.list-intro { margin-top: 0.5rem; color: var(--ink-soft); }
-.group h3 { font-size: var(--step-1); font-weight: 700; margin: 1.5rem 0 0.6rem; }
-.group h3 .count { font-weight: 400; color: var(--ink-soft); font-size: var(--step--1); margin-left: 0.25rem; }
-.group ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; }
-.program { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 0.9rem 1.1rem; }
-.program h4 { font-size: var(--step-1); margin: 0; }
-.program h4 a { color: var(--ink); text-decoration: none; }
-.program h4 a:hover { text-decoration: underline; }
-.program-meta { font-size: var(--step--1); color: var(--ink-soft); margin-top: 0.15rem; }
-.program-notice { font-size: var(--step--1); font-weight: 700; margin-top: 0.4rem; }
-.program-desc { margin-top: 0.45rem; }
-.program-courses { font-size: var(--step--1); color: var(--ink-soft); margin-top: 0.45rem; }
-.none { margin-top: 1rem; color: var(--ink-soft); }
-.foot { margin-top: 2.5rem; color: var(--ink-soft); }
-.controls { position: sticky; top: 0; z-index: 2; background: var(--mist); padding: 0.75rem 0; display: grid; gap: 0.6rem; border-bottom: 1px solid var(--line); }
-.toggle { display: flex; align-items: center; gap: 0.75rem; }
-.toggle-label { flex: 0 0 2.6rem; font-size: var(--step--1); font-weight: 700; color: var(--ink-soft); }
-.toggle-options { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-.toggle button { font: inherit; font-size: var(--step--1); font-weight: 700; padding: 0.45rem 0.85rem; min-height: 2.25rem; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); cursor: pointer; }
-.toggle button:hover { border-color: var(--ink-soft); }
-.toggle button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
-.toggle button .count { font-weight: 400; opacity: 0.75; margin-left: 0.15rem; }
-.toggle button:focus-visible, .search input:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
-.link-button { font: inherit; background: none; border: 0; padding: 0; color: var(--link); text-decoration: underline; cursor: pointer; }
+/* Styled after the Northeastern Academic Catalog (catalog.northeastern.edu): white page, Lato, light headings,
+   red links with a dotted underline, black and gray tabs */
+body { background: #fff; }
+.programs-page {
+  --text: #333; --red: #d41b2c; --rule: #d0d0d0;
+  max-width: 860px; margin: 0 auto; padding: 1.5rem 1rem 4rem;
+  font-family: Lato, Roboto, Arial, sans-serif; font-size: 17px; line-height: 1.5; color: var(--text);
+}
+.programs-page a { color: var(--red); text-decoration: none; border-bottom: 1px dotted rgba(212, 27, 44, 0.5); }
+.programs-page a:hover { border-bottom-style: solid; }
+.programs-page p { margin: 0 0 1rem; }
+.crumbs { font-size: 15px; font-weight: 300; }
+.crumbs a { color: var(--text) !important; border: 0 !important; }
+.programs-page h1 { font-size: 45px; font-weight: 300; line-height: 1.05; color: var(--text); margin: 0.5rem 0 1.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--rule); }
+.programs-page h2 { font-size: 26px; font-weight: 700; letter-spacing: -0.5px; line-height: 1.2; color: var(--text); margin: 2.25rem 0 0.75rem; }
+.programs-page h3 { font-size: 20px; font-weight: 700; color: var(--text); margin: 1.5rem 0 0.5rem; }
+.tabs { display: flex; flex-wrap: wrap; gap: 1px; margin: 1.5rem 0 0; border-bottom: 1px solid var(--rule); }
+.tabs button { font: inherit; font-size: 14px; text-transform: uppercase; padding: 15px 18px; border: 0; border-radius: 0; background: rgba(0, 0, 0, 0.05); color: #1a1a1a; cursor: pointer; }
+.tabs button:hover { background: rgba(0, 0, 0, 0.1); }
+.tabs button[aria-pressed="true"] { background: #1a1a1a; color: #fff; }
+.search input { display: block; width: 100%; max-width: 22rem; margin: 1rem 0 0; padding: 0.5rem 0.65rem; font: inherit; font-size: 16px; color: var(--text); border: 1px solid #bbb; border-radius: 0; background: #fff; }
+.tabs button:focus-visible, .search input:focus-visible { outline: 2px solid #1a1a1a; outline-offset: 2px; }
+ul.programs { margin: 0 0 1rem; padding-left: 1.25rem; }
+ul.programs li { margin: 0 0 0.9rem; }
+ul.programs li::marker { color: var(--red); }
+.program-name { font-weight: 700; }
+.program-where { font-size: 15px; }
+.program-notice { font-size: 15px; }
+.program-courses { font-size: 15px; white-space: nowrap; }
+.programs-page hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0 1rem; }
+.foot { font-size: 15px; }
+.link-button { font: inherit; background: none; border: 0; padding: 0; color: var(--red); border-bottom: 1px dotted rgba(212, 27, 44, 0.5); cursor: pointer; }
 @media (max-width: 560px) {
-  .toggle { flex-direction: column; align-items: flex-start; gap: 0.3rem; }
-  .toggle-label { flex: none; }
-  .controls { position: static; }
+  .programs-page h1 { font-size: 34px; padding-bottom: 1.25rem; }
+  .tabs button { padding: 12px 13px; font-size: 13px; }
+  .program-courses { white-space: normal; }
 }

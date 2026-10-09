@@ -30,95 +30,62 @@ function mergeCampuses(programs) {
   return [...byName.values()].map((p) => ({ ...p, campuses: p.campuses.sort() }))
 }
 
-// The first sentence or two of the catalog's description
+// The catalog description's first sentence (two if the first is very short)
 function summary(text) {
   if (!text) return ''
   const sentences = text.match(/[^.!?]+[.!?]+(\s|$)/g) ?? [text]
   let out = ''
   for (const s of sentences) {
-    if (out && (out + s).length > 260) break
+    if (out && (out.length > 90 || (out + s).length > 240)) break
     out += s
   }
   return out.trim()
 }
 
-// The catalog writes some names with a long dash ("MBA\u2014Full-Time"); show a comma instead
-const title = (name) => name.replace(/\s*\u2014\s*/g, ', ')
+// The catalog writes some names with a long dash ("MBA—Full-Time"); show a comma instead
+const title = (name) => name.replace(/\s*—\s*/g, ', ')
 
-const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`
+const curriculumLink = (p) =>
+  `../curriculum/?program=${encodeURIComponent(p.id)}&level=${encodeURIComponent(p.level)}&type=${encodeURIComponent(p.type)}&campus=${encodeURIComponent(p.campus)}`
 
 function Program({ p }) {
-  const req = p.required.length
-  const opt = p.options.length
+  const where = [p.college, p.campuses.length > 1 || p.campuses[0] !== 'Boston' ? p.campuses.join(', ') : ''].filter(Boolean).join(', ')
   return (
-    <li className="program">
-      <h4><a href={p.url} target="_blank" rel="noopener">{title(p.baseName)}</a></h4>
-      <p className="program-meta">
-        {p.college}{p.campuses.length ? ` · ${p.campuses.join(', ')}` : ''}
-      </p>
-      {p.notice && <p className="program-notice">{p.notice}</p>}
-      {p.description && <p className="program-desc">{summary(p.description)}</p>}
-      <p className="program-courses">
-        {req || opt
-          ? <>{req ? `Requires ${plural(req, 'sustainability course')}` : 'Sustainability courses to choose from'}{req && opt ? `, plus ${opt} more to choose from` : !req ? ` (${opt})` : ''}. </>
-          : null}
-        <a href={`../curriculum/?program=${encodeURIComponent(p.id)}&level=${encodeURIComponent(p.level)}&type=${encodeURIComponent(p.type)}&campus=${encodeURIComponent(p.campus)}`}>See its courses</a>
-      </p>
+    <li>
+      <a className="program-name" href={p.url} target="_blank" rel="noopener">{title(p.baseName)}</a>
+      {where && <span className="program-where"> ({where})</span>}
+      {p.notice && <em className="program-notice"> {p.notice}</em>}
+      <br />
+      {summary(p.description)}{' '}
+      <a className="program-courses" href={curriculumLink(p)}>Sustainability courses</a>
     </li>
   )
 }
 
-function Section({ title, intro, programs }) {
-  if (!programs.length) return null
-  const groups = GROUPS.map((g) => ({ ...g, items: [] }))
-  for (const p of programs) groups.find((g) => g.test(p)).items.push(p)
-  return (
-    <section className="program-list">
-      <h2>{title}</h2>
-      <p className="list-intro">{intro}</p>
-      {groups.filter((g) => g.items.length).map((g) => (
-        <div key={g.key} className="group">
-          <h3>{g.title} <span className="count">{g.items.length}</span></h3>
-          <ul>{g.items.sort((a, b) => a.baseName.localeCompare(b.baseName)).map((p) => <Program key={`${p.baseName}${p.type}${p.level}`} p={p} />)}</ul>
-        </div>
-      ))}
-    </section>
-  )
-}
-
-const LISTS = [
-  { key: 'focused', label: 'Sustainability-focused' },
-  { key: 'related', label: 'Strong sustainability coursework' },
-  { key: 'all', label: 'Both' },
-]
-const KINDS = [{ key: 'all', label: 'All kinds' }, ...GROUPS.map((g) => ({ key: g.key, label: g.short }))]
-
-// A row of buttons where one is pressed, e.g. Majors | Minors | Certificates
-function Toggle({ label, options, value, onChange, counts }) {
-  return (
-    <div className="toggle" role="group" aria-label={label}>
-      <span className="toggle-label">{label}</span>
-      <div className="toggle-options">
-        {options.filter((o) => counts[o.key] || o.key === value || o.key === 'all').map((o) => (
-          <button key={o.key} type="button" aria-pressed={o.key === value} onClick={() => onChange(o.key)}>
-            {o.label} <span className="count">{counts[o.key] ?? 0}</span>
-          </button>
-        ))}
+function ProgramList({ programs, grouped }) {
+  const sorted = [...programs].sort((a, b) => a.baseName.localeCompare(b.baseName))
+  if (!grouped) return <ul className="programs">{sorted.map((p) => <Program key={`${p.baseName}${p.type}${p.level}`} p={p} />)}</ul>
+  return GROUPS.map((g) => {
+    const items = sorted.filter((p) => GROUPS.find((x) => x.test(p)) === g)
+    return items.length ? (
+      <div key={g.key}>
+        <h3>{g.title}</h3>
+        <ul className="programs">{items.map((p) => <Program key={`${p.baseName}${p.type}${p.level}`} p={p} />)}</ul>
       </div>
-    </div>
-  )
+    ) : null
+  })
 }
 
-// Keep the chosen toggles in the address, so a link opens the same view
-const params = new URLSearchParams(window.location.search)
-const initialList = LISTS.some((l) => l.key === params.get('show')) ? params.get('show') : 'focused'
-const initialKind = KINDS.some((k) => k.key === params.get('kind')) ? params.get('kind') : 'all'
+const TABS = [{ key: 'all', short: 'All programs' }, ...GROUPS.filter((g) => g.key !== 'other')]
+
+// The chosen tab stays in the address (?kind=minors), so a link opens the same tab
+const initialKind = TABS.some((t) => t.key === new URLSearchParams(window.location.search).get('kind'))
+  ? new URLSearchParams(window.location.search).get('kind') : 'all'
 
 export default function ProgramsApp() {
   const [programs, setPrograms] = useState(null)
   const [error, setError] = useState(null)
   const [q, setQ] = useState('')
-  const [list, setList] = useState(initialList)
   const [kind, setKind] = useState(initialKind)
 
   useEffect(() => {
@@ -129,63 +96,58 @@ export default function ProgramsApp() {
   }, [])
 
   useEffect(() => {
-    const next = new URLSearchParams()
-    if (list !== 'focused') next.set('show', list)
-    if (kind !== 'all') next.set('kind', kind)
-    const query = next.toString()
-    window.history.replaceState(null, '', query ? `?${query}` : window.location.pathname)
-  }, [list, kind])
+    window.history.replaceState(null, '', kind === 'all' ? window.location.pathname : `?kind=${kind}`)
+  }, [kind])
 
   const all = useMemo(() => mergeCampuses((programs ?? []).filter((p) => p.list === 'focused' || p.list === 'related')), [programs])
   const words = q.toLowerCase().split(/\s+/).filter(Boolean)
-  const searched = all.filter((p) => words.every((w) => `${p.baseName} ${p.college} ${p.description}`.toLowerCase().includes(w)))
-  const kindOf = (p) => GROUPS.find((g) => g.test(p)).key
-  const inList = (p, l) => l === 'all' || p.list === l
-  const inKind = (p, k) => k === 'all' || kindOf(p) === k
-
-  const listCounts = Object.fromEntries(LISTS.map((l) => [l.key, searched.filter((p) => inList(p, l.key) && inKind(p, kind)).length]))
-  const kindCounts = Object.fromEntries(KINDS.map((k) => [k.key, searched.filter((p) => inList(p, list) && inKind(p, k.key)).length]))
-  const shown = searched.filter((p) => inKind(p, kind))
-  const focused = list === 'related' ? [] : shown.filter((p) => p.list === 'focused')
-  const related = list === 'focused' ? [] : shown.filter((p) => p.list === 'related')
+  const shown = all.filter((p) =>
+    (kind === 'all' || GROUPS.find((g) => g.test(p)).key === kind) &&
+    words.every((w) => `${p.baseName} ${p.college} ${p.description}`.toLowerCase().includes(w)))
+  const focused = shown.filter((p) => p.list === 'focused')
+  const related = shown.filter((p) => p.list === 'related')
 
   return (
     <main className="programs-page">
-      <header>
-        <p className="eyebrow">Northeastern University · Sustainability</p>
-        <h1>Academic Programs in Sustainability</h1>
-        <p className="intro">
-          Sustainability runs through Northeastern’s curriculum. Some programs are built around it: environmental and
-          sustainability sciences, climate and energy, marine science, environmental engineering and more. Many others,
-          from business to architecture to public policy, require sustainability courses as part of the degree.
-          Descriptions come from the Northeastern Academic Catalog, and the list updates every month.
-        </p>
-      </header>
-      {error && <p className="none">{error}</p>}
-      {!programs && !error && <p className="none">Loading programs…</p>}
+      <p className="crumbs"><a href="../">Sustainability Network</a> <span aria-hidden="true">›</span> Academic Programs</p>
+      <h1>Academic Programs in Sustainability</h1>
+
+      <p>
+        Northeastern offers majors, minors, graduate degrees and certificates focused on sustainability, and many
+        other programs include sustainability coursework. Program descriptions are from the{' '}
+        <a href="https://catalog.northeastern.edu/" target="_blank" rel="noopener">Academic Catalog</a>.
+      </p>
+
+      <div className="tabs" role="group" aria-label="Kind of program">
+        {TABS.map((t) => (
+          <button key={t.key} type="button" aria-pressed={t.key === kind} onClick={() => setKind(t.key)}>{t.short}</button>
+        ))}
+      </div>
+
+      <label className="search">
+        <span className="visually-hidden">Search programs</span>
+        <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search programs" />
+      </label>
+
+      {error && <p>{error}</p>}
+      {!programs && !error && <p>Loading programs…</p>}
       {programs && (<>
-        <div className="controls">
-          <Toggle label="Show" options={LISTS} value={list} onChange={setList} counts={listCounts} />
-          <Toggle label="Kind" options={KINDS} value={kind} onChange={setKind} counts={kindCounts} />
-          <label className="search">
-            <span className="visually-hidden">Search programs</span>
-            <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search programs, colleges or topics" />
-          </label>
-        </div>
-        <Section title="Sustainability-focused programs" programs={focused}
-          intro="Majors, minors, degrees and certificates centered on sustainability, the environment, climate or energy." />
-        <Section title="Programs with strong sustainability coursework" programs={related}
-          intro="Programs in other fields that require several sustainability courses." />
+        {focused.length > 0 && (<>
+          <h2>Sustainability-focused programs</h2>
+          <ProgramList programs={focused} grouped={kind === 'all'} />
+        </>)}
+        {related.length > 0 && (<>
+          <h2>Other programs that offer sustainability courses</h2>
+          <p>These programs require several sustainability courses.</p>
+          <ProgramList programs={related} grouped={kind === 'all'} />
+        </>)}
         {!focused.length && !related.length && (
-          <p className="none">
-            No programs match.{' '}
-            <button type="button" className="link-button" onClick={() => { setQ(''); setKind('all'); setList('all') }}>Show all programs</button>
-          </p>
+          <p>No programs match. <button type="button" className="link-button" onClick={() => { setQ(''); setKind('all') }}>Show all programs</button></p>
         )}
+        <hr />
         <p className="foot">
-          Looking for individual courses? See every sustainability course in the{' '}
-          <a href="../curriculum/?view=courses">curriculum map</a>, or find faculty working on sustainability on the{' '}
-          <a href="../">faculty map</a>.
+          See every sustainability course on the <a href="../curriculum/?view=courses">curriculum map</a>, or find
+          sustainability faculty on the <a href="../">faculty map</a>.
         </p>
       </>)}
     </main>
