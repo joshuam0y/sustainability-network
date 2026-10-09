@@ -1177,42 +1177,6 @@
   ]
  },
  {
-  "id": "W7213602370",
-  "title": "Analysis code and derived data for \"Shifting dengue vector composition under warming in South and Southeast Asia: a change routine surveillance cannot detect\"",
-  "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.22834785",
-  "themes": [
-   "Air and Climate Science",
-   "Biosphere"
-  ],
-  "authors": [
-   {
-    "id": "A5152134149",
-    "name": "Archita Ghosh",
-    "rawName": "Ghosh, Archita",
-    "orcid": "https://orcid.org/0009-0002-1303-4755"
-   },
-   {
-    "id": "A5064469636",
-    "name": "Mansoor M. Amiji",
-    "rawName": "Amiji, Mansoor",
-    "orcid": "https://orcid.org/0000-0001-6170-881X"
-   },
-   {
-    "id": "A5064658255",
-    "name": "Auroop Ratan Ganguly",
-    "rawName": "Ganguly, Auroop",
-    "orcid": "https://orcid.org/0000-0002-4292-4856"
-   },
-   {
-    "id": "A5103159653",
-    "name": "Ravi Sundaram",
-    "rawName": "Sundaram, Ravi",
-    "orcid": "https://orcid.org/0000-0001-5657-4298"
-   }
-  ]
- },
- {
   "id": "W7166853418",
   "title": "Anode Materials for Aqueous Ammonium-Ion Batteries: Recent Developments and Energy Storage Applications",
   "year": 2026,
@@ -2215,6 +2179,24 @@
     "name": "Àgata Lapedriza",
     "rawName": "Lapedriza, Àgata",
     "orcid": "https://orcid.org/0000-0002-5248-0443"
+   }
+  ]
+ },
+ {
+  "id": "W7220720050",
+  "title": "Comment on egusphere-2026-4532",
+  "year": 2026,
+  "url": "https://doi.org/10.5194/egusphere-2026-4532-rc1",
+  "themes": [
+   "Air and Climate Science",
+   "Strategic Thinking"
+  ],
+  "authors": [
+   {
+    "id": "A5157873135",
+    "name": "Chengfei He",
+    "rawName": "He, Chengfei",
+    "orcid": null
    }
   ]
  },
@@ -4934,6 +4916,12 @@
     "name": "Madeline G. Eppley",
     "rawName": "Madeline G. Eppley",
     "orcid": "https://orcid.org/0000-0003-2301-853X"
+   },
+   {
+    "id": "A5042144969",
+    "name": "Kiran Bajaj",
+    "rawName": "Kiran Bajaj",
+    "orcid": "https://orcid.org/0000-0003-4483-4747"
    },
    {
     "id": "A5040130605",
@@ -10052,6 +10040,24 @@
   ]
  },
  {
+  "id": "W7220852195",
+  "title": "Temporal trends of environmental variables in the Tristan da Cunha/Gough Islands: Potential effects on sub-Antarctic fur seal movements",
+  "year": 2026,
+  "url": "https://doi.org/10.1016/j.jmarsys.2026.104316",
+  "themes": [
+   "Air and Climate Science",
+   "Biosphere"
+  ],
+  "authors": [
+   {
+    "id": "A5086402813",
+    "name": "Cristina Schultz",
+    "rawName": "Cristina Schultz",
+    "orcid": "https://orcid.org/0000-0003-2006-7053"
+   }
+  ]
+ },
+ {
   "id": "W7203717651",
   "title": "Terrestrial linkages between carbon and water cycle interactions in India",
   "year": 2026,
@@ -10625,7 +10631,7 @@
  },
  {
   "id": "W7215066879",
-  "title": "Trajectory-Based Residual Deep Reinforcement Learning for Electric Vehicle Charging Scheduling with Grid Stability Constraints",
+  "title": "Trajectory-Based Residual Deep Reinforcement Learning for Electric Vehicle Charging Scheduling With Grid Stability Constraints",
   "year": 2026,
   "url": "https://doi.org/10.1109/tase.2026.3738822",
   "themes": [
@@ -14312,6 +14318,35 @@
     "name": "Justin B. Ries",
     "rawName": "Justin Ries",
     "orcid": "https://orcid.org/0000-0001-8427-206X"
+   }
+  ]
+ },
+ {
+  "id": "W4411494284",
+  "title": "Discovering Ni/Cu Single-Atom Alloy as a Highly Active and Selective Catalyst for Direct Methane Conversion to Ethylene: A First-Principles Kinetic Study",
+  "year": 2025,
+  "url": "https://doi.org/10.1021/acscatal.5c02570",
+  "themes": [
+   "Air and Climate Science"
+  ],
+  "authors": [
+   {
+    "id": "A5064023940",
+    "name": "Manish Kothakonda",
+    "rawName": "Manish Kothakonda",
+    "orcid": "https://orcid.org/0000-0002-5055-0655"
+   },
+   {
+    "id": "A5008541866",
+    "name": "Chengyu Zhou",
+    "rawName": "Chengyu Zhou",
+    "orcid": "https://orcid.org/0009-0006-9484-8126"
+   },
+   {
+    "id": "A5102705262",
+    "name": "Qing Zhao",
+    "rawName": "Qing Zhao",
+    "orcid": "https://orcid.org/0000-0002-5003-9355"
    }
   ]
  },
@@ -23995,23 +24030,6 @@
   ]
  },
  {
-  "id": "W4406917523",
-  "title": "Urban ozone formation and sensitivities to volatile chemical products, cooking emissions, and NO x upwind of and within two Los Angeles Basin cities",
-  "year": 2025,
-  "url": "https://doi.org/10.5194/acp-25-1121-2025",
-  "themes": [
-   "Air and Climate Science"
-  ],
-  "authors": [
-   {
-    "id": "A5100736012",
-    "name": "Shang Liu",
-    "rawName": "Shang Liu",
-    "orcid": "https://orcid.org/0000-0002-3403-8651"
-   }
-  ]
- },
- {
   "id": "W4416154126",
   "title": "Use of a multihazard sensor system for understanding rider experience and environmental conditions on urban rail",
   "year": 2025,
@@ -30162,7 +30180,7 @@
     "id": "A5107956030",
     "name": "Yue Liu",
     "rawName": "Yue Liu",
-    "orcid": "https://orcid.org/0009-0004-3506-4976"
+    "orcid": "https://orcid.org/0000-0001-9636-3655"
    },
    {
     "id": "A5026098227",
@@ -30821,7 +30839,7 @@
     "id": "A5069661412",
     "name": "Wei-Hsuan Li",
     "rawName": "Wendao LI",
-    "orcid": "https://orcid.org/0009-0003-6308-0378"
+    "orcid": null
    },
    {
     "id": "A5093887188",
