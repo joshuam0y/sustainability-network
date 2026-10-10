@@ -219,7 +219,8 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
-   "University of California System"
+   "University of California System",
+   "University of California, Berkeley"
   ],
   "name": "Yiming Jia",
   "orcid": "https://orcid.org/0000-0001-8027-0462",
@@ -1902,27 +1903,6 @@
   "name": "Lauren M. MacLean",
   "orcid": "https://orcid.org/0000-0002-0580-242X",
   "papers": 2
- },
- "A5006380421": {
-  "alternativeNames": [
-   "Hoang Anh  Thanh Nguyen",
-   "Hoang H Nguyen",
-   "Hoang H. Nguyen",
-   "Hoang H.M. Nguyen",
-   "Hoang Huy Nguyen",
-   "Hoang Nguyen",
-   "Nguyen, Hoang",
-   "Nguyen, Hoang H",
-   "Nguyen, Hoang H."
-  ],
-  "atNortheastern": false,
-  "currentInstitutions": [
-   "Linköping University",
-   "Ho Chi Minh City University of Law"
-  ],
-  "name": "Hoang Nguyen",
-  "orcid": "https://orcid.org/0000-0002-0682-8584",
-  "papers": 1
  },
  "A5006510504": {
   "alternativeNames": [
@@ -4304,7 +4284,7 @@
   "currentInstitutions": [
    "Northeastern University"
   ],
-  "name": "Diego M Alzate-Sánchez",
+  "name": "Diego Alzate-Sanchez",
   "orcid": null,
   "papers": 1
  },
@@ -4383,6 +4363,7 @@
    "Abowd, G. D.",
    "Abowd, Gregory D",
    "Abowd, Gregory D.",
+   "G Abowd",
    "G. Abowd",
    "G. D. Abowd",
    "G.D Abowd",
@@ -5068,19 +5049,6 @@
   "name": "Aatmesh Shrivastava",
   "orcid": "https://orcid.org/0000-0002-5738-9868",
   "papers": 3
- },
- "A5020820343": {
-  "alternativeNames": [
-   "Ryu, Youngbok",
-   "Youngbok Ryu"
-  ],
-  "atNortheastern": true,
-  "currentInstitutions": [
-   "Northeastern University"
-  ],
-  "name": "Youngbok Ryu",
-  "orcid": "https://orcid.org/0000-0003-3035-3301",
-  "papers": 1
  },
  "A5020862899": {
   "alternativeNames": [
@@ -8626,7 +8594,6 @@
  "A5038299568": {
   "alternativeNames": [
    "Asare, Ebenezer",
-   "Asare, Ebenezer  Aquisman",
    "Asare, Ebenezer Aquisman",
    "E. A. Asare",
    "E.A. Asare",
@@ -9546,8 +9513,9 @@
    "K. BAJAJ",
    "Kiran Bajaj"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
+   "Northeastern University",
    "Amity University",
    "Augusta University"
   ],
@@ -15493,6 +15461,7 @@
    "Nanchang Medical College",
    "Shanxi Institute of Technology",
    "CCTEG Xi'an Research Institute (China)",
+   "Guizhou Power Grid Co., Ltd. (China)",
    "Shandong Jianzhu University",
    "Qingdao University of Technology",
    "Shanghai Ocean University",
@@ -18509,7 +18478,8 @@
    "Institute of Chemical Industry of Forest Products",
    "Chinese Academy of Forestry",
    "Yancheng Institute of Technology",
-   "Collaborative Innovation Center for Water Treatment Technology and Materials"
+   "Collaborative Innovation Center for Water Treatment Technology and Materials",
+   "Lanzhou University"
   ],
   "name": "He Liu",
   "orcid": "https://orcid.org/0000-0001-9177-9459",
@@ -21561,6 +21531,30 @@
   "orcid": "https://orcid.org/0000-0003-3962-0867",
   "papers": 1
  },
+ "A5090774960": {
+  "alternativeNames": [
+   "Li Ting Zheng",
+   "Li Zheng",
+   "Z. LI",
+   "Z. Li",
+   "Zheng Li",
+   "Zi-Qian Li"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [
+   "Fujian Normal University",
+   "Chinese Academy of Sciences",
+   "Florida Gulf Coast University",
+   "Institute of Geographic Sciences and Natural Resources Research",
+   "Southwest Minzu University",
+   "Lanzhou University",
+   "University of California, Davis",
+   "ExxonMobil (United States)"
+  ],
+  "name": "Zheng Li",
+  "orcid": "https://orcid.org/0000-0003-2750-3161",
+  "papers": 1
+ },
  "A5090843869": {
   "alternativeNames": [
    "D Isaacowitz",
@@ -23610,6 +23604,7 @@
    "Wenzhou University",
    "China University of Petroleum, East China",
    "State Key Laboratory of Mineral Processing",
+   "South China University of Technology",
    "Northeastern University"
   ],
   "name": "Zihao Li",
@@ -23680,6 +23675,7 @@
    "Changchun Institute of Applied Chemistry",
    "Jiangsu University of Science and Technology",
    "Applied Materials (Singapore)",
+   "Luoyang Normal University",
    "State Key Laboratory of Rare Earth Resources Utilization",
    "Shaanxi University of Science and Technology"
   ],
@@ -24576,7 +24572,6 @@
    "Northeastern University",
    "Chinese Academy of Sciences",
    "Zhengzhou University",
-   "Institute of Process Engineering",
    "Luzhou Laojiao (China)"
   ],
   "name": "Zhi Wang",
@@ -24714,24 +24709,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
-   "Hebei Medical University",
-   "Guangzhou University of Chinese Medicine",
-   "Nanchang University",
-   "Shandong University",
-   "University of California, Los Angeles",
-   "China Three Gorges University",
-   "Dalian Medical University",
-   "Guangdong Provincial Hospital of Chinese Medicine",
-   "HUN-REN Wigner Research Centre for Physics",
-   "Shanghai Academy of Agricultural Sciences",
-   "Beijing Computational Science Research Center",
-   "First Affiliated Hospital of Dalian Medical University",
-   "Tongji Hospital",
-   "Qilu Hospital of Shandong University",
-   "Hubei Provincial Key Laboratory of Green Materials for Light Industry",
-   "Huazhong University of Science and Technology",
-   "Southern Medical University",
-   "University of South China"
+   "Anhui Medical University"
   ],
   "name": "Song Li",
   "orcid": "https://orcid.org/0000-0002-1664-6290",
@@ -26730,6 +26708,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Louisiana State University",
    "Cooch Behar Panchanan Barma University"
   ],
   "name": "Arpita Ghosh",
@@ -27919,6 +27898,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Beijing Academy of Artificial Intelligence",
    "State Key Laboratory for Advanced Metals and Materials",
    "Liaoning Academy of Materials",
    "University of Science and Technology Beijing"
@@ -31445,17 +31425,9 @@
    "Wang Ge",
    "Wang, Ge"
   ],
-  "atNortheastern": true,
+  "atNortheastern": false,
   "currentInstitutions": [
-   "University of Science and Technology of China",
-   "Northeastern University",
-   "Zhejiang Normal University",
-   "Chinese Academy of Sciences",
-   "Dalian University of Technology",
-   "Institute of Metal Research",
-   "Beijing Institute of Control Engineering",
-   "Key Laboratory of Materials Modification by Laser, Ion and Electron Beams",
-   "Northeastern University"
+   "China University of Mining and Technology"
   ],
   "name": "Ge Wang",
   "orcid": "https://orcid.org/0000-0002-1844-2021",
@@ -37711,6 +37683,19 @@
   "orcid": null,
   "papers": 1
  },
+ "A5122525911": {
+  "alternativeNames": [
+   "Abdul Rashid Dickson",
+   "Dickson, Abdul Rashid"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Abdul Rashid Dickson",
+  "orcid": "https://orcid.org/0009-0008-1268-6747",
+  "papers": 1
+ },
  "A5122526376": {
   "alternativeNames": [
    "SungKu Kang"
@@ -38283,7 +38268,7 @@
    "Northeastern University"
   ],
   "name": "Mengting Ye",
-  "orcid": null,
+  "orcid": "https://orcid.org/0009-0002-2051-0000",
   "papers": 2
  },
  "A5124084735": {
@@ -41954,19 +41939,6 @@
   "orcid": null,
   "papers": 1
  },
- "A5154055072": {
-  "alternativeNames": [
-   "Energy Efficiency Office USDOE Office of Energy Efficiency and Renewable Energy (EERE)",
-   "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office"
-  ],
-  "atNortheastern": true,
-  "currentInstitutions": [
-   "Northeastern University"
-  ],
-  "name": "Energy Efficiency Office USDOE Office of Energy Efficiency and Renewable Energy (EERE)",
-  "orcid": null,
-  "papers": 1
- },
  "A5154098336": {
   "alternativeNames": [
    "Nounphong Yingphan",
@@ -41978,6 +41950,18 @@
    "Southeast Asia University"
   ],
   "name": "Nounphong Yingphan",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5154099374": {
+  "alternativeNames": [
+   "Sribun, Waraporn",
+   "Waraporn Sribun",
+   "sribun, waraporn"
+  ],
+  "atNortheastern": false,
+  "currentInstitutions": [],
+  "name": "Waraporn Sribun",
   "orcid": null,
   "papers": 1
  },

@@ -2568,7 +2568,7 @@
     "id": "A5124045469",
     "name": "Mengting Ye",
     "rawName": "Mengting Ye",
-    "orcid": null
+    "orcid": "https://orcid.org/0009-0002-2051-0000"
    },
    {
     "id": "A5060597294",
@@ -4928,6 +4928,23 @@
     "name": "Katie E. Lotterhos",
     "rawName": "Katie E. Lotterhos",
     "orcid": "https://orcid.org/0000-0001-7529-2771"
+   }
+  ]
+ },
+ {
+  "id": "W7119785482",
+  "title": "GeoHIS: Geohazard Information System",
+  "year": 2026,
+  "url": "https://doi.org/10.5281/zenodo.18203123",
+  "themes": [
+   "Local and National Governance"
+  ],
+  "authors": [
+   {
+    "id": "A5122525911",
+    "name": "Abdul Rashid Dickson",
+    "rawName": "Dickson, Abdul Rashid",
+    "orcid": "https://orcid.org/0009-0008-1268-6747"
    }
   ]
  },
@@ -10393,7 +10410,7 @@
     "id": "A5124045469",
     "name": "Mengting Ye",
     "rawName": "Mengting Ye",
-    "orcid": null
+    "orcid": "https://orcid.org/0009-0002-2051-0000"
    },
    {
     "id": "A5123985789",
@@ -10805,7 +10822,7 @@
    },
    {
     "id": "A5017120682",
-    "name": "Diego M Alzate-Sánchez",
+    "name": "Diego Alzate-Sanchez",
     "rawName": "Diego M Alzate-Sánchez",
     "orcid": null
    }
@@ -11222,6 +11239,24 @@
     "name": "Guodong Mao",
     "rawName": "Guodong Mao",
     "orcid": "https://orcid.org/0009-0009-3017-2843"
+   }
+  ]
+ },
+ {
+  "id": "W7219556995",
+  "title": "การพฒนาศกยภาพและทศทางการจดการทองเทยวชมชนอยางยงยนบนฐานอตลกษณทองถน เทศบาลตำบลบานเพชรภเขยว จงหวดชยภม",
+  "year": 2026,
+  "url": "https://openalex.org/W7219556995",
+  "themes": [
+   "Interpersonal Competency",
+   "Local and National Governance"
+  ],
+  "authors": [
+   {
+    "id": "A5154099374",
+    "name": "Waraporn Sribun",
+    "rawName": "Sribun, Waraporn",
+    "orcid": null
    }
   ]
  },
@@ -35402,12 +35437,16 @@
   ]
  },
  {
-  "id": "W4388672558",
+  "id": "W4388653081",
   "title": "Accelerating Environmental Research to Achieve Sustainable Development Goals",
   "year": 2023,
-  "url": "https://doi.org/10.1021/acs.estlett.3c00765",
+  "url": "https://doi.org/10.1021/acs.est.3c08894",
   "themes": [
-   "International Governance"
+   "Air and Climate Science",
+   "Biosphere",
+   "International Governance",
+   "Sustainable Food Systems",
+   "Waste"
   ],
   "authors": [
    {
@@ -35419,16 +35458,12 @@
   ]
  },
  {
-  "id": "W4388653081",
+  "id": "W4388672558",
   "title": "Accelerating Environmental Research to Achieve Sustainable Development Goals",
   "year": 2023,
-  "url": "https://doi.org/10.1021/acs.est.3c08894",
+  "url": "https://doi.org/10.1021/acs.estlett.3c00765",
   "themes": [
-   "Air and Climate Science",
-   "Biosphere",
-   "International Governance",
-   "Sustainable Food Systems",
-   "Waste"
+   "International Governance"
   ],
   "authors": [
    {
@@ -41430,6 +41465,24 @@
   ]
  },
  {
+  "id": "W4200009848",
+  "title": "Responsibility Under Uncertainty: Which Climate Decisions Matter Most?",
+  "year": 2023,
+  "url": "https://doi.org/10.1007/s10666-022-09867-w",
+  "themes": [
+   "Air and Climate Science",
+   "Decarbonization"
+  ],
+  "authors": [
+   {
+    "id": "A5090774960",
+    "name": "Zheng Li",
+    "rawName": "Zheng Li",
+    "orcid": "https://orcid.org/0000-0003-2750-3161"
+   }
+  ]
+ },
+ {
   "id": "W4387483891",
   "title": "Review—Early Efforts to Develop Practical Rechargeable Lithium Batteries",
   "year": 2023,
@@ -43691,7 +43744,7 @@
     "orcid": "https://orcid.org/0000-0001-5972-8221"
    },
    {
-    "id": "A5154055072",
+    "id": "A5158139166",
     "name": "Energy Efficiency Office USDOE Office of Energy Efficiency and Renewable Energy (EERE)",
     "rawName": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office",
     "orcid": null
@@ -44097,30 +44150,6 @@
     "name": "Ling Zhu",
     "rawName": "Ling Zhu",
     "orcid": "https://orcid.org/0000-0003-0261-6848"
-   }
-  ]
- },
- {
-  "id": "W4205845694",
-  "title": "Assessing the Performance of Vietnam’s Banks in the Era of Free Trade Agreements",
-  "year": 2022,
-  "url": "https://doi.org/10.3390/su14021014",
-  "themes": [
-   "Economics",
-   "Equity"
-  ],
-  "authors": [
-   {
-    "id": "A5006380421",
-    "name": "Hoang Nguyen",
-    "rawName": "Hoang Nguyen",
-    "orcid": "https://orcid.org/0000-0002-0682-8584"
-   },
-   {
-    "id": "A5020820343",
-    "name": "Youngbok Ryu",
-    "rawName": "Youngbok Ryu",
-    "orcid": "https://orcid.org/0000-0003-3035-3301"
    }
   ]
  },
