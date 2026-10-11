@@ -104,6 +104,36 @@
   ]
  },
  {
+  "id": "W7221074412",
+  "title": "A Deep Reinforcement Learning Framework for Multi-Objective Optimization and Decision-making with Application to Wastewater Treatment",
+  "year": 2026,
+  "url": "https://doi.org/10.1109/tase.2026.3737832",
+  "themes": [
+   "Strategic Thinking",
+   "Waste"
+  ],
+  "authors": [
+   {
+    "id": "A5037484932",
+    "name": "Yuqing Chang",
+    "rawName": "Yuqing Chang",
+    "orcid": "https://orcid.org/0000-0003-2010-0896"
+   },
+   {
+    "id": "A5075396691",
+    "name": "Fuli Wang",
+    "rawName": "Fuli Wang",
+    "orcid": "https://orcid.org/0000-0002-1107-7893"
+   },
+   {
+    "id": "A5040583251",
+    "name": "Shengxiang Yang",
+    "rawName": "Shengxiang Yang",
+    "orcid": "https://orcid.org/0000-0001-7222-4917"
+   }
+  ]
+ },
+ {
   "id": "W7167927782",
   "title": "A Fuzzy Decision-Making Framework for Quantum-Enhanced Cybersecurity in Smart Cities",
   "year": 2026,
@@ -4524,10 +4554,10 @@
     "orcid": null
    },
    {
-    "id": "A5076457608",
+    "id": "A5101899545",
     "name": "Bo Yang",
     "rawName": "Bo Yang",
-    "orcid": "https://orcid.org/0009-0001-8927-1485"
+    "orcid": "https://orcid.org/0000-0003-3097-6576"
    },
    {
     "id": "A5022540704",
@@ -21986,12 +22016,6 @@
     "orcid": "https://orcid.org/0000-0003-4467-3138"
    },
    {
-    "id": "A5110173153",
-    "name": "Zhen‐Yu Tian",
-    "rawName": "Zhenyu Tian",
-    "orcid": "https://orcid.org/0000-0003-1497-3762"
-   },
-   {
     "id": "A5085150253",
     "name": "Ravinder Dahiya",
     "rawName": "Ravinder Dahiya",
@@ -27397,10 +27421,10 @@
     "orcid": null
    },
    {
-    "id": "A5011914740",
+    "id": "A5100440373",
     "name": "Lei Li",
     "rawName": "Lei Li",
-    "orcid": "https://orcid.org/0009-0005-4420-8254"
+    "orcid": "https://orcid.org/0000-0002-9556-6343"
    },
    {
     "id": "A5113118571",
@@ -31279,12 +31303,6 @@
     "orcid": "https://orcid.org/0000-0001-6939-4819"
    },
    {
-    "id": "A5100454174",
-    "name": "Jie Liu",
-    "rawName": "Jie Liu",
-    "orcid": "https://orcid.org/0000-0003-0451-6111"
-   },
-   {
     "id": "A5103208045",
     "name": "Haifeng Zhang",
     "rawName": "Haifeng Zhang",
@@ -33431,10 +33449,10 @@
   ],
   "authors": [
    {
-    "id": "A5100379878",
+    "id": "A5100701086",
     "name": "Song Li",
     "rawName": "Song Li",
-    "orcid": "https://orcid.org/0000-0002-1664-6290"
+    "orcid": "https://orcid.org/0000-0002-9140-9973"
    },
    {
     "id": "A5060222566",
@@ -44150,6 +44168,30 @@
     "name": "Ling Zhu",
     "rawName": "Ling Zhu",
     "orcid": "https://orcid.org/0000-0003-0261-6848"
+   }
+  ]
+ },
+ {
+  "id": "W4205845694",
+  "title": "Assessing the Performance of Vietnam’s Banks in the Era of Free Trade Agreements",
+  "year": 2022,
+  "url": "https://doi.org/10.3390/su14021014",
+  "themes": [
+   "Economics",
+   "Equity"
+  ],
+  "authors": [
+   {
+    "id": "A5006380421",
+    "name": "Hoang Nguyen",
+    "rawName": "Hoang Nguyen",
+    "orcid": "https://orcid.org/0000-0002-0682-8584"
+   },
+   {
+    "id": "A5020820343",
+    "name": "Youngbok Ryu",
+    "rawName": "Youngbok Ryu",
+    "orcid": "https://orcid.org/0000-0003-3035-3301"
    }
   ]
  },
