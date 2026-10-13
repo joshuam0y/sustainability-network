@@ -1,7 +1,6 @@
 {
  "A5000015016": {
   "alternativeNames": [
-   "Jenna  M. Brooks",
    "Jenna Brooks",
    "Jenna M. Brooks"
   ],
@@ -42,12 +41,12 @@
  },
  "A5000280184": {
   "alternativeNames": [
-   "Elise M. McNally"
+   "Elise M. McNally",
+   "McNally, Elise"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University",
-   "Colby College"
+   "Northeastern University"
   ],
   "name": "Elise M. McNally",
   "orcid": "https://orcid.org/0000-0001-5463-6168",
@@ -59,6 +58,7 @@
    "MAX RADERMACHER",
    "Max Klaus Radermacher",
    "Max Radermacher",
+   "Radermacher Max",
    "Radermacher, M.",
    "Radermacher, M. (Max)"
   ],
@@ -146,9 +146,12 @@
  "A5000619349": {
   "alternativeNames": [
    "D. Kimbro",
+   "DL Kimbro",
    "David Kimbro",
    "David L Kimbro",
    "David L. Kimbro",
+   "Kimbro David",
+   "Kimbro, D.L.",
    "Kimbro, David L."
   ],
   "atNortheastern": true,
@@ -417,17 +420,15 @@
   "alternativeNames": [
    "Y Zhou",
    "Y. M. Zhou",
-   "Y. Zhou",
    "Ye ZHOU",
    "Ye Zhou",
-   "Yuzhen Zhou",
    "Zhou YE",
-   "Zhou Ye",
-   "Zhou, Ye"
+   "Zhou Ye"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
-   "Minnan Normal University"
+   "Northeastern University",
+   "University of Hong Kong"
   ],
   "name": "Ye Zhou",
   "orcid": "https://orcid.org/0000-0002-4618-9318",
@@ -516,13 +517,16 @@
    "E Mostafavi",
    "E. Mostafavi",
    "Ebrahim Mostafavi",
+   "Ebrahim Mostafavi B",
    "Mostafavi E",
-   "Mostafavi, Ebrahim"
+   "Mostafavi, Ebrahim",
+   "Mostafavi,Ebrahim"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
    "Stanford Medicine",
+   "Stanford Cardiovascular Institute",
    "Stanford University"
   ],
   "name": "Ebrahim Mostafavi",
@@ -623,8 +627,6 @@
    "Yingpeng Zhang",
    "Ying‐Peng Zhang",
    "Zhang Ying‐Peng",
-   "Zhang, Ying",
-   "Zhang, Yingpeng",
    "yingpeng zhang"
   ],
   "atNortheastern": false,
@@ -673,7 +675,9 @@
    "Dylan Titmuss",
    "F. Dylan Titmuss",
    "F. Titmuss",
-   "Ffion Dylan Titmuss"
+   "Ffion Dylan Titmuss",
+   "Titmuss, Ffion",
+   "Titmuss, Ffion Dylan"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -865,7 +869,6 @@
  "A5003686574": {
   "alternativeNames": [
    "Benjamin Kaufold",
-   "Benjamin W Kaufold",
    "Benjamin W. Kaufold",
    "Benjamin William Kaufold"
   ],
@@ -966,13 +969,11 @@
   "alternativeNames": [
    "Felipe Benavides",
    "I.F. Benavides",
-   "Ivan  Felipe Benavides",
    "Ivan Benavides",
    "Ivan F. Benavides",
    "Ivan F. Benavides-Martinez",
    "Ivan Felipe Benavides",
    "Ivan Felipe Benavides Martínez",
-   "Iván  Felipe Benavides",
    "Iván F. Benavides",
    "Iván F. Benavides-Martínez",
    "Iván Felipe Benavides",
@@ -1132,7 +1133,6 @@
  },
  "A5004441687": {
   "alternativeNames": [
-   "Cheng H. -P.",
    "Cheng, H.",
    "Cheng, H. P.",
    "Cheng, Hai-Ping",
@@ -1193,7 +1193,8 @@
  },
  "A5004486774": {
   "alternativeNames": [
-   "Matthew C. Pitchford"
+   "Matthew C. Pitchford",
+   "Pitchford, Matthew C"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -1464,11 +1465,11 @@
    "Rui Wang",
    "Rui wang",
    "Wang Rui",
-   "Wang, Rui",
-   "wang, Rui"
+   "Wang, Rui"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
+   "Beijing Institute of Fashion Technology",
    "Qiqihar University",
    "Beijing Institute of Technology",
    "Northeastern University",
@@ -1569,9 +1570,8 @@
    "Man‐Sheng Chu",
    "Man‐sheng Chu"
   ],
-  "atNortheastern": true,
+  "atNortheastern": false,
   "currentInstitutions": [
-   "Northeastern University",
    "Northeastern University"
   ],
   "name": "Mansheng Chu",
@@ -1622,6 +1622,7 @@
  },
  "A5006157348": {
   "alternativeNames": [
+   "Hajjar J F",
    "Hajjar, Jerome",
    "Hajjar, Jerome F",
    "Hajjar, Jerome F.",
@@ -1701,6 +1702,7 @@
    "Lauren Morris MacLean",
    "Lauren Morris Maclean",
    "MacLean, Lauren",
+   "MacLean, Lauren M.",
    "Maclean, Lauren M."
   ],
   "atNortheastern": false,
@@ -1759,7 +1761,6 @@
  },
  "A5006689663": {
   "alternativeNames": [
-   "Prajapati, Sarvesh",
    "Sarvesh Prajapati"
   ],
   "atNortheastern": true,
@@ -1772,6 +1773,7 @@
  },
  "A5006734293": {
   "alternativeNames": [
+   "Foysal Haque Khandaker",
    "Haque, Khandaker Foysal",
    "Khandaker Foysal Haque",
    "Khandaker Haque"
@@ -1823,10 +1825,14 @@
  },
  "A5006981779": {
   "alternativeNames": [
-   "Aravind Harilal Meenambika"
+   "Aravind Harilal Meenambika",
+   "Harilal Meenambika Aravind"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "Northeastern University"
+  ],
   "name": "Aravind Harilal Meenambika",
   "orcid": null,
   "papers": 1
@@ -1951,6 +1957,7 @@
    "Richard Wamai",
    "Wamai, R.",
    "Wamai, Richard",
+   "Wamai, Richard G",
    "Wamai, Richard G."
   ],
   "atNortheastern": true,
@@ -2157,7 +2164,6 @@
   "alternativeNames": [
    "Padir, Taskin",
    "Padir, Taşkin",
-   "Padır, Taskın",
    "Padır, Taşkın",
    "T. Padir",
    "Taskin Padir",
@@ -2184,7 +2190,6 @@
  "A5009194410": {
   "alternativeNames": [
    "R D Riyanto",
-   "Raditya  Danu Riyanto",
    "Raditya D Riyanto",
    "Raditya D. Riyanto",
    "Raditya Danu Riyanto",
@@ -2216,7 +2221,6 @@
  },
  "A5009298524": {
   "alternativeNames": [
-   "Charlee  A. Corra",
    "Charlee A. Corra"
   ],
   "atNortheastern": true,
@@ -2245,7 +2249,8 @@
  },
  "A5009400415": {
   "alternativeNames": [
-   "Keivan Sadeghzadeh"
+   "Keivan Sadeghzadeh",
+   "Sadeghzadeh, Keivan"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -2281,7 +2286,6 @@
  "A5009495271": {
   "alternativeNames": [
    "Imbiriba Tales",
-   "Imbiriba, T.",
    "Imbiriba, Tales",
    "T. Imbiriba",
    "Tales Imbiriba"
@@ -2301,6 +2305,8 @@
    "Barbiellini, B.",
    "Barbiellini, Bernardo",
    "Bernardo Barbiellini",
+   "Bernardo Barbiellini B",
+   "Bernardo Barbiellini C",
    "Bernardo Barbiellini-Amidei"
   ],
   "atNortheastern": true,
@@ -2314,7 +2320,8 @@
  },
  "A5009564929": {
   "alternativeNames": [
-   "Jong-Gook Kim"
+   "Jong-Gook Kim",
+   "Kim Jong Gook"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -2328,6 +2335,7 @@
  "A5009658939": {
   "alternativeNames": [
    "Chaiyuth Sirisuthi",
+   "Chalard Chantarasombat, Chaiyuth Sirisuthi",
    "Sirisuthi, Chaiyuth"
   ],
   "atNortheastern": false,
@@ -2428,8 +2436,6 @@
   "atNortheastern": true,
   "currentInstitutions": [
    "Northeastern University",
-   "Hefei University of Technology",
-   "Xiamen University",
    "University Town of Shenzhen"
   ],
   "name": "Haodong Zhou",
@@ -2592,9 +2598,10 @@
  "A5011091229": {
   "alternativeNames": [
    "V. Whittem",
-   "Vanessa  Christine Whittem",
    "Vanessa Christine Whittem",
    "Vanessa Whittem",
+   "Vanessa Whittem (13099887)",
+   "Whittem, Vanessa",
    "Whittem, Vanessa C."
   ],
   "atNortheastern": true,
@@ -2621,7 +2628,9 @@
  },
  "A5011128474": {
   "alternativeNames": [
+   "GAGGELLI, NICOLA",
    "N. Gaggelli",
+   "Nicola Gagelli",
    "Nicola Gaggelli"
   ],
   "atNortheastern": false,
@@ -2878,6 +2887,7 @@
  },
  "A5013152450": {
   "alternativeNames": [
+   "Aziz Diop, Mouhamadou",
    "M Diop",
    "Mouhamadou A. Diop",
    "Mouhamadou Aziz Diop",
@@ -2933,8 +2943,7 @@
  },
  "A5013471156": {
   "alternativeNames": [
-   "Cora Lundgren",
-   "Lundgren, Cora"
+   "Cora Lundgren"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -2947,6 +2956,7 @@
  "A5013493054": {
   "alternativeNames": [
    "Colomina Almiñana, Juan José",
+   "Colomina-Alminana, Juan J.",
    "Colomina-Almiñana, Juan José",
    "JUAN J. COLOMINA",
    "Juan Colomina-Alminana",
@@ -2956,6 +2966,7 @@
    "Juan J. Colomina",
    "Juan J. Colomina-Alminana",
    "Juan J. Colomina-Almiñana",
+   "Juan José Colomina Albiñana",
    "Juan José Colomina Alminyana",
    "Juan José Colomina Almiñana"
   ],
@@ -3291,6 +3302,7 @@
    "M Altamia",
    "Marvin A Altamia",
    "Marvin A. Altamia",
+   "Marvin A. Altamia (3262869)",
    "Marvin Altamia"
   ],
   "atNortheastern": true,
@@ -3309,14 +3321,13 @@
    "B. S. T. Helmuth",
    "BRIAN HELMUTH",
    "BS Helmuth",
-   "Brian  S. Helmuth",
    "Brian HELMUTH",
    "Brian Helmuth",
    "Brian S. Helmuth",
    "Brian S. T. Helmuth",
    "Brian S.T. Helmuth",
-   "Helmuth, Brian",
-   "Helmuth, Brian S."
+   "Helmuth, B.",
+   "Helmuth, Brian"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -3362,7 +3373,8 @@
    "THOMAS J. VICINO",
    "Thomas J Vicino",
    "Thomas J. Vicino",
-   "Thomas Vicino"
+   "Thomas Vicino",
+   "Vicino, Thomas J."
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -3454,8 +3466,10 @@
    "Rabbitt, Kristen M",
    "Rabbitt, Kristen M."
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Kristen M. Rabbitt",
   "orcid": "https://orcid.org/0000-0002-9182-1714",
   "papers": 2
@@ -3464,9 +3478,8 @@
   "alternativeNames": [
    "Jinhua Qian"
   ],
-  "atNortheastern": true,
+  "atNortheastern": false,
   "currentInstitutions": [
-   "Northeastern University",
    "Shaoxing University",
    "Northeastern University"
   ],
@@ -3596,7 +3609,6 @@
    "Weiqian Zhao",
    "Weiqiang Zhao",
    "Weiquan Zhao",
-   "Weisheng Zhao",
    "Weisong ZHAO",
    "Weitao Zhao",
    "Weiwei Zhao",
@@ -3648,7 +3660,8 @@
    "Wenshan Zhao",
    "Wensheng Zhao",
    "Wenshu Zhao",
-   "Wenshuo Zhao"
+   "Wenshuo Zhao",
+   "Wensi Zhao"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -3885,7 +3898,9 @@
    "Liang Hui"
   ],
   "atNortheastern": false,
-  "currentInstitutions": [],
+  "currentInstitutions": [
+   "Zhejiang University of Finance and Economics"
+  ],
   "name": "Hui Liang",
   "orcid": "https://orcid.org/0000-0001-7594-5365",
   "papers": 1
@@ -4038,7 +4053,6 @@
  },
  "A5017564609": {
   "alternativeNames": [
-   "Abowd, G. D.",
    "Abowd, Gregory D",
    "Abowd, Gregory D.",
    "G Abowd",
@@ -4092,7 +4106,6 @@
  },
  "A5017756113": {
   "alternativeNames": [
-   "Huijun Wang",
    "WEI YANG",
    "Wei Ju Yang",
    "Wei Yang",
@@ -4173,7 +4186,6 @@
  "A5018240575": {
   "alternativeNames": [
    "Honda T",
-   "Honda, T",
    "T. Honda",
    "T.J. Honda",
    "Trenton Honda",
@@ -4261,6 +4273,7 @@
  },
  "A5018570490": {
   "alternativeNames": [
+   "F. Mueller-Lundin",
    "Fiona Müller-Lundin",
    "Müller-Lundin, Fiona"
   ],
@@ -4364,6 +4377,7 @@
  },
  "A5018811482": {
   "alternativeNames": [
+   "Alliy A Bello",
    "Alliy Adewale Bello",
    "Alliy Bello"
   ],
@@ -4411,10 +4425,8 @@
    "Chol I Kang",
    "Chol I. Kang"
   ],
-  "atNortheastern": true,
-  "currentInstitutions": [
-   "Northeastern University"
-  ],
+  "atNortheastern": false,
+  "currentInstitutions": [],
   "name": "Chol I. Kang",
   "orcid": "https://orcid.org/0000-0002-7077-4410",
   "papers": 1
@@ -4423,6 +4435,7 @@
   "alternativeNames": [
    "H. Metghalchi",
    "HAMEED METGHALCHI*",
+   "Hameed Metgalchi",
    "Hameed Metghalchi",
    "Metghalchi, Hameed"
   ],
@@ -4453,6 +4466,7 @@
  },
  "A5019255569": {
   "alternativeNames": [
+   "Rajaram Vageeswar",
    "V. Rajaram",
    "Vageeswar Rajaram"
   ],
@@ -4482,7 +4496,8 @@
    "Matthew E Schinault",
    "Matthew E. Schinault",
    "Matthew Edward Schinault",
-   "Matthew Schinault"
+   "Matthew Schinault",
+   "Schinault, Matthew"
   ],
   "atNortheastern": false,
   "currentInstitutions": [],
@@ -4524,8 +4539,7 @@
  "A5019720485": {
   "alternativeNames": [
    "Duanshuai SHEN",
-   "Duanshuai Shen",
-   "Shen, Duanshuai"
+   "Duanshuai Shen"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -4540,9 +4554,11 @@
    "C. Fuentes-Hernandez",
    "C. Fuentes-Hernández",
    "C. Fuentes‐Hernandez",
+   "Canek Fuentes Hernández",
    "Canek Fuentes-Hernandez",
    "Canek Fuentes-Hernández",
    "Canek Fuentes‐Hernandez",
+   "Fuentes-Hernandez Canek",
    "Fuentes-Hernandez, C"
   ],
   "atNortheastern": true,
@@ -4619,6 +4635,7 @@
  },
  "A5020412402": {
   "alternativeNames": [
+   "Sun, Zhong-Qiao",
    "Z Sun",
    "Z. Sun",
    "Zhen-Gao Sun",
@@ -4758,7 +4775,8 @@
  "A5020981783": {
   "alternativeNames": [
    "GORDANA RABRENOVIC",
-   "Gordana Rabrenovic"
+   "Gordana Rabrenovic",
+   "Rabrenovic, Gordana"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -4770,6 +4788,7 @@
  },
  "A5021091551": {
   "alternativeNames": [
+   "Acierno, Jane",
    "Jane Acierno"
   ],
   "atNortheastern": true,
@@ -4911,6 +4930,7 @@
  },
  "A5021862606": {
   "alternativeNames": [
+   "Arango-Quiroga, Johan",
    "Johan Arango-Quiroga"
   ],
   "atNortheastern": false,
@@ -5137,7 +5157,8 @@
  "A5023377268": {
   "alternativeNames": [
    "Amir Grinstein",
-   "Grinstein, A."
+   "Grinstein, A.",
+   "Grinstein, Amir"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -5150,6 +5171,8 @@
  },
  "A5023442255": {
   "alternativeNames": [
+   "Chiou, Paul W.",
+   "Paul W. Chiou",
    "W. Paul Chiou",
    "Wan- Jiun Paul Chiou",
    "Wan-Jiun Paul Chiou",
@@ -5179,6 +5202,7 @@
  "A5023868070": {
   "alternativeNames": [
    "Hongkun Niu",
+   "Niu, Hong-kun",
    "Niu, Hongkun"
   ],
   "atNortheastern": false,
@@ -5323,7 +5347,6 @@
  },
  "A5025114114": {
   "alternativeNames": [
-   "L. E. Schrage",
    "Leonard Schrage",
    "Schrage, Leonard"
   ],
@@ -5551,7 +5574,6 @@
    "Bo Gao",
    "Bo Lin Gao",
    "Bowen Gao",
-   "Gao, Bo",
    "bo gao"
   ],
   "atNortheastern": false,
@@ -5727,7 +5749,6 @@
  },
  "A5026624780": {
   "alternativeNames": [
-   "Gold, Jessica R.",
    "Jessica R. Gold"
   ],
   "atNortheastern": true,
@@ -5815,6 +5836,8 @@
  "A5027791338": {
   "alternativeNames": [
    "Caplins, Serena",
+   "Caplins, Serena A",
+   "Caplins, Serena A.",
    "S. A. Caplins",
    "Serena A Caplins",
    "Serena A. Caplins",
@@ -5923,6 +5946,7 @@
  "A5028229543": {
   "alternativeNames": [
    "Gouhier, Tarik",
+   "Gouhier, Tarik C",
    "Gouhier, Tarik C.",
    "Gouhier, Tarik Claude",
    "T. C. Gouhier",
@@ -5980,8 +6004,6 @@
    "Hongli Zhu",
    "Hong‐li Zhu",
    "Zhu Hong-Li",
-   "Zhu, Hongli",
-   "hongli zhu",
    "朱红力"
   ],
   "atNortheastern": true,
@@ -6101,6 +6123,7 @@
    "Chris Nadeau",
    "Christopher P Nadeau",
    "Christopher P. Nadeau",
+   "Nadeau, C.",
    "Nadeau, Christopher",
    "Nadeau, Christopher P."
   ],
@@ -6185,7 +6208,9 @@
    "Damon Hall",
    "Damon M Hall",
    "Damon M. Hall",
-   "Hall, Damon"
+   "Hall, Damon",
+   "Hall, Damon M",
+   "Hall, Damon M."
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -6205,7 +6230,8 @@
    "Lace Padilla",
    "Padilla, Lace",
    "Padilla, Lace M.",
-   "Padilla, Lace M. K."
+   "Padilla, Lace M. K.",
+   "Padilla, Lace M.K."
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -6274,6 +6300,8 @@
  },
  "A5029792520": {
   "alternativeNames": [
+   "Julien, Scott",
+   "Julien, Scott E.",
    "S. E. Julien",
    "Scott\nE. Julien",
    "Scott E Julien",
@@ -6377,6 +6405,7 @@
    "Eugene S Smotkinꝉ",
    "Eugene S. Smotkin",
    "Eugene Smotkin",
+   "S Smotkin Eugene",
    "Smotkin, Eugene S."
   ],
   "atNortheastern": true,
@@ -6389,6 +6418,7 @@
  },
  "A5030212372": {
   "alternativeNames": [
+   "Larese-Casanova, Philip",
    "P Larese-Casanova",
    "P. Larese-Casanova",
    "Philip Larese-Casanova",
@@ -6407,11 +6437,11 @@
   "alternativeNames": [
    "J. Tang",
    "Jue TANG",
-   "Jue Tang"
+   "Jue Tang",
+   "Tang Jue"
   ],
-  "atNortheastern": true,
+  "atNortheastern": false,
   "currentInstitutions": [
-   "Northeastern University",
    "Guangzhou Women and Children Medical Center",
    "Guangzhou Medical University",
    "Northeastern University"
@@ -6434,7 +6464,8 @@
  },
  "A5030462076": {
   "alternativeNames": [
-   "Ayoub Zumeit"
+   "Ayoub Zumeit",
+   "Zumeit, Ayoub"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -6523,7 +6554,6 @@
  },
  "A5030766827": {
   "alternativeNames": [
-   "Q Sun",
    "Q. Sun",
    "Qiang Sun"
   ],
@@ -6658,8 +6688,7 @@
    "Jing Jiang",
    "Jing Y. Jiang",
    "Jing Yang Jiang",
-   "Jinghong Jiang",
-   "jing jiang"
+   "Jinghong Jiang"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -6731,7 +6760,8 @@
  },
  "A5032672771": {
   "alternativeNames": [
-   "Jonathan Schulman"
+   "Jonathan Schulman",
+   "Schulman, Jonathan"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -6785,7 +6815,8 @@
    "Ciuccarelli, Paolo",
    "P. Ciuccarelli",
    "Paolo Ciuccarelli",
-   "Paolo, C."
+   "Paolo, C.",
+   "Prof Paolo Ciuccarelli"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -6906,6 +6937,7 @@
  "A5033564061": {
   "alternativeNames": [
    "Salois, Sarah",
+   "Salois, Sarah L.",
    "Sarah L Salois",
    "Sarah L. Salois"
   ],
@@ -6927,6 +6959,7 @@
    "Zhi-da Gao",
    "ZhiDa Gao",
    "Zhida Gao",
+   "Zhida Gao Supervison",
    "Zhi‐Da Gao"
   ],
   "atNortheastern": true,
@@ -7014,7 +7047,6 @@
  },
  "A5034023666": {
   "alternativeNames": [
-   "Mawalagedara, Rachindra",
    "R. Mawalagedara",
    "Rachindra Mawalagedara"
   ],
@@ -7057,7 +7089,6 @@
  },
  "A5034439957": {
   "alternativeNames": [
-   "CHUANGWEI LIU",
    "Chuangwei Liu",
    "Chuang‐Wei Liu",
    "LIU, CHUANGWEI",
@@ -7337,6 +7368,7 @@
  },
  "A5035310024": {
   "alternativeNames": [
+   "Eppley, Madeline",
    "Eppley, Madeline G.",
    "Madeline G. Eppley"
   ],
@@ -7363,6 +7395,7 @@
  },
  "A5035386632": {
   "alternativeNames": [
+   "Garces, Kylea",
    "Garces, Kylea R",
    "Garces, Kylea Rose",
    "Kylea Garces",
@@ -7392,7 +7425,9 @@
  },
  "A5035514394": {
   "alternativeNames": [
-   "Jules Rochielle Sievert"
+   "Jules Rochielle Sievert",
+   "Jules Sievert",
+   "Rochielle Sievert, Jules"
   ],
   "atNortheastern": false,
   "currentInstitutions": [],
@@ -7407,6 +7442,7 @@
    "Abraham, Kuzhikalail M [Needham, MA]; Peramunage, Dharmasena [Norwood, MA]",
    "Abraham, Kuzhikalail M [Needham, MA]; Rohan, James F [Cork City, IE]; Foo, Conrad C [Dedham, MA]; Pasquariello, David M [Pawtucket, RI]",
    "Abraham, Kuzhikalail M. (Needham, MA); Alamgir, Mohamed (Dedham, MA); Choe, Hyoun S. (Waltham, MA)",
+   "Abraham,Kuzhikalail M",
    "K ABRAHAM",
    "K M Abraham",
    "K. ABRAHAM",
@@ -7523,6 +7559,7 @@
    "Deisy Gysi",
    "Deisy M. Gysi",
    "Deisy Morselli Gysi",
+   "Deisy Morselli-Gysi",
    "Gysi, Deisy",
    "Gysi, Deisy Morselli",
    "Morselli Gysi, Deisy"
@@ -7548,6 +7585,20 @@
   "name": "Bryan D. James",
   "orcid": "https://orcid.org/0000-0002-6104-8310",
   "papers": 7
+ },
+ "A5036167057": {
+  "alternativeNames": [
+   "Alicyn Reverdy",
+   "Alicyn Reverdy Pearson",
+   "Reverdy Pearson Alicyn"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Alicyn Reverdy",
+  "orcid": "https://orcid.org/0000-0002-3290-4464",
+  "papers": 1
  },
  "A5036359624": {
   "alternativeNames": [
@@ -7614,12 +7665,14 @@
  },
  "A5036743556": {
   "alternativeNames": [
+   "Davis Cross,  Mai'a K",
    "MAI'A K. DAVIS CROSS",
    "Mai'A Cross",
    "Mai'a Cross",
    "Mai'a Davis Cross",
    "Mai'a K Davis Cross",
    "Mai'a K. Davis Cross",
+   "Mai'a K. Davis-Cross",
    "Mai’a Davis Cross",
    "Mai’a K. Davis Cross"
   ],
@@ -7720,7 +7773,8 @@
  },
  "A5037176299": {
   "alternativeNames": [
-   "Gillian McClennen"
+   "Gillian McClennen",
+   "McClennen, Gillian"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -7742,6 +7796,7 @@
  },
  "A5037350818": {
   "alternativeNames": [
+   "Ding Yushi",
    "Yu-Shi Ding",
    "Yu-shi DING",
    "Yushi DING",
@@ -7889,7 +7944,9 @@
    "Ata A Uslu",
    "Ata A. Uslu",
    "Ata Aydin Uslu",
-   "Ata Uslu"
+   "Ata Uslu",
+   "Uslu, Ata",
+   "Uslu, Ata Aydin"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -7902,7 +7959,6 @@
  },
  "A5037864052": {
   "alternativeNames": [
-   "Calisgan, Sila Deniz",
    "S. Calisgan",
    "Sila Calisgan",
    "Sila D. Calisgan",
@@ -7969,11 +8025,13 @@
  },
  "A5038299568": {
   "alternativeNames": [
+   "Asare Ebenezer Aquisman",
    "Asare, Ebenezer",
    "Asare, Ebenezer Aquisman",
    "E. A. Asare",
    "E.A. Asare",
    "Ebenezer  Aquisman Asare",
+   "Ebenezer A. Asare³",
    "Ebenezer Aquisman Asare",
    "Ebenezer Asare"
   ],
@@ -8268,7 +8326,6 @@
    "Akram N. Alshawabkeh",
    "Alshawabkeh A",
    "Alshawabkeh A.",
-   "Alshawabkeh, A.N",
    "Alshawabkeh, A.N.",
    "Alshawabkeh, Akram",
    "Alshawabkeh, Akram N.",
@@ -8307,8 +8364,9 @@
    "Hanoch Lev-Ari",
    "Hanoch Lev-ari",
    "Hanoch Lev‐Ari",
-   "Lev-Ari, Hanoch",
-   "Lev-Ari,H"
+   "Lev-Ari",
+   "Lev-Ari,H",
+   "Prof Hanoch Lev-ari"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -8323,7 +8381,6 @@
    "K. E. Lotterhos",
    "KATIE E. LOTTERHOS",
    "KE Lotterhos",
-   "Kathleen E Lotterhos",
    "Kathleen E. Lotterhos",
    "Kathleen Lotterhos",
    "Katie E Lotterhos",
@@ -8463,10 +8520,14 @@
  },
  "A5040597886": {
   "alternativeNames": [
+   "Caracoglia L.",
    "Caracoglia Luca",
+   "Caracoglia, L",
+   "Caracoglia, Luca",
    "L. Caracoglia",
    "Luca CARACOGLIA",
-   "Luca Caracoglia"
+   "Luca Caracoglia",
+   "Luca Caracoglia B"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -8482,11 +8543,13 @@
   "alternativeNames": [
    "Dennedy-Frank, James",
    "Dennedy-Frank, P. James",
+   "Dennedy-Frank, Peter James",
    "Dennedy-Frank, Peter-James",
    "James  P. Dennedy-Frank",
    "James Dennedy-Frank",
    "James P. Dennedy-Frank",
    "James P. Dennedy‐Frank",
+   "P. Dennedy-Frank",
    "P. J. Dennedy‐Frank",
    "P. James Dennedy-Frank",
    "P. James Dennedy‐Frank",
@@ -8545,6 +8608,18 @@
   "orcid": "https://orcid.org/0000-0002-0311-0104",
   "papers": 1
  },
+ "A5040846579": {
+  "alternativeNames": [
+   "Jessica Jha"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Jessica Jha",
+  "orcid": null,
+  "papers": 1
+ },
  "A5040875530": {
   "alternativeNames": [
    "Ma Yuanyuan",
@@ -8589,6 +8664,7 @@
  },
  "A5040923558": {
   "alternativeNames": [
+   "Luo Shaohua",
    "S.J. Luo",
    "Shaohua Luo"
   ],
@@ -8619,6 +8695,7 @@
  "A5041131289": {
   "alternativeNames": [
    "Giulio Mattioli",
+   "Mattioli Giulio",
    "Mattioli, Giulio"
   ],
   "atNortheastern": false,
@@ -8653,9 +8730,12 @@
    "Rachel F Rodgers",
    "Rachel F. Rodgers",
    "Rachel Florence Rodgers",
+   "Rachel R. Rodgers",
+   "Rachel Rachel F. Rodgers",
    "Rachel Rodgers",
    "Rachel F. Rodgers",
    "Rodgers, Rachel",
+   "Rodgers, Rachel F",
    "Rodgers, Rachel Rachel F"
   ],
   "atNortheastern": true,
@@ -8772,6 +8852,7 @@
  },
  "A5041762786": {
   "alternativeNames": [
+   "A. Yasin Yazcoglu",
    "A. Yasin Yazicioglu",
    "A. Yasin Yazıcıoğlu",
    "Yasin Yazcoglu",
@@ -8779,7 +8860,6 @@
    "Yasin Yazicioglu",
    "Yasin Yazicioğlu",
    "Yasin Yazıcıoğlu",
-   "Yazicioglu, A. Yasin",
    "Yazicioglu, Yasin",
    "Yazıcıoğlu, Yasin"
   ],
@@ -8818,6 +8898,7 @@
  "A5041979171": {
   "alternativeNames": [
    "E. A. Kodra",
+   "E.A. Kodra",
    "Evan A. Kodra",
    "Evan Anton Kodra",
    "Evan Kodra",
@@ -9047,6 +9128,7 @@
  },
  "A5042842126": {
   "alternativeNames": [
+   "Heydarian, Sana",
    "Sana Heydarian"
   ],
   "atNortheastern": true,
@@ -9060,6 +9142,7 @@
  },
  "A5042913485": {
   "alternativeNames": [
+   "Hirsch Tad",
    "Tad Hirsch"
   ],
   "atNortheastern": true,
@@ -9075,8 +9158,8 @@
    "R. RAMAMURTI",
    "R. Ramamurti",
    "RAVI RAMAMURTI",
-   "Ramamurti, R",
    "Ramamurti, Ravi",
+   "Ramamurti, Ravi 1952-",
    "Ravi RAMAMURTI",
    "Ravi Ramamurti"
   ],
@@ -9109,8 +9192,10 @@
    "Jodi D Sherman",
    "Jodi D.\n    Sherman",
    "Jodi D. Sherman",
+   "Jodi D. Sherman (5574809)",
    "Jodi Sherman",
-   "Sherman, Jodi D"
+   "Sherman, Jodi",
+   "Sherman, Jodi D."
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -9135,6 +9220,8 @@
  },
  "A5043376046": {
   "alternativeNames": [
+   "Appiah-Madson, Hannah",
+   "Appiah-Madson, Hannah J.",
    "Hannah Appiah-Madson",
    "Hannah Appiah‐Madson",
    "Hannah J Appiah-Madson",
@@ -9207,8 +9294,10 @@
    "R.E. Beighley",
    "R.Edward Beighley"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "R. Edward Beighley",
   "orcid": "https://orcid.org/0000-0003-1139-6226",
   "papers": 12
@@ -9219,6 +9308,7 @@
    "Margaret B Owensby",
    "Margaret B. Owensby",
    "Margaret Owensby",
+   "Owensby, Margaret",
    "Owensby, Margaret B."
   ],
   "atNortheastern": true,
@@ -9394,7 +9484,6 @@
    "WenXiu He",
    "Wenxiu He",
    "Wen‐Xiu He",
-   "wenxiu He",
    "wenxiu he"
   ],
   "atNortheastern": false,
@@ -9412,6 +9501,7 @@
    "Levendis, Y. A.",
    "Levendis, Y.A.; Atal, A.",
    "Levendis, Yiannis A. (Boston, MA); Wise, Donald L. (Belmont, MA)",
+   "Levendis, Yiannis Angelo",
    "Y. A. LEVENDIS",
    "Y. A. Levendis",
    "Y. LEVENDIS",
@@ -9420,8 +9510,7 @@
    "Y.A. Levendis",
    "YIANNIS A. LEVENDIS",
    "YIANNISA. LEVENDIS",
-   "Yiannis  A. Levendis",
-   "Yiannis  Angelo Levendis",
+   "Yannis Angelo Levendis",
    "Yiannis A Levendis",
    "Yiannis A. Levendis",
    "Yiannis Angelo Levendis",
@@ -9508,7 +9597,8 @@
   "alternativeNames": [
    "Q. Yue",
    "Qiang Yue",
-   "Yue Qiang"
+   "Yue Qiang",
+   "Yue, Qiang"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -9522,7 +9612,9 @@
  "A5045260326": {
   "alternativeNames": [
    "Ardakani, Matin Raayai",
-   "Matin Raayai Ardakani"
+   "Matin Raayai Ardakani",
+   "Matin Raayai-Ardakani",
+   "Raayai Ardakani, Matin"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -9541,6 +9633,7 @@
    "Jean-Pasca Gond",
    "Jean-Pascal GOND",
    "Jean-Pascal Gond",
+   "Jean-Pascal, Gond",
    "Jean‐Pascal Gond"
   ],
   "atNortheastern": false,
@@ -9577,6 +9670,7 @@
    "A. Stubbins",
    "Aron P. Stubbins",
    "Aron Stubbins",
+   "Stubbins Aron",
    "Stubbins, Aron"
   ],
   "atNortheastern": true,
@@ -9630,6 +9724,7 @@
  "A5046134178": {
   "alternativeNames": [
    "Hanley, Torrance",
+   "Hanley, Torrance C",
    "Hanley, Torrance C.",
    "T. C. HANLEY",
    "T. C. Hanley",
@@ -9708,6 +9803,7 @@
   "alternativeNames": [
    "Kanza Patrick",
    "Kanza, Patrick",
+   "Kanza, Patrick Mambwene",
    "Patrick Kanza"
   ],
   "atNortheastern": true,
@@ -10093,7 +10189,6 @@
    "Cox, Jordan",
    "Cox, Jordan M.",
    "Jordan Cox",
-   "Jordan M Cox",
    "Jordan M. Cox"
   ],
   "atNortheastern": true,
@@ -10206,6 +10301,8 @@
  },
  "A5048305510": {
   "alternativeNames": [
+   "Fowler, Melinda",
+   "Fowler, Melinda A.",
    "M. Fowler",
    "Melinda A Fowler",
    "Melinda A. Fowler",
@@ -10215,7 +10312,9 @@
   "currentInstitutions": [
    "Northeastern University",
    "Northeastern Illinois University",
-   "Mills College"
+   "Springfield College",
+   "Mills College",
+   "Drury University"
   ],
   "name": "Melinda A. Fowler",
   "orcid": "https://orcid.org/0000-0003-0193-2945",
@@ -10376,18 +10475,14 @@
    "I. Westfield",
    "Isaac T. Westfield",
    "Isaac Westfield",
-   "Westfield, I.",
-   "Westfield, I. T.",
+   "Westfield, I.T.",
    "Westfield, Isaac",
    "Westfield, Isaac T",
    "Westfield, Isaac T.",
    "Westfield, Isaac Thomas"
   ],
-  "atNortheastern": true,
-  "currentInstitutions": [
-   "University of North Carolina at Chapel Hill",
-   "Northeastern University"
-  ],
+  "atNortheastern": false,
+  "currentInstitutions": [],
   "name": "Isaac Westfield",
   "orcid": "https://orcid.org/0000-0002-8576-8849",
   "papers": 2
@@ -10574,7 +10669,6 @@
  "A5049950410": {
   "alternativeNames": [
    "L H Lewis",
-   "L.  H. Lewis",
    "L. H. LEWIS",
    "L. H. Lewis",
    "L. Henderson Lewis",
@@ -10692,7 +10786,7 @@
  "A5050451120": {
   "alternativeNames": [
    "Alemu I, Jahson B.",
-   "Alemu, Jahson B.",
+   "Alemu, Jahson Berhane",
    "JB Alemu",
    "Jahson Alemu",
    "Jahson Alemu I",
@@ -10714,7 +10808,8 @@
  "A5050535281": {
   "alternativeNames": [
    "Marisa Celia Sotolongo",
-   "Marisa Sotolongo"
+   "Marisa Sotolongo",
+   "Sotolongo, Marisa"
   ],
   "atNortheastern": false,
   "currentInstitutions": [],
@@ -10806,6 +10901,7 @@
  "A5050986177": {
   "alternativeNames": [
    "Furth, Peter",
+   "Furth, Peter 1930-2019",
    "Peter Furth",
    "Peter G Furth",
    "Peter G. Furth"
@@ -11029,7 +11125,6 @@
  "A5052251031": {
   "alternativeNames": [
    "Cameron, Louise P",
-   "Cameron, Louise P.",
    "Louise Cameron",
    "Louise P. Cameron"
   ],
@@ -11151,6 +11246,7 @@
    "Robyn A Zerebecki",
    "Robyn A. Zerebecki",
    "Robyn Zerebecki",
+   "Zerebecki, Robyn",
    "Zerebecki, Robyn A."
   ],
   "atNortheastern": false,
@@ -11218,6 +11314,8 @@
  },
  "A5053013014": {
   "alternativeNames": [
+   "Chai Yunrong",
+   "Chai, Yunrong",
    "Yunrong Chai"
   ],
   "atNortheastern": true,
@@ -11226,7 +11324,7 @@
   ],
   "name": "Yunrong Chai",
   "orcid": "https://orcid.org/0000-0002-5903-5529",
-  "papers": 1
+  "papers": 2
  },
  "A5053306169": {
   "alternativeNames": [
@@ -11246,7 +11344,6 @@
    "WANG Yao2",
    "Wang YAO",
    "Wang Yao",
-   "Wang, Yao",
    "Yao WANG",
    "Yao Wang",
    "Zhenyu Wang"
@@ -11353,7 +11450,6 @@
  },
  "A5053886962": {
   "alternativeNames": [
-   "Murphy, R. Daniel",
    "R. Daniel Murphy",
    "R. Murphy",
    "Robert D Murphy",
@@ -11479,7 +11575,9 @@
  },
  "A5054263879": {
   "alternativeNames": [
+   "Ihuaenyi, Royal",
    "Ihuaenyi, Royal C.",
+   "Ihuaenyi, Royal Chibuzor",
    "Royal C. Ihuaenyi",
    "Royal Chibuzor Ihuaenyi",
    "Royal Ihuaenyi"
@@ -11721,7 +11819,6 @@
  },
  "A5055243574": {
   "alternativeNames": [
-   "Mewada, Yash",
    "Yash Mewada"
   ],
   "atNortheastern": true,
@@ -11762,12 +11859,12 @@
   "alternativeNames": [
    "Jacob S Zelko",
    "Jacob S. Zelko",
-   "Jacob Zelko"
+   "Jacob Zelko",
+   "Zelko, Jacob",
+   "Zelko, Jacob S."
   ],
-  "atNortheastern": true,
-  "currentInstitutions": [
-   "Northeastern University"
-  ],
+  "atNortheastern": false,
+  "currentInstitutions": [],
   "name": "Jacob S. Zelko",
   "orcid": null,
   "papers": 1
@@ -11846,7 +11943,6 @@
    "Justin Baker Ries",
    "Justin Ries",
    "Ries, J. B.",
-   "Ries, J.B.",
    "Ries, Justin",
    "Ries, Justin B",
    "Ries, Justin B."
@@ -11885,7 +11981,6 @@
    "S.A. Loiselle",
    "STEVEN A. LOISELLE",
    "Steven  A. Loiselle",
-   "Steven  Arthur Loiselle",
    "Steven A Loiselle",
    "Steven A. Loiselle",
    "Steven Arthur LOISELLE",
@@ -11981,6 +12076,7 @@
  },
  "A5056451326": {
   "alternativeNames": [
+   "Atwi, Rasha",
    "Rasha Atwi"
   ],
   "atNortheastern": false,
@@ -12098,11 +12194,13 @@
    "Carlos Emilio Sandoval Olascoaga",
    "Carlos Sandoval Olascoaga",
    "Olascoaga, Carlos Sandoval",
-   "Sandoval Olascoaga, Carlos"
+   "Sandoval Olascoaga, Carlos",
+   "Sandoval Olascoaga, Carlos Emilio"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University"
+   "Northeastern University",
+   "Massachusetts Institute of Technology"
   ],
   "name": "Carlos Sandoval Olascoaga",
   "orcid": "https://orcid.org/0000-0002-1733-6526",
@@ -12258,6 +12356,7 @@
    "Kearns, Patrick",
    "Kearns, Patrick J.",
    "P.J. Kearns",
+   "PJ Kearns",
    "Patrick J Kearns",
    "Patrick J. Kearns",
    "Patrick Kearns",
@@ -12325,7 +12424,6 @@
    "S Munoz",
    "S. E. Munoz",
    "S. E. Muñoz",
-   "S.E Muñoz",
    "Samuel E Munoz",
    "Samuel E Muñoz",
    "Samuel E. Munoz",
@@ -12453,8 +12551,7 @@
   "alternativeNames": [
    "Chen-yang Zhu",
    "Chenyang Zhu",
-   "Zhu Chen-yang",
-   "Zhu, Chenyang"
+   "Zhu Chen-yang"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -12640,6 +12737,7 @@
  },
  "A5060164564": {
   "alternativeNames": [
+   "He Lizi",
    "L.Z. He",
    "Li-Zi He",
    "Li-zi HE",
@@ -12726,6 +12824,7 @@
  },
  "A5060597294": {
   "alternativeNames": [
+   "Halacoglu, Selim",
    "Selim Halacoglu"
   ],
   "atNortheastern": true,
@@ -12797,10 +12896,12 @@
    "Diluzio, Stephen",
    "Stephen DiLuzio",
    "Stephen Diluzio",
+   "Stephen P. DiLuzio",
    "Stephen Patrick diLuzio"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
+   "California Institute of Technology",
    "Northeastern University"
   ],
   "name": "Stephen DiLuzio",
@@ -12842,6 +12943,7 @@
  },
  "A5061178219": {
   "alternativeNames": [
+   "Heineke, Marcella",
    "Marcella Heineke",
    "Marcella R. Heineke"
   ],
@@ -12858,6 +12960,7 @@
   "alternativeNames": [
    "Grodal",
    "Grodal, Stine",
+   "S. Grodal",
    "STINE GRODAL",
    "Stine Grodal"
   ],
@@ -12875,7 +12978,8 @@
    "Amir Namin",
    "Amir T Namin",
    "Amir T. Namin",
-   "Namin, Amir T."
+   "Namin, Amir T.",
+   "Namin, Amir Taher"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -12894,7 +12998,6 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "California Institute of Technology",
    "Northeastern University"
   ],
   "name": "Shuanglong Liu",
@@ -12904,6 +13007,7 @@
  "A5061488382": {
   "alternativeNames": [
    "Chinazzi M.",
+   "Chinazzi Matteo",
    "Chinazzi, M.",
    "Chinazzi, Matteo",
    "Matteo Chinazzi"
@@ -13113,7 +13217,8 @@
   "alternativeNames": [
    "Fahad Ehsan Muhammad",
    "M. F. Ehsan",
-   "Muhammad Fahad Ehsan"
+   "Muhammad Fahad Ehsan",
+   "Muhammad Fahad Esan"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -13149,7 +13254,6 @@
    "Yan Shen Xu",
    "Yan XU",
    "Yan Xu",
-   "Yan Yan Xu",
    "Yan shen Xu"
   ],
   "atNortheastern": true,
@@ -13189,7 +13293,6 @@
  "A5063597830": {
   "alternativeNames": [
    "Eckelman, Matthew",
-   "Eckelman, Matthew J",
    "M. Eckelman",
    "M.J. Eckelman",
    "Matthew\nJ. Eckelman",
@@ -13249,6 +13352,7 @@
  },
  "A5063866795": {
   "alternativeNames": [
+   "Pakdelian, Siavash",
    "S. Pakdelian",
    "Siavash Pakdelian"
   ],
@@ -13296,6 +13400,7 @@
  },
  "A5064024072": {
   "alternativeNames": [
+   "Betz, Nicole",
    "Nicole Betz",
    "Nicole J. Betz"
   ],
@@ -13423,7 +13528,6 @@
    "Auroop R. Ganguly",
    "Auroop Ratan Ganguly",
    "Ganguly Auroop R.",
-   "Ganguly, A. R.",
    "Ganguly, Auroop",
    "Ganguly, Auroop R",
    "Ganguly, Auroop R.",
@@ -13662,7 +13766,6 @@
    "Haipeng Li",
    "Haiping Li",
    "Haiqiang Li",
-   "Haiqin Li",
    "Haiqing Li",
    "Haiquan Li",
    "Hairong Li",
@@ -13685,12 +13788,12 @@
    "Haixia Li",
    "Haixiang Li",
    "Haixiao Li",
-   "Haixin Li"
+   "Haixin Li",
+   "Haixing Li"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
    "Harbin University of Science and Technology",
-   "Hunan Institute of Science and Technology",
    "South China Agricultural University",
    "Shihezi University",
    "Karlsruhe Institute of Technology",
@@ -14267,7 +14370,6 @@
    "State Key Laboratory of Silicon Materials",
    "State Key Laboratory of Advanced Technology For Materials Synthesis and Processing",
    "State Key Laboratory of Metastable Materials Science and Technology",
-   "State Key Laboratory of Rice Biology",
    "State Key Laboratory of Geological Processes and Mineral Resources",
    "State Key Laboratory of Silicate Materials for Architecture",
    "State Key Laboratory of Industrial Control Technology",
@@ -14523,6 +14625,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "MIT Lincoln Laboratory",
    "Massachusetts Institute of Technology"
   ],
   "name": "Nathaniel Hanson",
@@ -14670,6 +14773,7 @@
  },
  "A5066167590": {
   "alternativeNames": [
+   "Ansaldo, Gabriele (author)",
    "Gabriele Ansaldo"
   ],
   "atNortheastern": true,
@@ -14817,6 +14921,7 @@
  "A5066928541": {
   "alternativeNames": [
    "Dong Zaizheng",
+   "Zaizheng DONG",
    "Zaizheng Dong"
   ],
   "atNortheastern": false,
@@ -14833,7 +14938,6 @@
   "alternativeNames": [
    "J M Jornet",
    "J. M. Jornet",
-   "Jornet, J. M.",
    "Jornet, JM",
    "Jornet, Josep",
    "Jornet, Josep M.",
@@ -14858,7 +14962,6 @@
    "MATTHIAS RUTH",
    "Matthias Ruth",
    "Matthias Rüth",
-   "Ruth, M.",
    "Ruth, Matthias"
   ],
   "atNortheastern": false,
@@ -14872,7 +14975,9 @@
  "A5067110530": {
   "alternativeNames": [
    "Haratama, Kusuma Refa",
+   "Kusuma  Refa Haratama",
    "Kusuma Haratama",
+   "Kusuma R. HARATAMA",
    "Kusuma R. Haratama",
    "Kusuma Refa Haratama"
   ],
@@ -14881,6 +14986,18 @@
    "Universitas Negeri Surabaya"
   ],
   "name": "Kusuma Refa Haratama",
+  "orcid": "https://orcid.org/0009-0001-6362-617X",
+  "papers": 1
+ },
+ "A5067119410": {
+  "alternativeNames": [
+   "Gabriel Michaels"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Gabriel Michaels",
   "orcid": null,
   "papers": 1
  },
@@ -15025,7 +15142,8 @@
    "Jennie Catherine Stephens",
    "Jennie Stephens",
    "Stephens, Jennie C",
-   "Stephens, Jennie C."
+   "Stephens, Jennie C.",
+   "Stephens, Jennie Catherine"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -15101,6 +15219,8 @@
  },
  "A5068318968": {
   "alternativeNames": [
+   "Harlan, Sharon",
+   "Harlan, Sharon L",
    "Harlan, Sharon L.",
    "S. Harlan",
    "S. L. Harlan",
@@ -15108,7 +15228,8 @@
    "SHARON L. HARLAN",
    "Sharon Harlan",
    "Sharon L Harlan",
-   "Sharon L. Harlan"
+   "Sharon L. Harlan",
+   "Sharon L. Harlan C"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -15291,8 +15412,10 @@
  "A5069008667": {
   "alternativeNames": [
    "F. R. Schenck",
+   "Forest R Schenck, PhD",
    "Forest R. Schenck",
-   "Forest Schenck"
+   "Forest Schenck",
+   "Schenck, Forest"
   ],
   "atNortheastern": false,
   "currentInstitutions": [],
@@ -15302,7 +15425,6 @@
  },
  "A5069039332": {
   "alternativeNames": [
-   "Liu Xin",
    "Sizhe Li",
    "Xin Liu",
    "Xinzhao Luo",
@@ -15447,11 +15569,14 @@
    "C Zeinalipour-Yazdi",
    "Constantinos D Zeinalipour-Yazdi",
    "Constantinos D. Zeinalipour-Yazdi",
+   "Constantinos D. Zeinalipour-yazdi",
    "Constantinos D. Zeinalipour‐Yazdi",
    "Constantinos Zeinalipour-Yazdi",
    "Constantinos Zeinalipour‐Yazdi",
    "Zeinalipour-Yazdi, C",
    "Zeinalipour-Yazdi, C.",
+   "Zeinalipour-Yazdi, Constantinos",
+   "Zeinalipour-Yazdi, Constantinos D.",
    "onstantinos D. Zeinalipour-Yazdi"
   ],
   "atNortheastern": false,
@@ -15583,6 +15708,19 @@
   "orcid": "https://orcid.org/0000-0002-5099-5531",
   "papers": 3
  },
+ "A5070673488": {
+  "alternativeNames": [
+   "Kalluri, Ravi",
+   "Ravi Kalluri"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Ravi Kalluri",
+  "orcid": "https://orcid.org/0000-0002-1920-9547",
+  "papers": 1
+ },
  "A5070767027": {
   "alternativeNames": [
    "H.J. Liu",
@@ -15626,6 +15764,7 @@
  "A5071038400": {
   "alternativeNames": [
    "Aerni, K.",
+   "Aerni, Karen E",
    "K. Aerni",
    "Karen Aerni",
    "Karen E. Aerni"
@@ -15737,8 +15876,7 @@
  },
  "A5071533633": {
   "alternativeNames": [
-   "James Tukpah",
-   "Tukpah, James"
+   "James Tukpah"
   ],
   "atNortheastern": false,
   "currentInstitutions": [],
@@ -15760,7 +15898,8 @@
  },
  "A5071791777": {
   "alternativeNames": [
-   "Ershuai Liu"
+   "Ershuai Liu",
+   "Liu, Ershuai"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -15962,6 +16101,7 @@
   "alternativeNames": [
    "Kollars, Nicole",
    "Kollars, Nicole M.",
+   "NM Kollars",
    "Nicole Kollars",
    "Nicole M. Kollars",
    "Nicole M. Kollars‐Kjersten"
@@ -15976,8 +16116,10 @@
  },
  "A5072640104": {
   "alternativeNames": [
+   "Ana Luisa Solórzano",
    "Ana Luisa Veroneze Solorzano",
    "Ana Luisa Veroneze Solórzano",
+   "Ana Luísa V. Solórzano",
    "Solórzano, Ana Luisa Veroneze"
   ],
   "atNortheastern": true,
@@ -16021,6 +16163,7 @@
  },
  "A5072903450": {
   "alternativeNames": [
+   "Landherr, Luke",
    "Luke Landherr"
   ],
   "atNortheastern": true,
@@ -16231,7 +16374,9 @@
  },
  "A5073983917": {
   "alternativeNames": [
+   "J. D. Selwyn",
    "J.D. Selwyn",
+   "JD Selwyn",
    "Jason D Selwyn",
    "Jason D. Selwyn",
    "Jason Selwyn",
@@ -16265,6 +16410,8 @@
    "S. B. Scyphers",
    "S. Scyphers",
    "S.B. Scyphers",
+   "SB Scyphers",
+   "Scyphers, Steven",
    "Scyphers, Steven B.",
    "Steven  B. Scyphers",
    "Steven B Scyphers",
@@ -16387,6 +16534,7 @@
   "alternativeNames": [
    "Christopher A Le Dantec",
    "Christopher A. Le Dantec",
+   "Christopher LeDantec",
    "Dantec, Christopher A. Le",
    "Le Dantec, Christopher A."
   ],
@@ -16401,6 +16549,7 @@
  "A5074587468": {
   "alternativeNames": [
    "C. Flores-Saviaga",
+   "Claudia Flores Saviaga",
    "Claudia Flores-Saviaga",
    "Flores-Saviaga, Claudia"
   ],
@@ -16576,6 +16725,7 @@
  },
  "A5075661713": {
   "alternativeNames": [
+   "Luan Pengcheng",
    "P. Luan",
    "PengCheng Luan",
    "Pengcheng Luan"
@@ -16615,8 +16765,7 @@
    "Thomas Jay Webster",
    "Thomas Webster",
    "Webster, Thomas",
-   "Webster, Thomas J",
-   "Webster, Thomas J."
+   "Webster, Thomas J"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -16639,7 +16788,6 @@
    "Baeza-Yates, Ricardo A",
    "Baeza-Yates, Ricardo A.",
    "Baeza-Yates, Ricardo",
-   "R BAEZAYATES",
    "R Baeza-Yates",
    "R. A. BAEZA-YATES",
    "R. A. Baeza-Yates",
@@ -16816,6 +16964,7 @@
  "A5076841438": {
   "alternativeNames": [
    "Underhill, Vivian",
+   "Underhill, Vivian Ruth",
    "Vivian Underhill"
   ],
   "atNortheastern": false,
@@ -16907,16 +17056,18 @@
  },
  "A5077155551": {
   "alternativeNames": [
+   "H. B. Song",
+   "H. Song",
    "Hao SONG",
-   "Hao Song"
+   "Hao Song",
+   "Hao 浩 Song 宋",
+   "Song Hao",
+   "Song, Hao",
+   "宋浩"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
-   "Southwest University of Science and Technology",
    "Tianjin University",
-   "University of Saskatchewan",
-   "Gansu University of Traditional Chinese Medicine",
-   "First Affiliated Hospital of Xi'an Jiaotong University",
    "Northeastern University"
   ],
   "name": "Hao Song",
@@ -17157,6 +17308,7 @@
  },
  "A5078385425": {
   "alternativeNames": [
+   "Jamel E. Zarrouk",
    "Jamel ZARROUK",
    "Jamel Zarrouk",
    "Zarrouk, Jamel"
@@ -17199,7 +17351,9 @@
    "A. K. Lincoln",
    "Alisa K Lincoln",
    "Alisa K. Lincoln",
-   "Alisa Lincoln"
+   "Alisa Lincoln",
+   "Lincoln, Alisa",
+   "Lincoln, Alisa K."
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -17290,8 +17444,7 @@
  "A5078888279": {
   "alternativeNames": [
    "F. Mo",
-   "Fan Mo",
-   "Mo, Fanbin"
+   "Fan Mo"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -17307,7 +17460,8 @@
  },
  "A5078934041": {
   "alternativeNames": [
-   "Basil Reji"
+   "Basil Reji",
+   "Reji, Basil"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -17373,7 +17527,6 @@
  },
  "A5079504963": {
   "alternativeNames": [
-   "Qian, Zhenyun",
    "Z Qian",
    "Z. Qian",
    "Zhenyun Qian"
@@ -17410,6 +17563,7 @@
  "A5079712884": {
   "alternativeNames": [
    "MARANO, VALENTINA",
+   "Marano, Valentina",
    "Valentina Marano"
   ],
   "atNortheastern": true,
@@ -17565,6 +17719,7 @@
    "S BENCHERIF",
    "S. Bencherif",
    "S.A. Bencherif",
+   "Sara D. Alvarez A",
    "Sidi  A. Bencherif",
    "Sidi A. Bencherif",
    "Sidi A. Bencherif A",
@@ -17608,6 +17763,20 @@
   "name": "Benjamin Russell Howell",
   "orcid": "https://orcid.org/0000-0003-2066-6400",
   "papers": 4
+ },
+ "A5080556819": {
+  "alternativeNames": [
+   "DANIEL HATHAWAY",
+   "Daniel Hathaway"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "Universidad de Antofagasta"
+  ],
+  "name": "Daniel Hathaway",
+  "orcid": null,
+  "papers": 1
  },
  "A5080579311": {
   "alternativeNames": [
@@ -17669,9 +17838,8 @@
    "Hongzeng Wang",
    "Wang Hongzeng"
   ],
-  "atNortheastern": true,
+  "atNortheastern": false,
   "currentInstitutions": [
-   "Northeastern University",
    "Northeastern University"
   ],
   "name": "Hongzeng Wang",
@@ -17696,8 +17864,10 @@
  },
  "A5080789540": {
   "alternativeNames": [
+   "Falco Poulin, Rosalia",
    "Rosalia Falco",
-   "Rosalia Falco Poulin"
+   "Rosalia Falco Poulin",
+   "Rosalia Falco-Poulin"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -17709,10 +17879,13 @@
  },
  "A5080823228": {
   "alternativeNames": [
+   "A. Wylie, Sara",
    "Sara A. Wylie",
    "Sara Ann Wylie",
    "Sara Wylie",
-   "Wylie, Sara"
+   "Wylie, Sara",
+   "Wylie, Sara Ann",
+   "Wylie, Sara Ann 1980-"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -17824,6 +17997,8 @@
  "A5081345263": {
   "alternativeNames": [
    "A Unzueta Martínez",
+   "A. Unzueta Martinez",
+   "Andrea Unzueta Martinez",
    "Andrea Unzueta-Martínez",
    "Andrea Unzueta‐Martínez",
    "Unzueta-Martínez, Andrea"
@@ -17913,7 +18088,8 @@
  "A5082025394": {
   "alternativeNames": [
    "K. Zolotovsky",
-   "Katia Zolotovsky"
+   "Katia Zolotovsky",
+   "Zolotovsky, Katia"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -17990,6 +18166,7 @@
  },
  "A5082747386": {
   "alternativeNames": [
+   "Doucette, Violet E",
    "Violet E. Doucette"
   ],
   "atNortheastern": true,
@@ -18004,9 +18181,7 @@
   "alternativeNames": [
    "Annabel Hughes",
    "Annabel M Hughes",
-   "Annabel M. Hughes",
-   "Hughes, Annabel M",
-   "Hughes, Annabel M."
+   "Annabel M. Hughes"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -18031,6 +18206,7 @@
  },
  "A5082851502": {
   "alternativeNames": [
+   "Bardou, Remi",
    "Bardou, Rémi",
    "Remi Bardou",
    "Rémi Bardou"
@@ -18084,6 +18260,7 @@
    "DL Distel",
    "Dan Distel",
    "Dan L. Distel",
+   "Daniel D. Distel",
    "Daniel Distel",
    "Daniel L Distel",
    "Daniel L. Distel",
@@ -18102,10 +18279,11 @@
   "alternativeNames": [
    "D Erdogmus",
    "D. Erdogmus",
-   "Deniz  Erdogmus",
    "Deniz Erdogmus",
+   "Deniz Erdogmus B",
    "Deniz Erdoğmuş",
    "Erdogmus, Deniz",
+   "Erdogmuş, Deniz",
    "Erdoğmuş, Deniz"
   ],
   "atNortheastern": true,
@@ -18122,7 +18300,8 @@
   "alternativeNames": [
    "A Panahi",
    "A. Panahi",
-   "Aidin Panahi"
+   "Aidin Panahi",
+   "Panahi Aidin"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -18258,7 +18437,8 @@
    "N MOHAJERI",
    "N Mohajeri",
    "N. Mohajeri",
-   "Nahid Mohajeri"
+   "Nahid Mohajeri",
+   "mohajeri, nahid"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -18295,7 +18475,6 @@
    "Lopez, S.",
    "Lopez, Steven",
    "Lopez, Steven A.",
-   "Steven A Lopez",
    "Steven A. Lopez",
    "Steven Lopez"
   ],
@@ -18485,8 +18664,10 @@
    "Francis M. Choi",
    "Francis M. P. Choi"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Francis M. P. Choi",
   "orcid": "https://orcid.org/0000-0003-4389-8087",
   "papers": 3
@@ -18517,6 +18698,7 @@
    "Katherine Ognyanova",
    "Katya Ognyanova",
    "Ognyanova K.",
+   "Ognyanova Katherine",
    "Ognyanova, Katherine",
    "Ognyanova, Katherine (author)"
   ],
@@ -18545,6 +18727,7 @@
   "alternativeNames": [
    "Barecka, Magda",
    "Barecka, Magda H.",
+   "Barecka, Magda Helena",
    "M.H. Barecka",
    "Magda  Helena Barecka",
    "Magda Barecka",
@@ -18569,7 +18752,6 @@
    "Alvaro Cuervo-cazurra",
    "Alvaro Cuervo‐Cazurra",
    "Alvaro Cuervo‐Cazurrra",
-   "Cuervo-Cazurra, A",
    "Cuervo-Cazurra, Alvaro",
    "Cuervo-Cazurra, Alvaro 1968-",
    "Cuervo-Cazurra, Alvaro, 1968-",
@@ -18699,6 +18881,7 @@
  },
  "A5085217186": {
   "alternativeNames": [
+   "Dev, Saloni",
    "Saloni Dev"
   ],
   "atNortheastern": false,
@@ -18752,6 +18935,7 @@
  },
  "A5085314418": {
   "alternativeNames": [
+   "Kaufmann, Talia",
    "Talia Kaufmann"
   ],
   "atNortheastern": true,
@@ -18829,6 +19013,7 @@
  },
  "A5085506894": {
   "alternativeNames": [
+   "Mariana J. Sarango",
    "Mariana Sarango"
   ],
   "atNortheastern": true,
@@ -18836,7 +19021,7 @@
    "Northeastern University"
   ],
   "name": "Mariana Sarango",
-  "orcid": null,
+  "orcid": "https://orcid.org/0000-0003-1955-4209",
   "papers": 2
  },
  "A5085535523": {
@@ -18878,11 +19063,14 @@
  "A5085797169": {
   "alternativeNames": [
    "Aguilera, Ruth",
+   "Aguilera, Ruth V.",
    "R AGUILERA",
    "R. V. Aguilera",
    "Ruth Aguilera",
    "Ruth V Aguilera",
    "Ruth V. Aguilera",
+   "Ruth V. Aguilera A",
+   "Ruth V. Aguilera B",
    "Ruth V. Aguilera Vaqués",
    "Ruth V. Aguilera"
   ],
@@ -18938,8 +19126,7 @@
   "alternativeNames": [
    "Tie-Qiang Wang",
    "Tie-qiang Wang",
-   "Tieqiang Wang",
-   "Wang, Tieqiang"
+   "Tieqiang Wang"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -19066,6 +19253,8 @@
    "Joeri B. Reinders",
    "Joeri Bernard Reinders",
    "Joeri Reinders",
+   "Reinders, Joeri",
+   "Reinders, Joeri B",
    "Reinders, Joeri B."
   ],
   "atNortheastern": false,
@@ -19112,8 +19301,10 @@
    "Jaclyn Gehring",
    "Jaclyn Mary Gehring"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Jaclyn Gehring",
   "orcid": "https://orcid.org/0009-0006-3719-1121",
   "papers": 3
@@ -19201,7 +19392,8 @@
   "alternativeNames": [
    "Emily C Trytten",
    "Emily C. Trytten",
-   "Emily Trytten"
+   "Emily Trytten",
+   "Trytten, Emily C."
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -19243,7 +19435,9 @@
    "Kristin Lunz-Trujillo",
    "Kristin Trujillo",
    "Lunz Trujillo, Krissy",
-   "Lunz Trujillo, Kristin"
+   "Lunz Trujillo, Kristin",
+   "Lunz-Trujillo, K.",
+   "Lunz-Trujillo, Kristin"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -19260,6 +19454,7 @@
    "A. Abur",
    "Abur, Ali",
    "Ali Abur",
+   "Ali Abur (13442334)",
    "Alí Abur"
   ],
   "atNortheastern": true,
@@ -19290,20 +19485,19 @@
  },
  "A5087777101": {
   "alternativeNames": [
-   "A KAMALI",
-   "A Kamali",
    "A. Kamali",
    "A. R. Kamali",
    "A.R. Kamali",
    "Ali  Reza Kamali",
    "Ali Kamali",
-   "Ali N. Kamali",
    "Ali Reza Kamai",
    "Ali Reza Kamali",
-   "Alireza Ardakani Kamali",
-   "Alireza Kamali",
+   "Ali Reza Kamali (10699599)",
+   "Ali Reza Kamali (20105360)",
    "Kamali Ali",
-   "Kamali, Ali"
+   "Kamali Ali Reza",
+   "Kamali, Ali Reza",
+   "على رضا کمالى"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -19500,7 +19694,9 @@
   "alternativeNames": [
    "MARGARET STREETER",
    "Margaret A. Streeter",
-   "Margaret Streeter"
+   "Margaret Streeter",
+   "Streeter, Margaret",
+   "Streeter, Margaret A."
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -19557,13 +19753,8 @@
    "Savannah H. Swinea",
    "Savannah Hanes Swinea"
   ],
-  "atNortheastern": true,
-  "currentInstitutions": [
-   "Northeastern University",
-   "Dauphin Island Sea Lab",
-   "University of South Alabama",
-   "Northeastern University"
-  ],
+  "atNortheastern": false,
+  "currentInstitutions": [],
   "name": "Savannah H. Swinea",
   "orcid": "https://orcid.org/0000-0003-3995-9043",
   "papers": 6
@@ -19619,6 +19810,7 @@
  },
  "A5089035386": {
   "alternativeNames": [
+   "Jinpeng Lv",
    "Li Ying",
    "Li You",
    "Li Yu",
@@ -19793,9 +19985,11 @@
  },
  "A5089094196": {
   "alternativeNames": [
+   "Botran, Tania Lorido",
    "Lorido-Botran, Tania",
    "T. Lorido-Botrán",
    "Tania Lorido Botran",
+   "Tania Lorido Botrán",
    "Tania Lorido-Botran",
    "Tania Lorido-Botrán"
   ],
@@ -19804,12 +19998,13 @@
    "Stanford University"
   ],
   "name": "Tania Lorido-Botrán",
-  "orcid": "https://orcid.org/0000-0002-9132-4435",
+  "orcid": "https://orcid.org/0009-0002-8836-3983",
   "papers": 1
  },
  "A5089095664": {
   "alternativeNames": [
-   "Amedeo Boldrini"
+   "Amedeo Boldrini",
+   "Boldrini, Amedeo"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -19835,6 +20030,7 @@
  },
  "A5089294221": {
   "alternativeNames": [
+   "Grabowski Jh",
    "Grabowski, J.H.",
    "Grabowski, Jonathan",
    "Grabowski, Jonathan H",
@@ -19904,7 +20100,8 @@
  },
  "A5089579925": {
   "alternativeNames": [
-   "Fatema Nafa"
+   "Fatema Nafa",
+   "Nafa, Fatema B"
   ],
   "atNortheastern": false,
   "currentInstitutions": [],
@@ -19915,6 +20112,7 @@
  "A5089712966": {
   "alternativeNames": [
    "D Fannon",
+   "D. Fannon",
    "David Fannon",
    "David J. Fannon",
    "Fannon, David",
@@ -19961,6 +20159,7 @@
  "A5089842725": {
   "alternativeNames": [
    "Alexi Quintana",
+   "Alexi Quintana Mathé",
    "Alexi Quintana-Mathe",
    "Alexi Quintana-Mathé",
    "Quintana-Mathé, Alexi"
@@ -20381,7 +20580,8 @@
  "A5092062589": {
   "alternativeNames": [
    "Erin Heeschen",
-   "Erin M. Heeschen"
+   "Erin M. Heeschen",
+   "Heeschen, Erin"
   ],
   "atNortheastern": false,
   "currentInstitutions": [],
@@ -20391,6 +20591,7 @@
  },
  "A5092062590": {
   "alternativeNames": [
+   "DeLucia, Elena",
    "Elena DeLucia"
   ],
   "atNortheastern": true,
@@ -20425,6 +20626,7 @@
  },
  "A5092201537": {
   "alternativeNames": [
+   "Bruggeman, Ryan",
    "Ryan Bruggeman"
   ],
   "atNortheastern": true,
@@ -20564,8 +20766,7 @@
   "alternativeNames": [
    "Camille A. Rumberger",
    "Camille Rumberger",
-   "Rumberger, Camille",
-   "Rumberger, Camille A."
+   "Rumberger, Camille"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -20580,7 +20781,8 @@
    "Brecia A Despard",
    "Brecia A. Despard",
    "Brecia Despard",
-   "Despard, Brecia A"
+   "Despard, Brecia A",
+   "Despard, Brecia A."
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -20606,7 +20808,8 @@
  },
  "A5093041536": {
   "alternativeNames": [
-   "Aubrey Foulk"
+   "Aubrey Foulk",
+   "Foulk, Aubrey"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -20721,14 +20924,11 @@
  },
  "A5093734338": {
   "alternativeNames": [
-   "Ethan Holand",
-   "Holand, Ethan"
+   "Ethan Holand"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University",
-   "Robotics Research (United States)",
-   "Carnegie Mellon University"
+   "Northeastern University"
   ],
   "name": "Ethan Holand",
   "orcid": null,
@@ -20736,8 +20936,7 @@
  },
  "A5093734339": {
   "alternativeNames": [
-   "Alex Storrer",
-   "Storrer, Alex"
+   "Alex Storrer"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -20749,7 +20948,6 @@
  },
  "A5093734340": {
   "alternativeNames": [
-   "Khandeker, Musheeera",
    "Musheeera Khandeker"
   ],
   "atNortheastern": true,
@@ -20762,8 +20960,7 @@
  },
  "A5093734341": {
   "alternativeNames": [
-   "Ethan F. Muhlon",
-   "Muhlon, Ethan F."
+   "Ethan F. Muhlon"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -20775,7 +20972,6 @@
  },
  "A5093734343": {
   "alternativeNames": [
-   "Antaki, David",
    "David Antaki"
   ],
   "atNortheastern": true,
@@ -21353,7 +21549,6 @@
   "alternativeNames": [
    "Shalini  Shawari Matharage",
    "Shalini Matharage",
-   "Shalini S Matharage",
    "Shalini S. Matharage",
    "Shalini Shawari Matharage"
   ],
@@ -21414,7 +21609,7 @@
  },
  "A5099046678": {
   "alternativeNames": [
-   "Ayed, Farah Ben",
+   "Farah Ben",
    "Farah Ben Ayed"
   ],
   "atNortheastern": true,
@@ -21466,6 +21661,7 @@
  },
  "A5099636076": {
   "alternativeNames": [
+   "Manela, Romi",
    "Romi Manela"
   ],
   "atNortheastern": false,
@@ -21478,6 +21674,7 @@
  },
  "A5099636077": {
   "alternativeNames": [
+   "Krista, Sabrina",
    "Sabrina Krista"
   ],
   "atNortheastern": false,
@@ -21502,11 +21699,14 @@
  },
  "A5100012236": {
   "alternativeNames": [
+   "O Olagunju",
+   "O. Olagunju",
    "Oluwabusola Dorcas Olagunju"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University"
+   "Northeastern University",
+   "Covenant University"
   ],
   "name": "Oluwabusola Dorcas Olagunju",
   "orcid": null,
@@ -21528,8 +21728,7 @@
   "alternativeNames": [
    "Ben-oni E. Vainqueur",
    "Ben-oni Vainqueur",
-   "Benoni Vainqueur",
-   "Vainqueur, Ben-oni"
+   "Benoni Vainqueur"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -21575,7 +21774,6 @@
    "Li W.",
    "Li WEI",
    "Li Wei",
-   "Li, W.",
    "Li, Wei",
    "Shibao Li",
    "W Li",
@@ -21842,8 +22040,7 @@
  "A5100333762": {
   "alternativeNames": [
    "Y. Zhang",
-   "Yue Zhang",
-   "Zhang, Yue"
+   "Yue Zhang"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -22000,7 +22197,6 @@
    "LI Pengfei",
    "Li Peng-Fei",
    "Li Pengfei",
-   "Li, Pengfei",
    "Peng-Fei Li",
    "Peng-fei LI",
    "Peng-fei Li",
@@ -22034,7 +22230,6 @@
    "Shi-Wei Wang",
    "Shiwei Wang",
    "Shi‐Wei Wang",
-   "Wang, Shiwei",
    "王释伟"
   ],
   "atNortheastern": false,
@@ -22108,7 +22303,6 @@
    "Ryan Wang",
    "Wang, Qi",
    "Wang, Qi R.",
-   "Wang, Qi Ryan",
    "Wang, Ryan"
   ],
   "atNortheastern": true,
@@ -22216,6 +22410,7 @@
    "Jia-xin Li",
    "JiaXin LI",
    "Jiaxin Li",
+   "L JIAXIN",
    "LI Jia-xin"
   ],
   "atNortheastern": true,
@@ -22874,7 +23069,6 @@
  },
  "A5100372590": {
   "alternativeNames": [
-   "D KIM",
    "D Kim",
    "D. Kim",
    "Daniel J Kim",
@@ -22902,7 +23096,6 @@
    "Junbo WANG",
    "Junbo Wang",
    "Wang Jun-bo",
-   "Wang, Jun-Bo",
    "Wang, Junbo",
    "王俊波"
   ],
@@ -22978,9 +23171,7 @@
    "Hebei University of Engineering",
    "Handan College",
    "Northeastern University",
-   "Chinese Academy of Sciences",
-   "Zhengzhou University",
-   "Luzhou Laojiao (China)"
+   "Chinese Academy of Sciences"
   ],
   "name": "Zhi Wang",
   "orcid": "https://orcid.org/0000-0003-3440-0435",
@@ -23073,6 +23264,7 @@
  },
  "A5100378809": {
   "alternativeNames": [
+   "Ruirui Zhang",
    "T Z Zhang",
    "Tong ZHANG",
    "Tong Zhang",
@@ -23215,8 +23407,7 @@
    "Ying, Zhang",
    "ZHANG Ying",
    "Zhang Ying",
-   "Zhang ying",
-   "Zhang, Ying"
+   "Zhang ying"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -23289,6 +23480,7 @@
    "ZHANG Zhijun",
    "Zhang Zhijun",
    "Zhang, Zhijun",
+   "Zheng Jiao",
    "Zhi-Jun ZHANG",
    "Zhi-Jun Zhang",
    "Zhi-jun Zhang",
@@ -23367,7 +23559,6 @@
    "Jia-qi Liu",
    "Jiaqi LIU",
    "Jiaqi Liu",
-   "Liu, Jia-Qi",
    "Liu, Jiaqi"
   ],
   "atNortheastern": false,
@@ -23454,8 +23645,7 @@
    "Xiao-Long Zhang",
    "Xiao-long Zhang",
    "Xiaolong Zhang",
-   "Xiaolong Zhang -",
-   "Zhang, Xiaolong"
+   "Xiaolong Zhang -"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -23604,7 +23794,6 @@
  },
  "A5100405444": {
   "alternativeNames": [
-   "Chen, Fei",
    "F Chen",
    "F. Chen",
    "Fei Chen",
@@ -23702,7 +23891,6 @@
    "Ningbo Institute of Industrial Technology",
    "State Key Laboratory of Advanced Special Steel",
    "Shenyang National Laboratory for Materials Science",
-   "Jiangsu Vocational College of Finance and Economics",
    "Chengdu Qinggong Polytechnic University",
    "Xi'an Jiaotong University",
    "Northeastern University"
@@ -23765,7 +23953,6 @@
  "A5100418675": {
   "alternativeNames": [
    "Chen Xu",
-   "Chen, Xu",
    "Xiang-quan Chen",
    "Xu C",
    "Xu CHEN",
@@ -23877,7 +24064,6 @@
   "alternativeNames": [
    "H Yang",
    "HUA YANG",
-   "Hua YANG",
    "Hua Yang",
    "Yang En Hua",
    "Yang Hua",
@@ -24052,6 +24238,7 @@
    "Zhejiang University of Science and Technology",
    "Tiangong University",
    "Chinese Academy of Sciences",
+   "ShanghaiTech University",
    "China University of Geosciences (Beijing)",
    "Henan University of Technology",
    "Shandong Jiaotong University",
@@ -24331,8 +24518,7 @@
    "Y. Zhou",
    "Yu Wei Zhou",
    "Yu Zhou",
-   "Zhou Yu",
-   "Zhou, Yu"
+   "Zhou Yu"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -24399,9 +24585,8 @@
    "Jin CHEN",
    "Jin Chen"
   ],
-  "atNortheastern": true,
+  "atNortheastern": false,
   "currentInstitutions": [
-   "Northeastern University",
    "Xi'an University of Architecture and Technology",
    "University of Illinois Urbana-Champaign",
    "Kunming Medical University",
@@ -24424,7 +24609,6 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Qingdao University",
    "Northeastern University",
    "Northeast Normal University",
    "Harbin Institute of Technology",
@@ -24556,8 +24740,7 @@
   "alternativeNames": [
    "Lin Yu",
    "Lin, Yu",
-   "Yu Lin",
-   "Yu, Lin"
+   "Yu Lin"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -24636,7 +24819,6 @@
   "alternativeNames": [
    "FU Hai-yang",
    "Fu Haiyang",
-   "Fu, Haiyang",
    "Haiyang Fu"
   ],
   "atNortheastern": false,
@@ -24811,7 +24993,6 @@
    "Xuemin Zhang",
    "Xue‐Min Zhang",
    "Zhang Xue-min",
-   "Zhang, Xuemin",
    "张学敏"
   ],
   "atNortheastern": false,
@@ -24996,9 +25177,8 @@
    "Jing-xian Liu",
    "Jingxian Liu"
   ],
-  "atNortheastern": true,
+  "atNortheastern": false,
   "currentInstitutions": [
-   "Northeastern University",
    "Northeastern University"
   ],
   "name": "Jingxian Liu",
@@ -25059,7 +25239,6 @@
   "alternativeNames": [
    "H. Li",
    "Haobo Li",
-   "Li, Haobo",
    "haobo li"
   ],
   "atNortheastern": true,
@@ -25165,8 +25344,7 @@
    "Hongfeng WANG -",
    "Hongfeng Wang",
    "Wang Hong-Feng",
-   "Wang Hong-feng",
-   "Wang, Hongfeng"
+   "Wang Hong-feng"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -25236,7 +25414,6 @@
   "alternativeNames": [
    "J Ma",
    "Jun Ma",
-   "Ma, Jun",
    "ma jun"
   ],
   "atNortheastern": false,
@@ -25380,8 +25557,7 @@
  },
  "A5100695190": {
   "alternativeNames": [
-   "Nan Wang",
-   "Wang Nan"
+   "Nan Wang"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -25645,7 +25821,6 @@
  "A5100713805": {
   "alternativeNames": [
    "Chen Ming",
-   "Chen, Ming-Li",
    "Chen, Mingli",
    "M CHEN",
    "M.L. Chen",
@@ -25785,6 +25960,7 @@
  },
  "A5100730863": {
   "alternativeNames": [
+   "Hao Zhang",
    "Qi Zhang",
    "X. Zhang",
    "Xiaohong Hu",
@@ -25795,6 +25971,7 @@
    "Yongtong Zhang",
    "Zhang Xing-hua",
    "Zhang, Xinghua",
+   "xinghua Zhang",
    "张兴华"
   ],
   "atNortheastern": false,
@@ -25824,8 +26001,6 @@
    "Hebei University of Technology",
    "Chinese Academy of Sciences",
    "Wuhan University",
-   "Zhengzhou University",
-   "Southeast University",
    "Jiangsu University of Science and Technology",
    "Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine",
    "Institute of Coal Chemistry",
@@ -26022,7 +26197,6 @@
    "Xin-lei Zhang",
    "Xinlei ZHANG",
    "Xinlei Zhang",
-   "Zhang, Xin-Lei",
    "Zhang, Xin-lei",
    "张新磊"
   ],
@@ -26094,7 +26268,6 @@
   "currentInstitutions": [
    "Northeastern University",
    "Shenyang Institute of Automation",
-   "North China Electric Power University",
    "Northwestern Polytechnical University",
    "Nanyang Technological University",
    "Chinese Academy of Sciences",
@@ -26237,7 +26410,12 @@
    "Yujing Guo"
   ],
   "atNortheastern": false,
-  "currentInstitutions": [],
+  "currentInstitutions": [
+   "Hunan University of Science and Technology",
+   "Shanxi University",
+   "Yanshan University",
+   "Fujian Agriculture and Forestry University"
+  ],
   "name": "Yujing Guo",
   "orcid": null,
   "papers": 1
@@ -26446,8 +26624,7 @@
   "alternativeNames": [
    "Zhi-kang ZHOU",
    "Zhi-kang Zhou",
-   "Zhikang Zhou",
-   "Zhou, Zhikang"
+   "Zhikang Zhou"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -26866,7 +27043,6 @@
  },
  "A5101494590": {
   "alternativeNames": [
-   "Chu-Han Wang",
    "Chuhan Wang",
    "Wang Chuhan",
    "Wang, Chuhan"
@@ -26876,7 +27052,6 @@
    "The University of Sydney",
    "Zhejiang Sci-Tech University",
    "University of Electronic Science and Technology of China",
-   "Chinese Academy of Sciences",
    "Beijing Normal University",
    "Hebei University of Science and Technology",
    "University of California San Diego",
@@ -27017,7 +27192,6 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Central South University of Forestry and Technology",
    "University of Science and Technology of China",
    "Northeastern University",
    "Chinese Academy of Sciences",
@@ -27060,7 +27234,7 @@
    "Zhejiang University"
   ],
   "name": "Bingbing Chen",
-  "orcid": "https://orcid.org/0000-0001-5521-9032",
+  "orcid": "https://orcid.org/0000-0001-5500-4998",
   "papers": 1
  },
  "A5101566416": {
@@ -27157,7 +27331,6 @@
  },
  "A5101627651": {
   "alternativeNames": [
-   "Li, Zhuowei",
    "Zhuowei Li"
   ],
   "atNortheastern": true,
@@ -27283,7 +27456,6 @@
   "alternativeNames": [
    "LIU, Shuyuan",
    "Liu Shuyuan",
-   "Liu, Shu-Yuan",
    "Liu, Shuyuan",
    "Liu,Shuyuan",
    "S. Liu",
@@ -27379,7 +27551,9 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
-   "Fujian Normal University"
+   "Fujian Normal University",
+   "Durham University",
+   "Northeastern University"
   ],
   "name": "Hua Guang Yan",
   "orcid": "https://orcid.org/0000-0003-3670-3579",
@@ -27532,8 +27706,7 @@
    "Chuan-Fu Li",
    "Chuan-fu Li",
    "Chuanfu Li",
-   "Li, Chuanfu",
-   "chuanfu li"
+   "Li, Chuanfu"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -27549,6 +27722,8 @@
  },
  "A5101815142": {
   "alternativeNames": [
+   "Tao Wenju",
+   "Tao wenju",
    "Wen-ju TAO",
    "Wenju Tao"
   ],
@@ -27611,7 +27786,6 @@
  "A5101832359": {
   "alternativeNames": [
    "Du Yi-ming",
-   "Du, Yiming",
    "Yi-Ming Du",
    "Yi-ming Du",
    "Yiming DU",
@@ -28120,6 +28294,7 @@
    "Jeong-Kyu, Lee",
    "JeongKyu Lee",
    "Jeongkyu Lee",
+   "Kyu Lee, Jeong",
    "Lee, Jeongkyu"
   ],
   "atNortheastern": true,
@@ -28197,8 +28372,7 @@
    "ChengLong Jiang",
    "Chenglong Jiang",
    "Jiang, C.",
-   "Jiang, Chenglong",
-   "chenglong jiang"
+   "Jiang, Chenglong"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -28421,7 +28595,8 @@
  "A5102704114": {
   "alternativeNames": [
    "A. Rajagopalan",
-   "Anushka Rajagopalan"
+   "Anushka Rajagopalan",
+   "Rajagopalan, Anushka"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -28565,6 +28740,7 @@
  },
  "A5102897254": {
   "alternativeNames": [
+   "Brynnydd (Brynn) Hamilton",
    "Brynnydd Hamilton",
    "Hamilton, Brynnydd"
   ],
@@ -28615,11 +28791,19 @@
    "Guangfu Liu",
    "Liu Guangfu",
    "Liu guangfu",
-   "Liu, Guangfu",
    "刘光复"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Tongji University",
+   "Northeastern University",
+   "Southwest Medical University",
+   "Affiliated Hospital of Southwest Medical University",
+   "China Automotive Technology and Research Center",
+   "China University of Petroleum, East China",
+   "Naval Aeronautical and Astronautical University",
+   "Northeastern University"
+  ],
   "name": "Guangfu Liu",
   "orcid": "https://orcid.org/0000-0001-9307-679X",
   "papers": 1
@@ -28656,7 +28840,6 @@
  },
  "A5103004013": {
   "alternativeNames": [
-   "Wang, Yufang",
    "Yufang Wang"
   ],
   "atNortheastern": true,
@@ -28729,8 +28912,7 @@
  "A5103079699": {
   "alternativeNames": [
    "Ruiyao Zhang",
-   "Zhang Ruiyao",
-   "Zhang, Ruiyao"
+   "Zhang Ruiyao"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -28974,7 +29156,8 @@
  },
  "A5103837205": {
   "alternativeNames": [
-   "Shixian Xiong"
+   "Shixian Xiong",
+   "Xiong Shixian"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -29126,7 +29309,7 @@
    "Northeastern University"
   ],
   "name": "Hezheng Pei",
-  "orcid": "https://orcid.org/0009-0004-1305-4048",
+  "orcid": null,
   "papers": 1
  },
  "A5104241248": {
@@ -29186,7 +29369,8 @@
  },
  "A5104338329": {
   "alternativeNames": [
-   "Anika Deodhar"
+   "Anika Deodhar",
+   "Deodhar, Anika"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -29224,6 +29408,7 @@
  },
  "A5104954234": {
   "alternativeNames": [
+   "Bashan, Nail F.",
    "Nail Bashan",
    "Nail F. Bashan"
   ],
@@ -29378,6 +29563,7 @@
   ],
   "atNortheastern": false,
   "currentInstitutions": [
+   "Key Laboratory of Ecological Metallurgy of Multimetallic Mineral of Ministry of Education",
    "Northeastern University"
   ],
   "name": "A Shubo",
@@ -29399,15 +29585,16 @@
  },
  "A5106975836": {
   "alternativeNames": [
-   "Li Qiang",
-   "Li, Qiang",
-   "Qiang LI",
-   "Qiang Li"
+   "Qiang Li",
+   "李强"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
    "Huazhong Agricultural University",
-   "South China University of Technology"
+   "Jiangsu University of Science and Technology",
+   "Ministry of Agriculture and Rural Affairs",
+   "South China University of Technology",
+   "Northeastern University"
   ],
   "name": "Qiang Li",
   "orcid": "https://orcid.org/0000-0002-4262-6592",
@@ -29503,7 +29690,7 @@
    "Zhengzhou University"
   ],
   "name": "Yue Liu",
-  "orcid": "https://orcid.org/0000-0001-9636-3655",
+  "orcid": "https://orcid.org/0009-0004-3506-4976",
   "papers": 1
  },
  "A5107980770": {
@@ -29636,7 +29823,6 @@
    "Jia-le Wang",
    "JiaBo Wang",
    "JiaDong Wang",
-   "JiaJie Wang",
    "JiaLin Wang",
    "JiaLong Wang",
    "JiaQi Wang",
@@ -29664,7 +29850,8 @@
    "Jiafu Wang",
    "Jiageng Wang",
    "Jiagui Wang",
-   "Jiahai Wang"
+   "Jiahai Wang",
+   "Jiahan Wang"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -30007,7 +30194,6 @@
    "China North Industries Group Corporation (China)",
    "Huzhou Normal University",
    "Yuhuangding Hospital",
-   "Guangzhou Institute of Geochemistry",
    "North Minzu University",
    "Southern University of Science and Technology",
    "Suzhou University of Science and Technology",
@@ -30420,6 +30606,7 @@
    "Second Affiliated Hospital of Jilin University",
    "Wuhan Children's Hospital",
    "Shandong Academy of Sciences",
+   "NewGen Therapeutics (United States)",
    "Xuzhou No.1 People's Hospital",
    "First Affiliated Hospital of University of South China",
    "Southern Medical University Shenzhen Hospital",
@@ -30685,7 +30872,6 @@
    "Eastern Institute of Technology, Ningbo",
    "Xinjiang University of Science and Technology",
    "China University of Mining and Technology - Beijing",
-   "Bengbu University",
    "Hangzhou City University",
    "Wuchang Shouyi University",
    "Chengdu Technological University",
@@ -30986,8 +31172,7 @@
    "Yahui Zhang",
    "Ya‐Hui Zhang",
    "Ya‐hui Zhang",
-   "Zhang, Ya-Hui",
-   "Zhang, Yahui"
+   "Zhang, Ya-Hui"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -31317,6 +31502,8 @@
  },
  "A5109285600": {
   "alternativeNames": [
+   "D I Yuezhong",
+   "DI Yue-zhong",
    "Di Yuezhong",
    "Y. Z. Di",
    "Y.-Z. Di",
@@ -31338,7 +31525,6 @@
  "A5109300148": {
   "alternativeNames": [
    "Peng Wenlong",
-   "Peng, Wenlong",
    "Wen-Long Peng",
    "Wen-long PENG",
    "Wenlong PENG",
@@ -31372,7 +31558,6 @@
   "currentInstitutions": [
    "Northeastern University",
    "Donghua University",
-   "Dalian Minzu University",
    "China Southern Power Grid (China)"
   ],
   "name": "Jianxin Zhang",
@@ -31481,6 +31666,7 @@
  },
  "A5109623096": {
   "alternativeNames": [
+   "J.J. Lesko",
    "Jack Lesko"
   ],
   "atNortheastern": true,
@@ -31507,6 +31693,7 @@
  },
  "A5109652318": {
   "alternativeNames": [
+   "Arriaga Serrano, Carlos",
    "Carlos Arriaga Serrano"
   ],
   "atNortheastern": false,
@@ -31557,12 +31744,11 @@
  },
  "A5109691230": {
   "alternativeNames": [
-   "Hayes, Wesley",
    "Wesley Hayes"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
-   "University of Alabama"
+   "Northeastern University"
   ],
   "name": "Wesley Hayes",
   "orcid": "https://orcid.org/0009-0009-3600-9297",
@@ -31716,7 +31902,8 @@
   "alternativeNames": [
    "Kalaina A. Thorne",
    "Kalaina B. Thorne",
-   "Kalaina Thorne"
+   "Kalaina Thorne",
+   "Thorne, Kalaina"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -31777,6 +31964,26 @@
   "currentInstitutions": [],
   "name": "Ke Zhang",
   "orcid": "https://orcid.org/0000-0003-3996-4731",
+  "papers": 1
+ },
+ "A5110608042": {
+  "alternativeNames": [
+   "Godoy-Carter Veronica",
+   "V G Godoy",
+   "V. G. Godoy",
+   "Veronica G Godoy",
+   "Veronica G. Godoy",
+   "Veronica Godoy",
+   "Veronica Godoy-Carter",
+   "Veronica Godoy‐Carter",
+   "Veronica H Godoy"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
+  "name": "Veronica G. Godoy",
+  "orcid": null,
   "papers": 1
  },
  "A5110717878": {
@@ -31970,8 +32177,7 @@
  },
  "A5111187449": {
   "alternativeNames": [
-   "David R. Treadwell",
-   "Treadwell, David R."
+   "David R. Treadwell"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -32138,8 +32344,7 @@
  "A5112033181": {
   "alternativeNames": [
    "Munik K Shrestha",
-   "Munik Shrestha",
-   "Shrestha, Munik"
+   "Munik Shrestha"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -32209,8 +32414,7 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University",
-   "University of Arizona"
+   "Northeastern University"
   ],
   "name": "Mohamed Metghalchi",
   "orcid": null,
@@ -32339,8 +32543,7 @@
  },
  "A5113098425": {
   "alternativeNames": [
-   "Chloe Wilson",
-   "Wilson, Chloe"
+   "Chloe Wilson"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -32404,7 +32607,6 @@
  },
  "A5113206493": {
   "alternativeNames": [
-   "Homer, Jarrod",
    "Jarrod Homer"
   ],
   "atNortheastern": true,
@@ -32830,6 +33032,7 @@
  },
  "A5114445081": {
   "alternativeNames": [
+   "Gentil, Gerardo M",
    "Gerardo M. Gentil"
   ],
   "atNortheastern": true,
@@ -32910,8 +33113,7 @@
    "Hongping Li",
    "Jia-Qi Liu",
    "Jiaqi Liu",
-   "Liu, Jia-Qi",
-   "Liu, Jiaqi"
+   "Liu, Jia-Qi"
   ],
   "atNortheastern": false,
   "currentInstitutions": [
@@ -32991,7 +33193,8 @@
  "A5115645770": {
   "alternativeNames": [
    "A. Roulier",
-   "Anthony Roulier"
+   "Anthony Roulier",
+   "Roulier, Anthony"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -33036,6 +33239,7 @@
  },
  "A5115786947": {
   "alternativeNames": [
+   "Ayuba, Waliu Adebayo",
    "Waliu Adebayo Ayuba"
   ],
   "atNortheastern": true,
@@ -33162,7 +33366,8 @@
  },
  "A5117230251": {
   "alternativeNames": [
-   "Rachana Somaskandan"
+   "Rachana Somaskandan",
+   "Somaskandan, Rachana"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -33212,6 +33417,7 @@
  },
  "A5117494729": {
   "alternativeNames": [
+   "Eyaru, Joshua",
    "Joshua Eyaru"
   ],
   "atNortheastern": true,
@@ -33621,6 +33827,7 @@
  },
  "A5119714427": {
   "alternativeNames": [
+   "Garneau, Peter",
    "Peter Garneau"
   ],
   "atNortheastern": true,
@@ -33647,8 +33854,7 @@
   "alternativeNames": [
    "Allison D. Deese",
    "Allison Deese",
-   "Allison Donine Deese",
-   "Deese, Allison D."
+   "Allison Donine Deese"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -33685,7 +33891,7 @@
    "Complexity Science Hub"
   ],
   "name": "Moritz Laber",
-  "orcid": null,
+  "orcid": "https://orcid.org/0000-0002-0273-584X",
   "papers": 1
  },
  "A5120123443": {
@@ -34000,6 +34206,7 @@
  },
  "A5121998972": {
   "alternativeNames": [
+   "Danish Mansoor",
    "Danish Mansoor Tantary",
    "Danish Tantary",
    "Tantary, Danish Mansoor"
@@ -34214,8 +34421,6 @@
  },
  "A5122681343": {
   "alternativeNames": [
-   "Kane, M",
-   "Kane, Michael James",
    "Michael James Kane",
    "Michael Kane"
   ],
@@ -34449,6 +34654,7 @@
   "currentInstitutions": [
    "Northeastern University",
    "Hainan University",
+   "Tumor Hospital of Guangxi Medical University",
    "Northeastern University"
   ],
   "name": "Yaojie Yu",
@@ -34511,7 +34717,6 @@
   ],
   "atNortheastern": true,
   "currentInstitutions": [
-   "Northeastern University",
    "Northeastern University"
   ],
   "name": "Dake Xu",
@@ -35151,7 +35356,8 @@
  },
  "A5126906601": {
   "alternativeNames": [
-   "Ashwini Somani"
+   "Ashwini Somani",
+   "Mrs. Ashwini Somani -"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -35201,6 +35407,7 @@
  },
  "A5127358860": {
   "alternativeNames": [
+   "Abiola, Oluwaseun",
    "Oluwaseun Abigail Abiola"
   ],
   "atNortheastern": true,
@@ -35922,7 +36129,6 @@
   "currentInstitutions": [
    "Beijing Institute of Technology",
    "Northeastern University",
-   "Zhejiang University of Science and Technology",
    "Chinese Academy of Sciences",
    "Institute of Metal Research",
    "China University of Petroleum, East China",
@@ -38068,11 +38274,14 @@
  },
  "A5151925952": {
   "alternativeNames": [
+   "Kate G. Moloney",
    "Kate Moloney",
    "Moloney, Kate"
   ],
-  "atNortheastern": false,
-  "currentInstitutions": [],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University"
+  ],
   "name": "Kate Moloney",
   "orcid": null,
   "papers": 1
@@ -38279,8 +38488,9 @@
    "Phakdeeying, Ratchada",
    "Ratchada Phakdeeying"
   ],
-  "atNortheastern": false,
+  "atNortheastern": true,
   "currentInstitutions": [
+   "Northeastern University",
    "North Eastern University"
   ],
   "name": "Ratchada Phakdeeying",
@@ -38379,7 +38589,9 @@
  "A5156466060": {
   "alternativeNames": [
    "Akosile, Confidence Ngozika",
-   "Confidence Ngozika Akosile"
+   "Confidence Ngozika Akosile",
+   "Confidence Ngozika Confidence",
+   "Ngozika Confidence Akosile"
   ],
   "atNortheastern": true,
   "currentInstitutions": [
@@ -38536,6 +38748,20 @@
    "Northeastern University"
   ],
   "name": "Energy Efficiency Office USDOE Office of Energy Efficiency and Renewable Energy (EERE)",
+  "orcid": null,
+  "papers": 1
+ },
+ "A5158369341": {
+  "alternativeNames": [
+   "Lingyu Kong"
+  ],
+  "atNortheastern": true,
+  "currentInstitutions": [
+   "Northeastern University",
+   "Key Laboratory of Ecological Metallurgy of Multimetallic Mineral of Ministry of Education",
+   "Northeastern University"
+  ],
+  "name": "Lingyu Kong",
   "orcid": null,
   "papers": 1
  }

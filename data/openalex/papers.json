@@ -1620,6 +1620,23 @@
   ]
  },
  {
+  "id": "W7221451049",
+  "title": "Beyond the Iron Triangle: Reimagining Project Success in the Anthropocene Era",
+  "year": 2026,
+  "url": "https://doi.org/10.1007/978-981-92-2006-9_6",
+  "themes": [
+   "Biosphere"
+  ],
+  "authors": [
+   {
+    "id": "A5070673488",
+    "name": "Ravi Kalluri",
+    "rawName": "Ravi Kalluri",
+    "orcid": "https://orcid.org/0000-0002-1920-9547"
+   }
+  ]
+ },
+ {
   "id": "W7147112249",
   "title": "Beyond the Seawall: Social Capital and Resilience Grants in Massachusetts Coastal Towns",
   "year": 2026,
@@ -9036,10 +9053,10 @@
   ]
  },
  {
-  "id": "W7221478041",
+  "id": "W7221442481",
   "title": "Reshaping Steel and Cement Decarbonization Pathways in Ageing China",
   "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.23300989",
+  "url": "https://doi.org/10.5281/zenodo.16790094",
   "themes": [
    "Decarbonization",
    "Future Thinking"
@@ -9054,10 +9071,10 @@
   ]
  },
  {
-  "id": "W7221442481",
+  "id": "W7221478041",
   "title": "Reshaping Steel and Cement Decarbonization Pathways in Ageing China",
   "year": 2026,
-  "url": "https://doi.org/10.5281/zenodo.16790094",
+  "url": "https://doi.org/10.5281/zenodo.23300989",
   "themes": [
    "Decarbonization",
    "Future Thinking"
@@ -9711,7 +9728,7 @@
     "id": "A5104225328",
     "name": "Hezheng Pei",
     "rawName": "Hezheng Pei",
-    "orcid": "https://orcid.org/0009-0004-1305-4048"
+    "orcid": null
    },
    {
     "id": "A5102508917",
@@ -15899,7 +15916,7 @@
     "id": "A5101565351",
     "name": "Bingbing Chen",
     "rawName": "Bingbing Chen",
-    "orcid": "https://orcid.org/0000-0001-5521-9032"
+    "orcid": "https://orcid.org/0000-0001-5500-4998"
    },
    {
     "id": "A5100738224",
@@ -21222,7 +21239,7 @@
     "id": "A5089094196",
     "name": "Tania Lorido-Botrán",
     "rawName": "Tania Lorido Botran",
-    "orcid": "https://orcid.org/0000-0002-9132-4435"
+    "orcid": "https://orcid.org/0009-0002-8836-3983"
    }
   ]
  },
@@ -22457,7 +22474,7 @@
     "id": "A5085506894",
     "name": "Mariana Sarango",
     "rawName": "Mariana Sarango",
-    "orcid": null
+    "orcid": "https://orcid.org/0000-0003-1955-4209"
    },
    {
     "id": "A5100372590",
@@ -28175,6 +28192,53 @@
   ]
  },
  {
+  "id": "W4392554201",
+  "title": "Insights into the diversity and survival strategies of soil bacterial isolates from the Atacama Desert",
+  "year": 2024,
+  "url": "https://doi.org/10.3389/fmicb.2024.1335989",
+  "themes": [
+   "Sustainable Food Systems"
+  ],
+  "authors": [
+   {
+    "id": "A5036167057",
+    "name": "Alicyn Reverdy",
+    "rawName": "Alicyn Reverdy",
+    "orcid": "https://orcid.org/0000-0002-3290-4464"
+   },
+   {
+    "id": "A5080556819",
+    "name": "Daniel Hathaway",
+    "rawName": "Daniel Hathaway",
+    "orcid": null
+   },
+   {
+    "id": "A5040846579",
+    "name": "Jessica Jha",
+    "rawName": "Jessica Jha",
+    "orcid": null
+   },
+   {
+    "id": "A5067119410",
+    "name": "Gabriel Michaels",
+    "rawName": "Gabriel Michaels",
+    "orcid": null
+   },
+   {
+    "id": "A5053013014",
+    "name": "Yunrong Chai",
+    "rawName": "Yunrong Chai",
+    "orcid": "https://orcid.org/0000-0002-5903-5529"
+   },
+   {
+    "id": "A5110608042",
+    "name": "Veronica G. Godoy",
+    "rawName": "Veronica G. Godoy",
+    "orcid": null
+   }
+  ]
+ },
+ {
   "id": "W4391400020",
   "title": "Integrating resilience and nexus approaches in managing flood risk",
   "year": 2024,
@@ -28797,7 +28861,7 @@
     "id": "A5107956030",
     "name": "Yue Liu",
     "rawName": "Yue Liu",
-    "orcid": "https://orcid.org/0000-0001-9636-3655"
+    "orcid": "https://orcid.org/0009-0004-3506-4976"
    },
    {
     "id": "A5026098227",
@@ -35179,7 +35243,7 @@
     "id": "A5067110530",
     "name": "Kusuma Refa Haratama",
     "rawName": "Kusuma Refa Haratama",
-    "orcid": null
+    "orcid": "https://orcid.org/0009-0001-6362-617X"
    }
   ]
  },
@@ -39159,7 +39223,7 @@
     "id": "A5119875922",
     "name": "Moritz Laber",
     "rawName": "Moritz Laber",
-    "orcid": null
+    "orcid": "https://orcid.org/0000-0002-0273-584X"
    }
   ]
  },
@@ -39892,7 +39956,7 @@
     "id": "A5085506894",
     "name": "Mariana Sarango",
     "rawName": "Mariana Sarango",
-    "orcid": null
+    "orcid": "https://orcid.org/0000-0003-1955-4209"
    },
    {
     "id": "A5007013053",
