@@ -744,18 +744,6 @@
   "description": "Offers an opportunity to study in Vietnam. May be repeated without limit."
  },
  {
-  "code": "ABRD 5125",
-  "title": "Experiential Study Abroad",
-  "hours": "0",
-  "description": "Offers students an opportunity to participate in an international industry-based experience."
- },
- {
-  "code": "ABRD 5126",
-  "title": "Experiential Study Abroad - Half-Time",
-  "hours": "0",
-  "description": "Offers students an opportunity to participate in a half-time international industry-based experience."
- },
- {
   "code": "ABRD 5140",
   "title": "International Study—Argentina",
   "hours": "20",
@@ -2988,10 +2976,22 @@
   "description": "Examines and engages historic architecture and urbanism through freehand drawing. Offers students an opportunity to learn how to draw in freehand like an architect—drawing in a creative, interpretive, precise, and analytical manner—as well as to learn about the history and cultural context of the great architectural monuments and urban spaces that they are analyzing and drawing, including major architectural monuments. Studies new skills of drawing, the conventions of architectural representation, and the cultural history of the built environment. May be repeated without limit."
  },
  {
+  "code": "ARCH 3361",
+  "title": "Topics in Global Architecture and Urbanism",
+  "hours": "4",
+  "description": "Covers the detailed history of architecture and urban development in a global city, from its founding to the present."
+ },
+ {
+  "code": "ARCH 3362",
+  "title": "Seminar Abroad",
+  "hours": "1-4",
+  "description": "Offers students an opportunity to learn and discuss historical and contemporary European theory and criticism, from Vitruvius and Alberti to contemporary figures. Raises and addresses architectural questions of composition, society, politics, and environment. Offered only abroad."
+ },
+ {
   "code": "ARCH 3363",
   "title": "Field Study Topics Abroad",
   "hours": "1-4",
-  "description": "Offers students an opportunity to travel to select cities where, together with the faculty lead, they study firsthand the built and natural environment. This field study course is closely tied to ARCH 3361."
+  "description": "Offers students an opportunity to travel to select cities where, together with the faculty lead, they study firsthand the built and natural environment. This field study course is closely tied to ARCH 3361 ."
  },
  {
   "code": "ARCH 3370",
@@ -31743,7 +31743,7 @@
   "code": "MATH 6954",
   "title": "Co-op Work Experience - Half-Time",
   "hours": "0",
-  "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit."
+  "description": "Provides eligible students with an opportunity for work experience. May be repeatedwithout limit."
  },
  {
   "code": "MATH 6955",
